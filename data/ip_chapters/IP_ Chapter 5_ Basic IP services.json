@@ -4,7 +4,7 @@
     "original_id": "question_#37364_0",
     "chapter": "Chapter 5. Basic IP services",
     "type": "multiple",
-    "question": "Để cấm các máy trạm trong private network sử dụng DNS trên public (như là 8.8.8.8) mà phải dùng\nDNS server nội bộ thì sử dụng phương pháp nào?",
+    "question": "Để cấm các máy trạm trong private network sử dụng DNS trên public (như là 8.8.8.8) mà phải dùng DNS server nội bộ thì sử dụng phương pháp nào?",
     "options": [
       "DHCP thiết lập tự động DNS server",
       "Firewall cấm cổng outbound 53 cho vùng các máy trạm",
@@ -56,7 +56,7 @@
     "original_id": "question_#26e30_0",
     "chapter": "Chapter 5. Basic IP services",
     "type": "single",
-    "question": "Một email đính kèm tập tin chứa mã độc được gửi đến cho bạn. Nếu bạn đọc email mà chưa mở tập tin\nđính kèm thì máy tính của bạn còn an toàn không?",
+    "question": "Một email đính kèm tập tin chứa mã độc được gửi đến cho bạn. Nếu bạn đọc email mà chưa mở tập tin đính kèm thì máy tính của bạn còn an toàn không?",
     "options": [
       "An toàn",
       "Không an toàn"
@@ -87,7 +87,7 @@
     "original_id": "question_#20519_0",
     "chapter": "Chapter 5. Basic IP services",
     "type": "single",
-    "question": "Có thể dùng Gmail để gửi và nhận các email khác với domain @gmail.com (ví dụ\nuser@soict.hust.edu.vn).\nĐể làm được điều này, Google Gmail được ủy quyền quản trị domain của người dùng. Đúng hay sai?",
+    "question": "Có thể dùng Gmail để gửi và nhận các email khác với domain @gmail.com (ví dụ user@soict.hust.edu.vn).\nĐể làm được điều này, Google Gmail được ủy quyền quản trị domain của người dùng. Đúng hay sai?",
     "options": [
       "Đúng",
       "Sai"
@@ -175,7 +175,7 @@
     "original_id": "question_#e9a79_0",
     "chapter": "Chapter 5. Basic IP services",
     "type": "single",
-    "question": "Đâu là thông tin được định nghĩa trong SOA (Start of Authority) để báo cho secondary DNS thời điểm\ncần kết nối và cập nhật dữ liệu từ primary DNS?",
+    "question": "Đâu là thông tin được định nghĩa trong SOA (Start of Authority) để báo cho secondary DNS thời điểm cần kết nối và cập nhật dữ liệu từ primary DNS?",
     "options": [
       "Expiry",
       "Refresh",
@@ -191,7 +191,7 @@
     "original_id": "question_#3bb04_0",
     "chapter": "Chapter 5. Basic IP services",
     "type": "single",
-    "question": "Trong dịch vụ FTP, chế độ Active được áp dụng cho trường hợp client nằm trên Internet public, còn chế\nđộ Pasive được áp dụng cho trường hợp client nằm trong private network. Đúng hay sai?",
+    "question": "Trong dịch vụ FTP, chế độ Active được áp dụng cho trường hợp client nằm trên Internet public, còn chế độ Pasive được áp dụng cho trường hợp client nằm trong private network. Đúng hay sai?",
     "options": [
       "Đúng",
       "Sai"
@@ -221,7 +221,7 @@
     "original_id": "question_#84902_0",
     "chapter": "Chapter 5. Basic IP services",
     "type": "single",
-    "question": "Biết rằng dịch vụ email hoạt động ở cổng 25. Để chặn sử dụng Gmail, firewall cần chặn cổng 25. Đúng\nhay sai?\nPrivate Network Security",
+    "question": "Biết rằng dịch vụ email hoạt động ở cổng 25. Để chặn sử dụng Gmail, firewall cần chặn cổng 25. Đúng hay sai?",
     "options": [
       "Đúng",
       "Sai"
@@ -251,7 +251,7 @@
     "original_id": "question_#21668_0",
     "chapter": "Chapter 5. Basic IP services",
     "type": "single",
-    "question": "Một gateway ở tầng ứng dụng (Application-level gateway) được coi là một proxy firewall. Đúng hay\nsai?",
+    "question": "Một gateway ở tầng ứng dụng (Application-level gateway) được coi là một proxy firewall. Đúng hay sai?",
     "options": [
       "Đúng",
       "Sai"
@@ -265,7 +265,7 @@
     "original_id": "question_#5e732_0",
     "chapter": "Chapter 5. Basic IP services",
     "type": "multiple",
-    "question": "Một mạng private sử dụng firewall tại Gateway để đảm bảo an toàn như trong hình dưới:\nFirewall cần được cấu hình cho phép local user (vùng 'green') gửi và nhận gói tin với các server dịch vụ\n(vùng DMZ) và trạm Internet (vùng 'red'). Các cấu hình nào sau đây cần được áp dụng?",
+    "question": "Một mạng private sử dụng firewall tại Gateway để đảm bảo an toàn như trong hình dưới:\nFirewall cần được cấu hình cho phép local user (vùng 'green') gửi và nhận gói tin với các server dịch vụ (vùng DMZ) và trạm Internet (vùng 'red'). Các cấu hình nào sau đây cần được áp dụng?",
     "options": [
       "red => green: Open",
       "green => red: NAT",
@@ -277,14 +277,15 @@
       2
     ],
     "correctAnswerIndex": -1,
-    "section_title": "Question #5e7322"
+    "section_title": "Question #5e7322",
+    "image": "data/images/pdf_120_q.png"
   },
   {
     "id": 199,
     "original_id": "question_#c1ecd_0",
     "chapter": "Chapter 5. Basic IP services",
     "type": "single",
-    "question": "....... là một vùng trung lập trên hệ thống mạng, nằm giữa vùng tin cậy và vùng không tin cậy. Hãy điền\ntừ thích hợp vào chỗ trống.",
+    "question": "....... là một vùng trung lập trên hệ thống mạng, nằm giữa vùng tin cậy và vùng không tin cậy. Hãy điền từ thích hợp vào chỗ trống.",
     "options": [
       "Domain",
       "Gateway",
@@ -300,10 +301,10 @@
     "original_id": "question_#e39b2_0",
     "chapter": "Chapter 5. Basic IP services",
     "type": "multiple",
-    "question": "Một mạng private sử dụng firewall tại Gateway để đảm bảo an toàn như trong hình dưới:\nFirewall được cấu hình luật chuyển tiếp gói tin từ public Internet (vùng 'red') đến các server dịch vụ\n(vùng DMZ) như sau:\nred => orange: Closed. Use port forwarding\nCác nhận định nào sau đây là đúng?",
+    "question": "Một mạng private sử dụng firewall tại Gateway để đảm bảo an toàn như trong hình dưới:\nFirewall được cấu hình luật chuyển tiếp gói tin từ public Internet (vùng 'red') đến các server dịch vụ (vùng DMZ) như sau:\nred => orange: Closed. Use port forwarding\nCác nhận định nào sau đây là đúng?",
     "options": [
       "Các truy nhập từ public Internet đến Web server tại DMZ luôn bị cấm",
-      "DNS server đặt tại DMS có thể tham gia vào hệ thống DNS toàn cầu để cung cấp địa chỉ IP của\ncác máy thuộc mạng private",
+      "DNS server đặt tại DMS có thể tham gia vào hệ thống DNS toàn cầu để cung cấp địa chỉ IP của các máy thuộc mạng private",
       "Email server đặt tại DMZ là hợp lý",
       "Người dùng wife và local luôn truy nhập được đến các server tại DMZ"
     ],
@@ -312,6 +313,41 @@
       2
     ],
     "correctAnswerIndex": -1,
+    "section_title": "Question #e39b2d",
+    "image": "data/images/pdf_125_q.png"
+  },
+  {
+    "id": 200,
+    "original_id": "question_#e39b2_0",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "multiple",
+    "question": "Một mạng private sử dụng firewall tại Gateway để đảm bảo an toàn như trong hình dưới:\nNgười dùng wifi (vùng 'blue') mặc dù thuộc mạng private nhưng không tin cậy. Vì vậy chỉ được phép truy nhập đến các server dịch vụ (vùng DMZ), mà không được truy nhập đến vùng local user (vùng 'green') và Internet (vùng 'red'). Các cấu hình nào sau đây cần được áp dụng?",
+    "options": [
+      "blue => red: NAT",
+      "blue => red: Close",
+      "blue => green: Close",
+      "blue => orange: Open"
+    ],
+    "correctAnswerIndices": [
+      1,
+      2
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #e39b2d",
+    "image": "data/images/pdf_125_q.png"
+  },
+  {
+    "id": 201,
+    "original_id": "question_#e39b2_0",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "single",
+    "question": "Loại firewall nào cung cấp khả năng an toàn kém hơn cho private network?",
+    "options": [
+      "Application/Proxy Firewall",
+      "Packet Filtering Firewall"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
     "section_title": "Question #e39b2d"
   }
 ]

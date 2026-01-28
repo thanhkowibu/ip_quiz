@@ -1,0 +1,3677 @@
+[
+    {
+      "id": 2,
+      "original_id": "question_#200e1_0",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "single",
+      "question": "Địa chỉ IP 152.16.168.196/28 và 162.16.168.30 có nằm trong cùng một mạng?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correctAnswerIndices": [],
+      "correctAnswerIndex": 1,
+      "section_title": "Question #200e18"
+    },
+    {
+      "id": 3,
+      "original_id": "question_#0ee58_0",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "single",
+      "question": "Unicast là một phương pháp truyền tin. Đúng hay sai?",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswerIndices": [],
+      "correctAnswerIndex": 0,
+      "section_title": "Question #0ee586"
+    },
+    {
+      "id": 4,
+      "original_id": "question_#d2103_0",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "single",
+      "question": "Cú pháp /28 trong địa chỉ IP nói lên điều gì?",
+      "options": [
+        "Số lượng máy trạm trong mạng",
+        "Số lượng bit trong phần nét id",
+        "Số lượng bit trong phần host id",
+        "Các câu trả lời trên không có câu nào đúng"
+      ],
+      "correctAnswerIndices": [],
+      "correctAnswerIndex": 1,
+      "section_title": "Question #d21034"
+    },
+    {
+      "id": 5,
+      "original_id": "question_#ee2d2_0",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "single",
+      "question": "Địa chỉ quảng bá (broadcast) của một network có máy trạm 192.168.242.5/20 là:",
+      "options": [
+        "192.168.251.251",
+        "192.168.250.250",
+        "192.168.250.251",
+        "192.168.255.255"
+      ],
+      "correctAnswerIndices": [],
+      "correctAnswerIndex": 3,
+      "section_title": "Question #ee2d23"
+    },
+    {
+      "id": 6,
+      "original_id": "question_#01d27_0",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "single",
+      "question": "Địa chỉ mạng (net ID) của một máy tính có địa chỉ IP 192.168.242.5/20 là:",
+      "options": [
+        "192.168.242.2",
+        "192.168.241.1",
+        "192.168.240.5",
+        "192.168.240.0"
+      ],
+      "correctAnswerIndices": [],
+      "correctAnswerIndex": 3,
+      "section_title": "Question #01d275"
+    },
+    {
+      "id": 7,
+      "original_id": "question_#ef919_0",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "single",
+      "question": "Giá trị mặt nạ mạng (network mask) là 255.255.240.0 thì mạng đó chứa bao nhiêu máy trạm?",
+      "options": [
+        "100",
+        "4094",
+        "256",
+        "192.168.250.252"
+      ],
+      "correctAnswerIndices": [],
+      "correctAnswerIndex": 1,
+      "section_title": "Question #ef9191"
+    },
+    {
+      "id": 8,
+      "original_id": "question_#dacaf_0",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "single",
+      "question": "Tên đầy đủ của địa chỉ IP là:",
+      "options": [
+        "Internet Provider address",
+        "Internet Processing address",
+        "Internet Protocol address",
+        "None of the above"
+      ],
+      "correctAnswerIndices": [],
+      "correctAnswerIndex": 2,
+      "section_title": "Question #dacaf0"
+    },
+    {
+      "id": 9,
+      "original_id": "section_0",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "multiple",
+      "question": "Hệ thống mạng giả lập có kiến trúc và các địa chỉ IP như hình vẽ, được cấu hình để toàn bộ các trạm trong mạng ảo có thể kết nối Internet thông qua router R1.\nHãy triển khai trên môi trường thực hành và chọn những nhận định đúng sau đây:",
+      "options": [
+        "máy A chạy \"tracepath\" đến Google (8.8.8.8) thì dòng kết quả đầu tiên là default gateway của\nmáy A",
+        "máy X chạy \"tracepath\" đến Google (8.8.8.8) thì dòng kết quả đầu tiên là router R1",
+        "máy A chạy \"tracepath\" đến máy X thì dòng kết quả đầu tiên là router R1",
+        "máy A chạy \"tracepath\" đến máy X thì dòng kết quả đầu tiên là router R2"
+      ],
+      "correctAnswerIndices": [
+        0,
+        2
+      ],
+      "correctAnswerIndex": -1,
+      "section_title": "Section",
+      "image": "data/images/pdf_9_q.png"
+    },
+    {
+      "id": 10,
+      "original_id": "question_#51297_0",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "single",
+      "question": "Hệ thống mạng giả lập có kiến trúc và các địa chỉ IP như hình vẽ.\nĐể các trạm A và B kết nối được Internet thì bắt buộc cần cấu hình R1 là default gateway của mạng\n192.168.1.0/24. Nhận định là đúng hay sai?",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctAnswerIndices": [],
+      "correctAnswerIndex": 1,
+      "section_title": "Question #51297b",
+      "image": "data/images/pdf_9_q.png"
+    },
+    {
+      "id": 11,
+      "original_id": "question_#c449c_0",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "multiple",
+      "question": "Hệ thống mạng giả lập có kiến trúc và các địa chỉ IP như hình vẽ, được cấu hình để toàn bộ các trạm trong mạng ảo có thể kết nối Internet thông qua router R1.\nThiết lập default gateway cho các trạm và các router trong hệ thống như thế nào?",
+      "options": [
+        "máy A, B có default gateway là R1",
+        "router R2 có default gateway là R1",
+        "router R3 có default gateway là R1",
+        "máy X có default gateway là R1"
+      ],
+      "correctAnswerIndices": [
+        0,
+        1
+      ],
+      "correctAnswerIndex": -1,
+      "section_title": "Question #c449c4",
+      "image": "data/images/pdf_11_q.png"
+    },
+    {
+      "id": 12,
+      "original_id": "question_#31bb5_0",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "multiple",
+      "question": "Hệ thống mạng giả lập có kiến trúc và các địa chỉ IP như hình vẽ. Các trạm A và B được cấu hình default gateway là R1 để có thể kết nối Internet thông qua router R1.\nĐể ping được từ A đến X, mức độ tối thiểu cần thêm vào các bảng routing trên từng router như thế nào?",
+      "options": [
+        "thêm vào bảng routing của R1 đường đi đến mạng 192.168.1.0",
+        "thêm vào bảng routing của R1 đường đi đến mạng 192.168.2.0",
+        "thêm vào bảng routing của R1 đường đi đến mạng 192.168.3.0",
+        "thêm vào bảng routing của R2 đường đi đến mạng 192.168.1.0",
+        "thêm vào bảng routing của R2 đường đi đến mạng 192.168.2.0",
+        "thêm vào bảng routing của R2 đường đi đến mạng 192.168.3.0",
+        "thêm vào bảng routing của R3 đường đi đến mạng 192.168.1.0",
+        "thêm vào bảng routing của R3 đường đi đến mạng 192.168.2.0",
+        "thêm vào bảng routing của R3 đường đi đến mạng 192.168.3.0"
+      ],
+      "correctAnswerIndices": [
+        2,
+        5,
+        6
+      ],
+      "correctAnswerIndex": -1,
+      "section_title": "Question #31bb5f",
+      "image": "data/images/pdf_12_q.png"
+    },
+    {
+      "id": 13,
+      "original_id": "question_#e6c29_0",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "multiple",
+      "image": "data/images/pdf_12_q.png",
+      "question": "Hệ thống mạng giả lập có kiến trúc và các địa chỉ IP như hình vẽ, được cấu hình để toàn bộ các trạm trong mạng ảo có thể kết nối Internet thông qua router R1.\nHãy cho biết những nhận định nào sau đây là đúng?",
+      "options": [
+        "bảng routing của R1 có prefix LAN1 (192.168.1.0/24) với next hop chính là R1",
+        "bảng routing của R1 có prefix mạng NAT (10.0.2.0/24) với next hop là máy host",
+        "bảng routing của R1 có prefix LAN2 (192.168.2.0/24) với next hop chính là R2",
+        "bảng routing của R1 có prefix LAN3 (192.168.3.0/24) với next hop là R3",
+        "bảng routing của R1 có prefix LAN3 (192.168.3.0/24) với next hop là R2"
+      ],
+      "correctAnswerIndices": [
+        2,
+        4
+      ],
+      "correctAnswerIndex": -1,
+      "section_title": "Question #e6c290"
+    },
+    {
+      "id": 14,
+      "original_id": "section_0",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "single",
+      "question": "Thiết lập hệ thống kết nối liên mạng như sau: đường kết nối từ H1 đến H2 và H3 đi qua 2 router trung\ngian R1 và R2. H2 và H3 là 2 host kết với switch S1, và nối với router R2. Sơ đồ mạng được mô tả như bên\ndưới:\n/---- H2 (192.168.1.10/25)\nH1 (192.169.1.100/24) ---- R1 ---- R2 --- [S1]\n\\---- H3 (192.168.1.20/25)\nChạy ping  từ H1 đến H2, bắt các gói tin IP trên kênh truyền từ R1 đến R2, những nhận định sau cái nào\nđúng?",
+      "options": [
+        "gói tin IP có địa chỉ nguồn là 192.169.1.100 và đích là 192.168.1.10",
+        "gói tin IP có địa chỉ mạng nguồn là 192.169.1.0/24 và mạng đích là 192.168.1.0/24",
+        "gói tin IP có địa chỉ mạng nguồn là 192.169.1.0/24 và mạng đích là 192.168.1.0/25",
+        "gói tin IP chứa thông tin netmask là \"/25\" để báo cho các router biết cách lấy địa chỉ mạng từ địa\nchỉ đích"
+      ],
+      "correctAnswerIndices": [],
+      "correctAnswerIndex": 0,
+      "section_title": "Section"
+    },
+    {
+      "id": 15,
+      "original_id": "question_#11b12_0",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "multiple",
+      "question": "Thiết lập hệ thống kết nối liên mạng như sau: đường kết nối từ H1 đến H2 và H3 đi qua 3 router trung gian R1, R2 và R3. H2 và H3 là 2 host kết với R3. Sơ đồ mạng được mô tả như bên dưới:\n\n      /---- H2 (192.168.128.100/25)\nH1 (192.168.1.100/24) ---- R1 ---- R2 --- [R3]\n      \\---- H3 (192.168.128.200/25)\n\nCấu hình static routing trên R1 như sau (network >> next hop):\n1. 192.168.0.0/16 >> R2\n2. 192.168.128.0/24 >> R2\n3. 192.168.128.100/25 >> R2\n4. 192.168.128.200/25 >> R2\n5. 192.168.128.64/26 >> R2\n\nThực hiện ping từ H1 đến H2, R1 kiểm tra thấy có thể sử dụng những luật nào trong routing table để chuyển tiếp gói tin?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswerIndices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "correctAnswerIndex": -1,
+      "section_title": "Question #11b12c"
+    },
+    {
+      "id": 15,
+      "original_id": "question_#11b12_0",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "multiple",
+      "question": "Thiết lập hệ thống kết nối liên mạng như sau: đường kết nối từ H1 đến H2 và H3 đi qua 3 router trung gian R1, R2 và R3. H2 và H3 là 2 host kết với R3. Sơ đồ mạng được mô tả như bên dưới:\n      /---- H2 (192.168.128.100/25)\nH1 (192.168.1.100/24) ---- R1 ---- R2 --- [R3]\n      \\---- H3 (192.168.128.200/25)\n\nCấu hình static routing trên R1 như sau (network >> next hop):\n1. 192.168.0.0/16 >> R2\n2. 192.168.128.0/24 >> R2\n3. 192.168.128.100/25 >> R2\n4. 192.168.128.200/25 >> R2\n5. 192.168.128.64/26 >> R2\n\nThực hiện ping từ H1 đến H2, R1 sử dụng luật nào trong routing table để chuyển tiếp gói tin?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswerIndices": [
+        4
+      ],
+      "correctAnswerIndex": -1,
+      "section_title": "Question #11b12c"
+    },
+    {
+      "id": 25,
+      "original_id": "question_#fb280_0",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "multiple",
+      "question": "Thiết lập hệ thống kết nối liên mạng như sau: đường kết nối từ H1 đến H2 và H3 đi qua 3 router trung  gian R1, R2 và R3. H2 và H3 là 2 host kết với R3. Sơ đồ mạng được mô tả như bên dưới:\n/---- H2 (192.168.128.100/25)\nH1 (192.168.1.100/24) ---- R1 ---- R2 --- [R3]\n\\---- H3 (192.168.128.200/25)\nĐể chuyển tiếp được gói tin từ H1 đến H2 và H3, bảng routing R2 được cấu hình với 2 luật\n(cú pháp luật: prefix >> next hop):\n192.168.128.0/25 >> R3\n192.168.128.128/25 >> R3\nĐể tối ưu bảng routing tại R2, 2 luật trên có thể được gộp bằng 1 luật \"gộp\". Những luật nào sau đây có thể sử dụng làm luật \"gộp\"?",
+      "options": [
+        "192.168.0.0/16 >> R3",
+        "192.168.128.0/24 >> R3",
+        "192.168.128.100/25 >> R3",
+        "192.168.128.200/25 >> R3"
+      ],
+      "correctAnswerIndices": [
+        0,
+        1
+      ],
+      "correctAnswerIndex": -1,
+      "section_title": "Question #fb2805"
+    },
+    {
+      "id": 26,
+      "original_id": "question_#f6ea4_0",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "single",
+      "question": "Thiết lập hệ thống kết nối liên mạng như sau: đường kết nối từ H1 đến H2 và H3 đi qua 2 router trung\ngian R1 và R2. H2 và H3 là 2 host kết với switch S1, và nối với router R2. Sơ đồ mạng được mô tả như bên\ndưới:\n/---- H2 (192.168.1.10/25)\nH1 (192.168.1.100/24) ---- R1 ---- R2 --- [S1]\n\\---- H3 (192.168.1.20/25)\nNhững nhận định nào sau đây là đúng?\nICMP",
+      "options": [
+        "R1 và R2 cùng vận hành routing với cơ chế classfull",
+        "R1 và R2 cùng vận hành routing với cơ chế classless",
+        "R1 chạy classfull routing, R2 chạy classless routing",
+        "R1 chạy classless routing, R2 chạy classfull routing"
+      ],
+      "correctAnswerIndices": [],
+      "correctAnswerIndex": 1,
+      "section_title": "Question #f6ea4f"
+    },
+    {
+      "id": 27,
+      "original_id": "section_0",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "fill_in_blank",
+      "question": "Cho sơ đồ kết nối mạng như sau:\nCác hoạt động đánh số từ 1 đến 4 trên hình vẽ là kết quả của lệnh ping sau đây:\n$ ping 203.162.0.11\nPING 203.162.0.11 56(84) bytes of data.\nFrom 10.0.0.1: icmp_seq=1 Redirect Host (New nexthop: a.b.c.d)\n64 bytes from 203.162.0.11: icmp_seq=1 ttl=62 time=4.24 ms\nFrom 10.0.0.1: icmp_seq=1 Redirect Host (New nexthop: a.b.c.d)\n64 bytes from 203.162.0.11: icmp_seq=2 ttl=62 time=5.05 ms\nHãy lựa chọn Đúng/Sai cho các nhận định sau đây:",
+      "options": [],
+      "correctAnswerIndices": [],
+      "correctAnswerIndex": -1,
+      "section_title": "Section",
+      "image": "data/images/pdf_27_q.png"
+    },
+    {
+      "id": 28,
+      "original_id": "section_1",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "single",
+      "question": "Câu hỏi (a):\nGiá trị của a.b.c.d là 10.0.0.1",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctAnswerIndices": [],
+      "correctAnswerIndex": 1,
+      "section_title": "Section"
+    },
+    {
+      "id": 29,
+      "original_id": "section_2",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "single",
+      "question": "Gói tin số 1 trong hình vẽ là ICMP Echo Request có địa chỉ nguồn là 10.0.0.100 và đích là 203.162.0.11",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctAnswerIndices": [],
+      "correctAnswerIndex": 0,
+      "section_title": "Section",
+      "correctAnswer": "Câu hỏi (b):"
+    },
+    {
+      "id": 30,
+      "original_id": "section_3",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "single",
+      "question": "Các địa chỉ IP và dữ liệu trong gói tin số 4 và gói tin số 1 là giống nhau",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctAnswerIndices": [],
+      "correctAnswerIndex": 0,
+      "section_title": "Section",
+      "correctAnswer": "Câu hỏi (c):"
+    },
+    {
+      "id": 31,
+      "original_id": "section_4",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "single",
+      "question": "Câu hỏi (d):\nGói tin ICMP Echo Reply không được thể hiện trên hình vẽ",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctAnswerIndices": [],
+      "correctAnswerIndex": 0,
+      "section_title": "Section"
+    },
+    {
+      "id": 32,
+      "original_id": "section_5",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "single",
+      "question": "Câu hỏi (e):\nICMP Redirect thông báo đang có hiện tượng routing đi vòng. Để loại bỏ tình huống này, cần thêm một\ngateway nữa vào routing table của máy Host",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctAnswerIndices": [],
+      "correctAnswerIndex": 0,
+      "section_title": "Section"
+    },
+    {
+      "id": 33,
+      "image": "data/images/pdf_27_q.png",
+      "original_id": "question_#5845d_merged",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "multiple",
+      "question": "Cho sơ đồ kết nối mạng và tình huống như sau:\n1. Gateway G1 (10.0.0.1) nhận gói tin IP từ máy Host (10.0.0.100) để gửi đến Network X.\n2. G1 kiểm tra bảng định tuyến và xác định next hop là G2 (10.0.0.2).\n3. Vì G2 nằm cùng mạng với Host (10.0.0.0/24), tình trạng routing vòng (ICMP Redirect) xảy ra. G1 gửi thông báo ICMP Redirect để Host có thể gửi trực tiếp cho G2, nhưng G1 vẫn tiếp tục chuyển tiếp gói tin hiện tại đến G2 theo quy tắc.\n\nTừ tình huống trên, hãy chọn các nhận định đúng:",
+      "options": [
+        "Quá trình routing vòng vẫn tiếp diễn nhưng gói tin vẫn gửi đến đích",
+        "Gói tin trả lời từ Network X về máy Host, đi qua G2 và vòng qua G1 rồi mới đến máy Host",
+        "Máy Host gửi gói tin đến Network X phải chuyển tiếp qua G1 vì tại máy Host khai báo G1 là default gateway",
+        "G1 xác định next hop cho gói tin gửi đến Network X là G2 vì nó được khai báo trong bảng routing của G1"
+      ],
+      "correctAnswerIndices": [
+        0,
+        2,
+        3
+      ],
+      "correctAnswerIndex": -1,
+      "section_title": "Question #5845d5"
+    },
+    {
+      "id": 36,
+      "original_id": "section_0",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "fill_in_blank",
+      "question": "Hãy hoàn thành đoạn cấu hình mạng bằng netplan  cho một router dưới đây:\n~$ sudo nano /etc/netplan/ config.yaml\n# file cấu hình netplan\nnetwork:\nethernets:\nenp0s3:\ndhcp4: false\naddresses: [192.168.1.2/24]\nroutes:\n- to: default gateway\nvia: 192.168.1.1\nenp0s8:\ndhcp4: false\naddresses: [192.168.2.1/24]\nroutes:\n- to: 192.168.3.0/24\nvia: 192.168.2.2\n~$ sudo netplan apply\n~$ ifconfig enp0s3\nenp0s3: flags=4163...\ninet 192.168.1.2 netmask 255.255.255.0 broadcast 192.168.1.255\n~$ route -n\nDestination   Gateway       Genmask         Iface\n0.0.0.0       192.168.1.1   0.0.0.0         enp0s3\n192.168.3.0   192.168.2.2   255.255.255.0   enp0s8",
+      "options": [],
+      "correctAnswerIndices": [],
+      "correctAnswerIndex": -1,
+      "section_title": "Section"
+    },
+    {
+      "id": 37,
+      "original_id": "question_#fa1c4_0",
+      "chapter": "Chapter 1. Internet backbone",
+      "type": "fill_in_blank",
+      "question": "Hãy hoàn thành đoạn cấu hình mạng bằng netplan  cho một máy trạm dưới đây:\n$ sudo nano /etc/netplan/ config.yaml\n# file cấu hình netplan cho trạm làm việc\nnetwork:\nethernets:\nenp0s8:\ndhcp4: false\naddresses:\n- 192.168.1.20/24\nroutes:\n- to: default\nvia: 192.168.1.1\n$ sudo netplan apply\n$ route -n\nDestination     Gateway         Genmask         Flags Metric Ref    Use Iface\n0.0.0.0         192.168.1.1     0.0.0.0         UG    0      0        0 enp0s8\n192.168.1.0     0.0.0.0         255.255.255.0   U     0      0        0 enp0s8",
+      "options": [],
+      "correctAnswerIndices": [],
+      "correctAnswerIndex": -1,
+      "section_title": "Question #fa1c4a"
+    },
+    {
+        "id": 38,
+        "original_id": "question_#6f46a_0",
+        "chapter": "Chapter 2. AS backbone &",
+        "type": "fill_in_blank",
+        "question": "Sau khi hoàn thành cấu hình một router, người quản trị thực hiện kiểm tra kết nối mạng trên router này bằng các command line và xem kết quả. Hãy lựa chọn mục thích hợp trong List và điền vào những chỗ còn trống dưới đây:\n$ sudo sysctl net.ipv4.ip_forward\nnet.ipv4.ip_forward = 0\n$ sudo sysctl -w net.ipv4.ip_forward=1\nnet.ipv4.ip_forward = 1\n$ ping 192.168.3.1\nPING 192.168.3.1 (192.168.3.1) 56(84) bytes of data.\nFrom 192.168.1.1 icmp_seq=1 Redirect Host(New nexthop: 2.1.168.192)\n64 bytes from 192.168.3.1: icmp_seq=1 ttl=63 time=4.08 ms\n64 bytes from 192.168.3.1: icmp_seq=2 ttl=63 time=4.36 ms\n:~$ tracepath -n\n8.8.8.8\n1?: [LOCALHOST]                      pmtu 1500\n1:  192.168.3.1                                           1.984ms\n1:  192.168.3.1                                           2.236ms\n2:  192.168.2.1                                           4.209ms\n3:  192.168.1.1                                           6.276ms\n4:  10.0.2.2                                              7.115ms\n:~$ sudo tcpdump -i enp0s3 -nv\ntcpdump: listening on enp0s3, link-type EN10MB (Ethernet), capture size 262144 bytes\n03:44:13.017873 IP (tos 0x0, ttl 1, id 0, offset 0, flags [DF], proto UDP (17), length 1500)",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #6f46a4"
+      },
+      {
+        "id": 39,
+        "original_id": "section_0",
+        "chapter": "Chapter 2. AS backbone &",
+        "type": "multiple",
+        "question": "Trong giao thức RIPv1, quá trình router xác định các router láng giềng thì gói tin nào được sử dụng?",
+        "options": [
+          "RIP Hello",
+          "ICMP Hello",
+          "ICMP Solicitation",
+          "ICMP Advertisement"
+        ],
+        "correctAnswerIndices": [
+          2,
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Section"
+      },
+      {
+        "id": 40,
+        "original_id": "question_#ad0b9_0",
+        "chapter": "Chapter 2. AS backbone &",
+        "type": "multiple",
+        "question": "Sử dụng môi trường thực hành, thây dựng hệ thống kết nối liên mạng có sơ đồ kết nối như sau (các router R1, R2, R3, Rx và các host H1, H2):\n/----- H1: 192.168.1.10/24\nRx -- ... -- R1 ---- R2 ---- R3\n\\----- H2: 192.168.2.20/24\nXem thông tin router Rx thấy có 2 RTE (bỏ qua thông tin 'next hop'):\nprefix #1, metric: 4\nprefix #2, metric: 5\n(prefix #1 và prefix #2 là các địa chỉ mạng chứa H1 và H2)\nNhững nhận định nào đúng sau đây, khi các router trao đổi RTE từ router láng giềng:",
+        "options": [
+          "Rx nhận từ R1: (prefix #1, metric: 3)",
+          "R1 nhận từ R2: (prefix #1, metric: 0)",
+          "R1 nhận từ R3: (prefix #2, metric: 0)",
+          "R1 nhận từ R2: (prefix #2, metric: 1)",
+          "Rx nhận (prefix #1, metric: 3)",
+          "Rx nhận (prefix #2, metric: 4)"
+        ],
+        "correctAnswerIndices": [
+          1,
+          3,
+          4,
+          5
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #ad0b99"
+      },
+      {
+        "id": 41,
+        "original_id": "question_#52e41_0",
+        "chapter": "Chapter 2. AS backbone &",
+        "type": "fill_in_blank",
+        "question": "Sử dụng môi trường thực hành, xây dựng hệ thống kết nối liên mạng có sơ đồ kết nối như sau (các router R và các host H1, H2):\n/----- H1: 192.168.1.10/24\nR1 -- R ----- .... ----- R2 ---- R3\n\\                        /  \\----- H2: 192.168.2.20/24\nR4 ------------------ R5\n(kết nối R1 <--> R2 được xây dựng bằng một trục các router R kết nối đôi một trực tiếp với nhau: R1--\nR-...-R--R--R2)\nMột số RIP message trên hệ thống như sau:\nR3 gửi: (192.168.2.0/24, metric: 0)\nR2 gửi: (192.168.1.0/24, metric: 0)\nR1 nhận: (192.168.2.0/24, metric: 3)\n(192.168.2.0/24, metric: ???)\n(192.168.1.0/24, metric: 4)\n(192.168.1.0/24, metric: 2)\nHãy cho biết giá trị '???' nằm trong message RIP số 2 mà R1 nhận được?",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #52e41f",
+        "correctAnswer": "3"
+      },
+      {
+        "id": 42,
+        "original_id": "question_#69069_0",
+        "chapter": "Chapter 2. AS backbone &",
+        "type": "single",
+        "question": "So với các router \"không thông minh\" (chỉ hỗ trợ định tuyến tĩnh - thủ công) chỉ có tầng Data Plane chứa bảng routing để phục vụ xử lý di chuyển các gói tin IP, các router \"thông minh\" hỗ trợ phương pháp định tuyến động (ví dụ RIP) cần có thêm tầng Control Plane để liên lạc với nhau và tự động tính toán đường đi tối ưu.\nTrong giao thức RIP, router xác định một RTE từ Control Plane và đưa vào Data Plane vào thời điểm nào?",
+        "options": [
+          "Mỗi khi router nhận được gói tin RIP",
+          "Mỗi khi router nhận được gói tin IP và xác định được bước nhảy kế tiếp (next hop)",
+          "Khi các giá trị Metric được cập nhật trong Control Plane",
+          "Khi các giá trị Metric được cập nhật trong Data Plane"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 2,
+        "section_title": "Question #690692"
+      },
+      {
+        "id": 43,
+        "original_id": "question_#4b66b_0",
+        "chapter": "Chapter 2. AS backbone &",
+        "type": "single",
+        "question": "Mục tiêu của giao thức RIP là giúp các router tự động liên lạc với nhau để xác định tất cả các đường đi có thể từ một router đến các mạng đích. Ngoài ra còn cho phép tính toán \"khoảng cách\" từ mỗi router đến mạng đích (được đo bằng số router trung gian). Nhận định này đúng hay sai?",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #4b66b2"
+      },
+      {
+        "id": 44,
+        "original_id": "question_#c1b89_0",
+        "chapter": "Chapter 2. AS backbone &",
+        "type": "single",
+        "question": "So sánh routing protocol và routed protocol , phát biểu sau đây đúng hay sai: routing protocol được các router sử dụng để xây dựng dữ liệu trong Control Plane, routed protocol là giao thức chuyển tiếp gói tin IP dựa trên bảng routing nằm ở Data Plane.",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #c1b89c"
+      },
+      {
+        "id": 45,
+        "original_id": "question_#aa15b_0",
+        "chapter": "Chapter 2. AS backbone &",
+        "type": "single",
+        "question": "Giao thức RIP được gọi là giao thức distance vector bởi vì các router tính toán đường đi tối ưu bằng giải thuật Dijkstra. Kết quả của giải thuật Dijktra là đường đi tối ưu từ router đến mạng đích dựa trên số (nhỏ nhất) các router trung gian.",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #aa15b5"
+      },
+      {
+        "id": 46,
+        "original_id": "question_#e75a3_0",
+        "chapter": "Chapter 2. AS backbone &",
+        "type": "multiple",
+        "question": "Sử dụng môi trường giả lập mạng, bắt gói tin giữa các router RIP sử dụng giao thức RIPv2. Hãy cho biết những nhận định nào sau đây là đúng?",
+        "options": [
+          "ICMP được gửi unicast giữa các router khi trả lời trực tiếp đến một router",
+          "ICMP được gửi đến địa chỉ 224.0.0.9 khi router muốn tìm kiếm router láng giềng",
+          "RIP được gửi broadcast giữa các router khi router muốn quảng bá sự có mặt của mình",
+          "RIP được gửi multicast giữa các router khi router muốn lan tỏa các RTE trong bảng routing của mình"
+        ],
+        "correctAnswerIndices": [
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #e75a3e"
+      },
+      {
+        "id": 47,
+        "original_id": "question_#1d67f_0",
+        "chapter": "Chapter 2. AS backbone &",
+        "type": "fill_in_blank",
+        "question": "Một hệ thống kết nối liên mạng có sơ đồ kết nối như sau (các router R và các host H1, H2):\n/----- H1: 192.168.1.10/24\nR1 -- R ----- .... ----- R2 ---- R3\n\\                        /  \\----- H2: 192.168.2.20/24\nR4 ------------------ R5\n(kết nối R1 <--> R2 được xây dựng bằng một trục các router R kết nối đôi một trực tiếp với nhau: R1--\nR--R--...--R--R--R2)\nXem thông tin data-plane trong các router thấy như sau (bỏ qua thông tin 'next hop'):\nR3: (192.168.2.0/24, metric: 0)\nR2: (192.168.1.0/24, metric: 0)\nR1: (192.168.2.0/24, metric: 4)\n(192.168.1.0/24, metric: 4)\nHãy cho biết số lượng router R nằm giữa R1 và R2 là bao nhiêu?",
+        "options": [
+          "",
+          "3"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #1d67f3",
+        "correctAnswer": "3"
+      },
+      {
+        "id": 48,
+        "original_id": "question_#b7d02_0",
+        "chapter": "Chapter 2. AS backbone &",
+        "type": "fill_in_blank",
+        "question": "Sử dụng môi trường thực hành, xây dựng hệ thống kết nối liên mạng có sơ đồ kết nối như sau (các router kết nối backbone dạng trục R1-R-...-R2-R3, và từ đó kết nối đến các mạng nghiệp vụ a,b,c,d):\n/----(a)            /-----(b)\nR1 -- R -- ... -- R ---- R2 ---- R3\n\\---(c)         \\-----(d)\nXem thông tin mạng đích và metric trong các router thấy như sau (bỏ qua thông tin 'next hop'):\nR3: (192.168.2.0/24, metric: 0)\nR2: (192.168.1.0/24, metric: 0)\n(192.168.2.0/24, metric: 1)\nR1: (192.168.2.0/24, metric: 10)\n(192.168.1.0/24, metric: 9)\nHãy cho biết số lượng router R nằm giữa R1 và R2 là bao nhiêu?",
+        "options": [
+          "",
+          "8"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #b7d02f",
+        "correctAnswer": "8"
+      },
+      {
+        "id": 49,
+        "original_id": "question_#52aa4_0",
+        "chapter": "Chapter 2. AS backbone &",
+        "type": "multiple",
+        "question": "Khi một kết nối mạng giữa 2 router RIP bị đứt, các router sẽ loan báo và cập nhật lại bảng routing như thế nào?",
+        "options": [
+          "Router tự động phát hiện kết nối mạng bị đứt và cập nhật bảng routing tức thời để xác định các đường đi mới không qua kết nối mạng lỗi",
+          "Quản trị mạng cấu hình lại router RIP để thông báo kết nối mạng không còn sử dụng được nữa",
+          "Router tự động (sau một khoảng thời gian định kỳ) lan truyền cập nhật bảng routing và qua đó cập nhật luôn tình trạng kết nối mạng lỗi",
+          "Tự động lan truyền bảng routing định kỳ, kể cả trường hợp không có kết nối mạng bị đứt"
+        ],
+        "correctAnswerIndices": [
+          2,
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #52aa4e"
+      },
+      {
+        "id": 50,
+        "original_id": "question_#66da1_0",
+        "chapter": "Chapter 2. AS backbone &",
+        "type": "multiple",
+        "question": "Trong giao thức RIPv1, khi nhận được yêu cầu tìm kiếm router láng giềng, router RIP trả lời về sự có mặt của mình bằng gói tin nào sau đây?",
+        "options": [
+          "RIP Reply",
+          "ICMP Reply",
+          "ICMP Advertisement",
+          "ICMP Solicitation"
+        ],
+        "correctAnswerIndices": [2],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #66da1d"
+      },
+      {
+        "id": 51,
+        "original_id": "question_#93375_0",
+        "chapter": "Chapter 2. AS backbone &",
+        "type": "multiple",
+        "question": "Sử dụng môi trường thực hành, kiểm tra khai báo network trong cấu hình RIP cho một router có những tác dụng gì?",
+        "options": [
+          "thông báo cho các router khác về một network trong hệ thống",
+          "kết nối router vào network này",
+          "kích hoạt (enable) kết nối mạng này của router để quảng bá các router khác bằng giao thức RIP",
+          "tìm kiếm router láng giềng trên local link ứng với kết nối mạng network"
+        ],
+        "correctAnswerIndices": [2, 3],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #933756"
+      },
+      {
+        "id": 52,
+        "original_id": "section_0",
+        "chapter": "Chapter 2. AS backbone &",
+        "type": "fill_in_blank",
+        "question": "Trên một đường truyền vật lý kết nối các router có các traffic RIP sau:\nDựa vào thông tin trên, hãy trả lời các câu hỏi sau đây:\n1. Có bao nhiêu router RIP kết nối với đường truyền vật lý này?",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "Section",
+        "correctAnswer": "3",
+        "image": "data/images/pdf_7_q.png"
+      },
+      {
+        "id": 53,
+        "original_id": "section_1",
+        "chapter": "Chapter 2. AS backbone &",
+        "type": "fill_in_blank",
+        "question": "2. Các router RIP kết nối với đường truyền vật lý này được cấu hình các địa chỉ IP theo dải mạng bao nhiêu (yêu cầu nhập vào cú pháp a.b.c.d/n)?",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "Section",
+        "correctAnswer": "192.168.56.0/24"
+      },
+      {
+        "id": 54,
+        "original_id": "section_2",
+        "chapter": "Chapter 2. AS backbone &",
+        "type": "fill_in_blank",
+        "question": "3. Router RIP yêu cầu nhận thông tin RIP bằng cách gửi RIP request đến địa chỉ IP nào?",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "Section",
+        "correctAnswer": "224.0.0.9"
+      },
+      {
+        "id": 55,
+        "original_id": "section_3",
+        "chapter": "Chapter 2. AS backbone &",
+        "type": "fill_in_blank",
+        "question": "4. Các router RIP trả lời bằng bản tin RIP response gửi trực tiếp (unicast) đến địa chỉ IP của router đã gửi request. IP đó là bao nhiêu?",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "Section",
+        "correctAnswer": "192.168.56.12"
+      },
+      {
+        "id": 56,
+        "original_id": "section_4",
+        "chapter": "Chapter 2. AS backbone &",
+        "type": "fill_in_blank",
+        "question": "5. Ngoài việc gửi unicast trực tiếp đến router RIP đã gửi request, các router RIP còn gửi trả lời đến tất cả các router RIP khác trên kết nối vật lý này bằng một IP đặc biệt. IP đó là bao nhiêu?",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "Section",
+        "correctAnswer": "224.0.0.9"
+      },
+      {
+        "id": 57,
+        "original_id": "rip_(route_pois_0",
+        "chapter": "Chapter 2. AS backbone &",
+        "type": "fill_in_blank",
+        "question": "Trên một đường truyền vật lý kết nối các router có các traffic RIP. Mỗi bản tin được gắn với một timestamps. Ví dụ bản tin đầu tiên có timestamps 04:58:20.104263 và bản tin cuối cùng có timestamps 05:27:47.653487 sau:\nDựa vào thông tin trên, hãy trả lời các câu hỏi sau đây:\n1. Hệ thống xuất hiện sự cố đường truyền và cơ chế route poinsoning được kích hoạt. Thời điểm đầu tiên lan tỏa thông tin route poinsoning có timestamps bao nhiêu?",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "RIP (route poisoning)",
+        "correctAnswer": "05:27:25.642964",
+        "image": "data/images/pdf_6_q.png"
+      },
+      {
+        "id": 58,
+        "original_id": "rip_(route_pois_1",
+        "chapter": "Chapter 2. AS backbone &",
+        "type": "fill_in_blank",
+        "question": "2. Router có kết nối mạng gặp sự cố có địa chỉ IP bằng bao nhiêu?",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "RIP (route poisoning)",
+        "correctAnswer": "192.168.56.11"
+      },
+      {
+        "id": 59,
+        "original_id": "rip_(route_pois_2",
+        "chapter": "Chapter 2. AS backbone &",
+        "type": "fill_in_blank",
+        "question": "3. Prefix liên quan đến sự cố mạng là gì (nhập vào theo cú pháp a.b.c.d/n)?",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "RIP (route poisoning)",
+        "correctAnswer": "192.168.1.0/24"
+      },
+      {
+        "id": 60,
+        "original_id": "rip_(route_pois_3",
+        "chapter": "Chapter 2. AS backbone &",
+        "type": "single",
+        "question": "4. Traffic ở timestamps cuối cùng có liên quan đến cơ chế route poinsoning. Nó liên quan thế nào đến sự cố nói đến ở câu hỏi số 1?",
+        "options": [
+          "Có liên quan",
+          "Chính là sự cố nói đến ở câu hỏi số 1",
+          "Không liên quan",
+          "không đủ thông tin để xác định"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 2,
+        "section_title": "RIP (route poisoning)"
+      },
+      {
+        "id": 61,
+        "original_id": "rip_(route_pois_4",
+        "chapter": "Chapter 2. AS backbone &",
+        "type": "single",
+        "question": "5. Traffic ở timestamps đầu tiên (04:58:20.104263) có phải là một thông báo route poinsoning không?",
+        "options": [
+          "Đúng, đó là một thông báo route poinsoning",
+          "Không phải"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "RIP (route poisoning)"
+      },
+      {
+        "id": 62,
+        "original_id": "rip_setting_tim_0",
+        "chapter": "Chapter 2. (cont.): OSPF",
+        "type": "fill_in_blank",
+        "question": "RFF router mặc định gửi cập nhật các RTE đến router láng giềng theo định kỳ 3 phút. Hãy chọn và điền vào các lệnh cấu hình bên dưới để đổi giá trị mặc đinh này thành 10 giây\n~$ sudo _____",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "RIP setting timer",
+        "correctAnswer": "vtysh"
+      },
+      {
+        "id": 63,
+        "original_id": "rip_setting_tim_1",
+        "chapter": "Chapter 2. (cont.): OSPF",
+        "type": "fill_in_blank",
+        "question": "Hello, this is FRRouting (version 7.2.1).\nCopyright 1996-2005 Kunihiro Ishiguro, et al.\n### # show ip ________",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "RIP setting timer",
+        "correctAnswer": "rip status"
+      },
+      {
+        "id": 64,
+        "original_id": "rip_setting_tim_2",
+        "chapter": "Chapter 2. (cont.): OSPF",
+        "type": "fill_in_blank",
+        "question": "Routing Protocol is \"rip\"\nSending updates every 180 seconds with +/-50%, next due in 1 seconds...\n### # ________",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "RIP setting timer",
+        "correctAnswer": "configure"
+      },
+      {
+        "id": 65,
+        "original_id": "rip_setting_tim_3",
+        "chapter": "Chapter 2. (cont.): OSPF",
+        "type": "fill_in_blank",
+        "question": "(config)# router ______",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "RIP setting timer",
+        "correctAnswer": "rip"
+      },
+      {
+        "id": 66,
+        "original_id": "rip_setting_tim_4",
+        "chapter": "Chapter 2. (cont.): OSPF",
+        "type": "fill_in_blank",
+        "question": "(config-router)# timers ________",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "RIP setting timer",
+        "correctAnswer": "basic 10 180 120"
+      },
+      {
+        "id": 67,
+        "original_id": "rip_setting_tim_5",
+        "chapter": "Chapter 2. (cont.): OSPF",
+        "type": "fill_in_blank",
+        "question": "(config-router)# end\n# write\nNote: this version of vtysh never writes vtysh.conf\nBuilding Configuration...\n### # show ip rip status\nRouting Protocol is \"rip\"\nSending updates every 10 seconds with +/-50%, next due in 1 seconds...\nCơ bản",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "RIP setting timer"
+      },
+      {
+        "id": 68,
+        "original_id": "question_#8705d_0",
+        "chapter": "Chapter 2. (cont.): OSPF",
+        "type": "single",
+        "question": "Nhận định sau đúng hay sai?\nMô hình OSPF single area giải quyết được nhược điểm cơ bản của mô hình RIP là các việc xác định đường đi tối ưu cho gói tin sẽ được cập nhật theo trạng thái đường truyền. Các gói tin không bị dồn theo một đường đi cố định dẫn đến nghẽn kết nối trong khi đường đi khác đang \"thông thoáng\".",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #8705d6"
+      },
+      {
+        "id": 69,
+        "original_id": "question_#e824a_0",
+        "chapter": "Chapter 2. (cont.): OSPF",
+        "type": "single",
+        "question": "Nhận định sau đúng hay sai?\nRIP sử dụng phương pháp định tuyến dựa trên khoảng cách (distance vector) trong khi OSPF sử dụng phương pháp định tuyến dựa trên trạng thái đường truyền (link state). Cả hai giao thức định tuyến này cùng hướng đến mục tiêu tự động xây dựng bảng routing dựa trên cơ chế router tự động xác định láng giềng bằng ICMP và lan tỏa các thông điệp RIP hoặc OSPF.",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #e824aa"
+      },
+      {
+        "id": 70,
+        "original_id": "question_#e71d0_0",
+        "chapter": "Chapter 2. (cont.): OSPF",
+        "type": "single",
+        "question": "Địa chỉ IP nào được các router OSPF sử dụng để trao đổi LSA:",
+        "options": [
+          "224.0.0.5",
+          "224.0.1.5",
+          "224.0.0.2",
+          "224.0.0.1"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #e71d0e"
+      },
+      {
+        "id": 71,
+        "original_id": "question_#61d42_0",
+        "chapter": "Chapter 2. (cont.): OSPF",
+        "type": "single",
+        "question": "Hãy chọn nhận định đúng",
+        "options": [
+          "OSPF sử dụng TCP để truyền dữ liệu.",
+          "OSPF sử dụng UDP để truyền dữ liệu.",
+          "OSPF sử dụng mã 98 để vận hành trực tiếp trên tầng IP.",
+          "Không có câu nào đúng trong các câu kể trên."
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 3,
+        "section_title": "Question #61d42f"
+      },
+      {
+        "id": 72,
+        "original_id": "question_#15189_0",
+        "chapter": "Chapter 2. (cont.): OSPF",
+        "type": "multiple",
+        "question": "Giá trị nào (hoặc những giá trị nào) quyết định đến kết quả quá trình lựa chọn Designated Router trong giao thức OSPF Hello?",
+        "options": [
+          "IP Address",
+          "Router ID",
+          "Priority",
+          "Code version"
+        ],
+        "correctAnswerIndices": [
+          1,
+          2
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #151891"
+      },
+      {
+        "id": 73,
+        "original_id": "question_#58d3c_0",
+        "chapter": "Chapter 2. (cont.): OSPF",
+        "type": "single",
+        "question": "Nhận định sau đúng hay sai?\nGiá trị cost của Link State tăng lên tỷ lệ theo tốc độ đường truyền của kết nối mạng tăng lên.",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #58d3c8"
+      },
+      {
+        "id": 74,
+        "original_id": "question_#55a33_0",
+        "chapter": "Chapter 2. (cont.): OSPF",
+        "type": "multiple",
+        "question": "Để thiết lập cost của kết nối mạng trong cấu hình OSPF, trong môi trường thực hành, khai báo nào trong cấu hình interface của router cho phép thiết lập cost=1563?",
+        "options": [
+          "bandwidth 64",
+          "ospf cost 1563",
+          "bandwidth 56",
+          "bandwidth 64k",
+          "bandwidth 56k"
+        ],
+        "correctAnswerIndices": [
+          0,
+          1
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #55a33d"
+      },
+      {
+        "id": 75,
+        "original_id": "question_#cca61_0",
+        "chapter": "Chapter 2. (cont.): OSPF",
+        "type": "multiple",
+        "question": "Hệ thống kết nối liên mạng có sơ đồ kết nối như sau:\n192.169.1.0/24     192.169.2.0/24\n\\               /\nR1 --------- R2\n|            |\nR4 --------- R3\n/              \\\n192.169.4.0/24       192.169.3.0/24\n(4 router nối vòng với nhau, và mỗi router nối với 1 bussiness network).\nCác LSA lan tỏa trong area này bao gồm?",
+        "options": [
+          "4 router-LSA",
+          "8 router-LSA",
+          "12 router-LSA",
+          "1 network-LSA",
+          "4 network-LSA",
+          "8 network-LSA"
+        ],
+        "correctAnswerIndices": [
+          0,
+          4
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #cca618"
+      },
+      {
+        "id": 76,
+        "original_id": "question_#b8d2e_0",
+        "chapter": "Chapter 2. (cont.): OSPF",
+        "type": "single",
+        "question": "Hệ thống kết nối liên mạng có sơ đồ kết nối như sau (nên sử dụng môi trường thực hành để giả lập hệ thống):\n192.169.1.0/24     192.169.2.0/24\n\\               /\nR1 --------- R2\n|            |\nR4 --------- R3\n/              \\\n192.169.4.0/24       192.169.3.0/24\n(4 router nối vòng với nhau, và mỗi router nối với 1 bussiness network).\nKhi đường kết nối R3 - R4 bị giảm tốc độ còn 50%, các LSA nào được lan truyền trong hệ thống?",
+        "options": [
+          "1 router-LSA",
+          "2 router-LSA",
+          "1 network-LSA",
+          "2 network-LSA"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #b8d2e8"
+      },
+      {
+        "id": 77,
+        "original_id": "question_#b4150_0",
+        "chapter": "Chapter 2. (cont.): OSPF",
+        "type": "single",
+        "question": "Hệ thống kết nối liên mạng có sơ đồ kết nối như sau (nên sử dụng môi trường thực hành để giả lập hệ thống):\n192.169.1.0/24     192.169.2.0/24\n\\               /\nR1 --------- R2\n|            |\nR4 --------- R3\n/              \\\n192.169.4.0/24       192.169.3.0/24\n(4 router nối vòng với nhau, và mỗi router nối với 1 bussiness network).\nR4 gặp sự cố nên đường kết nối chiều từ R4 đến R3, R1 đồng thời bị giảm tốc độ còn 50% (chiều ngược lại từ R1,R3 đến R4 không bị ảnh hưởng). Các LSA nào được lan truyền trong hệ thống?",
+        "options": [
+          "1 router-LSA",
+          "2 router-LSA",
+          "1 network-LSA",
+          "2 network-LSA"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #b4150d"
+      },
+      {
+        "id": 78,
+        "original_id": "question_#957ae_0",
+        "chapter": "Chapter 2. (cont.): OSPF",
+        "type": "multiple",
+        "question": "Hệ thống kết nối liên mạng có sơ đồ kết nối như sau (nên sử dụng môi trường thực hành để giả lập hệ thống):\n192.169.1.0/24               192.169.3.0/24\n\\                         /\nR1                      R3\n|                       |\n==============================================\n|                         |\nR2                        R4\n/                           \\\n192.169.2.0/24                     192.169.4.0/24\n- Mạng trục backbone và nối 4 router R1, R2, R3, R4 để nối với các mạng nghiệp vụ. \n- Các router khai báo quảng bá thông tin OSPF cho tất cả các mạng mà nó kết nối trực tiếp.\nCác LSA được quảng bá trong hệ thống là:",
+        "options": [
+          "1 router-LSA",
+          "4 router-LSA",
+          "1 network-LSA",
+          "4 network-LSA"
+        ],
+        "correctAnswerIndices": [
+          1,
+          2
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #957ae5"
+      },
+      {
+        "id": 79,
+        "original_id": "question_#25fb5_0",
+        "chapter": "Chapter 2. (cont.): OSPF",
+        "type": "multiple",
+        "question": "Trong giao thức OSPF, router sử dụng thành phần nào trong gói tin OSPF để lan tỏa thông tin liên quan đến trạng thái mạng? Hãy chọn 2 câu trả lời đúng.",
+        "options": [
+          "OSPF header",
+          "OSPF advertisement",
+          "Router Link State Advertisement (Router-LSA)",
+          "Network Link State Advertisement (Network-LSA)",
+          "Single Area Advertisement"
+        ],
+        "correctAnswerIndices": [
+          2,
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #25fb50"
+      },
+      {
+        "id": 80,
+        "original_id": "section_0",
+        "chapter": "Chapter 2. (cont.): OSPF",
+        "type": "fill_in_blank",
+        "question": "Khi một router OSPF tham gia vào hệ thống, nó sử dụng giao thức OSPF Hello để kết nối láng giềng như sau:\n03:45:15.419629 IP (tos 0xc0, ttl 1, id 27223, offset 0, flags [none], proto OSPF (89), length 68)\n192.168.1.2 > 224.0.0.5: OSPFv2, Hello, length 48\nRouter-ID 2.2.2.2, Area 0.0.0.1, Authentication Type: none (0)\nOptions [External]\nHello Timer 10s, Dead Timer 40s, Mask 255.255.255.0, Priority 1\nDesignated Router 192.168.1.1, Backup Designated Router 192.168.1.2\nNeighbor List:\n1.1.1.1\n03:45:18.057860 IP (tos 0xc0, ttl 1, id 27834, offset 0, flags [none], proto OSPF (89), length 68)\n192.168.1.1 > 224.0.0.5: OSPFv2, Hello, length 48\nRouter-ID 1.1.1.1, Area 0.0.0.1, Authentication Type: none (0)\nOptions [External]\nHello Timer 10s, Dead Timer 40s, Mask 255.255.255.0, Priority 1\nDesignated Router 192.168.1.1, Backup Designated Router 192.168.1.2\nNeighbor List:\n2.2.2.2\nDựa vào các thông tin trao đổi bên trên, hãy trả lời các câu hỏi sau:\n1. Router láng giềng của router 192.168.1.1 có địa chỉ là:",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "Section",
+        "correctAnswer": "192.168.1.2"
+      },
+      {
+        "id": 81,
+        "original_id": "section_1",
+        "chapter": "Chapter 2. (cont.): OSPF",
+        "type": "fill_in_blank",
+        "question": "2. Router láng giềng của router 192.168.1.1 có Router-ID là:",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "Section",
+        "correctAnswer": "2.2.2.2"
+      },
+      {
+        "id": 82,
+        "original_id": "section_2",
+        "chapter": "Chapter 2. (cont.): OSPF",
+        "type": "fill_in_blank",
+        "question": "3. Các router láng giềng trao đổi với nhau bằng phương pháp multicast theo địa chỉ:",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "Section",
+        "correctAnswer": "224.0.0.5"
+      },
+      {
+        "id": 83,
+        "original_id": "section_3",
+        "chapter": "Chapter 2. (cont.): OSPF",
+        "type": "multiple",
+        "question": "4. Để giám sát trạng thái kết nối giữa 2 router này, hệ thống sẽ có những LSA nào?",
+        "options": [
+          "1 router LSA",
+          "2 router LSA",
+          "1 network LSA",
+          "2 network LSA"
+        ],
+        "correctAnswerIndices": [
+          1,
+          2
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Section"
+      },
+      {
+        "id": 84,
+        "original_id": "ospf_database_0",
+        "chapter": "Chapter 2. (cont.): Advanced",
+        "type": "fill_in_blank",
+        "question": "OSPF database của một router có nội dung như sau:\nOSPF Router with ID (3.3.3.3)\nRouter Link States (Area 0.0.0.1)\nLink ID         ADV Router      Age  Seq#       CkSum  Link count\n1.1.1.1        1.1.1.1           12 0x80000006 0xe4c3 2\n2.2.2.2        2.2.2.2           12 0x80000007 0xb9e3 2\n3.3.3.3        3.3.3.3           12 0x80000006 0x9202 2\n4.4.4.4        4.4.4.4           12 0x80000006 0x9202 2\nNet Link States (Area 0.0.0.1)\nLink ID         ADV Router      Age  Seq#       CkSum\n192.168.56.13  2.2.2.2           12 0x80000002 0xdba6\nHãy phán đoán sơ đồ kiến trúc kết nối mạng của hệ thống.\n1. Hệ thống có bao nhiêu router?",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "OSPF Database",
+        "correctAnswer": "4"
+      },
+      {
+        "id": 85,
+        "original_id": "ospf_database_1",
+        "chapter": "Chapter 2. (cont.): Advanced",
+        "type": "fill_in_blank",
+        "question": "2. Hệ thống có bao nhiêu mạng nghiệp vụ (business network)? (coi mạng nghiệp vụ là mạng chỉ kết nối vào 1 router làm gateway phục vụ các máy trạm làm việc trong mạng nghiệp vụ này)",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "OSPF Database",
+        "correctAnswer": "4"
+      },
+      {
+        "id": 86,
+        "original_id": "ospf_database_2",
+        "chapter": "Chapter 2. (cont.): Advanced",
+        "type": "single",
+        "question": "3. các router kết nối với nhau như thế nào?",
+        "options": [
+          "kết nối vòng",
+          "kết nối đôi một (point-to-point)",
+          "tất cả router cùng kết nối vào một đường trục",
+          "không đủ thông tin để xác định sơ đồ kết nối"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 2,
+        "section_title": "OSPF Database"
+      },
+      {
+        "id": 87,
+        "original_id": "section_0",
+        "chapter": "Chapter 2. (cont.): Advanced",
+        "type": "multiple",
+        "question": "Trong các LSA sau đây, LSA nào chứa thông tin cho phép xây dựng đồ thị mô phỏng kết nối liên mạng (không quan tâm đến cost các cạnh)?",
+        "options": [
+          "router-LSA",
+          "network-LSA",
+          "summary-LSA",
+          "external-LSA"
+        ],
+        "correctAnswerIndices": [1],
+        "correctAnswerIndex": -1,
+        "section_title": "Section"
+      },
+      {
+        "id": 89,
+        "original_id": "question_#8940e_0",
+        "chapter": "Chapter 2. (cont.): Advanced",
+        "type": "fill_in_blank",
+        "question": "Sử dụng môi trường thực hành, xây dựng hệ thống kết nối mạng sử dụng OSPF multi area có sơ đồ kết nối như sau:\n========= (AREA 0) =========   ====== (AREA 1) =======\n/------- 192.168.2.0/24\n/\n192.168.1.0/24 -- R1 ------ R2(ABR)\n\\\n\\------- 192.168.3.0/24\n- Hệ thống gồm 2 area 0 và 1, kết nối với nhau thông qua ABR là R2\n- Trong area 0 có 1 mạng nội vùng 192.168.1.0\n- Trong area 1 có 2 mạng nội vùng 192.168.2.0 và 192.168.3.0\n- Từng router khai báo kích hoạt OSPF trên tất cả các kết nối mạng của nó\nHãy cho biết số lượng các LSA được quảng bá trong từng area là bao nhiêu?\nSummary-LSA trong Area 0\n\\(__\\__)\nSummary-LSA trong Area 1\n\\(__\\__)",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #8940eb",
+        "correctAnswer": "2 2"
+      },
+      {
+        "id": 91,
+        "original_id": "question_#9a8c5_0",
+        "chapter": "Chapter 2. (cont.): Advanced",
+        "type": "fill_in_blank",
+        "question": "Sử dụng môi trường thực hành, xây dựng hệ thống kết nối liên mạng có sơ đồ kết nối như sau:\nArea 0     |      Area 1\n|\nR ---- ... ----- [ABR1] ----- ... ---- (.) prefix N\n\\                 |                   /\n\\---- ... ---- [ABR2] ----- ... ----/\n- Hệ thống OSPF multi area\n- router R thuộc Area #0 kết nối prefix N thuộc Area #1 qua các ABR1 hoặc ABR2\nBiết rằng router R thuộc Area 0 đang thiết lập đường đi đến prefix N là 150 khi đi qua ABR1 và 160 khi đi qua ABR2. Area 1 có thay đổi trạng thái mạng, router-LSA và network-LSA được lan truyền trong vùng #1 đến 2 router ABR và kích hoạt summary-LSA từ 2 ABR này đến router R với thông số lần lượt là ARB1: (prefix_N, sum_N = 55) và ARB2:(prefix_N, sum_N = 65). Biết rằng cost đường đi từ R đến ABR1 là 100 và đến ABR2 là 80. Hãy cập nhật cost từ router R đến prefix N theo trạng thái mới của mạng.\n\\(\\)",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #9a8c5c",
+        "correctAnswer": "145"
+      },
+      {
+        "id": 93,
+        "original_id": "question_#2d1d2_0",
+        "chapter": "Chapter 2. (cont.): Advanced",
+        "type": "multiple",
+        "question": "Sử dụng môi trường thực hành, xây dựng hệ thống kết nối liên mạng có sơ đồ kết nối như sau:\nArea 1  |  Area 2\n|\nR1 --- R3      |       R4 --- R5\n\\             |       /\n\\ ---------- R2 ----/\n(Kết nối OSPF theo 2 vùng: [Area 1:R1,R2,R3] - [Area 2: R2,R4,R5])\nLựa chọn các nhận định đúng sau đây:",
+        "options": [
+          "ABR là R2",
+          "R4 nhận được router-LSA từ R1",
+          "Bảng routing của R4 không xuất hiện các đường đi đến prefix thuộc Area 1",
+          "R5 nhận được summary-LSA từ R2",
+          "R1 và R4 nhận được cùng một summary-LSA gửi từ R2"
+        ],
+        "correctAnswerIndices": [
+          0,
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #2d1d2b"
+      },
+      {
+        "id": 95,
+        "original_id": "question_#af603_0",
+        "chapter": "Chapter 2. (cont.): Advanced",
+        "type": "multiple",
+        "question": "Trong mô hình OSPF multi area, đồ thị được xây dựng tại các router nhằm mô phỏng sơ đồ kết nối mạng. LSA nào được lan truyền để cập nhật giá (cost) của đường đi từ một đỉnh đến nút lá của đồ thị?",
+        "options": [
+          "router-LSA",
+          "network-LSA",
+          "summary-LSA",
+          "external-LSA"
+        ],
+        "correctAnswerIndices": [2],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #af6035"
+      },
+      {
+        "id": 97,
+        "original_id": "question_#d3027_0",
+        "chapter": "Chapter 2. (cont.): Advanced",
+        "type": "multiple",
+        "question": "Trong giao thức OSPF, LSA nào có thể chứa thông tin trạng thái kết nối mạng",
+        "options": [
+          "router-LSA",
+          "network-LSA",
+          "summary-LSA",
+          "external-LSA"
+        ],
+        "correctAnswerIndices": [
+          0,
+          2,
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #d3027f"
+      },
+      {
+        "id": 99,
+        "original_id": "question_#03f7b_0",
+        "chapter": "Chapter 2. (cont.): Advanced",
+        "type": "single",
+        "question": "Khi một router nhận được một Summary-LSA và cập nhật vào LS Database, nó có thực hiện chạy thuật toán tìm đường đi ngắn nhất (thuật toán SPF) các cho mạng \"ở xa\" hay không?\nGhi chú: \"ở xa\" ý nói các prefix nằm trong các area khác.",
+        "options": [
+          "Có thực hiện",
+          "Không thực hiện"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #03f7b6"
+      },
+      {
+        "id": 101,
+        "original_id": "question_#0f276_0",
+        "chapter": "Chapter 2. (cont.): Advanced",
+        "type": "single",
+        "question": "Nhận định sau đấy đúng hay sai? Trong hệ thống OSPF multi area, các router luôn cập nhật đầy đủ hình trạng mạng và trạng thái các kết nối mạng vào LS Database để mỗi router có thể xây dựng bản đồ đầy đủ của hệ thống.",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #0f2762"
+      },
+      {
+        "id": 103,
+        "original_id": "question_#a37e8_0",
+        "chapter": "Chapter 2. (cont.): Advanced",
+        "type": "fill_in_blank",
+        "question": "Sử dụng môi trường thực hành, xây dựng hệ thống kết nối liên mạng có sơ đồ kết nối như sau:\nArea 0     |      Area 2\n|\nR ----- R1 ----- [ABR] ----- R2 ----> (.) prefix N\n|\n- Hệ thống OSPF multi area\n- router R thuộc Area #0 kết nối prefix N thuộc Area #2 qua các router trung gian và ABR\n- ABR kết nối liên vùng 0-2\nCho biết trong data plane của router R đang lưu trữ cost ngắn nhất đến prefix N là 125. Area #2 xuất hiện thay đổi trạng thái mạng, router-LSA được lan truyền trong Area #2 và kích hoạt summary-LSA tại ABR để lan truyền đến router R với thông số (prefix_N, sum_N = 35). Biết rằng cost hiện tại trong data plane từ R đến ABR là 100. R sẽ cập nhật cost mới đến prefix N với giá trị bao nhiêu?\n\\(\\)",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #a37e82",
+        "correctAnswer": "135"
+      },
+      {
+        "id": 105,
+        "original_id": "question_#00cc7_0",
+        "chapter": "Chapter 2. (cont.): Advanced",
+        "type": "fill_in_blank",
+        "question": "Sử dụng môi trường thực hành, xây dựng hệ thống kết nối mạng sử dụng OSPF multi area có sơ đồ kết nối như sau:\n==== (AREA 0) ===   ====== (AREA 1) =======\n/---- (net1) ---\\\n/                 \\\nR1 ------ R2(ABR)                 R3 --- (net3)\n\\                 /\n\\---- (net2) ---/\n- Hệ thống gồm 2 area 0 và 1, kết nối với nhau thông qua ABR là R2\n- Trong area 0 có 1 router nội vùng là R1\n- Trong area 1 có 1 router nội vùng là R3, cùng với 3 mạng nội vùng kết nối với các router thuộc area 1\n- Từng router khai báo kích hoạt OSPF trên tất cả các kết nối mạng của nó\nHãy cho biết số lượng các summary-LSA được ABR quảng bá vào area 0 để cung cấp các thông tin network trong area 1?\nKhi khởi tạo hệ thống:\n\\(\\)\nKhi xuất hiện thay đổi trạng thái của net3:\n\\(\\)\nKhi tốc độ kết nối của net2 tăng dần đều:\n\\(\\)\nKhi tốc độ kết nối net2 giảm dần đều:\n\\(\\)\n",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #00cc7f",
+        "correctAnswer": "3 1 2 1"
+      },
+      {
+        "id": 106,
+        "original_id": "section_0",
+        "chapter": "Chapter 2. (cont.): Advanced",
+        "type": "multiple",
+        "question": "Sử dụng môi trường thực hành, xây dựng hệ thống kết nối liên mạng có sơ đồ kết nối như bên dưới. Cả 3 router R1, R2, R3 được khai báo sử dung IGP OSPF và cùng thuộc area 0. Kết quả OSPF tạo nên bảng routing của R1 như trong hình:\nNAT Gateway ------- (Internet)\n/\n(10.0.2.0/24)\n/\n(172.16.100.0/24)--R2--(192.168.1.0/24)--R1--(192.168.2.0/24)--R3--(172.168.200.0/24)\nR1:~$ route -n\nKernel IP routing table\nDestination     Gateway         Genmask         Flags Metric Ref    Use Iface\n0.0.0.0         10.0.2.2        0.0.0.0         UG    100    0        0 enp0s3\n10.0.2.0        0.0.0.0         255.255.255.0   U     0      0        0 enp0s3\n10.0.2.2        0.0.0.0         255.255.255.255 UH    100    0        0 enp0s3\n172.16.100.0    192.168.0.2     255.255.255.0   UG    20     0        0 enp0s8\n172.16.200.0    192.168.1.2     255.255.255.0   UG    20     0        0 enp0s9\n192.168.0.0     0.0.0.0         255.255.255.0   U     0      0        0 enp0s8\n192.168.1.0     0.0.0.0         255.255.255.0   U     0      0        0 enp0s9\nCâu a:\nR1 kết nối với Internet qua NAT Gateway và khai báo redistribute connected . Nhận định sau đây đúng hay sai?\nCâu b:\nKhai báo redistribute connected  trên R1 cập nhật bảng routing trên R2 như sau:\nR2:~$ route -n\nKernel IP routing table\nDestination     Gateway         Genmask         Flags Metric Ref    Use Iface\n10.0.2.0        192.168.0.1     255.255.255.0   UG    20     0        0 enp0s8\n172.16.100.0    0.0.0.0         255.255.255.0   U     0      0        0 enp0s3\n172.16.200.0    192.168.0.1     255.255.255.0   UG    20     0        0 enp0s8\n192.168.0.0     0.0.0.0         255.255.255.0   U     0      0        0 enp0s8\n192.168.1.0     192.168.0.1     255.255.255.0   UG    20     0        0 enp0s8\nDòng \"Destination\" nào được cập nhật thêm vào bảng routing của R2 so với khi không khai báo redistribute connected  trên R1 (chỉ nhập vào địa chỉ IP cột \"Destination\")?\nCâu c:\nKhai báo redistribute connected  trên R1 tạo ra bao nhiêu external-LSA lan tỏa vào hệ thống?\nCâu d:\nKhai báo redistribute connected  trên R1 có tác dụng gì (chọn các phương án đúng)?\nCâu e:\nVới khai báo redistribute connected  trên R1 cùng với kết quả các bảng routing được tạo ra trên R1 và R2 như các câu trên. Nhận định sau đây đúng hay sai?",
+        "options": [
+          "Khai báo redistribute connected  làm thay đổi bảng routing của R1",
+          "Khai báo redistribute connected  không làm thay đổi bảng routing của R1",
+          "10.0.2.0",
+          "1",
+          "lan truyền External LSA 10.0.2.0 vào hệ thống OSPF",
+          "lan truyền các LSA lên kết nối mạng 10.0.2.0 của R1",
+          "thiết lập đường đi đến prefix 10.0.2.0 trong bảng routing của R2 và R3: next hop là R1",
+          "thiết lập default gateway của R2 và R3 là R1",
+          "R1 kết nối thành công ra Internet (check bằng lệnh ping 8.8.8.8 ) thì R2 cũng kết nối thành công\nra Internet",
+          "R1 kết nối thành công ra Internet (check bằng lệnh ping 8.8.8.8 ) nhưng R2 không kết nối thành\ncông ra Internet"
+        ],
+        "correctAnswerIndices": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          9
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Section",
+        "correctAnswer": "10.0.2.0"
+      },
+      {
+        "id": 108,
+        "original_id": "question_#4716a_0",
+        "chapter": "Chapter 2. (cont.): Advanced",
+        "type": "single",
+        "question": "===== OSPF =====>       <===== External ==============\n---- R1                            Net1\n\\                          /\nR2 ------ R(ASBR) ----- Rx(external)\n/               /          \\\n---- R3 ------- [switch]           Net2\nKhi kết nối OSPF với một hệ thống bên ngoài, router R đóng vai trò là ASBR kết nối trực tiếp với router bên ngoài là Rx. Rx quảng bá 2 prefix Net1 và Net2 đến ASBR và ASBR kích hoạt external-LSA để lan truyền thông tin các prefix này vào trong hệ thống OSPF. Xem bảng routing của các router R1, R2, R3 bên trong hệ thống OSPF, đối với prefix Net1 và Net2, next hope luôn luôn là router ASBR. Nhận định này đúng hay sai?",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #4716a6"
+      },
+      {
+        "id": 110,
+        "original_id": "question_#bd18c_0",
+        "chapter": "Chapter 2. (cont.): Advanced",
+        "type": "multiple",
+        "question": "Sử dụng môi trường thực hành, xây dựng hệ thống mạng được kết nối với nhau như sau:\n--- OSPF -------    /----- RIP -----\n(172.1.0.0/16)     |  /      (192.168.1.0/24)\n(172.2.0.0/16)...-- R ---... (192.168.2.0/24)\n|  \\      (192.168.3.0/24)\n-----    \\------\n- Router R kết nối 2 hệ thống mạng sử dụng 2 IGP khác nhau là RIP và OSPF\n- Trong hệ thống OSPF có 2 prefix được quảng bá là 172.1.x.x/16\n- Trong hệ thống RIP có 3 prefix được quảng bá là 192.168.x.x/24\nKhai báo redistribute rip  trong cấu hình OSPF của router R sẽ có những tác dụng gì?",
+        "options": [
+          "khai báo hệ thống OSPF được kết nối với một hệ thống ngoài (external) mà hệ thống ngoài này đang sử dụng RIP",
+          "khai báo hệ thống RIP được kết nối với một hệ thống ngoài (external) mà hệ thống ngoài này đang sử dụng OSPF",
+          "lan truyền 1 external-LSA 172.x.0.0/16",
+          "lan truyền 2 external-LSA 172.x.0.0/16",
+          "lan truyền 1 external-LSA 192.168.x.0/24",
+          "lan truyền 2 external-LSA 192.168.x.0/24",
+          "lan truyền 3 external-LSA 192.168.x.0/24"
+        ],
+        "correctAnswerIndices": [
+          0,
+          6
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #bd18c0"
+      },
+      {
+        "id": 112,
+        "original_id": "question_#f8ae8_0",
+        "chapter": "Chapter 2. (cont.): Advanced",
+        "type": "multiple",
+        "question": "[GW: 192.168.56.1] ------- (172.21.0.0/16)\n/\nR2 ---(1)--- R1 ---(2)--- R3\n- Router R1 kết nối trực tiếp đến 2 router láng giềng R2 và R3 qua các link (1) và (2)\n- Các router kích hoạt OSPF trên các link (1) và (2)\n- R1 kết nối với GW có địa chỉ 192.168.56.1 để thông sang network 172.21.0.0/16\n- R1 khai báo static trong bảng routing là đi đến 172.21.0.0/16 thì next hop là 192.168.56.1\nĐể R2, R3 có thể kết nối với mạng 172.21.0.0/16, R1 khái báo OSPF redistribute static . Như vậy, R1 đang nối hệ thống OSPF với một hệ thống ngoài (external) thông qua gateway 192.168.56.1\nKhai báo redistribute static  trên R1 có tác dụng gì (chọn các phương án đúng)?",
+        "options": [
+          "lan truyền External LSA 192.168.56.0 vào hệ thống OSPF",
+          "lan truyền External LSA 172.21.0.0 vào hệ thống OSPF",
+          "lan truyền summary-LSA vào mạng 172.21.0.0",
+          "thiết lập đường đi đến prefix 192.168.56.0 trong bảng routing của R2: next hop là R1",
+          "thiết lập đường đi đến prefix 172.21.0.0/16 trong bảng routing của R2: next hop là R1"
+        ],
+        "correctAnswerIndices": [
+          1,
+          4
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #f8ae84"
+      },
+      {
+        "id": 113,
+        "original_id": "section_0",
+        "chapter": "Chapter 2. (cont.): Advanced",
+        "type": "single",
+        "question": "Từ khóa nào dùng để khai báo một vùng (area) là totally stub ?",
+        "options": [
+          "totally stub",
+          "stub totally",
+          "no-summary",
+          "summarize"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 2,
+        "section_title": "Section"
+      },
+      {
+        "id": 115,
+        "original_id": "question_#1eded_0",
+        "chapter": "Chapter 2. (cont.): Advanced",
+        "type": "multiple",
+        "question": "LSA nào được lan truyền trong OSPF Stub Area? Chọn 3 tùy chọn",
+        "options": [
+          "Type 1",
+          "Type 2",
+          "Type 3",
+          "Type 4",
+          "Type 7"
+        ],
+        "correctAnswerIndices": [
+          0,
+          1,
+          2
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #1ededa"
+      },
+      {
+        "id": 117,
+        "original_id": "question_#b1f1a_0",
+        "chapter": "Chapter 2. (cont.): Advanced",
+        "type": "single",
+        "question": "Cú pháp để khai bào area 3 là dạng totally stub trong môi trường Quagga/FRR là gì?",
+        "options": [
+          "area 3 no-summary",
+          "area 3 stub no-summary",
+          "area 3 stub",
+          "area 3 stub summary"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #b1f1a3"
+      },
+      {
+        "id": 119,
+        "original_id": "question_#3c071_0",
+        "chapter": "Chapter 2. (cont.): Advanced",
+        "type": "single",
+        "question": "Cú pháp cấu hình area 10 là loại Stub trong môi trường Quagga/FRR là gì?",
+        "options": [
+          "area 10 stub",
+          "router ospf 1",
+          "router ospf id 1",
+          "area 10 stub enable"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #3c071a"
+      },
+      {
+        "id": 121,
+        "original_id": "question_#97605_0",
+        "chapter": "Chapter 2. (cont.): Advanced",
+        "type": "single",
+        "question": "Các area stub được sử dụng trong OSPF với mục đích:",
+        "options": [
+          "giảm thời gian LSA flooding",
+          "giảm LS database size",
+          "giảm routing table size",
+          "tất cả các ý trên"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 3,
+        "section_title": "Question #976058"
+      },
+      {
+        "id": 122,
+        "original_id": "question_#dce42_0",
+        "chapter": "Chapter 3. Inter-AS",
+        "type": "single",
+        "question": "Quá trình phát hiện và kết nối láng giềng của các router BGP được thực hiện như thế nào?",
+        "options": [
+          "Admin phải khai báo địa chỉ IP của từng router láng giềng",
+          "Bằng giao thức ICMP",
+          "Bằng giao thức BGP",
+          "Không có phương án nào kể trên là đúng"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #dce42a"
+      },
+      {
+        "id": 123,
+        "original_id": "question_#0def6_0",
+        "chapter": "Chapter 3. Inter-AS",
+        "type": "single",
+        "question": "Dữ liệu control plane của một router BGP như sau:\nBGP table version is 20, local router ID is 192.168.156.11, vrf id 0\nDefault local pref 100, local AS 65100\nNetwork         Next Hop       Weight     Path\n*> 10.0.0.0/8      0.0.0.0        32768      i\n*> 11.0.0.0/8      192.168.1.2    10         65200 65300 65400 ?\n*. 172.16.0.0/16   192.168.4.2    0          65500 i\n*>                 192.168.1.2    10         65200 65300 65400 i\nnext hop cho prefix 172.16.0.0/16  trong routing tabel là:",
+        "options": [
+          "192.168.1.2",
+          "10.0.0.0",
+          "192.168.4.2",
+          "11.0.0.0",
+          "không xác định được"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #0def66"
+      },
+      {
+        "id": 124,
+        "original_id": "f65603_0",
+        "chapter": "Chapter 3. Inter-AS",
+        "type": "fill_in_blank",
+        "question": "4.0/4.0 points (ungraded)\n----------------------------------------\nInternet Backbone\n----------------------------------------\n|                |\n[ ISP #1 ]       [ ISP #2 ]\n\\     /\n\\   /                       |--------------\n----------- R -------- (peer) ------- |   other net\nOSPF net   |                         |--------------\n-------------\nMột hệ thống kết nối như mô tả trong hình trên. Internet backbone kết nối BGP với tổng prefix là 77000.\nRouter R là gateway duy nhất (default gateway) của network OSPF để kết nối ra ngoài. Do yêu cầu đảm bảo kết nối, R sử dụng 2 đường kết nối Internet thông qua 2 ISP (ISP #1 và ISP #2). Router R cũng kết nối peering với một network khác có 8000 prefix. Biết rằng số prefix trong mạng OSPF là 3000.\na. Hãy tính số đường đi (route) được xây dựng trong control plan của router R.\nb. Dữ liệu các đường đi từ control plan trong router R được lựa chọn và quyết định đưa xuống data plan.\nHãy tính số đường đi trong data plan (routing table) của R.",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "f65603",
+        "correctAnswer": "165000 88000"
+      },
+      {
+        "id": 124,
+        "original_id": "f65603_0",
+        "chapter": "Chapter 3. Inter-AS",
+        "type": "fill_in_blank",
+        "question": "4.0/4.0 points (ungraded)\n----------------------------------------\nInternet Backbone\n----------------------------------------\n|                |\n[ ISP #1 ]       [ ISP #2 ]\n\\     /\n\\   /                       |--------------\n----------- R -------- (peer) ------- |   other net\nOSPF net   |                         |--------------\n-------------\nMột hệ thống kết nối như mô tả trong hình trên. Internet backbone kết nối BGP với tổng prefix là 84000.\nRouter R là gateway duy nhất (default gateway) của network OSPF để kết nối ra ngoài. Do yêu cầu đảm bảo kết nối, R sử dụng 2 đường kết nối Internet thông qua 2 ISP (ISP #1 và ISP #2). Router R cũng kết nối peering với một network khác có 8000 prefix. Biết rằng số prefix trong mạng OSPF là 5000.\na. Hãy tính số đường đi (route) được xây dựng trong control plan của router R.\nb. Dữ liệu các đường đi từ control plan trong router R được lựa chọn và quyết định đưa xuống data plan.\nHãy tính số đường đi trong data plan (routing table) của R.",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "f65603",
+        "correctAnswer": "181000 97000"
+      },
+      {
+        "id": 126,
+        "original_id": "question_#b9dc1_0",
+        "chapter": "Chapter 3. Inter-AS",
+        "type": "multiple",
+        "question": "Dữ liệu control plane của một router BGP như sau:\nKernel IP routing table\nB>* 10.0.0.0/8 [20/0] via 192.168.3.1, enp0s9, 03:12:10\nS>* 11.0.0.0/8 [1/0] via 192.168.41.2, enp0s10, 00:00:06\nC>* 192.168.3.0/24 is directly connected, enp0s9, 03:12:12\nC>* 192.168.41.0/24 is directly connected, enp0s10, 03:12:12\nO>* 192.168.42.0/24 [110/200] via 192.168.41.2, enp0s10, 03:06:34\nKhai báo BGP như sau:\nexport 172.16.0.0/24\nredistribute OSPF\nCác router BGP sẽ loan báo thông tin 2 prefix nào?",
+        "options": [
+          "10.0.0.0/8",
+          "11.0.0.0/8",
+          "172.16.0.0/24",
+          "192.168.3.0/24",
+          "192.168.41.0/24",
+          "192.168.42.0/24"
+        ],
+        "correctAnswerIndices": [
+          2,
+          5
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #b9dc14"
+      },
+      {
+        "id": 127,
+        "original_id": "question_#33799_0",
+        "chapter": "Chapter 3. Inter-AS",
+        "type": "single",
+        "question": "Thông tin nào để một router BGP quyết định loan báo thông điệp BGP đến router BGP láng giềng bằng iBGP hay eBGP?",
+        "options": [
+          "dựa vào địa chỉ IP láng giềng",
+          "dựa vào số hiệu cổng kết nối",
+          "dựa vào AS number khi khai báo router BGP láng giềng",
+          "dựa vào kết nối IGP giữa các router"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 2,
+        "section_title": "Question #337995"
+      },
+      {
+        "id": 128,
+        "original_id": "question_#b2fed_0",
+        "chapter": "Chapter 3. Inter-AS",
+        "type": "multiple",
+        "question": "Bảng routing của một router BGP có thể được tính toán lại và cập nhật trong 2 trường hợp nào?",
+        "options": [
+          "router nhận được bản ghi iBGP",
+          "router nhận được bản ghi eBGP",
+          "router nhận được bản ghi IGP"
+        ],
+        "correctAnswerIndices": [
+          1,
+          2
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #b2fed0"
+      },
+      {
+        "id": 129,
+        "original_id": "question_#986d7_0",
+        "chapter": "Chapter 3. Inter-AS",
+        "type": "multiple",
+        "question": "Dữ liệu control plane của một router BGP như sau:\nKernel IP routing table\nB>* 10.0.0.0/8 [20/0] via 192.168.3.1, enp0s9, 03:12:10\nS>* 11.0.0.0/8 [1/0] via 192.168.41.2, enp0s10, 00:00:06\nC>* 192.168.3.0/24 is directly connected, enp0s9, 03:12:12\nC>* 192.168.41.0/24 is directly connected, enp0s10, 03:12:12\nO>* 192.168.42.0/24 [110/200] via 192.168.41.2, enp0s10, 03:06:34\nKhai báo BGP như sau:\nexport 172.16.0.0/24\nredistribute connected\nCác router BGP sẽ loan báo thông tin prefix nào?",
+        "options": [
+          "10.0.0.0/8",
+          "11.0.0.0/8",
+          "172.16.0.0/24",
+          "192.168.3.0/24",
+          "192.168.41.0/24",
+          "192.168.42.0/24"
+        ],
+        "correctAnswerIndices": [
+          2,
+          3,
+          4
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #986d7d"
+      },
+      {
+        "id": 130,
+        "original_id": "question_#30c68_0",
+        "chapter": "Chapter 3. Inter-AS",
+        "type": "single",
+        "question": "Tương tự như RIP, quá trình loan báo thông tin một prefix bằng các thông điệp BGP cho phép xác định đường định tuyến đến network này qua các AS bằng cách đi ngược lại đường loan báo thông điệp BGP.\nNhư vậy có thể khẳng định đường routing từ một router đến một prefix chính là bằng đường đi qua các router BGP ngược theo thứ tự thông điệp BGP đã đi qua?",
+        "options": [
+          "đúng",
+          "sai"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #30c682"
+      },
+      {
+        "id": 131,
+        "original_id": "question_#e3ea3_0",
+        "chapter": "Chapter 3. Inter-AS",
+        "type": "single",
+        "question": "Khi lựa chọn đường đi theo qui tắc policy, ưu tiên nào được các router BGP áp dụng theo mặc định?",
+        "options": [
+          "Local preference, AS path, multi-exit discriminator",
+          "AS path, local preference, multi-exit discriminator",
+          "AS path, multi-exit discriminator, local preference",
+          "Multi-exit discriminator, AS path, local preference",
+          "Tất cả đều sai"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #e3ea37"
+      },
+      {
+        "id": 132,
+        "original_id": "question_#91d81_0",
+        "chapter": "Chapter 3. Inter-AS",
+        "type": "multiple",
+        "question": "Khi nhận được bản ghi eBGP, router sẽ thực hiện 3 công việc nào sau đây?",
+        "options": [
+          "cập nhật AS Path",
+          "chuyển tiếp thông tin cho router BGP láng giềng",
+          "lan truyền thông tin prefix từ BGP vào nội bộ AS với giao thức IGP",
+          "tính toán đường đi tối ưu theo thuật toán distance vector hoặc Dijsktra"
+        ],
+        "correctAnswerIndices": [
+          0,
+          1,
+          2
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #91d811"
+      },
+      {
+        "id": 133,
+        "original_id": "question_#a4ad3_0",
+        "chapter": "Chapter 3. Inter-AS",
+        "type": "multiple",
+        "question": "--------------------------\nInternet Backbone\n--------------------------\n|\n[ ISP ]\n|\n------------------\nMy backbone\n------------------\nTrong kết nối các backbone Internet với BGP, giả sử APNIC cung cấp block địa chỉ 221.30.48.0 - 221.30.63.255 cho ISP. ISP lại cung cấp block địa chỉ 221.30.48.0 - 221.30.50.255 cho My backbone.\nNhững prefix nào được quảng bá lên hệ thống BGP?",
+        "options": [
+          "3 block /24",
+          "một block /23 và một block /24",
+          "một block /22",
+          "một block /20",
+          "một block /19",
+          "không có câu trả lời bên trên nào đúng"
+        ],
+        "correctAnswerIndices": [
+          1,
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #a4ad32"
+      },
+      {
+        "id": 134,
+        "original_id": "question_#74b58_0",
+        "chapter": "Chapter 3. Inter-AS",
+        "type": "single",
+        "question": "Nhận định sau đúng hay sai? Trong kiến trúc kết nối BGP, các router láng giềng eBGP kết nối trực tiếp. Còn các router iBGP có thể kết nối không trực tiếp.",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #74b584"
+      },
+      {
+        "id": 135,
+        "original_id": "question_#71f1b_0",
+        "chapter": "Chapter 3. Inter-AS",
+        "type": "multiple",
+        "question": "Dữ liệu control plane của một router BGP như sau:\nKernel IP routing table\nB>* 10.0.0.0/8 [20/0] via 192.168.3.1, enp0s9, 03:12:10\nS>* 11.0.0.0/8 [1/0] via 192.168.41.2, enp0s10, 00:00:06\nC>* 192.168.3.0/24 is directly connected, enp0s9, 03:12:12\nC>* 192.168.41.0/24 is directly connected, enp0s10, 03:12:12\nO>* 192.168.42.0/24 [110/200] via 192.168.41.2, enp0s10, 03:06:34\nKhai báo BGP như sau:\nexport 172.16.0.0/24\nredistribute static\nCác router BGP sẽ loan báo thông tin prefix nào?",
+        "options": [
+          "10.0.0.0/8",
+          "11.0.0.0/8",
+          "172.16.0.0/24",
+          "192.168.3.0/24",
+          "192.168.41.0/24",
+          "192.168.42.0/24"
+        ],
+        "correctAnswerIndices": [
+          1,
+          2
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #71f1b3"
+      },
+      {
+        "id": 136,
+        "original_id": "question_#e8768_0",
+        "chapter": "Chapter 3. Inter-AS",
+        "type": "single",
+        "question": "Dữ liệu control plane của một router BGP như sau:\nBGP table version is 20, local router ID is 192.168.156.11, vrf id 0\nDefault local pref 100, local AS 65100\nNetwork        Next Hop         Weight     Path\n*> 10.0.0.0/8     0.0.0.0          32768      i\n*> 11.0.0.0/8     192.168.1.2      10         65200 65300 65400 ?\n*. 172.16.0.0/16  192.168.4.2      10         65500 i\n*>                192.168.1.2      10         65200 65300 65400 i\nnext hop của prefix 172.16.0.0/16  trong routing tabel là:",
+        "options": [
+          "10.0.0.0",
+          "192.168.1.2",
+          "192.168.4.2",
+          "11.0.0.0",
+          "không xác định được"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 2,
+        "section_title": "Question #e87685"
+      },
+      {
+        "id": 137,
+        "original_id": "question_#a2adf_0",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Khi nhận được một thông điệp iBGP chứa thông tin một prefix, router BGP thực hiện hoạt động nào sau\nđây?\nCâu hỏi đơn\nHomework due Dec 5, 2025 23:59 +07\nCompleted",
+        "options": [
+          "Ghi nhận nội dung và quảng bá prefix này đến router láng giềng tiếp theo",
+          "Cập nhật AS path cho prefix vừa nhận",
+          "Kích hoạt thông tin prefix vừa nhận vào hệ thống các router IGP của AS",
+          "Không làm gì"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #a2adf5"
+      },
+      {
+        "id": 138,
+        "original_id": "section_0",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Nhân viên của công ty X đi công tác, ngồi tại sân bay và kết nối wifi sân bay để truy nhập Internet. Máy tính cô ấy được tự động cấu hình địa chỉ IP 10.1.2.123 và Gateway 10.0.0.1. Cô ấy kết nối VPN về công ty X theo mô hình host-to-net và nhận được địa chỉ IP 192.168.1.20 với gateway 192.168.1.1. Đồng nghiệp của cô ấy cũng đang đi công tác và kết nối VPN về công ty, và đang trao đổi (chat) với nhân viên này. Chương trình chat cho phép hiện địa chỉ IP của người đang \"nói chuyện\" với mình. Hãy chọn các nhận định đúng sau đây:",
+        "options": [
+          "Địa chỉ IP của người đang nói chuyện bị che bởi gateway 10.0.0.1",
+          "Địa chỉ IP của người đang nói chuyện bị che bởi gateway 192.168.1.1",
+          "Địa chỉ IP của người đang nói chuyện nằm cùng mạng với IP của mình",
+          "Địa chỉ IP của người đang nói chuyện là địa chỉ IP của \"đường hầm\" giữa hai trạm làm việc"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 2,
+        "section_title": "Section"
+      },
+      {
+        "id": 141,
+        "original_id": "question_#374bc_2",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "multiple",
+        "question": "Cho sơ đồ kết nối mạng như sau:\nGiải thích:\n1. Gateway G1 có địa chỉ 10.0.0.1 nhận gói tin IP từ nguồn phát (là máy Host có địa chỉ 10.0.0.100) để gửi đến một máy trong Network X\n2. Gateway G1 kiểm tra bảng định tuyến của nó và phát hiện next hop là G2 (có địa chỉ 10.0.0.2).\n3. Địa chỉ next hop (G2) được xác định nằm cùng mạng với địa chỉ nguồn của gói tin IP (10.0.0.0/24). Như vậy là xuất hiện tình huống routing vòng vì trạm nguồn có thể gửi gói tin IP đến ngay G2 mà không cần đi qua G1). Kết quả là gói tin ICPM redirect  được gửi đến nguồn phát, thông báo trạm nguồn có thể gửi trực tiếp gói tin qua gateway G2 (là đường không bị routing vòng).\n4. Gateway G1 vẫn tiếp tục chuyển tiếp gói tin đến G2 theo qui tắc như là next hop.\nHãy chọn các nhận định đúng:",
+        "options": [
+          "quá trình routing vòng vẫn tiếp diễn nhưng gói tin vẫn gửi đến đích",
+          "Gói tin trả lời từ Network X về máy Host, đi qua G2 và vòng qua G1 rồi mới đến máy Host",
+          "Máy Host gửi gói tin đến Network X phải chuyển tiếp qua G1 vì tại máy Host khai báo G1 là default gateway",
+          "G1 xác định next hop cho gói tin gửi đến Network X là G2 vì nó được khai báo trong bảng routing của G1"
+        ],
+        "correctAnswerIndices": [
+          0,
+          2,
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #374bc0",
+        "image": "data/images/pdf_18_q.png"
+      },
+      {
+        "id": 142,
+        "original_id": "section_0",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Trong mô hình VPN sử dụng giải pháp IP-in-IP, điều gì xảy ra khi một gói tin được truyền qua tunnel IP-in-IP?",
+        "options": [
+          "Gói tin được mã hóa bằng SSL/TLS để đảm bảo an toàn.",
+          "Một header IP mới được thêm vào gói tin gốc, tạo ra một tunnel và chuyển gói tin qua mạng Internet.",
+          "Một giao thức định tuyến đặc biệt được sử dụng để định tuyến gói tin đến đích.",
+          "Gói tin được chuyển trực tiếp từ nguồn đến đích với giải thuật mã họa do tầng ứng dụng qui định."
+        ],
+        "correctAnswerIndices": [1],
+        "correctAnswerIndex": -1,
+        "section_title": "Section"
+      },
+      {
+        "id": 143,
+        "original_id": "question_#bc00c_0",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Trong mô hình VPN sử dụng giải pháp đường hầm IP-in-IP, các biện pháp bảo mật thông tin nào được triển khai để đảm bảo an toàn cho dữ liệu khi đi qua kết nối đường hầm trên mạng Internet?",
+        "options": [
+          "VPN IP-in-IP có thể sử dụng mô hình chứng thực hai yếu tố để tăng cường lớp bảo mật, yêu cầu người dùng cung cấp cả mật khẩu và mã xác thực để truy cập vào kết nối VPN.",
+          "IP-in-IP trong VPN thường kết hợp mã hóa SSL/TLS và giao thức HMAC để đảm bảo tính toàn vẹn và xác thực của dữ liệu truyền tải qua kết nối đường hầm Internet.",
+          "Việc sử dụng IP-in-IP trong VPN tự nó đã đảm bảo an toàn cho dữ liệu mà không cần các biện pháp bảo mật bổ sung.",
+          "Phương pháp chính để bảo vệ an toàn dữ liệu là sử dụng mã hóa end-to-end, với các thuật toán phức tạp như AES (Advanced Encryption Standard) trong quá trình truyền dữ liệu qua tunnel IP-in-IP."
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #bc00cc"
+      },
+      {
+        "id": 144,
+        "original_id": "question_#ca328_0",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Lựa chọn đúng hay sai: gói tin DHCPOFFER được máy chủ DHCP gửi cho client để đề xuất địa chỉ IP và các thống số liên quan như gateway, DNS server",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #ca328a"
+      },
+      {
+        "id": 145,
+        "original_id": "question_#b5f97_0",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "multiple",
+        "question": "So sánh mô hình Customer Provision VPN và Provider Provision VPN, hãy chọn các phương án đúng:",
+        "options": [
+          "Customer Provision VPN và Provider Provision VPN đều tập trung vào việc cung cấp dịch vụ VPN cho người dùng.",
+          "Một mô hình nào đặc trưng bởi việc khách hàng tự quản lý và duy trì kết nối VPN của mình, trong khi mô hình kia là do nhà cung cấp dịch vụ quản lý.",
+          "Customer Provision VPN thường sử dụng giao thức routing riêng, trong khi Provider Provision VPN thường sử dụng giao thức routing chuẩn.",
+          "Provider Provision VPN được xem xét là giải pháp linh hoạt hơn, trong khi Customer Provision VPN thường được chọn để tối ưu hóa hiệu suất."
+        ],
+        "correctAnswerIndices": [
+          0,
+          1
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #b5f97b"
+      },
+      {
+        "id": 146,
+        "original_id": "question_#7b44b_0",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "multiple",
+        "question": "Chọn các nhận định đúng dưới đây về mạng nội bộ (private network)",
+        "options": [
+          "là một mạng LAN",
+          "là một Autonomous System (AS)",
+          "sử dụng địa chỉ IP private khi kết nối Internet",
+          "tách rời khỏi Internet để đảm bảo an toàn",
+          "phục vụ các hoạt động nghiệp vụ trên mạng của một tổ chức"
+        ],
+        "correctAnswerIndices": [
+          2,
+          4
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #7b44b1"
+      },
+      {
+        "id": 147,
+        "original_id": "question_#6c7c8_0",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "multiple",
+        "question": "Cơ chế nào sau đây có thể hỗ trợ trạm làm việc tìm được đúng DHCP server khi tham gia kết nối vào mạng nội bộ để tránh nhận được các thông tin cấu hình sai (chọn các câu trả lời đúng)",
+        "options": [
+          "DHCP kết hợp với hệ thống khóa công khai của người sử dụng (PKI)",
+          "IP security",
+          "DHCP server cấu hình sẵn trong trạm làm việc",
+          "danh sách máy chủ DHCP giả mạo (blacklist DHCP)",
+          "Không có cơ chế nào. DHCP được thiết kế không tính đến việc tránh giả mạo máy chủ"
+        ],
+        "correctAnswerIndices": [4],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #6c7c89"
+      },
+      {
+        "id": 148,
+        "original_id": "question_#e0e5d_0",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "multiple",
+        "question": "Một người sử dụng máy tính xách tay kết nối WIFI tại một cửa hàng cafe internet. Sau khi kết nối WIFI, người sử dụng mở trình duyệt Web nhưng không truy nhập được đến trang web www.hust.edu.vn. Người sử dụng mở terminal và kiểm tra kết nối đến máy chủ Web bằng cách chạy lệnh ping www.hust.edu.vn thì có kết quả như sau:\nping www.hust.edu.vn\nPinging hust.edu.vn [202.191.57.199] with 32 bytes of data:\nReply from 202.191.57.199: bytes=32 time=2ms TTL=60\nReply from 202.191.57.199: bytes=32 time=3ms TTL=60\nReply from 202.191.57.199: bytes=32 time=4ms TTL=60\nTình huống như trên có thể đưa ra các nhận định nào sau đây?",
+        "options": [
+          "Kết nối WIFI không thành công",
+          "ping vào www.hust.edu.vn  thấy thành công, có nghĩa là đường truyền từ máy client đến máy chủ web thông suốt",
+          "Đường truyền thông mà truy nhập trang web www.hust.edu.vn không được thì có thể dịch vụ trang web đang không hoạt động",
+          "Có thể dịch vụ DNS đang không hoạt động"
+        ],
+        "correctAnswerIndices": [
+          1,
+          2
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #e0e5d0"
+      },
+      {
+        "id": 149,
+        "original_id": "question_#d3587_0",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "fill_in_blank",
+        "question": "Để kết nối Internet, mạng nội bộ sử dụng một thiết bị có tên là (hãy nhập text tiếng Anh, chữ thường):",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #d35877",
+        "correctAnswer": "router"
+      },
+      {
+        "id": 150,
+        "original_id": "question_#bc7e2_0",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "multiple",
+        "question": "Mạng nội bộ của một tổ chức ở Việt Nam kết nối Internet thông qua một ISP bằng những phương án khả thi nào sau đây?",
+        "options": [
+          "như một AS nối vào Internet backbone tier 1",
+          "như một prefix của ISP, được ISP export đến các AS backbone Internet",
+          "như một AS kết nối BGP với ISP",
+          "như một mạng LAN độc lập (tự chủ admin) và kết nối với backbone của ISP bằng một router"
+        ],
+        "correctAnswerIndices": [
+          1,
+          2,
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #bc7e2d"
+      },
+      {
+        "id": 151,
+        "original_id": "question_#1e85f_0",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "multiple",
+        "question": "Khi một trạm kết nối vào mạng nội bộ, nó gửi yêu cầu đến DHCP server xin cấp địa chỉ IP. Máy chủ DHCP được xác định thế nào để nhận yêu cầu DHCP từ máy trạm?",
+        "options": [
+          "địa chỉ DHCP server được cấu hình trước trong máy trạm",
+          "gói tin DHCP được IP broadcast đến toàn bộ hệ thống mạng nội bộ",
+          "gói tin HDCP được broadcast ở tầng data link đến toàn bộ broadcast zone tầng 2",
+          "gói tin HDCP được multicast đến các DHCP server theo dải địa chỉ IP multicast"
+        ],
+        "correctAnswerIndices": [
+          2,
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #1e85ff"
+      },
+      {
+        "id": 152,
+        "original_id": "section_0",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Nhân viên của công ty X đi công tác, ngồi tại sân bay và kết nối wifi sân bay để truy nhập Internet. Máy tính cô ấy được tự động cấu hình địa chỉ IP 10.1.2.123 và Gateway 10.0.0.1. Cô ấy kết nối VPN về công ty X theo mô hình host-to-net và nhận được địa chỉ IP 192.168.1.20. Đồng nghiệp của cô ấy cũng đang đi công tác và kết nối VPN về công ty, trao đổi (chat) với nhân viên này. Trong chương trình \"chat\", đồng nghiệp \"nhìn thấy\" nhân viên đang kết nối tại địa chỉ 10.1.2.123\nNhận định trên đúng hay sai?",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Section"
+      },
+      {
+        "id": 153,
+        "original_id": "question_#92be5_0",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "multiple",
+        "question": "Cấu hình các Internet gateway và default gateway của một mạng nội bộ được triển khai thế nào?\n(chọn các câu trả lời đúng)",
+        "options": [
+          "được qui hoạch dựa theo sơ đồ kết nối mạng nội bộ và phù hợp với kết nối ra Internet",
+          "là một router BGP để nối mạng nội bộ với các mạng bên ngoài",
+          "được thiết lập cấu hình trên từng trạm làm việc",
+          "có thể được thiếp lập chung cho toàn bộ trạm làm việc của mạng nội bộ thông qua dịch vụ DHCP",
+          "luôn đóng vai trò là bước nhảy đầu tiên (First-Hop Router) khi một trạm gửi gói tin IP ra Internet"
+        ],
+        "correctAnswerIndices": [
+          0,
+          2,
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #92be50"
+      },
+      {
+        "id": 154,
+        "original_id": "question_#10305_0",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "DHCP có thể cung cấp cấu hình cố định địa chỉ IP cho máy trạm dựa trên địa chỉ MAC được không?",
+        "options": [
+          "Có thể",
+          "Không thể"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #103059"
+      },
+      {
+        "id": 155,
+        "original_id": "section_0",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "fill_in_blank",
+        "question": "Trong bài thực hành, hệ thống mạng riêng gồm 2 máy trạm A, B và router R1 được giả lập bằng Virtualbox trên máy host và kết nối Internet thông qua máy host bằng NAT. Máy host cũng được được kết nối Internet bằng NAT. Sơ đồ kết nối và địa chỉ IP của các trạm như bên dưới (các địa chỉ IP còn thiếu cần tự suy luận từ môi trường thực hành).\nCác trạm A và B thực hiện 2 phiên truyền thông ping 8.8.8.8  đồng thời đến Google.\n192.168.1.25\nB ----------\\ 10.0.0.15                    203.162.15.38                    8.8.8.8\nR1 ----------- Host ---------- gateway -------- (Internet) ------- Google\nA ----------/           192.168.1.15\n192.168.1.20",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "Section",
+        "image": "data/images/pdf_20_q.png"
+      },
+      {
+        "id": 156,
+        "original_id": "section_1",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Câu hỏi (a):\nCùng một thời điểm, các lệnh ping trên máy A và B cùng gửi ICMP Echo request đến máy Google. Máy Google phân biệt 2 gói tin ICMP này từ A và B bằng cách nào?",
+        "options": [
+          "dựa vào địa chỉ đích của gói tin IP",
+          "dựa vào địa chỉ nguồn của gói tin IP",
+          "dựa vào đường đi qua các máy trung gian",
+          "không phân biết được theo các yêu tố trên"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 3,
+        "section_title": "Section",
+        "image": "data/images/pdf_20_q.png"
+      },
+      {
+        "id": 157,
+        "original_id": "section_2",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "multiple",
+        "question": "Câu hỏi (b):\nChức năng NAT đang được vận hành trên các máy nào trong hệ thống?",
+        "options": [
+          "A và B",
+          "R1",
+          "Host",
+          "gateway Internet",
+          "Google server"
+        ],
+        "correctAnswerIndices": [
+          1,
+          2,
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Section",
+        "image": "data/images/pdf_20_q.png"
+      },
+      {
+        "id": 158,
+        "original_id": "section_3",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "multiple",
+        "question": "Câu hỏi (c):\nCác máy A, B và Host có địa chỉ IP thuộc cùng dải net id là 192.168.1.0/24. Khi máy A gửi gói tin broadcast đến địa chỉ 192.168.1.255 thì các máy nào nhận được?",
+        "options": [
+          "B",
+          "R1",
+          "Host",
+          "gateway Internet",
+          "Google server"
+        ],
+        "correctAnswerIndices": [
+          0,
+          1
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Section",
+        "image": "data/images/pdf_20_q.png"
+      },
+      {
+        "id": 159,
+        "original_id": "section_4",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Câu hỏi (d):\nGói tin ICMP Echo Reply được gửi Google về đến máy R1 trong các lệnh ping trên máy A và B có địa chỉ nguồn và đích là:",
+        "options": [
+          "(nguồn: 8.8.8.8, đích: 192.168.1.20)",
+          "(nguồn: 8.8.8.8, đích: 10.0.0.15)",
+          "(nguồn: 8.8.8.8, đích: 192.168.1.25)",
+          "(nguồn: 8.8.8.8, đích: 192.168.1.15)"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Section",
+        "image": "data/images/pdf_20_q.png"
+      },
+      {
+        "id": 160,
+        "original_id": "section_5",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Câu hỏi (e):\nGói tin ICMP Echo Reply được gửi Google về đến máy Host trong các lệnh ping trên máy A và B có địa chỉ nguồn và đích là:",
+        "options": [
+          "(nguồn: 8.8.8.8, đích: 192.168.1.25)",
+          "(nguồn: 8.8.8.8, đích: 192.168.1.15)",
+          "(nguồn: 8.8.8.8, đích: 10.0.0.15)",
+          "(nguồn: 8.8.8.8, đích: 192.168.1.20)"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Section",
+        "image": "data/images/pdf_20_q.png"
+      },
+      {
+        "id": 161,
+        "original_id": "question_#8044b_0",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "fill_in_blank",
+        "question": "Một tổ chức có 2 office ở 2 thành phố khác nhau. Các mạng private của 2 office này kết nối Internet bằng 2 NAT gateway R1 và R2. Ngoài ra, 2 office này được cấu hình VPN net-to-net theo kỹ thuật IP tunneling. Sơ đồ hệ thống mạng với các địa chỉ IP được mô tả như trong hình bên dưới:\n192.168.1.25/24                                         10.10.1.25/24\nB ----------\\                              /---------- C\nR1 (NAT) ---- Internet ----- R2 (NAT)\nA ----------/                              \\---------- D\n192.168.1.20/24                                         10.10.1.20/24\nĐịa chỉ IP public của R1 và R2 lần lượt là 203.162.0.11 và 210.126.15.34",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #8044bc",
+        "image": "data/images/pdf_21_q.png"
+      },
+      {
+        "id": 162,
+        "original_id": "question_#8044b_1",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "multiple",
+        "question": "Câu hỏi (a):\nQui hoạch địa chỉ IP nội bộ của các gateway có thể là là:",
+        "options": [
+          "R1: 10.10.1.1/24, R2: 192.168.1.1/24",
+          "R2: 10.10.1.1/24, R1: 192.168.1.1/24",
+          "R2: 10.10.0.1/16, R1: 192.168.0.1/16",
+          "không cấu hình, để ISP cấp địa chỉ IP động"
+        ],
+        "correctAnswerIndices": [
+          1,
+          2
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #8044bc",
+        "image": "data/images/pdf_21_q.png"
+      },
+      {
+        "id": 163,
+        "original_id": "question_#8044b_2",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Câu hỏi (b):\nHãy cho biết địa chỉ IP của gói tin khi trạm A nhận dữ liệu từ trạm C qua VPN",
+        "options": [
+          "nguồn: 192.168.1.20, đích: 10.10.1.25",
+          "nguồn: 10.10.1.25, đích: 192.168.1.20",
+          "nguồn: 210.126.15.34, đích: 203.162.0.11",
+          "nguồn: 203.162.0.11, đích: 210.126.15.34"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #8044bc",
+        "image": "data/images/pdf_21_q.png"
+      },
+      {
+        "id": 164,
+        "original_id": "question_#8044b_3",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Câu hỏi (c):\nHacker ngồi ngoài office của công ty đang nghe lén dữ liệu A đang gửi cho C. Hãy cho biết địa chỉ IP của gói tin mà hacker nhận được",
+        "options": [
+          "nguồn: 10.10.1.25, đích: 192.168.1.20",
+          "nguồn: 203.162.0.11, đích: 210.126.15.34",
+          "nguồn: 210.126.15.34, đích: 203.162.0.11",
+          "nguồn: 192.168.1.20, đích: 10.10.1.25"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #8044bc",
+        "image": "data/images/pdf_21_q.png"
+      },
+      {
+        "id": 165,
+        "original_id": "question_#8044b_4",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "multiple",
+        "question": "Câu hỏi (d):\nCác office cung cấp VPN host-to-net để nhân viên có thể làm việc từ xa. Các gateway R1 và R2 có thêm vai trò là Access server/VPN server và sử dụng giải pháp IP tunneling. Điều gì xảy ra khi máy X trên Internet truy nhập VPN của office #1 và kết nối đến máy C tại office #2 ?",
+        "options": [
+          "X nhận địa chỉ local 192.168.1.x khi tham gia VPN với office #1",
+          "X nhận địa chỉ local 10.10.1.x khi kết nối VPN với C tại office #2",
+          "gói tin gửi từ X đến C được đi vòng qua R1 và R2",
+          "tồn tại một gói tin IP 3 lớp được truyển trên Internet (IP trong IP và trong một IP khác nữa)"
+        ],
+        "correctAnswerIndices": [
+          0,
+          2,
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #8044bc",
+        "image": "data/images/pdf_21_q.png"
+      },
+      {
+        "id": 166,
+        "original_id": "question_#8044b_5",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Câu hỏi (e):\nA và B chia sẻ một số thư mục và máy in trong mạng nội bộ của office #1. Máy C và D có thể truy nhập đến các tài nguyên này thông qua VPN đã thiết lập giữa 2 office hay không?",
+        "options": [
+          "Có thể",
+          "Không thể"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #8044bc",
+        "image": "data/images/pdf_21_q.png"
+      },
+      {
+        "id": 167,
+        "original_id": "question_#974d2_0",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "fill_in_blank",
+        "question": "Trong bài thực hành, một hệ thống mạng riêng gồm máy trạm A và router R1 được giả lập bằng Virtualbox trên máy host kết nối Internet (thông qua máy host) bằng NAT. Máy host cũng được kết nối Internet bằng NAT. Sơ đồ kết nối và địa chỉ IP của các trạm như bên dưới (các địa chỉ IP còn thiếu cần tự suy luận từ môi trường thực hành).\nMáy A thực hiện một phiên truyền thông ping 8.8.8.8  đến máy chủ Google.\n10.0.0.15                   203.162.15.38                    8.8.8.8\nA -------- R1 ------ Host ------- gateway -------- (Internet) ------- Google\n192.168.1.20         192.168.1.15",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #974d24",
+        "image": "data/images/pdf_22_q.png"
+      },
+      {
+        "id": 168,
+        "original_id": "question_#974d2_1",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Câu hỏi (a):\nĐịa chỉ máy A (máy ảo) và địa chỉ máy Host (máy thật) cùng dải địa chỉ IP private 192.168.1.0/24. Như vậy là cấu hình sai phải không?",
+        "options": [
+          "Đúng. Cấu hình sai, cần đổi máy A sang địa chỉ IP khác cho phù hợp",
+          "Không phải. Hệ thống vẫn chạy với cấu hình này"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #974d24",
+        "image": "data/images/pdf_22_q.png"
+      },
+      {
+        "id": 169,
+        "original_id": "question_#974d2_2",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Câu hỏi (b):\nMáy trạm A kết nối Internet cần được khai báo gateway. Địa chỉ gateway nào phù hợp?",
+        "options": [
+          "10.0.0.15",
+          "203.162.15.38",
+          "192.168.1.1",
+          "192.168.1.15"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 2,
+        "section_title": "Question #974d24",
+        "image": "data/images/pdf_22_q.png"
+      },
+      {
+        "id": 170,
+        "original_id": "question_#974d2_3",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Câu hỏi (c):\nGói tin ICMP Echo Request được gửi từ lệnh ping trên máy A đến máy Google có địa chỉ nguồn và đích là:",
+        "options": [
+          "(nguồn: 192.168.1.20, đích: 10.0.0.15)",
+          "(nguồn: 10.0.0.15, đích: 8.8.8.8)",
+          "(nguồn: 192.168.1.20, đích: 8.8.8.8)",
+          "(nguồn: 192.168.1.20, đích: 192.168.1.15)"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 2,
+        "section_title": "Question #974d24",
+        "image": "data/images/pdf_22_q.png"
+      },
+      {
+        "id": 171,
+        "original_id": "question_#974d2_4",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Câu hỏi (d):\nGói tin ICMP Echo Request nhận được trên máy Google trong lệnh ping từ máy A có địa chỉ nguồn và đích là:",
+        "options": [
+          "(nguồn: 203.162.15.38, đích: 8.8.8.8)",
+          "(nguồn: 192.168.1.15, đích: 8.8.8.8)",
+          "(nguồn: 192.168.1.20, đích: 8.8.8.8)",
+          "(nguồn: 10.0.0.15, đích: 8.8.8.8)"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #974d24",
+        "image": "data/images/pdf_22_q.png"
+      },
+      {
+        "id": 172,
+        "original_id": "question_#974d2_5",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Câu hỏi (e):\nGói tin ICMP Echo Request khi đi ra khỏi R1 trong lệnh ping từ máy A có địa chỉ nguồn và đích là:",
+        "options": [
+          "(nguồn: 192.168.1.20, đích: 8.8.8.8)",
+          "(nguồn: 192.168.1.15, đích: 8.8.8.8)",
+          "(nguồn: 203.162.15.38, đích: 8.8.8.8)",
+          "(nguồn: 10.0.0.15, đích: 8.8.8.8)"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 3,
+        "section_title": "Question #974d24",
+        "image": "data/images/pdf_22_q.png"
+      },
+      {
+        "id": 173,
+        "original_id": "question_#974d2_6",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Câu hỏi (f):\nGói tin ICMP Echo Reply gửi từ Google trong lệnh ping từ máy A khi đi đến Internet gateway có địa chỉ nguồn và đích là:",
+        "options": [
+          "(nguồn: 8.8.8.8, đích: 192.168.1.15)",
+          "(nguồn: 8.8.8.8, đích: 192.168.1.20)",
+          "(nguồn: 8.8.8.8, đích: 10.0.0.15)",
+          "(nguồn: 8.8.8.8, đích: 203.162.15.38)"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 3,
+        "section_title": "Question #974d24",
+        "image": "data/images/pdf_22_q.png"
+      },
+      {
+        "id": 174,
+        "original_id": "question_#974d2_7",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Câu hỏi (g):\nGói tin ICMP Echo Reply gửi từ Google trong lệnh ping từ máy A khi đi đến máy R1 có địa chỉ nguồn và đích là:",
+        "options": [
+          "(nguồn: 8.8.8.8, đích: 192.168.1.20)",
+          "(nguồn: 8.8.8.8, đích: 203.162.15.38)",
+          "(nguồn: 8.8.8.8, đích: 10.0.0.15)",
+          "(nguồn: 8.8.8.8, đích: 192.168.1.15)"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 2,
+        "section_title": "Question #974d24",
+        "image": "data/images/pdf_22_q.png"
+      },
+      {
+        "id": 175,
+        "original_id": "question_#974d2_8",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Câu hỏi (h):\nGói tin ICMP Echo Reply gửi từ Google trong lệnh ping từ máy A khi đi đến máy A có địa chỉ nguồn và đích là:",
+        "options": [
+          "(nguồn: 8.8.8.8, đích: 203.162.15.38)",
+          "(nguồn: 8.8.8.8, đích: 192.168.1.20)",
+          "(nguồn: 8.8.8.8, đích: 10.0.0.15)",
+          "(nguồn: 8.8.8.8, đích: 192.168.1.15)"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #974d24",
+        "image": "data/images/pdf_22_q.png"
+      },
+      {
+        "id": 176,
+        "original_id": "section_0",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "fill_in_blank",
+        "question": "Cho sơ đồ kết nối mạng như sau:\nCác hoạt động đánh số từ 1 đến 4 trên hình vẽ là kết quả của lệnh ping sau đây:\n$ ping 203.162.0.11\nPING 203.162.0.11 56(84) bytes of data.\nFrom 10.0.0.1: icmp_seq=1 Redirect Host(New nexthop: a.b.c.d)\n64 bytes from 203.162.0.11: icmp_seq=1 ttl=62 time=4.24 ms\nFrom 10.0.0.1: icmp_seq=1 Redirect Host(New nexthop: a.b.c.d)\n64 bytes from 203.162.0.11: icmp_seq=2 ttl=62 time=5.05 ms\nHãy lựa chọn Đúng/Sai cho các nhận định sau đây:",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "Section",
+        "image": "data/images/pdf_176_q.png"
+      },
+      {
+        "id": 177,
+        "original_id": "section_1",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Câu hỏi (a):\nGiá trị của a.b.c.d là 10.0.0.1",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Section",
+        "image": "data/images/pdf_176_q.png"
+      },
+      {
+        "id": 178,
+        "original_id": "section_2",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Câu hỏi (b):\nGói tin số 1 trong hình vẽ là ICMP Echo Request có địa chỉ nguồn là 10.0.0.100 và đích là 203.162.0.11",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Section",
+        "image": "data/images/pdf_176_q.png"
+      },
+      {
+        "id": 179,
+        "original_id": "section_3",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Câu hỏi (c):\nGói tin số 4 và gói tin số 1 là giống nhau",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Section",
+        "image": "data/images/pdf_176_q.png"
+      },
+      {
+        "id": 180,
+        "original_id": "section_4",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Câu hỏi (d):\nGói tin ICMP Echo Reply không được thể hiện trên hình vẽ",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Section",
+        "image": "data/images/pdf_176_q.png"
+      },
+      {
+        "id": 181,
+        "original_id": "section_5",
+        "chapter": "Chapter 4. Private Network &",
+        "type": "single",
+        "question": "Câu hỏi (e):\nICMP Redirect thông báo đang có hiện tượng routing đi vòng. Để loại bỏ tình huống này, cần thêm một gateway nữa vào routing table của máy Host",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Section",
+        "image": "data/images/pdf_176_q.png"
+      },
+      {
+        "id": 182,
+        "original_id": "question_#37364_0",
+        "chapter": "Chapter 5. Basic IP services",
+        "type": "multiple",
+        "question": "Để cấm các máy trạm trong private network sử dụng DNS trên public (như là 8.8.8.8) mà phải dùng DNS server nội bộ thì sử dụng phương pháp nào?",
+        "options": [
+          "DHCP thiết lập tự động DNS server",
+          "Firewall cấm cổng outbound 53 cho vùng các máy trạm",
+          "Firewall cấm cổng inbound 53 tới vùng các máy trạm",
+          "Xử lý cấu hình liên quan DNS tại các switch vùng máy trạm"
+        ],
+        "correctAnswerIndices": [
+          1,
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #37364c"
+      },
+      {
+        "id": 183,
+        "original_id": "question_#e8248_0",
+        "chapter": "Chapter 5. Basic IP services",
+        "type": "single",
+        "question": "Kiển bản ghi nào gắn với chức năng Reverse DNS?",
+        "options": [
+          "SRV record",
+          "SPF record",
+          "AAAA record",
+          "PTR record",
+          "TXT record"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 3,
+        "section_title": "Question #e8248a"
+      },
+      {
+        "id": 184,
+        "original_id": "question_#abaca_0",
+        "chapter": "Chapter 5. Basic IP services",
+        "type": "single",
+        "question": "Đâu là từ khóa để khai báo domain alias trong dịch vụ DNS?",
+        "options": [
+          "NS",
+          "MX",
+          "PTR",
+          "CNAME"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 3,
+        "section_title": "Question #abaca9"
+      },
+      {
+        "id": 185,
+        "original_id": "question_#26e30_0",
+        "chapter": "Chapter 5. Basic IP services",
+        "type": "single",
+        "question": "Một email đính kèm tập tin chứa mã độc được gửi đến cho bạn. Nếu bạn đọc email mà chưa mở tập tin đính kèm thì máy tính của bạn còn an toàn không?",
+        "options": [
+          "An toàn",
+          "Không an toàn"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #26e308"
+      },
+      {
+        "id": 186,
+        "original_id": "question_#b7f80_0",
+        "chapter": "Chapter 5. Basic IP services",
+        "type": "single",
+        "question": "Đâu là bản ghi cần được đăng ký tại TLD name server?",
+        "options": [
+          "SRV records",
+          "A records",
+          "SOA records",
+          "NS records",
+          "CNAME records"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 3,
+        "section_title": "Question #b7f800"
+      },
+      {
+        "id": 187,
+        "original_id": "question_#20519_0",
+        "chapter": "Chapter 5. Basic IP services",
+        "type": "single",
+        "question": "Có thể dùng Gmail để gửi và nhận các email khác với domain @gmail.com (ví dụ user@soict.hust.edu.vn).\nĐể làm được điều này, Google Gmail được ủy quyền quản trị domain của người dùng. Đúng hay sai?",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #20519c"
+      },
+      {
+        "id": 188,
+        "original_id": "question_#d31fa_0",
+        "chapter": "Chapter 5. Basic IP services",
+        "type": "multiple",
+        "question": "Chọn các nhận định đúng sau đây về các giao thức email",
+        "options": [
+          "SMTP, POP3, IMAP, MIME là các giao thức liên quan đến dịch vụ email",
+          "POP3 và IMAP là 2 giao thức liên lạc giữa email client và email server",
+          "POP3 dùng để gửi email, IMAP dùng để nhận email",
+          "SMTP dùng để vừa nhận mail và gửi mail giữa các server"
+        ],
+        "correctAnswerIndices": [
+          1,
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #d31fae"
+      },
+      {
+        "id": 189,
+        "original_id": "question_#36261_0",
+        "chapter": "Chapter 5. Basic IP services",
+        "type": "single",
+        "question": "Bản ghi nào trong DNS chứa thông tin ánh xạ từ domain sang địa chỉ IP?",
+        "options": [
+          "A record",
+          "HTTP Redirection record",
+          "SPF record",
+          "MX record",
+          "NS record"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #362613"
+      },
+      {
+        "id": 190,
+        "original_id": "question_#d6d82_0",
+        "chapter": "Chapter 5. Basic IP services",
+        "type": "multiple",
+        "question": "Chọn các nhận định đúng sau đây về dịch vụ email?",
+        "options": [
+          "Giống như trong dịch vụ bưu chính, dịch vụ Email được thiết kế để server người gửi chuyển tiếp\nemail qua nhiều server trung gian, dựa theo tên miềm của email người nhận, cho đến khi email\nđược chuyển đến server người nhận",
+          "Các máy chủ chuyển tiếp email bằng sử dụng giao thức SMTP",
+          "Một cách mặc định, máy chủ email chỉ nhận chuyển tiếp email từ các người dùng địa phương,\nkhông nhận chuyển tiếp email từ người dùng lạ",
+          "Giống như trong dịch vụ bưu chính, email không được tự động chuyển ngay đến người nhận mà\ndừng tại máy chủ email địa phương của người nhận (như là bưu cục địa phương). Người nhận phải\nchủ động kết nối đến máy chủ email địa phương này để lấy email về đọc"
+        ],
+        "correctAnswerIndices": [
+          1,
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #d6d82c"
+      },
+      {
+        "id": 191,
+        "original_id": "question_#19d76_0",
+        "chapter": "Chapter 5. Basic IP services",
+        "type": "multiple",
+        "question": "Tại sao user không truy nhập được đến dịch vụ FTP trên Internet thông qua NAT Gateway?",
+        "options": [
+          "Do FTP hoạt động theo cơ chế không xác định cổng",
+          "Do FTP sử dụng 2 cổng riêng rẽ cho 2 kết nối: control và data",
+          "Do chế độ Active, server chủ động thiết lập kết nối data với client mà client lại nằm trong private\nnetwork",
+          "Do chế độ Pasive, client nhận được địa chỉ IP của server thông qua gói tin FTP tầng ứng dụng"
+        ],
+        "correctAnswerIndices": [
+          2,
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #19d76b"
+      },
+      {
+        "id": 192,
+        "original_id": "question_#e9a79_0",
+        "chapter": "Chapter 5. Basic IP services",
+        "type": "single",
+        "question": "Đâu là thông tin được định nghĩa trong SOA (Start of Authority) để báo cho secondary DNS thời điểm cần kết nối và cập nhật dữ liệu từ primary DNS?",
+        "options": [
+          "Expiry",
+          "Refresh",
+          "Retry",
+          "Serial"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #e9a795"
+      },
+      {
+        "id": 193,
+        "original_id": "question_#3bb04_0",
+        "chapter": "Chapter 5. Basic IP services",
+        "type": "single",
+        "question": "Trong dịch vụ FTP, chế độ Active được áp dụng cho trường hợp client nằm trên Internet public, còn chế độ Pasive được áp dụng cho trường hợp client nằm trong private network. Đúng hay sai?",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #3bb048"
+      },
+      {
+        "id": 194,
+        "original_id": "question_#7855b_0",
+        "chapter": "Chapter 5. Basic IP services",
+        "type": "single",
+        "question": "Bản ghi nào trong hệ thống DNS xác định máy chủ dịch vụ Mail?",
+        "options": [
+          "NS",
+          "PTR",
+          "MX",
+          "CNAME"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 2,
+        "section_title": "Question #7855b2"
+      },
+      {
+        "id": 195,
+        "original_id": "question_#84902_0",
+        "chapter": "Chapter 5. Basic IP services",
+        "type": "single",
+        "question": "Biết rằng dịch vụ email hoạt động ở cổng 25. Để chặn sử dụng Gmail, firewall cần chặn cổng 25. Đúng hay sai?",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #84902a"
+      },
+      {
+        "id": 196,
+        "original_id": "section_0",
+        "chapter": "Chapter 5. Basic IP services",
+        "type": "single",
+        "question": "Một firewall hoạt động ở tầng network còn được gọi là?",
+        "options": [
+          "Stateful Filters",
+          "Packet Filters",
+          "personal firewall",
+          "Area Filters"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Section"
+      },
+      {
+        "id": 197,
+        "original_id": "question_#21668_0",
+        "chapter": "Chapter 5. Basic IP services",
+        "type": "single",
+        "question": "Một gateway ở tầng ứng dụng (Application-level gateway) được coi là một proxy firewall. Đúng hay sai?",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #216683"
+      },
+      {
+        "id": 198,
+        "original_id": "question_#5e732_0",
+        "chapter": "Chapter 5. Basic IP services",
+        "type": "multiple",
+        "question": "Một mạng private sử dụng firewall tại Gateway để đảm bảo an toàn như trong hình dưới:\nFirewall cần được cấu hình cho phép local user (vùng 'green') gửi và nhận gói tin với các server dịch vụ (vùng DMZ) và trạm Internet (vùng 'red'). Các cấu hình nào sau đây cần được áp dụng?",
+        "options": [
+          "red => green: Open",
+          "green => red: NAT",
+          "green => orange: Open",
+          "orange => green: Open"
+        ],
+        "correctAnswerIndices": [
+          1,
+          2
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #5e7322",
+        "image": "data/images/pdf_120_q.png"
+      },
+      {
+        "id": 199,
+        "original_id": "question_#c1ecd_0",
+        "chapter": "Chapter 5. Basic IP services",
+        "type": "single",
+        "question": "....... là một vùng trung lập trên hệ thống mạng, nằm giữa vùng tin cậy và vùng không tin cậy. Hãy điền từ thích hợp vào chỗ trống.",
+        "options": [
+          "Domain",
+          "Gateway",
+          "Firewall",
+          "DMZ"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 3,
+        "section_title": "Question #c1ecd6"
+      },
+      {
+        "id": 200,
+        "original_id": "question_#e39b2_0",
+        "chapter": "Chapter 5. Basic IP services",
+        "type": "multiple",
+        "question": "Một mạng private sử dụng firewall tại Gateway để đảm bảo an toàn như trong hình dưới:\nFirewall được cấu hình luật chuyển tiếp gói tin từ public Internet (vùng 'red') đến các server dịch vụ (vùng DMZ) như sau:\nred => orange: Closed. Use port forwarding\nCác nhận định nào sau đây là đúng?",
+        "options": [
+          "Các truy nhập từ public Internet đến Web server tại DMZ luôn bị cấm",
+          "DNS server đặt tại DMS có thể tham gia vào hệ thống DNS toàn cầu để cung cấp địa chỉ IP của các máy thuộc mạng private",
+          "Email server đặt tại DMZ là hợp lý",
+          "Người dùng wife và local luôn truy nhập được đến các server tại DMZ"
+        ],
+        "correctAnswerIndices": [
+          1,
+          2
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #e39b2d",
+        "image": "data/images/pdf_125_q.png"
+      },
+      {
+        "id": 200,
+        "original_id": "question_#e39b2_0",
+        "chapter": "Chapter 5. Basic IP services",
+        "type": "multiple",
+        "question": "Một mạng private sử dụng firewall tại Gateway để đảm bảo an toàn như trong hình dưới:\nNgười dùng wifi (vùng 'blue') mặc dù thuộc mạng private nhưng không tin cậy. Vì vậy chỉ được phép truy nhập đến các server dịch vụ (vùng DMZ), mà không được truy nhập đến vùng local user (vùng 'green') và Internet (vùng 'red'). Các cấu hình nào sau đây cần được áp dụng?",
+        "options": [
+          "blue => red: NAT",
+          "blue => red: Close",
+          "blue => green: Close",
+          "blue => orange: Open"
+        ],
+        "correctAnswerIndices": [
+          1,
+          2
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #e39b2d",
+        "image": "data/images/pdf_125_q.png"
+      },
+      {
+        "id": 201,
+        "original_id": "question_#e39b2_0",
+        "chapter": "Chapter 5. Basic IP services",
+        "type": "single",
+        "question": "Loại firewall nào cung cấp khả năng an toàn kém hơn cho private network?",
+        "options": [
+          "Application/Proxy Firewall",
+          "Packet Filtering Firewall"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #e39b2d"
+      },
+      {
+        "id": 202,
+        "original_id": "question_#2fba3_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "multiple",
+        "question": "Trong bảng multicast routing của một router có một luật chuyển tiếp gói tin như bên dưới:\nRouter# show ip mroute\nSource          Group           Proto  Input         Output      TTL  Uptime\n192.168.1.120   226.96.1.1      S      enp0s10       enp0s9       1   00:00:42\n192.168.1.120   226.96.1.1      S      enp0s10       enp0s3       1   00:00:42\n192.168.1.120   226.96.1.1      S      enp0s9        enp0s8       1   00:00:42\nRouter phục vụ phiên multicast (192.168.1.120, 226.96.1.1). Hãy chọn những nhận định đúng sau đây:",
+        "options": [
+          "router thực hiện nhân bản gói tin multicast từ enp0s10 sang enp0s9 và enp0s3",
+          "router thực hiện nhân bản gói tin multicast từ enp0s10 sang enp0s9, enp0s3 và enp0s8",
+          "router thực hiện chuyển tiếp gói tin multicast enp0s9 sang enp0s8",
+          "router bị cấu hình lỗi, không xử lý được gói tin multicast (192.168.1.120, 226.96.1.1)"
+        ],
+        "correctAnswerIndices": [
+          0,
+          2
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #2fba32"
+      },
+      {
+        "id": 203,
+        "original_id": "question_#fc029_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "multiple",
+        "question": "Các router hỗ trợ xử lý gói tin IP multicast như thế nào?",
+        "options": [
+          "dựa trên routing table",
+          "dựa trên multicast routing table",
+          "địa chỉ nguồn được sử dụng để xác định đường chuyển tiếp gói tin",
+          "địa chỉ đích được sử dụng để xác định đường chuyển tiếp gói tin",
+          "địa chỉ nguồn và địa chỉ đích được sử dụng để xác định đường chuyển tiếp gói tin"
+        ],
+        "correctAnswerIndices": [
+          1,
+          4
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #fc0290"
+      },
+      {
+        "id": 204,
+        "original_id": "question_#dac2d_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "single",
+        "question": "Lệnh sau đây trên Windows command lines sẽ cho kết quả gì?\nnetsh / int ip / show joins",
+        "options": [
+          "hiển thị tất cả các địa chỉ IP multicast của máy tính",
+          "hiển thị tất cả các địa chỉ IP unicast lớp 224 của máy tính",
+          "hiển thị tất cả các địa chỉ IP multicast đã liên lạc với máy tính",
+          "hiển thị thông tin joins trong các địa chỉ IP multicast"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #dac2d8"
+      },
+      {
+        "id": 205,
+        "original_id": "question_#f1b3c_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "multiple",
+        "question": "Trường TTL trong gói tin IP multicast được xử lý thế nào?",
+        "options": [
+          "Giống như xử lý TTL trong gói tin IP unicast",
+          "Mỗi khi gói tin đi qua router, trường TTL được giảm đi 1",
+          "Khi \"nhân bản\" gói tin IP multicast tại các nhánh cây multicast, router reset TTL về giá trị ban đầu",
+          "Khi TTL giảm về 0, router gửi ICMP \"TTL time exceeded\" về gốc cây multicast"
+        ],
+        "correctAnswerIndices": [
+          0,
+          1,
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #f1b3c8"
+      },
+      {
+        "id": 206,
+        "original_id": "question_#c1d96_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "single",
+        "question": "Trong bảng multicast routing của một router có một luật chuyển tiếp gói tin như bên dưới:\nRouter# show ip mroute\nSource          Group           Proto  Input            Output           TTL  Uptime\n*               226.96.1.1      S      enp0s8           enp0s3           1    00:00:05 default\nGói tin IP địa chỉ nguồn 192.168.1.120 gửi đến 226.96.1.1 đi vào router tại kết nối mạng enp0s3 . Điều gì sẽ xảy ra?",
+        "options": [
+          "gói tin multicast được router chuyển tiếp",
+          "gói tin multicast không được router chuyển tiếp"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #c1d960"
+      },
+      {
+        "id": 207,
+        "original_id": "question_#3774e_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "multiple",
+        "question": "Một cây multicast địa chỉ 226.92.1.1 được thiết lập trên hệ thống mạng theo sơ đồ sau:\nH1 ----- R1 ---- R2 ---- H2\n/ \\----- R3 ---- H3\n/-------- R4 ---- H4\n- Trạm H1 là trạm phát, các trạm H2, H3, H4 là trạm nhận (join vào địa chỉ 226.92.1.1). \n- Các router R1, R2, R3, R4 được cấu hình hỗ trợ hệ thống chạy tốt\nSử dụng môi trường thực hành, giả lập hệ thống bên trên. Tại H1 chạy lệnh ping 226.92.1.1\nCâu a:\nĐiều gì xảy ra khi chạy lệnh ping ?\nCâu b:\nĐiều gì xảy ra tại các trạm nhận trong phiên truyền thông khi chạy lệnh ping ?\nCâu c:\nTừ trạm H2 chạy lệnh ping  đến các trạm khác (H1, H3, H4). Điều gì xảy ra?",
+        "options": [
+          "Báo lỗi lệnh ping  không nhận địa chỉ multicast",
+          "Các gói tin ping multicast  được gửi đi và nhận về thay cho gói tin ICMP thông thường",
+          "Gói tin Echo Request được gói trong gói tin IP multicast và chuyển từ H1 đến R1",
+          "Các gói tin Echo Request được các router nhân bản và chuyển đến H2, H3, H4",
+          "Nhận được gói tin ping 226.92.1.1  và trả lời bằng một gói tin multicast gửi về trạm truyền",
+          "Nhận được gói tin ping 226.92.1.1  và trả lời bằng một gói tin multicast gửi về 226.92.1.1",
+          "Nhận được gói tin ping 226.92.1.1  và trả lời bằng một gói tin IP gửi về H1",
+          "Các gói tin trả lời được gửi từ H2, H3, H4 về H1 theo kiểu unicast",
+          "Gói tin ICMP đi theo các nhánh của cây multicast từ H2 để đến các trạm còn lại",
+          "Chỉ riêng H2 ping  về trạm gốc (H1) là hoạt động theo cây multicast. H2 ping  đến H2, H4 là nằm\nngoài cây multicast",
+          "Tất cả các gói tin ping  gửi đi từ H2 đều nằm ngoài cây multicast",
+          "Gói tin H2 gửi đến H1 trong lệnh ping  và gói tin H2 trả lời H1 trong lệnh ping  ở câu (a) luôn được\ncác router chuyển tiếp theo cùng một đường đi"
+        ],
+        "correctAnswerIndices": [
+          2,
+          3,
+          6,
+          7,
+          10,
+          11
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #3774e6"
+      },
+      {
+        "id": 208,
+        "original_id": "question_#8b2ca_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "single",
+        "question": "Trong bảng multicast routing của một router có một luật chuyển tiếp gói tin như bên dưới:\nRouter# show ip mroute\nSource          Group           Proto  Input            Output           TTL  Uptime\n192.168.1.120   226.96.1.1      S      enp0s8           enp0s3           1    00:00:05 default\nGói tin IP địa chỉ nguồn 192.168.1.125 gửi đến 226.96.1.1 đi vào router tại kết nối mạng enp0s8 . Điều gì sẽ xảy ra?",
+        "options": [
+          "gói tin multicast được router chuyển tiếp sang kết nối enp0s3",
+          "gói tin multicast không được router chuyển tiếp"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #8b2ca3"
+      },
+      {
+        "id": 209,
+        "original_id": "question_#d468a_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "multiple",
+        "question": "Phiên đấu giá online được thực hiện bằng giải pháp multicast giữa người điều khiển tại máy A và 3 người tham gia đấu giá tại các máy X,Y,Z. Các gói tin IP nào được gửi và nhận giữa các trạm A, X, Y, Z?",
+        "options": [
+          "Gói tin IP có địa chỉ nguồn là A và địa chỉ đích là X,Y,Z",
+          "Gói tin IP có địa chỉ nguồn là X và địa chỉ đích là A",
+          "Gói tin IP có địa chỉ nguồn là A và đích là X",
+          "Gói tin IP có địa chỉ nguồn là A và địa chỉ đích là địa chỉ lớp D",
+          "Gói tin IP có địa chỉ nguồn là Y và đích là A",
+          "Gói tin IP có địa chỉ nguồn là Z và đích là X"
+        ],
+        "correctAnswerIndices": [
+          1,
+          3,
+          4
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #d468a0"
+      },
+      {
+        "id": 210,
+        "original_id": "question_#704e0_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "single",
+        "question": "Join và Broadcast là hai pha của một phiên truyền thông multicast, hoạt động tương tự hai pha \"subscribe\" và \"publish\" trong dịch vụ mailing list (bạn đăng ký email của mình vào một mailing list sau đó sẽ nhận email định kỳ gửi trong mailing list này). Pha Join cho phép trạm nhận tham gia vào một địa chỉ IP lớp D. Pha Broadcast cho phép trạm truyền phát bản tin IP vào địa chỉ IP lớp D để gửi đến tất cả các trạm nhận. Như vậy, pha Join luôn được thực hiện trước pha Broadcast?",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #704e0c"
+      },
+      {
+        "id": 211,
+        "original_id": "question_#6b6c3_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "multiple",
+        "question": "Một router OSPF kết nối vào mạng backbone của một ISP (nhà cung cấp kết nối Internet). Các địa chỉ multicast nào sau đây được tự động gán cho router này?",
+        "options": [
+          "224.0.0.1",
+          "224.0.0.2",
+          "224.0.0.3",
+          "224.0.0.5",
+          "224.0.0.12",
+          "224.0.0.13",
+          "224.0.0.22",
+          "224.0.0.23"
+        ],
+        "correctAnswerIndices": [
+          0,
+          1,
+          3,
+          6
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #6b6c3c"
+      },
+      {
+        "id": 212,
+        "original_id": "question_#fe4a4_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "multiple",
+        "question": "Để thực hiện phiên truyền thông multicast, cần cấu hình các địa chỉ IP. Hãy chọn các nhận định đúng sau đây",
+        "options": [
+          "Cần cấu hình địa chỉ IP Multicast thay cho địa chỉ IP unicast thông thường",
+          "Sử dụng DHCP để nhận các địa chỉ IP ở máy trạm",
+          "Cấu hình tĩnh các địa chỉ IP vì multicast không làm việc được với địa chỉ IP động",
+          "Join các kết nối mạng của máy trạm vào địa chỉ nhóm"
+        ],
+        "correctAnswerIndices": [
+          1,
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #fe4a4d"
+      },
+      {
+        "id": 213,
+        "original_id": "question_#8cacf_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "single",
+        "question": "Để gán địa chỉ IP multicast cho một trạm, sử dụng các phương pháp gán IP thông thường như là ifconfig , ip addr , dịch vụ DHCP, v.v.. Đúng hay sai?",
+        "options": [
+          "Đúng",
+          "Sai"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #8cacf9"
+      },
+      {
+        "id": 214,
+        "original_id": "question_#6fb5a_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "multiple",
+        "question": "Gói tin multicast được mô tả như sau. Hãy chọn các câu mô tả đúng.",
+        "options": [
+          "Là một gói tin của giao thức IP",
+          "Là một gói tin của giao thức Multicats",
+          "Có trường multicast=1 trong gói tin",
+          "Có địa chỉ nguồn là trạm gửi",
+          "Có địa chỉ đích là các trạm nhận",
+          "Có địa chỉ đích là nhóm các trạm nhận",
+          "Có trường TTL (time to live) để tránh lỗi routing",
+          "Được xử lý tại các router, dựa trên bảng multicast routing"
+        ],
+        "correctAnswerIndices": [
+          0,
+          3,
+          5,
+          6,
+          7
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #6fb5aa"
+      },
+      {
+        "id": 215,
+        "original_id": "question_#6da84_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "fill_in_blank",
+        "question": "Trong bảng multicast routing của một router có một luật chuyển tiếp gói tin như bên dưới:\nRouter# show ip mroute\nSource          Group           Proto  Input            Output           TTL  Uptime\n*               226.96.1.1      S      enp0s8           enp0s3           1    00:00:05 default\nChữ 'S' trong cột 'Proto' thể hiện luật được thiết lập theo cơ chế gì?",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #6da848",
+        "correctAnswer": "STATIC"
+      },
+      {
+        "id": 216,
+        "original_id": "question_#6a8d6_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "multiple",
+        "question": "Hai chế độ nào được IGMP sử dụng để quản lý thành viên của nhóm máy multicast?",
+        "options": [
+          "preclude",
+          "join",
+          "include",
+          "rendezvous",
+          "exclude",
+          "leave"
+        ],
+        "correctAnswerIndices": [
+          2,
+          4
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #6a8d6d"
+      },
+      {
+        "id": 218,
+        "original_id": "question_#094ca_1",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "multiple",
+        "question": "Một hệ thống multicast đang hoạt động theo sơ đồ như sau:\nCâu hỏi (a):\nChọn các nhận định đúng sau đây về cây multicast (S, G):",
+        "options": [
+          "(S,G) = (192.168.1.120, 226.96.1.1)",
+          "(S,G) = (192.168.1.121, 226.96.1.1)",
+          "(S,G) = (192.168.1.120, 224.0.0.22)",
+          "(S,G) = (192.168.1.121, 224.0.0.22)"
+        ],
+        "correctAnswerIndices": [
+          0,
+          1
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #094ca6",
+        "image": "data/images/pdf_126_q.png"
+      },
+      {
+        "id": 219,
+        "original_id": "question_#094ca_2",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "multiple",
+        "question": "Câu hỏi (b):\nChọn các nhận định đúng về cây multicast tại R1 và R2, tại thời điểm sau dòng log #4:",
+        "options": [
+          "R1 và R2: đang tham gia vào cây",
+          "R1 đang tham gia vào cây, R2 không tham gia",
+          "R2 đang tham gia vào cây, R1 không tham gia",
+          "R1 và R2 đều không tham gia vào cây"
+        ],
+        "correctAnswerIndices": [1],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #094ca6",
+        "image": "data/images/pdf_126_q.png"
+      },
+      {
+        "id": 220,
+        "original_id": "question_#094ca_3",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "multiple",
+        "question": "Câu hỏi (c):\nTập trung khoảng thời gian từ #11 đến #14, các nhận định nào sau đây đúng về các hoạt động của R2\nđã thực hiện:",
+        "options": [
+          "R2 muốn tham gia vào cây không xác định nguồn phát",
+          "R2 kết thúc tham gia vào cây không xác định nguồn phát",
+          "R2 muốn tham gia vào cây xác định nguồn phát",
+          "R2 kết thúc tham gia vào cây xác định nguồn phát"
+        ],
+        "correctAnswerIndices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #094ca6",
+        "image": "data/images/pdf_126_q.png"
+      },
+      {
+        "id": 221,
+        "original_id": "question_#094ca_4",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "multiple",
+        "question": "Câu hỏi (d):\nChọn các nhận định đúng về chế độ làm việc của R1 và R2 sau thời điểm log cuối cùng:",
+        "options": [
+          "R1: INCLUDE {1 nguồn phát}",
+          "R1: INCLUDE {2 nguồn phát}",
+          "R2: INCLUDE {1 nguồn phát}",
+          "R2: INCLUDE {2 nguồn phát}"
+        ],
+        "correctAnswerIndices": [1],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #094ca6",
+        "image": "data/images/pdf_126_q.png"
+      },
+      {
+        "id": 222,
+        "original_id": "question_#094ca_5",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "multiple",
+        "question": "Câu hỏi (e):\nHãy chú ý vào các thông điệp IGMP Query, chọn các nhận định đúng về mục đích của các thông điệp này:",
+        "options": [
+          "R1 muốn biết R2 có đang tham gia cây multicast hay không?",
+          "R1 muốn biết những router downstream nào đang tham gia cây multicast",
+          "R2 muốn đăng ký tham gia cây multicats với upstream là R1",
+          "R muốn thông báo về tình trạng của mình trong cây multicast"
+        ],
+        "correctAnswerIndices": [1],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #094ca6",
+        "image": "data/images/pdf_126_q.png"
+      },
+      {
+        "id": 223,
+        "original_id": "question_#643a9_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "single",
+        "question": "Một hệ thống multicast đang hoạt động theo sơ đồ như sau:\nS ---> .... ---> R ---> H1\n\\\n\\----> H2\nNguồn phát S đang gửi multicast theo địa chỉ nhóm G đến các trạm nhận, trong đó H1 và H2 là 2 trạm nhận có kết nối trực tiếp với router R. Đâu là hành động đúng để H1 dừng nhận tin multicast đang phát trong nhóm (S,G)?",
+        "options": [
+          "H1 --> R: igmp v3 report, 1 group record(s) [gaddr G to_in { }]",
+          "H1 --> 224.0.0.22: igmp v3 report, 1 group record(s) [gaddr G to_ex {(S,G)}]",
+          "H1 --> 224.0.0.22: igmp v3 report, 1 group record(s) [gaddr G to_ex { }]",
+          "H1 --> 224.0.0.22: igmp v3 report, 1 group record(s) [gaddr G to_in {(S,G)}]"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 2,
+        "section_title": "Question #643a9c"
+      },
+      {
+        "id": 224,
+        "original_id": "question_#c6829_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "single",
+        "question": "Một hệ thống multicast đang hoạt động theo sơ đồ như sau:\nS ---> .... ---> R ---> H1\n\\\n\\----> H2\nNguồn phát S đang gửi multicast theo địa chỉ nhóm G đến các trạm nhận, trong đó có H1. Trạm H2 muốn tham gia nhận tin trong phiên multicast này. Đâu là hành động đúng của H2:",
+        "options": [
+          "H2 --> 224.0.0.22: igmp v3 report, 1 group record(s) [gaddr G to_ex {(S,G)}]",
+          "H2 --> 224.0.0.22: igmp v3 report, 1 group record(s) [gaddr G allow { S }]",
+          "H2 --> 224.0.0.22: igmp v3 report, 1 group record(s) [gaddr G block { S }]",
+          "H2 --> R: igmp v3 report, 1 group record(s) [gaddr G allow { S }]"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #c68299"
+      },
+      {
+        "id": 225,
+        "original_id": "question_#3b374_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "multiple",
+        "question": "Phát biểu nào sau đây về IGMPv3 là đúng?",
+        "options": [
+          "Nó gửi IGMP query có giá trị TTL là 1 đến nhóm các máy trạm hỗ trợ multicast (224.0.0.1).",
+          "Nó chấp nhận IGMP query theo kiểu nhóm xác định (specific) mà được gửi từ trạm muốn tham gia nhóm multicast lên router thượng lưu.",
+          "Nó cho phép một trạm gửi đến gateway (có vai trò là \"first hop router\") một IGMP report yêu cầu nhận luồng gói tin multicast",
+          "Nó được sử dụng tại cả trạm làm việc và router, để gửi các yêu cầu tham gia hoặc rời khỏi một nhóm multicast."
+        ],
+        "correctAnswerIndices": [
+          2,
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #3b3746"
+      },
+      {
+        "id": 226,
+        "original_id": "section_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "multiple",
+        "question": "Trong PIM SSM (Source Specific), các router sử dụng cơ chế Reverse Path để tự động xác định các router upstream và gửi PIM Join (yêu cầu gắn cành) để xây dựng cây multicast. Giả sử hệ thống đang sử dụng một giao thức routing protocol IGP. Việc tối ưu cây multicast như vậy được diễn ra như thế nào?",
+        "options": [
+          "Mở rộng OSPF để tối ưu theo trạng thái đường truyền.",
+          "Mở rộng RIP để tối ưu theo đường đi ngắn nhất từ router đến gốc cây multicast.",
+          "Tối ưu đường Reverse Path được thiết lập sẵn trong bảng unicast routing.",
+          "PIM là giao thực không phụ thuộc (IGP Protocol Independent) nên không xử lý tối ưu multicast gì với IGP như RIP hay OSPF."
+        ],
+        "correctAnswerIndices": [
+          2,
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Section"
+      },
+      {
+        "id": 227,
+        "original_id": "question_#14e7b_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "multiple",
+        "question": "Đâu là một đặc điểm của giao thức PIM sparse mode?",
+        "options": [
+          "Nó sử dụng một cơ chế \"cắt cành\" (prun) khi tối ưu cây multicast để hủy bỏ các luồng gói tin multicast đến các giao diện kết nối mạng mà không có các trạm nghe vùng hạ lưu.",
+          "Nó cần xác lập trước một điểm Rendez-Vouse Point (RP) để đóng vai trò là gốc cây multicast khi nguồn phát chưa xác định.",
+          "Nó xây dựng cây multicast bằng cách phát tràn (flooding) các dòng multicast lên tất cả các giao diện kết nối mạng.",
+          "Nó được sử dụng trong môi trường mạng diện rộng, có mật độ trạm nhận thưa thớt",
+          "Nó được thiết kế để áp dụng cho các môi trường mạng mà trạm thu xuất hiện trên mạng con trong hệ thống."
+        ],
+        "correctAnswerIndices": [
+          1,
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #14e7b4"
+      },
+      {
+        "id": 228,
+        "original_id": "question_#e2f69_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "multiple",
+        "question": "Câu nào dưới đây mô tả đúng một đặc điểm của quá trình định tuyến multicast trên IP?",
+        "options": [
+          "PIM hello message dùng để thiết lập quan hệ láng giềng (neighbour) giữa các router PIM.",
+          "Phương pháp tràn (flood) và tỉa cành (prun) của PIM dense mode lặp lại ba phút một lần.",
+          "PIM sparse mode xây dựng cây multicast bằng việc gửi tràn (flooding) các lưu lượng multicast trên mọi giao diện kết nối mạng.",
+          "PIM spare mode và dense mode đều yêu cầu có Rendez-Vous Point (RP)."
+        ],
+        "correctAnswerIndices": [
+          0,
+          1
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #e2f692"
+      },
+      {
+        "id": 229,
+        "original_id": "question_#b961c_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "fill_in_blank",
+        "question": "PIM-SM hoạt động dựa trên Rendez-Vous Point (RP). RP có thể được cấu hình tĩnh trên từng router, hoặc được tự động cấu hình với phương pháp Auto-RP của Cisco. Phương pháp này sử dụng một well-know multicast IP để các router liên lạc với nhau và chia sẻ thông tin RP. Địa chỉ well-know multicast IP đó là gì?",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #b961c4",
+        "correctAnswer": "224.0.1.40"
+      },
+      {
+        "id": 230,
+        "original_id": "question_#f489b_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "single",
+        "question": "Trong khâu đầu tiên khi xây dựng cây multicast, RP đóng vai trò thay cho nguồn phát chưa được xác định. Cú pháp nào được sử dụng để mô tả cây multicast?",
+        "options": [
+          "(G,S)",
+          "(S,G)",
+          "(*,S)",
+          "(*,G)"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 3,
+        "section_title": "Question #f489bf"
+      },
+      {
+        "id": 231,
+        "original_id": "question_#73ce7_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "single",
+        "question": "Đâu là cơ chế chuẩn, không phụ thuộc vào nhà cung cấp thiết bị, để các router trao đổi thông tin về Rendez-Vous Point (RP)",
+        "options": [
+          "RPF",
+          "Auto-RP",
+          "BSR",
+          "Static RP"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 2,
+        "section_title": "Question #73ce72"
+      },
+      {
+        "id": 232,
+        "original_id": "question_#7ffa2_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "multiple",
+        "question": "Đại học BKHN thực hiện truyền hình trực tuyến các buổi semina từ hội trường C2 đến toàn bộ các trạm làm việc trong khuôn viên nhà trường. Phương án nào nên được sử dụng?",
+        "options": [
+          "Multicast flooding với cây khung.",
+          "PIM dense mode.",
+          "PIM sparse mode.",
+          "PIM nguồn phát xác định (SSM)."
+        ],
+        "correctAnswerIndices": [
+          0,
+          1
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #7ffa23"
+      },
+      {
+        "id": 233,
+        "original_id": "question_#ad7c0_0",
+        "chapter": "Chapter 6: IP Multicast",
+        "type": "multiple",
+        "question": "Để cấu hình PIM-SSM (Source-Specific Multicast) và cho phép người dùng từ các miền khác nhau có thể truy cập vào một phiên truyền thông multicast trực tiếp, người quản trị cần thực hiện những hành động nào sau đây:?",
+        "options": [
+          "Kích hoạt IGMP trên các kết nối của router.",
+          "Kích hoạt PIM dense mode trên các router.",
+          "Kích hoạt PIM sparse mode trên các router.",
+          "Cấu hình prefix-list cho phép SSM chứa địa chỉ multicast.",
+          "Cấu hình Rendez-Vous Point (RP) cho các router."
+        ],
+        "correctAnswerIndices": [
+          0,
+          2,
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #ad7c01"
+      },
+      {
+        "id": 234,
+        "original_id": "question_#2f52f_0",
+        "chapter": "Chapter 7: Quality of Service",
+        "type": "single",
+        "question": "Đâu không phải là một QoS PHB?",
+        "options": [
+          "Default Forwarding (DF)",
+          "Best Effort (BE)",
+          "Assured Forwarding (AF)",
+          "Expedited Forwarding (EF)",
+          "Class Selector (CS)"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #2f52f1"
+      },
+      {
+        "id": 235,
+        "original_id": "question_#10d1b_0",
+        "chapter": "Chapter 7: Quality of Service",
+        "type": "multiple",
+        "question": "Một hộ giá định sử dụng gói thuê bao đường truyền Internet có tốc độ 10Mbps nhưng bị nghẽn kết nối mạng vào giờ xem phim buổi tối. Nhân viên công ty cung cấp đường truyền Internet tư vấn nâng cấp gói thuê bao lên 20Mpbs (giá cước thuê bao cũng tăng gấp đôi). Những câu nói nào sau đây của người nhân viên kia là đúng?",
+        "options": [
+          "nâng cấp gói thuê bao đảm bảo đường truyền sẽ không bao giờ bị nghẽn mạng nữa",
+          "anh chị sử dụng tool đo tốc độ https://speedtest.vn sẽ thấy tốc độ tăng lên gấp đôi",
+          "anh chị xem phim trong mạng Việt Nam đảm bảo lúc nào cũng tốt",
+          "anh chị xem phim trên server nằm ngoài mạng Việt Nam thì tốc độ chúng tôi không đảm bảo"
+        ],
+        "correctAnswerIndices": [
+          1,
+          3
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #10d1bd"
+      },
+      {
+        "id": 236,
+        "original_id": "question_#81bc9_0",
+        "chapter": "Chapter 7: Quality of Service",
+        "type": "single",
+        "question": "Những bộ chỉ số nào sau đây được áp dụng cho QoS?",
+        "options": [
+          "Jitter, Delay, Packet-loss.",
+          "SNR, Delay, WRED.",
+          "Latency, WRED, Attenuation.",
+          "AIS, Latency, NEXT."
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #81bc9f"
+      },
+      {
+        "id": 237,
+        "original_id": "question_#7c87d_0",
+        "chapter": "Chapter 7: Quality of Service",
+        "type": "multiple",
+        "question": "DiffServ triển khai QoS theo các tư tưởng nào (hãy chọn các nhận định đúng)?",
+        "options": [
+          "xử lý độc lập trên từng router (gọi là PHB - Per Hop Behavior)",
+          "dựa trên IntServ nhưng bỏ đi per-flow vì nó đòi hỏi xử lý quá nặng đối với các router",
+          "sử dụng giao thức RSVP",
+          "sử dụng trường ToS để phân loại các gói tin IP",
+          "có thể hỗ trợ QoS cho từng ứng dụng trên tầng Application",
+          "giữ lại 2 modul là Classifier và Scheduler trong IntServ"
+        ],
+        "correctAnswerIndices": [
+          0,
+          1,
+          3,
+          5
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #7c87dd"
+      },
+      {
+        "id": 238,
+        "original_id": "question_#ec3dc_0",
+        "chapter": "Chapter 7: Quality of Service",
+        "type": "single",
+        "question": "Đâu là mô hình QoS đang được cài đặt và sử dụng phổ biến nhất?",
+        "options": [
+          "IntServ",
+          "Best effort",
+          "DiffServ",
+          "RSVP"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 2,
+        "section_title": "Question #ec3dcc"
+      },
+      {
+        "id": 239,
+        "original_id": "question_#08314_0",
+        "chapter": "Chapter 7: Quality of Service",
+        "type": "single",
+        "question": "Chức năng nào sau đây của module QoS được thực hiện đầu tiên, mỗi khi router nhận được một gói tin từ một kết nối mạng?",
+        "options": [
+          "Packet Classification",
+          "Packet Scheduling",
+          "Buffer Management",
+          "Congestion Management"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #083146"
+      },
+      {
+        "id": 240,
+        "original_id": "question_#5b58f_0",
+        "chapter": "Chapter 7: Quality of Service",
+        "type": "fill_in_blank",
+        "question": "Mô hình IntServ yêu cầu mỗi router cần được thiết kế và vận hành dựa trên 4 module. Hãy kể tên 4 module đó theo các mô tả:\nModule 1:\n________\ncho phép router giao tiếp với các thành phần khác trên mạng để thiết lập các thông số QoS cho từng\nluồng truyền tin.\nModule 2:\n________\ncho phép xử lý các gói tin theo các hàng đợi khác nhau\nModule 3:\n________\ncho phép router xác định các gói tin IP để đưa vào các hàng đợi phù hợp.\nModule 4:\n________\ncho phép quản trị router",
+        "options": [],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #5b58f3",
+        "correctAnswer": "RSVP Scheduler Classifier Admin"
+      },
+      {
+        "id": 241,
+        "original_id": "question_#e4680_0",
+        "chapter": "Chapter 7: Quality of Service",
+        "type": "single",
+        "question": "Những yếu tố thông tin nào sau đây KHÔNG được sử dụng cho QoS?",
+        "options": [
+          "MPLS EXP bits.",
+          "DSCP bits.",
+          "802.1X",
+          "802.1P"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 2,
+        "section_title": "Question #e46801"
+      },
+      {
+        "id": 242,
+        "original_id": "question_#2dd31_0",
+        "chapter": "Chapter 7: Quality of Service",
+        "type": "multiple",
+        "question": "Mô hình IntServ có tham vọng hỗ trợ QoS theo từng dòng truyền giữa trạm nguồn và trạm đích (per-flow). Các thông số nào trong gói tin IP cho phép xác định dòng truyền này?",
+        "options": [
+          "trường ToS",
+          "địa chỉ IP nguồn và IP đích",
+          "số hiệu cổng (port) TCP/UDP",
+          "trường Protocol"
+        ],
+        "correctAnswerIndices": [1],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #2dd31d"
+      },
+      {
+        "id": 243,
+        "original_id": "question_#53a35_0",
+        "chapter": "Chapter 7: Quality of Service",
+        "type": "single",
+        "question": "Giao thức nào ở tầng Transport phù hợp với dịch vụ voice?",
+        "options": [
+          "UDP",
+          "XNS",
+          "HTTP",
+          "TCP"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #53a355"
+      },
+      {
+        "id": 244,
+        "original_id": "question_#456b7_0",
+        "chapter": "Chapter 7: Quality of Service",
+        "type": "single",
+        "question": "Mô hình QoS nào sau đây tập trung xử lý vấn đề tài nguyên mạng để cung cấp mức độ đảm bảo QoS cao nhất?",
+        "options": [
+          "best-effort",
+          "IntServ",
+          "soft QoS",
+          "DiffServ"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #456b77"
+      },
+      {
+        "id": 245,
+        "original_id": "question_#8e785_0",
+        "chapter": "Chapter 7: Quality of Service",
+        "type": "single",
+        "question": "QoS có thể xử lý vấn đề nào?",
+        "options": [
+          "Kết nối không ổn định",
+          "Thiếu băng thông",
+          "Cuộc gọi thoại trên mạng IP (VoIP) bị rớt (dropped) khi mạng có nhiều người truy nhập",
+          "Vùng nhớ đệm (buffer) lưu trữ gói tin được gửi đến tại một kết nối mạng bị tràn"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 2,
+        "section_title": "Question #8e7856"
+      },
+      {
+        "id": 246,
+        "original_id": "question_#7e342_0",
+        "chapter": "Chapter 7: Quality of Service",
+        "type": "multiple",
+        "question": "Các tính chất nào sau đây của một dòng streaming được gọi là QoS",
+        "options": [
+          "tốc độ trung bình 9.6Mbps",
+          "sử dụng UDP thay cho TCP để tăng tốc độ tryền dữ liệu",
+          "tỷ lệ mất mát gói tin (drop) là 5%",
+          "có thể thay UDP bằng TCP để giảm tỷ lệ mất mát gói tin",
+          "độ lệch xử lý giữa các gói tin (jitter) là 2.5ms",
+          "số lượng gói tin được truyền là 150 gói tin"
+        ],
+        "correctAnswerIndices": [
+          0,
+          2,
+          4
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #7e3423"
+      },
+      {
+        "id": 247,
+        "original_id": "section_0",
+        "chapter": "Chapter 7: Quality of Service",
+        "type": "multiple",
+        "question": "Những thông tin nào được sử dụng cho modul Classifier trong router?",
+        "options": [
+          "Source and Destination Address",
+          "Source or Destination Port",
+          "Advertising Router",
+          "IP TTL"
+        ],
+        "correctAnswerIndices": [
+          0,
+          1
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Section"
+      },
+      {
+        "id": 248,
+        "original_id": "question_#8e770_0",
+        "chapter": "Chapter 7: Quality of Service",
+        "type": "single",
+        "question": "Khẳng định nào sau đây hàm lý mạng hỗ trợ QoS?",
+        "options": [
+          "Hệ thống mạng cần có khả năng mở rộng để đáp ứng nhu cầu của người dùng.",
+          "Dữ liệu gửi qua mạng không bị thay đổi trong quá trình truyền.",
+          "Hệ thống mạng cung cấp được dịch vụ theo các mức độ ổn định cho từng loại lưu lượng khác nhau.",
+          "Dữ liệu truyền qua mạng không bị giám sát bởi một bên thứ ba."
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 2,
+        "section_title": "Question #8e770b"
+      },
+      {
+        "id": 249,
+        "original_id": "question_#7821b_0",
+        "chapter": "Chapter 7: Quality of Service",
+        "type": "single",
+        "question": "Mô hình QoS nào sau đây sử dụng DSCP bits để phân loại các gói tin IP thành 64 possible nhóm dịch vụ?",
+        "options": [
+          "DiffServ",
+          "FIFO",
+          "best-effort",
+          "IntServ"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 0,
+        "section_title": "Question #7821b2"
+      },
+      {
+        "id": 250,
+        "original_id": "question_#72593_0",
+        "chapter": "Chapter 7: Quality of Service",
+        "type": "multiple",
+        "question": "Những yếu tố nào sau đây là các nguyên nhân chính tạo ra các vấn đề QoS?",
+        "options": [
+          "Bad hardware",
+          "Lack of bandwidth",
+          "Latency and jitter",
+          "Copper cables",
+          "Packet loss"
+        ],
+        "correctAnswerIndices": [
+          1,
+          2,
+          4
+        ],
+        "correctAnswerIndex": -1,
+        "section_title": "Question #725939"
+      },
+      {
+        "id": 251,
+        "original_id": "question_#ab8a2_0",
+        "chapter": "Chapter 7: Quality of Service",
+        "type": "single",
+        "question": "Mô hình toán học nào được sử dụng để cài đặt giải pháp điều khiển lưu lượng mạng?\nGợi ý: cũng được cài đặt như một phần của qdisc trong nhân Linux",
+        "options": [
+          "FIFO metering",
+          "Token bucket",
+          "Predictor or stacker",
+          "RED"
+        ],
+        "correctAnswerIndices": [],
+        "correctAnswerIndex": 1,
+        "section_title": "Question #ab8a28"
+      }    
+  ]

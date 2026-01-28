@@ -1,26 +1,5 @@
 [
   {
-    "id": 233,
-    "original_id": "question_#ad7c0_0",
-    "chapter": "Chapter 7: Quality of Service",
-    "type": "multiple",
-    "question": "Để cấu hình PIM-SSM (Source-Specific Multicast) và cho phép người dùng từ các miền khác nhau có\nthể truy cập vào một phiên truyền thông multicast trực tiếp, người quản trị cần thực hiện những hành\nđộng nào sau đây:?\nCâu hỏi QoS\nHomework due Jan 2, 2026 23:59 +07\nCompleted",
-    "options": [
-      "Kích hoạt IGMP trên các kết nối của router.",
-      "Kích hoạt PIM dense mode trên các router.",
-      "Kích hoạt PIM sparse mode trên các router.",
-      "Cấu hình prefix-list cho phép SSM chứa địa chỉ multicast.",
-      "Cấu hình Rendez-Vous Point (RP) cho các router."
-    ],
-    "correctAnswerIndices": [
-      0,
-      2,
-      3
-    ],
-    "correctAnswerIndex": -1,
-    "section_title": "Question #ad7c01"
-  },
-  {
     "id": 234,
     "original_id": "question_#2f52f_0",
     "chapter": "Chapter 7: Quality of Service",
@@ -42,7 +21,7 @@
     "original_id": "question_#10d1b_0",
     "chapter": "Chapter 7: Quality of Service",
     "type": "multiple",
-    "question": "Một hộ giá định sử dụng gói thuê bao đường truyền Internet có tốc độ 10Mbps nhưng bị nghẽn kết nối\nmạng vào giờ xem phim buổi tối. Nhân viên công ty cung cấp đường truyền Internet tư vấn nâng cấp gói\nthuê bao lên 20Mpbs (giá cước thuê bao cũng tăng gấp đôi). Những câu nói nào sau đây của người\nnhân viên kia là đúng?",
+    "question": "Một hộ giá định sử dụng gói thuê bao đường truyền Internet có tốc độ 10Mbps nhưng bị nghẽn kết nối mạng vào giờ xem phim buổi tối. Nhân viên công ty cung cấp đường truyền Internet tư vấn nâng cấp gói thuê bao lên 20Mpbs (giá cước thuê bao cũng tăng gấp đôi). Những câu nói nào sau đây của người nhân viên kia là đúng?",
     "options": [
       "nâng cấp gói thuê bao đảm bảo đường truyền sẽ không bao giờ bị nghẽn mạng nữa",
       "anh chị sử dụng tool đo tốc độ https://speedtest.vn sẽ thấy tốc độ tăng lên gấp đôi",
@@ -116,7 +95,7 @@
     "original_id": "question_#08314_0",
     "chapter": "Chapter 7: Quality of Service",
     "type": "single",
-    "question": "Chức năng nào sau đây của module QoS được thực hiện đầu tiên, mỗi khi router nhận được một gói tin\ntừ một kết nối mạng?",
+    "question": "Chức năng nào sau đây của module QoS được thực hiện đầu tiên, mỗi khi router nhận được một gói tin từ một kết nối mạng?",
     "options": [
       "Packet Classification",
       "Packet Scheduling",
@@ -132,11 +111,12 @@
     "original_id": "question_#5b58f_0",
     "chapter": "Chapter 7: Quality of Service",
     "type": "fill_in_blank",
-    "question": "Mô hình IntServ yêu cầu mỗi router cần được thiết kế và vận hành dựa trên 4 module. Hãy kể tên 4\nmodule đó theo các mô tả:\nModule 1:\nRSVP\ncho phép router giao tiếp với các thành phần khác trên mạng để thiết lập các thông số QoS cho từng\nluồng truyền tin.\nModule 2:\nScheduler\ncho phép xử lý các gói tin theo các hàng đợi khác nhau\nModule 3:\nClassifier\ncho phép router xác định các gói tin IP để đưa vào các hàng đợi phù hợp.\nModule 4:\nAdmin\ncho phép quản trị router",
+    "question": "Mô hình IntServ yêu cầu mỗi router cần được thiết kế và vận hành dựa trên 4 module. Hãy kể tên 4 module đó theo các mô tả:\nModule 1:\n________\ncho phép router giao tiếp với các thành phần khác trên mạng để thiết lập các thông số QoS cho từng\nluồng truyền tin.\nModule 2:\n________\ncho phép xử lý các gói tin theo các hàng đợi khác nhau\nModule 3:\n________\ncho phép router xác định các gói tin IP để đưa vào các hàng đợi phù hợp.\nModule 4:\n________\ncho phép quản trị router",
     "options": [],
     "correctAnswerIndices": [],
     "correctAnswerIndex": -1,
-    "section_title": "Question #5b58f3"
+    "section_title": "Question #5b58f3",
+    "correctAnswer": "RSVP Scheduler Classifier Admin"
   },
   {
     "id": 241,
@@ -158,16 +138,16 @@
     "id": 242,
     "original_id": "question_#2dd31_0",
     "chapter": "Chapter 7: Quality of Service",
-    "type": "single",
-    "question": "Mô hình IntServ có tham vọng hỗ trợ QoS theo từng dòng truyền giữa trạm nguồn và trạm đích (per-\nflow). Các thông số nào trong gói tin IP cho phép xác định dòng truyền này?",
+    "type": "multiple",
+    "question": "Mô hình IntServ có tham vọng hỗ trợ QoS theo từng dòng truyền giữa trạm nguồn và trạm đích (per-flow). Các thông số nào trong gói tin IP cho phép xác định dòng truyền này?",
     "options": [
       "trường ToS",
       "địa chỉ IP nguồn và IP đích",
       "số hiệu cổng (port) TCP/UDP",
       "trường Protocol"
     ],
-    "correctAnswerIndices": [],
-    "correctAnswerIndex": 1,
+    "correctAnswerIndices": [1],
+    "correctAnswerIndex": -1,
     "section_title": "Question #2dd31d"
   },
   {
@@ -191,7 +171,7 @@
     "original_id": "question_#456b7_0",
     "chapter": "Chapter 7: Quality of Service",
     "type": "single",
-    "question": "Mô hình QoS nào sau đây tập trung xử lý vấn đề tài nguyên mạng để cung cấp mức độ đảm bảo QoS\ncao nhất?",
+    "question": "Mô hình QoS nào sau đây tập trung xử lý vấn đề tài nguyên mạng để cung cấp mức độ đảm bảo QoS cao nhất?",
     "options": [
       "best-effort",
       "IntServ",
@@ -280,7 +260,7 @@
     "original_id": "question_#7821b_0",
     "chapter": "Chapter 7: Quality of Service",
     "type": "single",
-    "question": "Mô hình QoS nào sau đây sử dụng DSCP bits để phân loại các gói tin IP thành 64 possible nhóm dịch\nvụ?",
+    "question": "Mô hình QoS nào sau đây sử dụng DSCP bits để phân loại các gói tin IP thành 64 possible nhóm dịch vụ?",
     "options": [
       "DiffServ",
       "FIFO",

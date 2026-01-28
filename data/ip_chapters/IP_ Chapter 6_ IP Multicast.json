@@ -1,17 +1,5 @@
 [
   {
-    "id": 201,
-    "original_id": "question_#f2f55_0",
-    "chapter": "Chapter 6: IP Multicast",
-    "type": "fill_in_blank",
-    "question": "Một mạng private sử dụng firewall tại Gateway để đảm bảo an toàn như trong hình dưới:\nNgười dùng wifi (vùng 'blue') mặc dù thuộc mạng private nhưng không tin cậy. Vì vậy chỉ được phép\ntruy nhập đến các server dịch vụ (vùng DMZ), mà không được truy nhập đến vùng local user (vùng\n'green') và Internet (vùng 'red'). Các cấu hình nào sau đây cần được áp dụng?\nCâu hỏi kiểm tra\nHomework due Dec 26, 2025 23:59 +07\nCompleted",
-    "options": [],
-    "correctAnswerIndices": [],
-    "correctAnswerIndex": -1,
-    "section_title": "Question #f2f55d",
-    "image": "data/images/pdf_201_q.png"
-  },
-  {
     "id": 202,
     "original_id": "question_#2fba3_0",
     "chapter": "Chapter 6: IP Multicast",
@@ -91,7 +79,7 @@
     "original_id": "question_#c1d96_0",
     "chapter": "Chapter 6: IP Multicast",
     "type": "single",
-    "question": "Trong bảng multicast routing của một router có một luật chuyển tiếp gói tin như bên dưới:\nRouter# show ip mroute\nSource          Group           Proto  Input            Output           TTL  Uptime\n*               226.96.1.1      S      enp0s8           enp0s3           1    00:00:05 default\nGói tin IP địa chỉ nguồn 192.168.1.120 gửi đến 226.96.1.1 đi vào router tại kết nối mạng enp0s3 . Điều gì\nsẽ xảy ra?",
+    "question": "Trong bảng multicast routing của một router có một luật chuyển tiếp gói tin như bên dưới:\nRouter# show ip mroute\nSource          Group           Proto  Input            Output           TTL  Uptime\n*               226.96.1.1      S      enp0s8           enp0s3           1    00:00:05 default\nGói tin IP địa chỉ nguồn 192.168.1.120 gửi đến 226.96.1.1 đi vào router tại kết nối mạng enp0s3 . Điều gì sẽ xảy ra?",
     "options": [
       "gói tin multicast được router chuyển tiếp",
       "gói tin multicast không được router chuyển tiếp"
@@ -136,7 +124,7 @@
     "original_id": "question_#8b2ca_0",
     "chapter": "Chapter 6: IP Multicast",
     "type": "single",
-    "question": "Trong bảng multicast routing của một router có một luật chuyển tiếp gói tin như bên dưới:\nRouter# show ip mroute\nSource          Group           Proto  Input            Output           TTL  Uptime\n192.168.1.120   226.96.1.1      S      enp0s8           enp0s3           1    00:00:05 default\nGói tin IP địa chỉ nguồn 192.168.1.125 gửi đến 226.96.1.1 đi vào router tại kết nối mạng enp0s8 . Điều gì\nsẽ xảy ra?",
+    "question": "Trong bảng multicast routing của một router có một luật chuyển tiếp gói tin như bên dưới:\nRouter# show ip mroute\nSource          Group           Proto  Input            Output           TTL  Uptime\n192.168.1.120   226.96.1.1      S      enp0s8           enp0s3           1    00:00:05 default\nGói tin IP địa chỉ nguồn 192.168.1.125 gửi đến 226.96.1.1 đi vào router tại kết nối mạng enp0s8 . Điều gì sẽ xảy ra?",
     "options": [
       "gói tin multicast được router chuyển tiếp sang kết nối enp0s3",
       "gói tin multicast không được router chuyển tiếp"
@@ -150,7 +138,7 @@
     "original_id": "question_#d468a_0",
     "chapter": "Chapter 6: IP Multicast",
     "type": "multiple",
-    "question": "Phiên đấu giá online được thực hiện bằng giải pháp multicast giữa người điều khiển tại máy A và 3\nngười tham gia đấu giá tại các máy X,Y,Z. Các gói tin IP nào được gửi và nhận giữa các trạm A, X, Y, Z?",
+    "question": "Phiên đấu giá online được thực hiện bằng giải pháp multicast giữa người điều khiển tại máy A và 3 người tham gia đấu giá tại các máy X,Y,Z. Các gói tin IP nào được gửi và nhận giữa các trạm A, X, Y, Z?",
     "options": [
       "Gói tin IP có địa chỉ nguồn là A và địa chỉ đích là X,Y,Z",
       "Gói tin IP có địa chỉ nguồn là X và địa chỉ đích là A",
@@ -172,7 +160,7 @@
     "original_id": "question_#704e0_0",
     "chapter": "Chapter 6: IP Multicast",
     "type": "single",
-    "question": "Join và Broadcast là hai pha của một phiên truyền thông multicast, hoạt động tương tự hai pha\n\"subscribe\" và \"publish\" trong dịch vụ mailing list (bạn đăng ký email của mình vào một mailing list sau\nđó sẽ nhận email định kỳ gửi trong mailing list này). Pha Join cho phép trạm nhận tham gia vào một địa\nchỉ IP lớp D. Pha Broadcast cho phép trạm truyền phát bản tin IP vào địa chỉ IP lớp D để gửi đến tất cả\ncác trạm nhận. Như vậy, pha Join luôn được thực hiện trước pha Broadcast?",
+    "question": "Join và Broadcast là hai pha của một phiên truyền thông multicast, hoạt động tương tự hai pha \"subscribe\" và \"publish\" trong dịch vụ mailing list (bạn đăng ký email của mình vào một mailing list sau đó sẽ nhận email định kỳ gửi trong mailing list này). Pha Join cho phép trạm nhận tham gia vào một địa chỉ IP lớp D. Pha Broadcast cho phép trạm truyền phát bản tin IP vào địa chỉ IP lớp D để gửi đến tất cả các trạm nhận. Như vậy, pha Join luôn được thực hiện trước pha Broadcast?",
     "options": [
       "Đúng",
       "Sai"
@@ -186,7 +174,7 @@
     "original_id": "question_#6b6c3_0",
     "chapter": "Chapter 6: IP Multicast",
     "type": "multiple",
-    "question": "Một router OSPF kết nối vào mạng backbone của một ISP (nhà cung cấp kết nối Internet). Các địa chỉ\nmulticast nào sau đây được tự động gán cho router này?",
+    "question": "Một router OSPF kết nối vào mạng backbone của một ISP (nhà cung cấp kết nối Internet). Các địa chỉ multicast nào sau đây được tự động gán cho router này?",
     "options": [
       "224.0.0.1",
       "224.0.0.2",
@@ -211,7 +199,7 @@
     "original_id": "question_#fe4a4_0",
     "chapter": "Chapter 6: IP Multicast",
     "type": "multiple",
-    "question": "Để thực hiện phiên truyền thông multicast, cần cấu hình các địa chỉ IP. Hãy chọn các nhận định đúng\nsau đây",
+    "question": "Để thực hiện phiên truyền thông multicast, cần cấu hình các địa chỉ IP. Hãy chọn các nhận định đúng sau đây",
     "options": [
       "Cần cấu hình địa chỉ IP Multicast thay cho địa chỉ IP unicast thông thường",
       "Sử dụng DHCP để nhận các địa chỉ IP ở máy trạm",
@@ -230,7 +218,7 @@
     "original_id": "question_#8cacf_0",
     "chapter": "Chapter 6: IP Multicast",
     "type": "single",
-    "question": "Để gán địa chỉ IP multicast cho một trạm, sử dụng các phương pháp gán IP thông thường như là\nifconfig , ip addr , dịch vụ DHCP, v.v.. Đúng hay sai?",
+    "question": "Để gán địa chỉ IP multicast cho một trạm, sử dụng các phương pháp gán IP thông thường như là ifconfig , ip addr , dịch vụ DHCP, v.v.. Đúng hay sai?",
     "options": [
       "Đúng",
       "Sai"
@@ -270,7 +258,7 @@
     "original_id": "question_#6da84_0",
     "chapter": "Chapter 6: IP Multicast",
     "type": "fill_in_blank",
-    "question": "Trong bảng multicast routing của một router có một luật chuyển tiếp gói tin như bên dưới:\nRouter# show ip mroute\nSource          Group           Proto  Input            Output           TTL  Uptime\n*               226.96.1.1      S      enp0s8           enp0s3           1    00:00:05 default\nChữ 'S' trong cột 'Proto' thể hiện luật được thiết lập theo cơ chế gì?\nPhần 1: IGMP\nHomework due Dec 26, 2025 23:59 +07\nCompleted",
+    "question": "Trong bảng multicast routing của một router có một luật chuyển tiếp gói tin như bên dưới:\nRouter# show ip mroute\nSource          Group           Proto  Input            Output           TTL  Uptime\n*               226.96.1.1      S      enp0s8           enp0s3           1    00:00:05 default\nChữ 'S' trong cột 'Proto' thể hiện luật được thiết lập theo cơ chế gì?",
     "options": [],
     "correctAnswerIndices": [],
     "correctAnswerIndex": -1,
@@ -299,22 +287,11 @@
     "section_title": "Question #6a8d6d"
   },
   {
-    "id": 217,
-    "original_id": "question_#094ca_0",
-    "chapter": "Chapter 6: IP Multicast",
-    "type": "fill_in_blank",
-    "question": "Một hệ thống multicast đang hoạt động theo sơ đồ như sau:\nS ---> ... ---> R1(10.10.1.1) ---> (10.10.1.2)R2  --> ...\nDòng multicast (S,G) từ nguồn phát S vào group G được gửi đến router R1 là thượng lưu (upstream) trực\ntiếp đến R2 là hạ lưu (downstream). Kết nối R1 - R2 triển khai bằng đường serial địa chỉ 10.10.1.0/24, với\nR1 là 10.10.1.1 và R2 là 10.10.1.2. Dùng tcpdump để log các thông điệp IGMP giữa R1 và R2 như sau:\n~$ sudo tcpdump -i enp0s9 proto \\\\igmp -nvv\ntcpdump: listening on enp0s9, link-type EN10MB (Ethernet), capture size 262144 bytes\n#1 10.10.1.1 > 224.0.0.22: igmp v3 report, 1 group record(s) [gaddr 226.96.1.1 allow { 192.168.1.120 }]\n#2 10.10.1.2 > 224.0.0.22: igmp v3 report, 1 group record(s) [gaddr 226.96.1.1 allow { 192.168.1.120 }]\n#3 10.10.1.2 > 224.0.0.22: igmp v3 report, 1 group record(s) [gaddr 226.96.1.1 allow { 192.168.1.120 }]\n#4 10.10.1.2 > 224.0.0.22: igmp v3 report, 1 group record(s) [gaddr 226.96.1.1 block { 192.168.1.120 }]\n#5 10.10.1.1 > 226.96.1.1: igmp query v3 [max resp time 1.0s] [gaddr 226.96.1.1 { 192.168.1.120 }]\n#6 10.10.1.1 > 224.0.0.22: igmp v3 report, 1 group record(s) [gaddr 226.96.1.1 is_in { 192.168.1.120 }]\n#7 10.10.1.2 > 224.0.0.22: igmp v3 report, 1 group record(s) [gaddr 226.96.1.1 block { 192.168.1.120 }]\n#8 10.10.1.1 > 226.96.1.1: igmp query v3 [max resp time 1.0s] [gaddr 226.96.1.1 { 192.168.1.120 }]\n#9 10.10.1.1 > 226.96.1.1: igmp query v3 [max resp time 1.0s] [gaddr 226.96.1.1 { 192.168.1.120 }]\n#10 10.10.1.1 > 224.0.0.22: igmp v3 report, 1 group record(s) [gaddr 226.96.1.1 is_in { 192.168.1.120 }]\n#11 10.10.1.2 > 224.0.0.22: igmp v3 report, 1 group record(s) [gaddr 226.96.1.1 to_ex { }]\n#12 10.10.1.2 > 224.0.0.22: igmp v3 report, 1 group record(s) [gaddr 226.96.1.1 to_in { }]\n#13 10.10.1.2 > 226.96.1.1: igmp query v3 [max resp time 1.0s] [gaddr 226.96.1.1 { 192.168.1.120 }]\n#14 10.10.1.2 > 224.0.0.22: igmp v3 report, 1 group record(s) [gaddr 226.96.1.1 to_in { }]\n#15 10.10.1.1 > 226.96.1.1: igmp query v3 [max resp time 1.0s] [gaddr 226.96.1.1 { 192.168.1.120 }]\n#16 10.10.1.1 > 224.0.0.22: igmp v3 report, 1 group record(s) [gaddr 226.96.1.1 is_in { 192.168.1.120 }]\n#17 10.10.1.1 > 224.0.0.22: igmp v3 report, 1 group record(s) [gaddr 226.96.1.1 is_in { 192.168.1.121 }]",
-    "options": [],
-    "correctAnswerIndices": [],
-    "correctAnswerIndex": -1,
-    "section_title": "Question #094ca6"
-  },
-  {
     "id": 218,
     "original_id": "question_#094ca_1",
     "chapter": "Chapter 6: IP Multicast",
     "type": "multiple",
-    "question": "Câu hỏi (a):\nChọn các nhận định đúng sau đây về cây multicast (S, G):",
+    "question": "Một hệ thống multicast đang hoạt động theo sơ đồ như sau:\nCâu hỏi (a):\nChọn các nhận định đúng sau đây về cây multicast (S, G):",
     "options": [
       "(S,G) = (192.168.1.120, 226.96.1.1)",
       "(S,G) = (192.168.1.121, 226.96.1.1)",
@@ -326,13 +303,14 @@
       1
     ],
     "correctAnswerIndex": -1,
-    "section_title": "Question #094ca6"
+    "section_title": "Question #094ca6",
+    "image": "data/images/pdf_126_q.png"
   },
   {
     "id": 219,
     "original_id": "question_#094ca_2",
     "chapter": "Chapter 6: IP Multicast",
-    "type": "single",
+    "type": "multiple",
     "question": "Câu hỏi (b):\nChọn các nhận định đúng về cây multicast tại R1 và R2, tại thời điểm sau dòng log #4:",
     "options": [
       "R1 và R2: đang tham gia vào cây",
@@ -340,9 +318,10 @@
       "R2 đang tham gia vào cây, R1 không tham gia",
       "R1 và R2 đều không tham gia vào cây"
     ],
-    "correctAnswerIndices": [],
-    "correctAnswerIndex": 1,
-    "section_title": "Question #094ca6"
+    "correctAnswerIndices": [1],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #094ca6",
+    "image": "data/images/pdf_126_q.png"
   },
   {
     "id": 220,
@@ -363,13 +342,14 @@
       3
     ],
     "correctAnswerIndex": -1,
-    "section_title": "Question #094ca6"
+    "section_title": "Question #094ca6",
+    "image": "data/images/pdf_126_q.png"
   },
   {
     "id": 221,
     "original_id": "question_#094ca_4",
     "chapter": "Chapter 6: IP Multicast",
-    "type": "single",
+    "type": "multiple",
     "question": "Câu hỏi (d):\nChọn các nhận định đúng về chế độ làm việc của R1 và R2 sau thời điểm log cuối cùng:",
     "options": [
       "R1: INCLUDE {1 nguồn phát}",
@@ -377,32 +357,34 @@
       "R2: INCLUDE {1 nguồn phát}",
       "R2: INCLUDE {2 nguồn phát}"
     ],
-    "correctAnswerIndices": [],
-    "correctAnswerIndex": 1,
-    "section_title": "Question #094ca6"
+    "correctAnswerIndices": [1],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #094ca6",
+    "image": "data/images/pdf_126_q.png"
   },
   {
     "id": 222,
     "original_id": "question_#094ca_5",
     "chapter": "Chapter 6: IP Multicast",
-    "type": "single",
-    "question": "Câu hỏi (e):\nHãy chú ý vào các thông điệp IGMP Query, chọn các nhận định đúng về mục đích của các thông điệp\nnày:",
+    "type": "multiple",
+    "question": "Câu hỏi (e):\nHãy chú ý vào các thông điệp IGMP Query, chọn các nhận định đúng về mục đích của các thông điệp này:",
     "options": [
       "R1 muốn biết R2 có đang tham gia cây multicast hay không?",
       "R1 muốn biết những router downstream nào đang tham gia cây multicast",
       "R2 muốn đăng ký tham gia cây multicats với upstream là R1",
       "R muốn thông báo về tình trạng của mình trong cây multicast"
     ],
-    "correctAnswerIndices": [],
-    "correctAnswerIndex": 1,
-    "section_title": "Question #094ca6"
+    "correctAnswerIndices": [1],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #094ca6",
+    "image": "data/images/pdf_126_q.png"
   },
   {
     "id": 223,
     "original_id": "question_#643a9_0",
     "chapter": "Chapter 6: IP Multicast",
     "type": "single",
-    "question": "Một hệ thống multicast đang hoạt động theo sơ đồ như sau:\nS ---> .... ---> R ---> H1\n\\\n\\----> H2\nNguồn phát S đang gửi multicast theo địa chỉ nhóm G đến các trạm nhận, trong đó H1 và H2 là 2 trạm\nnhận có kết nối trực tiếp với router R.\nĐâu là hành động đúng để H1 dừng nhận tin multicast đang phát trong nhóm (S,G)?",
+    "question": "Một hệ thống multicast đang hoạt động theo sơ đồ như sau:\nS ---> .... ---> R ---> H1\n\\\n\\----> H2\nNguồn phát S đang gửi multicast theo địa chỉ nhóm G đến các trạm nhận, trong đó H1 và H2 là 2 trạm nhận có kết nối trực tiếp với router R. Đâu là hành động đúng để H1 dừng nhận tin multicast đang phát trong nhóm (S,G)?",
     "options": [
       "H1 --> R: igmp v3 report, 1 group record(s) [gaddr G to_in { }]",
       "H1 --> 224.0.0.22: igmp v3 report, 1 group record(s) [gaddr G to_ex {(S,G)}]",
@@ -418,7 +400,7 @@
     "original_id": "question_#c6829_0",
     "chapter": "Chapter 6: IP Multicast",
     "type": "single",
-    "question": "Một hệ thống multicast đang hoạt động theo sơ đồ như sau:\nS ---> .... ---> R ---> H1\n\\\n\\----> H2\nNguồn phát S đang gửi multicast theo địa chỉ nhóm G đến các trạm nhận, trong đó có H1. Trạm H2\nmuốn tham gia nhận tin trong phiên multicast này.\nĐâu là hành động đúng của H2:",
+    "question": "Một hệ thống multicast đang hoạt động theo sơ đồ như sau:\nS ---> .... ---> R ---> H1\n\\\n\\----> H2\nNguồn phát S đang gửi multicast theo địa chỉ nhóm G đến các trạm nhận, trong đó có H1. Trạm H2 muốn tham gia nhận tin trong phiên multicast này. Đâu là hành động đúng của H2:",
     "options": [
       "H2 --> 224.0.0.22: igmp v3 report, 1 group record(s) [gaddr G to_ex {(S,G)}]",
       "H2 --> 224.0.0.22: igmp v3 report, 1 group record(s) [gaddr G allow { S }]",
@@ -434,12 +416,12 @@
     "original_id": "question_#3b374_0",
     "chapter": "Chapter 6: IP Multicast",
     "type": "multiple",
-    "question": "Phát biểu nào sau đây về IGMPv3 là đúng?\nPhần 2: PIM",
+    "question": "Phát biểu nào sau đây về IGMPv3 là đúng?",
     "options": [
       "Nó gửi IGMP query có giá trị TTL là 1 đến nhóm các máy trạm hỗ trợ multicast (224.0.0.1).",
-      "Nó chấp nhận IGMP query theo kiểu nhóm xác định (specific) mà được gửi từ trạm muốn tham gia\nnhóm multicast lên router thượng lưu.",
-      "Nó cho phép một trạm gửi đến gateway (có vai trò là \"first hop router\") một IGMP report yêu cầu\nnhận luồng gói tin multicast",
-      "Nó được sử dụng tại cả trạm làm việc và router, để gửi các yêu cầu tham gia hoặc rời khỏi một\nnhóm multicast."
+      "Nó chấp nhận IGMP query theo kiểu nhóm xác định (specific) mà được gửi từ trạm muốn tham gia nhóm multicast lên router thượng lưu.",
+      "Nó cho phép một trạm gửi đến gateway (có vai trò là \"first hop router\") một IGMP report yêu cầu nhận luồng gói tin multicast",
+      "Nó được sử dụng tại cả trạm làm việc và router, để gửi các yêu cầu tham gia hoặc rời khỏi một nhóm multicast."
     ],
     "correctAnswerIndices": [
       2,
@@ -453,12 +435,12 @@
     "original_id": "section_0",
     "chapter": "Chapter 6: IP Multicast",
     "type": "multiple",
-    "question": "Trong PIM SSM (Source Specific), các router sử dụng cơ chế Reverse Path để tự động xác định các\nrouter upstream và gửi PIM Join (yêu cầu gắn cành) để xây dựng cây multicast. Giả sử hệ thống đang sử\ndụng một giao thức routing protocol IGP. Việc tối ưu cây multicast như vậy được diễn ra như thế nào?",
+    "question": "Trong PIM SSM (Source Specific), các router sử dụng cơ chế Reverse Path để tự động xác định các router upstream và gửi PIM Join (yêu cầu gắn cành) để xây dựng cây multicast. Giả sử hệ thống đang sử dụng một giao thức routing protocol IGP. Việc tối ưu cây multicast như vậy được diễn ra như thế nào?",
     "options": [
       "Mở rộng OSPF để tối ưu theo trạng thái đường truyền.",
       "Mở rộng RIP để tối ưu theo đường đi ngắn nhất từ router đến gốc cây multicast.",
       "Tối ưu đường Reverse Path được thiết lập sẵn trong bảng unicast routing.",
-      "PIM là giao thực không phụ thuộc (IGP Protocol Independent) nên không xử lý tối ưu multicast gì\nvới IGP như RIP hay OSPF."
+      "PIM là giao thực không phụ thuộc (IGP Protocol Independent) nên không xử lý tối ưu multicast gì với IGP như RIP hay OSPF."
     ],
     "correctAnswerIndices": [
       2,
@@ -474,11 +456,11 @@
     "type": "multiple",
     "question": "Đâu là một đặc điểm của giao thức PIM sparse mode?",
     "options": [
-      "Nó sử dụng một cơ chế \"cắt cành\" (prun) khi tối ưu cây multicast để hủy bỏ các luồng gói tin\nmulticast đến các giao diện kết nối mạng mà không có các trạm nghe vùng hạ lưu.",
-      "Nó cần xác lập trước một điểm Rendez-Vouse Point (RP) để đóng vai trò là gốc cây multicast khi\nnguồn phát chưa xác định.",
-      "Nó xây dựng cây multicast bằng cách phát tràn (flooding) các dòng multicast lên tất cả các giao\ndiện kết nối mạng.",
+      "Nó sử dụng một cơ chế \"cắt cành\" (prun) khi tối ưu cây multicast để hủy bỏ các luồng gói tin multicast đến các giao diện kết nối mạng mà không có các trạm nghe vùng hạ lưu.",
+      "Nó cần xác lập trước một điểm Rendez-Vouse Point (RP) để đóng vai trò là gốc cây multicast khi nguồn phát chưa xác định.",
+      "Nó xây dựng cây multicast bằng cách phát tràn (flooding) các dòng multicast lên tất cả các giao diện kết nối mạng.",
       "Nó được sử dụng trong môi trường mạng diện rộng, có mật độ trạm nhận thưa thớt",
-      "Nó được thiết kế để áp dụng cho các môi trường mạng mà trạm thu xuất hiện trên mạng con trong\nhệ thống."
+      "Nó được thiết kế để áp dụng cho các môi trường mạng mà trạm thu xuất hiện trên mạng con trong hệ thống."
     ],
     "correctAnswerIndices": [
       1,
@@ -496,7 +478,7 @@
     "options": [
       "PIM hello message dùng để thiết lập quan hệ láng giềng (neighbour) giữa các router PIM.",
       "Phương pháp tràn (flood) và tỉa cành (prun) của PIM dense mode lặp lại ba phút một lần.",
-      "PIM sparse mode xây dựng cây multicast bằng việc gửi tràn (flooding) các lưu lượng multicast\ntrên mọi giao diện kết nối mạng.",
+      "PIM sparse mode xây dựng cây multicast bằng việc gửi tràn (flooding) các lưu lượng multicast trên mọi giao diện kết nối mạng.",
       "PIM spare mode và dense mode đều yêu cầu có Rendez-Vous Point (RP)."
     ],
     "correctAnswerIndices": [
@@ -511,7 +493,7 @@
     "original_id": "question_#b961c_0",
     "chapter": "Chapter 6: IP Multicast",
     "type": "fill_in_blank",
-    "question": "PIM-SM hoạt động dựa trên Rendez-Vous Point (RP). RP có thể được cấu hình tĩnh trên từng router,\nhoặc được tự động cấu hình với phương pháp Auto-RP của Cisco. Phương pháp này sử dụng một well-\nknow multicast IP để các router liên lạc với nhau và chia sẻ thông tin RP. Địa chỉ well-know multicast IP\nđó là gì?",
+    "question": "PIM-SM hoạt động dựa trên Rendez-Vous Point (RP). RP có thể được cấu hình tĩnh trên từng router, hoặc được tự động cấu hình với phương pháp Auto-RP của Cisco. Phương pháp này sử dụng một well-know multicast IP để các router liên lạc với nhau và chia sẻ thông tin RP. Địa chỉ well-know multicast IP đó là gì?",
     "options": [],
     "correctAnswerIndices": [],
     "correctAnswerIndex": -1,
@@ -523,7 +505,7 @@
     "original_id": "question_#f489b_0",
     "chapter": "Chapter 6: IP Multicast",
     "type": "single",
-    "question": "Trong khâu đầu tiên khi xây dựng cây multicast, RP đóng vai trò thay cho nguồn phát chưa được xác\nđịnh. Cú pháp nào được sử dụng để mô tả cây multicast?",
+    "question": "Trong khâu đầu tiên khi xây dựng cây multicast, RP đóng vai trò thay cho nguồn phát chưa được xác định. Cú pháp nào được sử dụng để mô tả cây multicast?",
     "options": [
       "(G,S)",
       "(S,G)",
@@ -539,7 +521,7 @@
     "original_id": "question_#73ce7_0",
     "chapter": "Chapter 6: IP Multicast",
     "type": "single",
-    "question": "Đâu là cơ chế chuẩn, không phụ thuộc vào nhà cung cấp thiết bị, để các router trao đổi thông tin về\nRendez-Vous Point (RP)",
+    "question": "Đâu là cơ chế chuẩn, không phụ thuộc vào nhà cung cấp thiết bị, để các router trao đổi thông tin về Rendez-Vous Point (RP)",
     "options": [
       "RPF",
       "Auto-RP",
@@ -555,7 +537,7 @@
     "original_id": "question_#7ffa2_0",
     "chapter": "Chapter 6: IP Multicast",
     "type": "multiple",
-    "question": "Đại học BKHN thực hiện truyền hình trực tuyến các buổi semina từ hội trường C2 đến toàn bộ các trạm\nlàm việc trong khuôn viên nhà trường. Phương án nào nên được sử dụng?",
+    "question": "Đại học BKHN thực hiện truyền hình trực tuyến các buổi semina từ hội trường C2 đến toàn bộ các trạm làm việc trong khuôn viên nhà trường. Phương án nào nên được sử dụng?",
     "options": [
       "Multicast flooding với cây khung.",
       "PIM dense mode.",
@@ -568,5 +550,26 @@
     ],
     "correctAnswerIndex": -1,
     "section_title": "Question #7ffa23"
+  },
+  {
+    "id": 233,
+    "original_id": "question_#ad7c0_0",
+    "chapter": "Chapter 6: IP Multicast",
+    "type": "multiple",
+    "question": "Để cấu hình PIM-SSM (Source-Specific Multicast) và cho phép người dùng từ các miền khác nhau có thể truy cập vào một phiên truyền thông multicast trực tiếp, người quản trị cần thực hiện những hành động nào sau đây:?",
+    "options": [
+      "Kích hoạt IGMP trên các kết nối của router.",
+      "Kích hoạt PIM dense mode trên các router.",
+      "Kích hoạt PIM sparse mode trên các router.",
+      "Cấu hình prefix-list cho phép SSM chứa địa chỉ multicast.",
+      "Cấu hình Rendez-Vous Point (RP) cho các router."
+    ],
+    "correctAnswerIndices": [
+      0,
+      2,
+      3
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #ad7c01"
   }
 ]
