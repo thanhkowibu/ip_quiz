@@ -1,26 +1,10 @@
 [
   {
-    "id": 137,
-    "original_id": "question_#a2adf_0",
-    "chapter": "Chapter 4. Private Network &",
-    "type": "single",
-    "question": "Khi nhận được một thông điệp iBGP chứa thông tin một prefix, router BGP thực hiện hoạt động nào sau\nđây?\nCâu hỏi đơn\nHomework due Dec 5, 2025 23:59 +07\nCompleted",
-    "options": [
-      "Ghi nhận nội dung và quảng bá prefix này đến router láng giềng tiếp theo",
-      "Cập nhật AS path cho prefix vừa nhận",
-      "Kích hoạt thông tin prefix vừa nhận vào hệ thống các router IGP của AS",
-      "Không làm gì"
-    ],
-    "correctAnswerIndices": [],
-    "correctAnswerIndex": 0,
-    "section_title": "Question #a2adf5"
-  },
-  {
     "id": 138,
     "original_id": "section_0",
     "chapter": "Chapter 4. Private Network &",
     "type": "single",
-    "question": "Nhân viên của công ty X đi công tác, ngồi tại sân bay và kết nối wifi sân bay để truy nhập Internet. Máy\ntính cô ấy được tự động cấu hình địa chỉ IP 10.1.2.123 và Gateway 10.0.0.1. Cô ấy kết nối VPN về công ty\nX theo mô hình host-to-net và nhận được địa chỉ IP 192.168.1.20 với gateway 192.168.1.1. Đồng nghiệp\ncủa cô ấy cũng đang đi công tác và kết nối VPN về công ty, và đang trao đổi (chat) với nhân viên này.\nChương trình chat cho phép hiện địa chỉ IP của người đang \"nói chuyện\" với mình. Hãy chọn các nhận\nđịnh đúng sau đây:",
+    "question": "Nhân viên của công ty X đi công tác, ngồi tại sân bay và kết nối wifi sân bay để truy nhập Internet. Máy tính cô ấy được tự động cấu hình địa chỉ IP 10.1.2.123 và Gateway 10.0.0.1. Cô ấy kết nối VPN về công ty X theo mô hình host-to-net và nhận được địa chỉ IP 192.168.1.20 với gateway 192.168.1.1. Đồng nghiệp của cô ấy cũng đang đi công tác và kết nối VPN về công ty, và đang trao đổi (chat) với nhân viên này. Chương trình chat cho phép hiện địa chỉ IP của người đang \"nói chuyện\" với mình. Hãy chọn các nhận định đúng sau đây:",
     "options": [
       "Địa chỉ IP của người đang nói chuyện bị che bởi gateway 10.0.0.1",
       "Địa chỉ IP của người đang nói chuyện bị che bởi gateway 192.168.1.1",
@@ -32,38 +16,16 @@
     "section_title": "Section"
   },
   {
-    "id": 139,
-    "original_id": "question_#374bc_0",
-    "chapter": "Chapter 4. Private Network &",
-    "type": "fill_in_blank",
-    "question": "Cho sơ đồ kết nối mạng như sau:\nGiải thích:\n1. Gateway G1 có địa chỉ 10.0.0.1 nhận gói tin IP từ nguồn phát (là máy Host có địa chỉ 10.0.0.100) để gửi\nđến một máy trong Network X\n2. Gateway G1 kiểm tra bảng định tuyến của nó và phát hiện next hop là G2 (có địa chỉ 10.0.0.2).",
-    "options": [],
-    "correctAnswerIndices": [],
-    "correctAnswerIndex": -1,
-    "section_title": "Question #374bc0"
-  },
-  {
-    "id": 140,
-    "original_id": "question_#374bc_1",
-    "chapter": "Chapter 4. Private Network &",
-    "type": "fill_in_blank",
-    "question": "3. Địa chỉ next hop (G2) được xác định nằm cùng mạng với địa chỉ nguồn của gói tin IP (10.0.0.0/24).\nNhư vậy là xuất hiện tình huống routing vòng vì trạm nguồn có thể gửi gói tin IP đến ngay G2 mà không\ncần đi qua G1). Kết quả là gói tin ICPM redirect  được gửi đến nguồn phát, thông báo trạm nguồn có\nthể gửi trực tiếp gói tin qua gateway G2 (là đường không bị routing vòng).",
-    "options": [],
-    "correctAnswerIndices": [],
-    "correctAnswerIndex": -1,
-    "section_title": "Question #374bc0"
-  },
-  {
     "id": 141,
     "original_id": "question_#374bc_2",
     "chapter": "Chapter 4. Private Network &",
     "type": "multiple",
-    "question": "4. Gateway G1 vẫn tiếp tục chuyển tiếp gói tin đến G2 theo qui tắc như là next hop.\nHãy chọn các nhận định đúng:",
+    "question": "Cho sơ đồ kết nối mạng như sau:\nGiải thích:\n1. Gateway G1 có địa chỉ 10.0.0.1 nhận gói tin IP từ nguồn phát (là máy Host có địa chỉ 10.0.0.100) để gửi đến một máy trong Network X\n2. Gateway G1 kiểm tra bảng định tuyến của nó và phát hiện next hop là G2 (có địa chỉ 10.0.0.2).\n3. Địa chỉ next hop (G2) được xác định nằm cùng mạng với địa chỉ nguồn của gói tin IP (10.0.0.0/24). Như vậy là xuất hiện tình huống routing vòng vì trạm nguồn có thể gửi gói tin IP đến ngay G2 mà không cần đi qua G1). Kết quả là gói tin ICPM redirect  được gửi đến nguồn phát, thông báo trạm nguồn có thể gửi trực tiếp gói tin qua gateway G2 (là đường không bị routing vòng).\n4. Gateway G1 vẫn tiếp tục chuyển tiếp gói tin đến G2 theo qui tắc như là next hop.\nHãy chọn các nhận định đúng:",
     "options": [
       "quá trình routing vòng vẫn tiếp diễn nhưng gói tin vẫn gửi đến đích",
       "Gói tin trả lời từ Network X về máy Host, đi qua G2 và vòng qua G1 rồi mới đến máy Host",
-      "Máy Host gửi gói tin đến Network X phải chuyển tiếp qua G1 vì tại máy Host khai báo G1 là default\ngateway",
-      "G1 xác định next hop cho gói tin gửi đến Network X là G2 vì nó được khai báo trong bảng routing\ncủa G1"
+      "Máy Host gửi gói tin đến Network X phải chuyển tiếp qua G1 vì tại máy Host khai báo G1 là default gateway",
+      "G1 xác định next hop cho gói tin gửi đến Network X là G2 vì nó được khai báo trong bảng routing của G1"
     ],
     "correctAnswerIndices": [
       0,
@@ -71,22 +33,23 @@
       3
     ],
     "correctAnswerIndex": -1,
-    "section_title": "Question #374bc0"
+    "section_title": "Question #374bc0",
+    "image": "data/images/pdf_18_q.png"
   },
   {
     "id": 142,
     "original_id": "section_0",
     "chapter": "Chapter 4. Private Network &",
     "type": "single",
-    "question": "Trong mô hình VPN sử dụng giải pháp IP-in-IP, điều gì xảy ra khi một gói tin được truyền qua tunnel IP-\nin-IP?",
+    "question": "Trong mô hình VPN sử dụng giải pháp IP-in-IP, điều gì xảy ra khi một gói tin được truyền qua tunnel IP-in-IP?",
     "options": [
       "Gói tin được mã hóa bằng SSL/TLS để đảm bảo an toàn.",
-      "Một header IP mới được thêm vào gói tin gốc, tạo ra một tunnel và chuyển gói tin qua mạng\nInternet.",
+      "Một header IP mới được thêm vào gói tin gốc, tạo ra một tunnel và chuyển gói tin qua mạng Internet.",
       "Một giao thức định tuyến đặc biệt được sử dụng để định tuyến gói tin đến đích.",
       "Gói tin được chuyển trực tiếp từ nguồn đến đích với giải thuật mã họa do tầng ứng dụng qui định."
     ],
-    "correctAnswerIndices": [],
-    "correctAnswerIndex": 1,
+    "correctAnswerIndices": [1],
+    "correctAnswerIndex": -1,
     "section_title": "Section"
   },
   {
@@ -94,12 +57,12 @@
     "original_id": "question_#bc00c_0",
     "chapter": "Chapter 4. Private Network &",
     "type": "single",
-    "question": "Trong mô hình VPN sử dụng giải pháp đường hầm IP-in-IP, các biện pháp bảo mật thông tin nào được\ntriển khai để đảm bảo an toàn cho dữ liệu khi đi qua kết nối đường hầm trên mạng Internet?",
+    "question": "Trong mô hình VPN sử dụng giải pháp đường hầm IP-in-IP, các biện pháp bảo mật thông tin nào được triển khai để đảm bảo an toàn cho dữ liệu khi đi qua kết nối đường hầm trên mạng Internet?",
     "options": [
-      "VPN IP-in-IP có thể sử dụng mô hình chứng thực hai yếu tố để tăng cường lớp bảo mật, yêu cầu\nngười dùng cung cấp cả mật khẩu và mã xác thực để truy cập vào kết nối VPN.",
-      "IP-in-IP trong VPN thường kết hợp mã hóa SSL/TLS và giao thức HMAC để đảm bảo tính toàn vẹn\nvà xác thực của dữ liệu truyền tải qua kết nối đường hầm Internet.",
-      "Việc sử dụng IP-in-IP trong VPN tự nó đã đảm bảo an toàn cho dữ liệu mà không cần các biện\npháp bảo mật bổ sung.",
-      "Phương pháp chính để bảo vệ an toàn dữ liệu là sử dụng mã hóa end-to-end, với các thuật toán\nphức tạp như AES (Advanced Encryption Standard) trong quá trình truyền dữ liệu qua tunnel IP-\nin-IP."
+      "VPN IP-in-IP có thể sử dụng mô hình chứng thực hai yếu tố để tăng cường lớp bảo mật, yêu cầu người dùng cung cấp cả mật khẩu và mã xác thực để truy cập vào kết nối VPN.",
+      "IP-in-IP trong VPN thường kết hợp mã hóa SSL/TLS và giao thức HMAC để đảm bảo tính toàn vẹn và xác thực của dữ liệu truyền tải qua kết nối đường hầm Internet.",
+      "Việc sử dụng IP-in-IP trong VPN tự nó đã đảm bảo an toàn cho dữ liệu mà không cần các biện pháp bảo mật bổ sung.",
+      "Phương pháp chính để bảo vệ an toàn dữ liệu là sử dụng mã hóa end-to-end, với các thuật toán phức tạp như AES (Advanced Encryption Standard) trong quá trình truyền dữ liệu qua tunnel IP-in-IP."
     ],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 1,
@@ -110,7 +73,7 @@
     "original_id": "question_#ca328_0",
     "chapter": "Chapter 4. Private Network &",
     "type": "single",
-    "question": "Lựa chọn đúng hay sai: gói tin DHCPOFFER được máy chủ DHCP gửi cho client để đề xuất địa chỉ IP và\ncác thống số liên quan như gateway, DNS server",
+    "question": "Lựa chọn đúng hay sai: gói tin DHCPOFFER được máy chủ DHCP gửi cho client để đề xuất địa chỉ IP và các thống số liên quan như gateway, DNS server",
     "options": [
       "Đúng",
       "Sai"
@@ -126,10 +89,10 @@
     "type": "multiple",
     "question": "So sánh mô hình Customer Provision VPN và Provider Provision VPN, hãy chọn các phương án đúng:",
     "options": [
-      "Customer Provision VPN và Provider Provision VPN đều tập trung vào việc cung cấp dịch vụ VPN\ncho người dùng.",
-      "Một mô hình nào đặc trưng bởi việc khách hàng tự quản lý và duy trì kết nối VPN của mình, trong\nkhi mô hình kia là do nhà cung cấp dịch vụ quản lý.",
-      "Customer Provision VPN thường sử dụng giao thức routing riêng, trong khi Provider Provision VPN\nthường sử dụng giao thức routing chuẩn.",
-      "Provider Provision VPN được xem xét là giải pháp linh hoạt hơn, trong khi Customer Provision VPN\nthường được chọn để tối ưu hóa hiệu suất."
+      "Customer Provision VPN và Provider Provision VPN đều tập trung vào việc cung cấp dịch vụ VPN cho người dùng.",
+      "Một mô hình nào đặc trưng bởi việc khách hàng tự quản lý và duy trì kết nối VPN của mình, trong khi mô hình kia là do nhà cung cấp dịch vụ quản lý.",
+      "Customer Provision VPN thường sử dụng giao thức routing riêng, trong khi Provider Provision VPN thường sử dụng giao thức routing chuẩn.",
+      "Provider Provision VPN được xem xét là giải pháp linh hoạt hơn, trong khi Customer Provision VPN thường được chọn để tối ưu hóa hiệu suất."
     ],
     "correctAnswerIndices": [
       0,
@@ -162,8 +125,8 @@
     "id": 147,
     "original_id": "question_#6c7c8_0",
     "chapter": "Chapter 4. Private Network &",
-    "type": "single",
-    "question": "Cơ chế nào sau đây có thể hỗ trợ trạm làm việc tìm được đúng DHCP server khi tham gia kết nối vào\nmạng nội bộ để tránh nhận được các thông tin cấu hình sai (chọn các câu trả lời đúng)",
+    "type": "multiple",
+    "question": "Cơ chế nào sau đây có thể hỗ trợ trạm làm việc tìm được đúng DHCP server khi tham gia kết nối vào mạng nội bộ để tránh nhận được các thông tin cấu hình sai (chọn các câu trả lời đúng)",
     "options": [
       "DHCP kết hợp với hệ thống khóa công khai của người sử dụng (PKI)",
       "IP security",
@@ -171,8 +134,8 @@
       "danh sách máy chủ DHCP giả mạo (blacklist DHCP)",
       "Không có cơ chế nào. DHCP được thiết kế không tính đến việc tránh giả mạo máy chủ"
     ],
-    "correctAnswerIndices": [],
-    "correctAnswerIndex": 4,
+    "correctAnswerIndices": [4],
+    "correctAnswerIndex": -1,
     "section_title": "Question #6c7c89"
   },
   {
@@ -180,11 +143,11 @@
     "original_id": "question_#e0e5d_0",
     "chapter": "Chapter 4. Private Network &",
     "type": "multiple",
-    "question": "Một người sử dụng máy tính xách tay kết nối WIFI tại một cửa hàng cafe internet. Sau khi kết nối WIFI,\nngười sử dụng mở trình duyệt Web nhưng không truy nhập được đến trang web www.hust.edu.vn. Người\nsử dụng mở terminal và kiểm tra kết nối đến máy chủ Web bằng cách chạy lệnh ping www.hust.edu.vn\nthì có kết quả như sau:\nping www.hust.edu.vn\nPinging hust.edu.vn [202.191.57.199] with 32 bytes of data:\nReply from 202.191.57.199: bytes=32 time=2ms TTL=60\nReply from 202.191.57.199: bytes=32 time=3ms TTL=60\nReply from 202.191.57.199: bytes=32 time=4ms TTL=60\nTình huống như trên có thể đưa ra các nhận định nào sau đây?",
+    "question": "Một người sử dụng máy tính xách tay kết nối WIFI tại một cửa hàng cafe internet. Sau khi kết nối WIFI, người sử dụng mở trình duyệt Web nhưng không truy nhập được đến trang web www.hust.edu.vn. Người sử dụng mở terminal và kiểm tra kết nối đến máy chủ Web bằng cách chạy lệnh ping www.hust.edu.vn thì có kết quả như sau:\nping www.hust.edu.vn\nPinging hust.edu.vn [202.191.57.199] with 32 bytes of data:\nReply from 202.191.57.199: bytes=32 time=2ms TTL=60\nReply from 202.191.57.199: bytes=32 time=3ms TTL=60\nReply from 202.191.57.199: bytes=32 time=4ms TTL=60\nTình huống như trên có thể đưa ra các nhận định nào sau đây?",
     "options": [
       "Kết nối WIFI không thành công",
-      "ping vào www.hust.edu.vn  thấy thành công, có nghĩa là đường truyền từ máy client đến máy chủ\nweb thông suốt",
-      "Đường truyền thông mà truy nhập trang web www.hust.edu.vn không được thì có thể dịch vụ\ntrang web đang không hoạt động",
+      "ping vào www.hust.edu.vn  thấy thành công, có nghĩa là đường truyền từ máy client đến máy chủ web thông suốt",
+      "Đường truyền thông mà truy nhập trang web www.hust.edu.vn không được thì có thể dịch vụ trang web đang không hoạt động",
       "Có thể dịch vụ DNS đang không hoạt động"
     ],
     "correctAnswerIndices": [
@@ -211,7 +174,7 @@
     "original_id": "question_#bc7e2_0",
     "chapter": "Chapter 4. Private Network &",
     "type": "multiple",
-    "question": "Mạng nội bộ của một tổ chức ở Việt Nam kết nối Internet thông qua một ISP bằng những phương án khả\nthi nào sau đây?",
+    "question": "Mạng nội bộ của một tổ chức ở Việt Nam kết nối Internet thông qua một ISP bằng những phương án khả thi nào sau đây?",
     "options": [
       "như một AS nối vào Internet backbone tier 1",
       "như một prefix của ISP, được ISP export đến các AS backbone Internet",
@@ -231,7 +194,7 @@
     "original_id": "question_#1e85f_0",
     "chapter": "Chapter 4. Private Network &",
     "type": "multiple",
-    "question": "Khi một trạm kết nối vào mạng nội bộ, nó gửi yêu cầu đến DHCP server xin cấp địa chỉ IP. Máy chủ\nDHCP được xác định thế nào để nhận yêu cầu DHCP từ máy trạm?",
+    "question": "Khi một trạm kết nối vào mạng nội bộ, nó gửi yêu cầu đến DHCP server xin cấp địa chỉ IP. Máy chủ DHCP được xác định thế nào để nhận yêu cầu DHCP từ máy trạm?",
     "options": [
       "địa chỉ DHCP server được cấu hình trước trong máy trạm",
       "gói tin DHCP được IP broadcast đến toàn bộ hệ thống mạng nội bộ",
@@ -250,7 +213,7 @@
     "original_id": "section_0",
     "chapter": "Chapter 4. Private Network &",
     "type": "single",
-    "question": "Nhân viên của công ty X đi công tác, ngồi tại sân bay và kết nối wifi sân bay để truy nhập Internet. Máy\ntính cô ấy được tự động cấu hình địa chỉ IP 10.1.2.123 và Gateway 10.0.0.1. Cô ấy kết nối VPN về công ty\nX theo mô hình host-to-net và nhận được địa chỉ IP 192.168.1.20. Đồng nghiệp của cô ấy cũng đang đi\ncông tác và kết nối VPN về công ty, trao đổi (chat) với nhân viên này. Trong chương trình \"chat\", đồng\nnghiệp \"nhìn thấy\" nhân viên đang kết nối tại địa chỉ 10.1.2.123\nNhận định trên đúng hay sai?",
+    "question": "Nhân viên của công ty X đi công tác, ngồi tại sân bay và kết nối wifi sân bay để truy nhập Internet. Máy tính cô ấy được tự động cấu hình địa chỉ IP 10.1.2.123 và Gateway 10.0.0.1. Cô ấy kết nối VPN về công ty X theo mô hình host-to-net và nhận được địa chỉ IP 192.168.1.20. Đồng nghiệp của cô ấy cũng đang đi công tác và kết nối VPN về công ty, trao đổi (chat) với nhân viên này. Trong chương trình \"chat\", đồng nghiệp \"nhìn thấy\" nhân viên đang kết nối tại địa chỉ 10.1.2.123\nNhận định trên đúng hay sai?",
     "options": [
       "Đúng",
       "Sai"
@@ -264,19 +227,18 @@
     "original_id": "question_#92be5_0",
     "chapter": "Chapter 4. Private Network &",
     "type": "multiple",
-    "question": "Cấu hình các Internet gateway và default gateway của một mạng nội bộ được triển khai thế nào?\n(chọn các câu trả lời đúng)\n\nAnswers are displayed within the problem\n",
+    "question": "Cấu hình các Internet gateway và default gateway của một mạng nội bộ được triển khai thế nào?\n(chọn các câu trả lời đúng)",
     "options": [
-      "được qui hoạch dựa theo sơ đồ kết nối mạng nội bộ và phù hợp với kết nối ra Internet ",
+      "được qui hoạch dựa theo sơ đồ kết nối mạng nội bộ và phù hợp với kết nối ra Internet",
       "là một router BGP để nối mạng nội bộ với các mạng bên ngoài",
-      "được thiết lập cấu hình trên từng trạm làm việc ",
-      "có thể được thiếp lập chung cho toàn bộ trạm làm việc của mạng nội bộ thông qua dịch vụ DHCP\n",
+      "được thiết lập cấu hình trên từng trạm làm việc",
+      "có thể được thiếp lập chung cho toàn bộ trạm làm việc của mạng nội bộ thông qua dịch vụ DHCP",
       "luôn đóng vai trò là bước nhảy đầu tiên (First-Hop Router) khi một trạm gửi gói tin IP ra Internet"
     ],
     "correctAnswerIndices": [
       0,
       2,
-      3,
-      4
+      3
     ],
     "correctAnswerIndex": -1,
     "section_title": "Question #92be50"
@@ -286,7 +248,7 @@
     "original_id": "question_#10305_0",
     "chapter": "Chapter 4. Private Network &",
     "type": "single",
-    "question": "DHCP có thể cung cấp cấu hình cố định địa chỉ IP cho máy trạm dựa trên địa chỉ MAC được không?\nCâu hỏi nhiều mục con",
+    "question": "DHCP có thể cung cấp cấu hình cố định địa chỉ IP cho máy trạm dựa trên địa chỉ MAC được không?",
     "options": [
       "Có thể",
       "Không thể"
@@ -300,18 +262,19 @@
     "original_id": "section_0",
     "chapter": "Chapter 4. Private Network &",
     "type": "fill_in_blank",
-    "question": "Trong bài thực hành, hệ thống mạng riêng gồm 2 máy trạm A, B và router R1 được giả lập bằng\nVirtualbox trên máy host và kết nối Internet thông qua máy host bằng NAT. Máy host cũng được được\nkết nối Internet bằng NAT. Sơ đồ kết nối và địa chỉ IP của các trạm như bên dưới (các địa chỉ IP còn\nthiếu cần tự suy luận từ môi trường thực hành).\nCác trạm A và B thực hiện 2 phiên truyền thông ping 8.8.8.8  đồng thời đến Google.\n192.168.1.25\nB ----------\\ 10.0.0.15                    203.162.15.38                    8.8.8.8\nR1 ----------- Host ---------- gateway -------- (Internet) ------- Google\nA ----------/           192.168.1.15\n192.168.1.20",
+    "question": "Trong bài thực hành, hệ thống mạng riêng gồm 2 máy trạm A, B và router R1 được giả lập bằng Virtualbox trên máy host và kết nối Internet thông qua máy host bằng NAT. Máy host cũng được được kết nối Internet bằng NAT. Sơ đồ kết nối và địa chỉ IP của các trạm như bên dưới (các địa chỉ IP còn thiếu cần tự suy luận từ môi trường thực hành).\nCác trạm A và B thực hiện 2 phiên truyền thông ping 8.8.8.8  đồng thời đến Google.\n192.168.1.25\nB ----------\\ 10.0.0.15                    203.162.15.38                    8.8.8.8\nR1 ----------- Host ---------- gateway -------- (Internet) ------- Google\nA ----------/           192.168.1.15\n192.168.1.20",
     "options": [],
     "correctAnswerIndices": [],
     "correctAnswerIndex": -1,
-    "section_title": "Section"
+    "section_title": "Section",
+    "image": "data/images/pdf_20_q.png"
   },
   {
     "id": 156,
     "original_id": "section_1",
     "chapter": "Chapter 4. Private Network &",
     "type": "single",
-    "question": "Câu hỏi (a):\nCùng một thời điểm, các lệnh ping trên máy A và B cùng gửi ICMP Echo request đến máy Google. Máy\nGoogle phân biệt 2 gói tin ICMP này từ A và B bằng cách nào?",
+    "question": "Câu hỏi (a):\nCùng một thời điểm, các lệnh ping trên máy A và B cùng gửi ICMP Echo request đến máy Google. Máy Google phân biệt 2 gói tin ICMP này từ A và B bằng cách nào?",
     "options": [
       "dựa vào địa chỉ đích của gói tin IP",
       "dựa vào địa chỉ nguồn của gói tin IP",
@@ -320,7 +283,8 @@
     ],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 3,
-    "section_title": "Section"
+    "section_title": "Section",
+    "image": "data/images/pdf_20_q.png"
   },
   {
     "id": 157,
@@ -341,14 +305,15 @@
       3
     ],
     "correctAnswerIndex": -1,
-    "section_title": "Section"
+    "section_title": "Section",
+    "image": "data/images/pdf_20_q.png"
   },
   {
     "id": 158,
     "original_id": "section_3",
     "chapter": "Chapter 4. Private Network &",
     "type": "multiple",
-    "question": "Câu hỏi (c):\nCác máy A, B và Host có địa chỉ IP thuộc cùng dải net id là 192.168.1.0/24. Khi máy A gửi gói tin\nbroadcast đến địa chỉ 192.168.1.255 thì các máy nào nhận được?",
+    "question": "Câu hỏi (c):\nCác máy A, B và Host có địa chỉ IP thuộc cùng dải net id là 192.168.1.0/24. Khi máy A gửi gói tin broadcast đến địa chỉ 192.168.1.255 thì các máy nào nhận được?",
     "options": [
       "B",
       "R1",
@@ -361,14 +326,15 @@
       1
     ],
     "correctAnswerIndex": -1,
-    "section_title": "Section"
+    "section_title": "Section",
+    "image": "data/images/pdf_20_q.png"
   },
   {
     "id": 159,
     "original_id": "section_4",
     "chapter": "Chapter 4. Private Network &",
     "type": "single",
-    "question": "Câu hỏi (d):\nGói tin ICMP Echo Reply được gửi Google về đến máy R1 trong các lệnh ping trên máy A và B có địa chỉ\nnguồn và đích là:",
+    "question": "Câu hỏi (d):\nGói tin ICMP Echo Reply được gửi Google về đến máy R1 trong các lệnh ping trên máy A và B có địa chỉ nguồn và đích là:",
     "options": [
       "(nguồn: 8.8.8.8, đích: 192.168.1.20)",
       "(nguồn: 8.8.8.8, đích: 10.0.0.15)",
@@ -377,14 +343,15 @@
     ],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 1,
-    "section_title": "Section"
+    "section_title": "Section",
+    "image": "data/images/pdf_20_q.png"
   },
   {
     "id": 160,
     "original_id": "section_5",
     "chapter": "Chapter 4. Private Network &",
     "type": "single",
-    "question": "Câu hỏi (e):\nGói tin ICMP Echo Reply được gửi Google về đến máy Host trong các lệnh ping trên máy A và B có địa\nchỉ nguồn và đích là:",
+    "question": "Câu hỏi (e):\nGói tin ICMP Echo Reply được gửi Google về đến máy Host trong các lệnh ping trên máy A và B có địa chỉ nguồn và đích là:",
     "options": [
       "(nguồn: 8.8.8.8, đích: 192.168.1.25)",
       "(nguồn: 8.8.8.8, đích: 192.168.1.15)",
@@ -393,18 +360,20 @@
     ],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 1,
-    "section_title": "Section"
+    "section_title": "Section",
+    "image": "data/images/pdf_20_q.png"
   },
   {
     "id": 161,
     "original_id": "question_#8044b_0",
     "chapter": "Chapter 4. Private Network &",
     "type": "fill_in_blank",
-    "question": "Một tổ chức có 2 office ở 2 thành phố khác nhau. Các mạng private của 2 office này kết nối Internet\nbằng 2 NAT gateway R1 và R2. Ngoài ra, 2 office này được cấu hình VPN net-to-net theo kỹ thuật IP\ntunneling. Sơ đồ hệ thống mạng với các địa chỉ IP được mô tả như trong hình bên dưới:\n192.168.1.25/24                                         10.10.1.25/24\nB ----------\\                              /---------- C\nR1 (NAT) ---- Internet ----- R2 (NAT)\nA ----------/                              \\---------- D\n192.168.1.20/24                                         10.10.1.20/24\nĐịa chỉ IP public của R1 và R2 lần lượt là 203.162.0.11 và 210.126.15.34",
+    "question": "Một tổ chức có 2 office ở 2 thành phố khác nhau. Các mạng private của 2 office này kết nối Internet bằng 2 NAT gateway R1 và R2. Ngoài ra, 2 office này được cấu hình VPN net-to-net theo kỹ thuật IP tunneling. Sơ đồ hệ thống mạng với các địa chỉ IP được mô tả như trong hình bên dưới:\n192.168.1.25/24                                         10.10.1.25/24\nB ----------\\                              /---------- C\nR1 (NAT) ---- Internet ----- R2 (NAT)\nA ----------/                              \\---------- D\n192.168.1.20/24                                         10.10.1.20/24\nĐịa chỉ IP public của R1 và R2 lần lượt là 203.162.0.11 và 210.126.15.34",
     "options": [],
     "correctAnswerIndices": [],
     "correctAnswerIndex": -1,
-    "section_title": "Question #8044bc"
+    "section_title": "Question #8044bc",
+    "image": "data/images/pdf_21_q.png"
   },
   {
     "id": 162,
@@ -423,7 +392,8 @@
       2
     ],
     "correctAnswerIndex": -1,
-    "section_title": "Question #8044bc"
+    "section_title": "Question #8044bc",
+    "image": "data/images/pdf_21_q.png"
   },
   {
     "id": 163,
@@ -439,14 +409,15 @@
     ],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 1,
-    "section_title": "Question #8044bc"
+    "section_title": "Question #8044bc",
+    "image": "data/images/pdf_21_q.png"
   },
   {
     "id": 164,
     "original_id": "question_#8044b_3",
     "chapter": "Chapter 4. Private Network &",
     "type": "single",
-    "question": "Câu hỏi (c):\nHacker ngồi ngoài office của công ty đang nghe lén dữ liệu A đang gửi cho C. Hãy cho biết địa chỉ IP\ncủa gói tin mà hacker nhận được",
+    "question": "Câu hỏi (c):\nHacker ngồi ngoài office của công ty đang nghe lén dữ liệu A đang gửi cho C. Hãy cho biết địa chỉ IP của gói tin mà hacker nhận được",
     "options": [
       "nguồn: 10.10.1.25, đích: 192.168.1.20",
       "nguồn: 203.162.0.11, đích: 210.126.15.34",
@@ -455,14 +426,15 @@
     ],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 1,
-    "section_title": "Question #8044bc"
+    "section_title": "Question #8044bc",
+    "image": "data/images/pdf_21_q.png"
   },
   {
     "id": 165,
     "original_id": "question_#8044b_4",
     "chapter": "Chapter 4. Private Network &",
     "type": "multiple",
-    "question": "Câu hỏi (d):\nCác office cung cấp VPN host-to-net để nhân viên có thể làm việc từ xa. Các gateway R1 và R2 có\nthêm vai trò là Access server/VPN server và sử dụng giải pháp IP tunneling. Điều gì xảy ra khi máy X\ntrên Internet truy nhập VPN của office #1 và kết nối đến máy C tại office #2 ?",
+    "question": "Câu hỏi (d):\nCác office cung cấp VPN host-to-net để nhân viên có thể làm việc từ xa. Các gateway R1 và R2 có thêm vai trò là Access server/VPN server và sử dụng giải pháp IP tunneling. Điều gì xảy ra khi máy X trên Internet truy nhập VPN của office #1 và kết nối đến máy C tại office #2 ?",
     "options": [
       "X nhận địa chỉ local 192.168.1.x khi tham gia VPN với office #1",
       "X nhận địa chỉ local 10.10.1.x khi kết nối VPN với C tại office #2",
@@ -475,46 +447,50 @@
       3
     ],
     "correctAnswerIndex": -1,
-    "section_title": "Question #8044bc"
+    "section_title": "Question #8044bc",
+    "image": "data/images/pdf_21_q.png"
   },
   {
     "id": 166,
     "original_id": "question_#8044b_5",
     "chapter": "Chapter 4. Private Network &",
     "type": "single",
-    "question": "Câu hỏi (e):\nA và B chia sẻ một số thư mục và máy in trong mạng nội bộ của office #1. Máy C và D có thể truy nhập\nđến các tài nguyên này thông qua VPN đã thiết lập giữa 2 office hay không?",
+    "question": "Câu hỏi (e):\nA và B chia sẻ một số thư mục và máy in trong mạng nội bộ của office #1. Máy C và D có thể truy nhập đến các tài nguyên này thông qua VPN đã thiết lập giữa 2 office hay không?",
     "options": [
       "Có thể",
       "Không thể"
     ],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 1,
-    "section_title": "Question #8044bc"
+    "section_title": "Question #8044bc",
+    "image": "data/images/pdf_21_q.png"
   },
   {
     "id": 167,
     "original_id": "question_#974d2_0",
     "chapter": "Chapter 4. Private Network &",
     "type": "fill_in_blank",
-    "question": "Trong bài thực hành, một hệ thống mạng riêng gồm máy trạm A và router R1 được giả lập bằng\nVirtualbox trên máy host kết nối Internet (thông qua máy host) bằng NAT. Máy host cũng được kết nối\nInternet bằng NAT. Sơ đồ kết nối và địa chỉ IP của các trạm như bên dưới (các địa chỉ IP còn thiếu cần tự\nsuy luận từ môi trường thực hành).\nMáy A thực hiện một phiên truyền thông ping 8.8.8.8  đến máy chủ Google.\n10.0.0.15                   203.162.15.38                    8.8.8.8\nA -------- R1 ------ Host ------- gateway -------- (Internet) ------- Google\n192.168.1.20         192.168.1.15",
+    "question": "Trong bài thực hành, một hệ thống mạng riêng gồm máy trạm A và router R1 được giả lập bằng Virtualbox trên máy host kết nối Internet (thông qua máy host) bằng NAT. Máy host cũng được kết nối Internet bằng NAT. Sơ đồ kết nối và địa chỉ IP của các trạm như bên dưới (các địa chỉ IP còn thiếu cần tự suy luận từ môi trường thực hành).\nMáy A thực hiện một phiên truyền thông ping 8.8.8.8  đến máy chủ Google.\n10.0.0.15                   203.162.15.38                    8.8.8.8\nA -------- R1 ------ Host ------- gateway -------- (Internet) ------- Google\n192.168.1.20         192.168.1.15",
     "options": [],
     "correctAnswerIndices": [],
     "correctAnswerIndex": -1,
-    "section_title": "Question #974d24"
+    "section_title": "Question #974d24",
+    "image": "data/images/pdf_22_q.png"
   },
   {
     "id": 168,
     "original_id": "question_#974d2_1",
     "chapter": "Chapter 4. Private Network &",
     "type": "single",
-    "question": "Câu hỏi (a):\nĐịa chỉ máy A (máy ảo) và địa chỉ máy Host (máy thật) cùng dải địa chỉ IP private 192.168.1.0/24. Như\nvậy là cấu hình sai phải không?",
+    "question": "Câu hỏi (a):\nĐịa chỉ máy A (máy ảo) và địa chỉ máy Host (máy thật) cùng dải địa chỉ IP private 192.168.1.0/24. Như vậy là cấu hình sai phải không?",
     "options": [
       "Đúng. Cấu hình sai, cần đổi máy A sang địa chỉ IP khác cho phù hợp",
       "Không phải. Hệ thống vẫn chạy với cấu hình này"
     ],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 1,
-    "section_title": "Question #974d24"
+    "section_title": "Question #974d24",
+    "image": "data/images/pdf_22_q.png"
   },
   {
     "id": 169,
@@ -530,14 +506,15 @@
     ],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 2,
-    "section_title": "Question #974d24"
+    "section_title": "Question #974d24",
+    "image": "data/images/pdf_22_q.png"
   },
   {
     "id": 170,
     "original_id": "question_#974d2_3",
     "chapter": "Chapter 4. Private Network &",
     "type": "single",
-    "question": "Câu hỏi (c):\nGói tin ICMP Echo Request được gửi từ lệnh ping trên máy A đến máy Google có địa chỉ nguồn và đích\nlà:",
+    "question": "Câu hỏi (c):\nGói tin ICMP Echo Request được gửi từ lệnh ping trên máy A đến máy Google có địa chỉ nguồn và đích là:",
     "options": [
       "(nguồn: 192.168.1.20, đích: 10.0.0.15)",
       "(nguồn: 10.0.0.15, đích: 8.8.8.8)",
@@ -546,14 +523,15 @@
     ],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 2,
-    "section_title": "Question #974d24"
+    "section_title": "Question #974d24",
+    "image": "data/images/pdf_22_q.png"
   },
   {
     "id": 171,
     "original_id": "question_#974d2_4",
     "chapter": "Chapter 4. Private Network &",
     "type": "single",
-    "question": "Câu hỏi (d):\nGói tin ICMP Echo Request nhận được trên máy Google trong lệnh ping từ máy A có địa chỉ nguồn và\nđích là:",
+    "question": "Câu hỏi (d):\nGói tin ICMP Echo Request nhận được trên máy Google trong lệnh ping từ máy A có địa chỉ nguồn và đích là:",
     "options": [
       "(nguồn: 203.162.15.38, đích: 8.8.8.8)",
       "(nguồn: 192.168.1.15, đích: 8.8.8.8)",
@@ -562,7 +540,8 @@
     ],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 0,
-    "section_title": "Question #974d24"
+    "section_title": "Question #974d24",
+    "image": "data/images/pdf_22_q.png"
   },
   {
     "id": 172,
@@ -578,14 +557,15 @@
     ],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 3,
-    "section_title": "Question #974d24"
+    "section_title": "Question #974d24",
+    "image": "data/images/pdf_22_q.png"
   },
   {
     "id": 173,
     "original_id": "question_#974d2_6",
     "chapter": "Chapter 4. Private Network &",
     "type": "single",
-    "question": "Câu hỏi (f):\nGói tin ICMP Echo Reply gửi từ Google trong lệnh ping từ máy A khi đi đến Internet gateway có địa chỉ\nnguồn và đích là:",
+    "question": "Câu hỏi (f):\nGói tin ICMP Echo Reply gửi từ Google trong lệnh ping từ máy A khi đi đến Internet gateway có địa chỉ nguồn và đích là:",
     "options": [
       "(nguồn: 8.8.8.8, đích: 192.168.1.15)",
       "(nguồn: 8.8.8.8, đích: 192.168.1.20)",
@@ -594,14 +574,15 @@
     ],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 3,
-    "section_title": "Question #974d24"
+    "section_title": "Question #974d24",
+    "image": "data/images/pdf_22_q.png"
   },
   {
     "id": 174,
     "original_id": "question_#974d2_7",
     "chapter": "Chapter 4. Private Network &",
     "type": "single",
-    "question": "Câu hỏi (g):\nGói tin ICMP Echo Reply gửi từ Google trong lệnh ping từ máy A khi đi đến máy R1 có địa chỉ nguồn và\nđích là:",
+    "question": "Câu hỏi (g):\nGói tin ICMP Echo Reply gửi từ Google trong lệnh ping từ máy A khi đi đến máy R1 có địa chỉ nguồn và đích là:",
     "options": [
       "(nguồn: 8.8.8.8, đích: 192.168.1.20)",
       "(nguồn: 8.8.8.8, đích: 203.162.15.38)",
@@ -610,14 +591,15 @@
     ],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 2,
-    "section_title": "Question #974d24"
+    "section_title": "Question #974d24",
+    "image": "data/images/pdf_22_q.png"
   },
   {
     "id": 175,
     "original_id": "question_#974d2_8",
     "chapter": "Chapter 4. Private Network &",
     "type": "single",
-    "question": "Câu hỏi (h):\nGói tin ICMP Echo Reply gửi từ Google trong lệnh ping từ máy A khi đi đến máy A có địa chỉ nguồn và\nđích là:",
+    "question": "Câu hỏi (h):\nGói tin ICMP Echo Reply gửi từ Google trong lệnh ping từ máy A khi đi đến máy A có địa chỉ nguồn và đích là:",
     "options": [
       "(nguồn: 8.8.8.8, đích: 203.162.15.38)",
       "(nguồn: 8.8.8.8, đích: 192.168.1.20)",
@@ -626,6 +608,94 @@
     ],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 1,
-    "section_title": "Question #974d24"
+    "section_title": "Question #974d24",
+    "image": "data/images/pdf_22_q.png"
+  },
+  {
+    "id": 176,
+    "original_id": "section_0",
+    "chapter": "Chapter 4. Private Network &",
+    "type": "fill_in_blank",
+    "question": "Cho sơ đồ kết nối mạng như sau:\nCác hoạt động đánh số từ 1 đến 4 trên hình vẽ là kết quả của lệnh ping sau đây:\n$ ping 203.162.0.11\nPING 203.162.0.11 56(84) bytes of data.\nFrom 10.0.0.1: icmp_seq=1 Redirect Host(New nexthop: a.b.c.d)\n64 bytes from 203.162.0.11: icmp_seq=1 ttl=62 time=4.24 ms\nFrom 10.0.0.1: icmp_seq=1 Redirect Host(New nexthop: a.b.c.d)\n64 bytes from 203.162.0.11: icmp_seq=2 ttl=62 time=5.05 ms\nHãy lựa chọn Đúng/Sai cho các nhận định sau đây:",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "Section",
+    "image": "data/images/pdf_176_q.png"
+  },
+  {
+    "id": 177,
+    "original_id": "section_1",
+    "chapter": "Chapter 4. Private Network &",
+    "type": "single",
+    "question": "Câu hỏi (a):\nGiá trị của a.b.c.d là 10.0.0.1",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 1,
+    "section_title": "Section",
+    "image": "data/images/pdf_176_q.png"
+  },
+  {
+    "id": 178,
+    "original_id": "section_2",
+    "chapter": "Chapter 4. Private Network &",
+    "type": "single",
+    "question": "Câu hỏi (b):\nGói tin số 1 trong hình vẽ là ICMP Echo Request có địa chỉ nguồn là 10.0.0.100 và đích là 203.162.0.11",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Section",
+    "image": "data/images/pdf_176_q.png"
+  },
+  {
+    "id": 179,
+    "original_id": "section_3",
+    "chapter": "Chapter 4. Private Network &",
+    "type": "single",
+    "question": "Câu hỏi (c):\nGói tin số 4 và gói tin số 1 là giống nhau",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Section",
+    "image": "data/images/pdf_176_q.png"
+  },
+  {
+    "id": 180,
+    "original_id": "section_4",
+    "chapter": "Chapter 4. Private Network &",
+    "type": "single",
+    "question": "Câu hỏi (d):\nGói tin ICMP Echo Reply không được thể hiện trên hình vẽ",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Section",
+    "image": "data/images/pdf_176_q.png"
+  },
+  {
+    "id": 181,
+    "original_id": "section_5",
+    "chapter": "Chapter 4. Private Network &",
+    "type": "single",
+    "question": "Câu hỏi (e):\nICMP Redirect thông báo đang có hiện tượng routing đi vòng. Để loại bỏ tình huống này, cần thêm một gateway nữa vào routing table của máy Host",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Section",
+    "image": "data/images/pdf_176_q.png"
   }
 ]

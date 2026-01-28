@@ -258,16 +258,16 @@
     "section_title": "Question #e87685"
   },
   {
-    "id": 136,
-    "original_id": "question_#a2adf5_0",
-    "chapter": "Chapter 3. Inter-AS",
+    "id": 137,
+    "original_id": "question_#a2adf_0",
+    "chapter": "Chapter 4. Private Network &",
     "type": "single",
-    "question": "Khi nhận được một thông điệp iBGP chứa thông tin một prefix, router BGP thực hiện hoạt động nào sau đây?",
+    "question": "Khi nhận được một thông điệp iBGP chứa thông tin một prefix, router BGP thực hiện hoạt động nào sau\nđây?\nCâu hỏi đơn\nHomework due Dec 5, 2025 23:59 +07\nCompleted",
     "options": [
       "Ghi nhận nội dung và quảng bá prefix này đến router láng giềng tiếp theo",
       "Cập nhật AS path cho prefix vừa nhận",
-      "192.168.4.2",
-      "Kích hoạt thông tin prefix vừa nhận vào hệ thống các router IGP của AS"
+      "Kích hoạt thông tin prefix vừa nhận vào hệ thống các router IGP của AS",
+      "Không làm gì"
     ],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 0,
