@@ -1,17 +1,6 @@
 [
   {
     "id": 122,
-    "original_id": "section_0",
-    "chapter": "Chapter 3. Inter-AS",
-    "type": "fill_in_blank",
-    "question": "Câu hỏi BGP",
-    "options": [],
-    "correctAnswerIndices": [],
-    "correctAnswerIndex": -1,
-    "section_title": "Section"
-  },
-  {
-    "id": 123,
     "original_id": "question_#dce42_0",
     "chapter": "Chapter 3. Inter-AS",
     "type": "single",
@@ -27,7 +16,7 @@
     "section_title": "Question #dce42a"
   },
   {
-    "id": 124,
+    "id": 123,
     "original_id": "question_#0def6_0",
     "chapter": "Chapter 3. Inter-AS",
     "type": "single",
@@ -44,16 +33,28 @@
     "section_title": "Question #0def66"
   },
   {
-    "id": 125,
+    "id": 124,
     "original_id": "f65603_0",
     "chapter": "Chapter 3. Inter-AS",
     "type": "fill_in_blank",
-    "question": "4.0/4.0 points (ungraded)\n----------------------------------------\nInternet Backbone\n----------------------------------------\n|                |\n[ ISP #1 ]       [ ISP #2 ]\n\\     /\n\\   /                       |--------------\n----------- R -------- (peer) ------- |   other net\nOSPF net   |                         |--------------\n-------------\nMột hệ thống kết nối như mô tả trong hình trên. Internet backbone kết nối BGP với tổng prefix là 77000.\nRouter R là gateway duy nhất (default gateway) của network OSPF để kết nối ra ngoài. Do yêu cầu\nđảm bảo kết nối, R sử dụng 2 đường kết nối Internet thông qua 2 ISP (ISP #1 và ISP #2). Router R cũng\nkết nối peering với một network khác có 8000 prefix. Biết rằng số prefix trong mạng OSPF là 3000.\nHãy tính số đường đi (route) được xây dựng trong control plan của router R.\nDữ liệu các đường đi từ control plan trong router R được lựa chọn và quyết định đưa xuống data plan.\nHãy tính số đường đi trong data plan (routing table) của R.",
+    "question": "4.0/4.0 points (ungraded)\n----------------------------------------\nInternet Backbone\n----------------------------------------\n|                |\n[ ISP #1 ]       [ ISP #2 ]\n\\     /\n\\   /                       |--------------\n----------- R -------- (peer) ------- |   other net\nOSPF net   |                         |--------------\n-------------\nMột hệ thống kết nối như mô tả trong hình trên. Internet backbone kết nối BGP với tổng prefix là 77000.\nRouter R là gateway duy nhất (default gateway) của network OSPF để kết nối ra ngoài. Do yêu cầu đảm bảo kết nối, R sử dụng 2 đường kết nối Internet thông qua 2 ISP (ISP #1 và ISP #2). Router R cũng kết nối peering với một network khác có 8000 prefix. Biết rằng số prefix trong mạng OSPF là 3000.\na. Hãy tính số đường đi (route) được xây dựng trong control plan của router R.\nb. Dữ liệu các đường đi từ control plan trong router R được lựa chọn và quyết định đưa xuống data plan.\nHãy tính số đường đi trong data plan (routing table) của R.",
     "options": [],
     "correctAnswerIndices": [],
     "correctAnswerIndex": -1,
     "section_title": "f65603",
-    "correctAnswer": "165000"
+    "correctAnswer": "165000 88000"
+  },
+  {
+    "id": 124,
+    "original_id": "f65603_0",
+    "chapter": "Chapter 3. Inter-AS",
+    "type": "fill_in_blank",
+    "question": "4.0/4.0 points (ungraded)\n----------------------------------------\nInternet Backbone\n----------------------------------------\n|                |\n[ ISP #1 ]       [ ISP #2 ]\n\\     /\n\\   /                       |--------------\n----------- R -------- (peer) ------- |   other net\nOSPF net   |                         |--------------\n-------------\nMột hệ thống kết nối như mô tả trong hình trên. Internet backbone kết nối BGP với tổng prefix là 84000.\nRouter R là gateway duy nhất (default gateway) của network OSPF để kết nối ra ngoài. Do yêu cầu đảm bảo kết nối, R sử dụng 2 đường kết nối Internet thông qua 2 ISP (ISP #1 và ISP #2). Router R cũng kết nối peering với một network khác có 8000 prefix. Biết rằng số prefix trong mạng OSPF là 5000.\na. Hãy tính số đường đi (route) được xây dựng trong control plan của router R.\nb. Dữ liệu các đường đi từ control plan trong router R được lựa chọn và quyết định đưa xuống data plan.\nHãy tính số đường đi trong data plan (routing table) của R.",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "f65603",
+    "correctAnswer": "181000 97000"
   },
   {
     "id": 126,
@@ -81,7 +82,7 @@
     "original_id": "question_#33799_0",
     "chapter": "Chapter 3. Inter-AS",
     "type": "single",
-    "question": "Thông tin nào để một router BGP quyết định loan báo thông điệp BGP đến router BGP láng giềng bằng\niBGP hay eBGP?",
+    "question": "Thông tin nào để một router BGP quyết định loan báo thông điệp BGP đến router BGP láng giềng bằng iBGP hay eBGP?",
     "options": [
       "dựa vào địa chỉ IP láng giềng",
       "dựa vào số hiệu cổng kết nối",
@@ -137,7 +138,7 @@
     "original_id": "question_#30c68_0",
     "chapter": "Chapter 3. Inter-AS",
     "type": "single",
-    "question": "Tương tự như RIP, quá trình loan báo thông tin một prefix bằng các thông điệp BGP cho phép xác định\nđường định tuyến đến network này qua các AS bằng cách đi ngược lại đường loan báo thông điệp BGP.\nNhư vậy có thể khẳng định đường routing từ một router đến một prefix chính là bằng đường đi qua các\nrouter BGP ngược theo thứ tự thông điệp BGP đã đi qua?",
+    "question": "Tương tự như RIP, quá trình loan báo thông tin một prefix bằng các thông điệp BGP cho phép xác định đường định tuyến đến network này qua các AS bằng cách đi ngược lại đường loan báo thông điệp BGP.\nNhư vậy có thể khẳng định đường routing từ một router đến một prefix chính là bằng đường đi qua các router BGP ngược theo thứ tự thông điệp BGP đã đi qua?",
     "options": [
       "đúng",
       "sai"
@@ -188,7 +189,7 @@
     "original_id": "question_#a4ad3_0",
     "chapter": "Chapter 3. Inter-AS",
     "type": "multiple",
-    "question": "--------------------------\nInternet Backbone\n--------------------------\n|\n[ ISP ]\n|\n------------------\nMy backbone\n------------------\nTrong kết nối các backbone Internet với BGP, giả sử APNIC cung cấp block địa chỉ 221.30.48.0 -\n221.30.63.255 cho ISP. ISP lại cung cấp block địa chỉ 221.30.48.0 - 221.30.50.255 cho My backbone.\nNhững prefix nào được quảng bá lên hệ thống BGP?",
+    "question": "--------------------------\nInternet Backbone\n--------------------------\n|\n[ ISP ]\n|\n------------------\nMy backbone\n------------------\nTrong kết nối các backbone Internet với BGP, giả sử APNIC cung cấp block địa chỉ 221.30.48.0 - 221.30.63.255 cho ISP. ISP lại cung cấp block địa chỉ 221.30.48.0 - 221.30.50.255 cho My backbone.\nNhững prefix nào được quảng bá lên hệ thống BGP?",
     "options": [
       "3 block /24",
       "một block /23 và một block /24",
@@ -209,7 +210,7 @@
     "original_id": "question_#74b58_0",
     "chapter": "Chapter 3. Inter-AS",
     "type": "single",
-    "question": "Nhận định sau đúng hay sai? Trong kiến trúc kết nối BGP, các router láng giềng eBGP kết nối trực tiếp.\nCòn các router iBGP có thể kết nối không trực tiếp.",
+    "question": "Nhận định sau đúng hay sai? Trong kiến trúc kết nối BGP, các router láng giềng eBGP kết nối trực tiếp. Còn các router iBGP có thể kết nối không trực tiếp.",
     "options": [
       "Đúng",
       "Sai"
@@ -255,5 +256,21 @@
     "correctAnswerIndices": [],
     "correctAnswerIndex": 2,
     "section_title": "Question #e87685"
+  },
+  {
+    "id": 136,
+    "original_id": "question_#a2adf5_0",
+    "chapter": "Chapter 3. Inter-AS",
+    "type": "single",
+    "question": "Khi nhận được một thông điệp iBGP chứa thông tin một prefix, router BGP thực hiện hoạt động nào sau đây?",
+    "options": [
+      "Ghi nhận nội dung và quảng bá prefix này đến router láng giềng tiếp theo",
+      "Cập nhật AS path cho prefix vừa nhận",
+      "192.168.4.2",
+      "Kích hoạt thông tin prefix vừa nhận vào hệ thống các router IGP của AS"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Question #a2adf5"
   }
 ]
