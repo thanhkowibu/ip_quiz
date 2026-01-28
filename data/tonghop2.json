@@ -1,0 +1,1682 @@
+[
+  {
+    "id": 1,
+    "question": "Vai trò của văn hóa kinh doanh:",
+    "options": [
+      "Là điều kiện đẩy mạnh kinh doanh quốc tế.",
+      "Là phương thức phát triển sản xuất kinh doanh bền vững;",
+      "Là nguồn lực phát triển kinh doanh;",
+      "Tất cả các phương án A, B, C"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Tất cả các phương án A, B, C"
+  },
+  {
+    "id": 2,
+    "question": "Văn hóa doanh nghiệp - đó là hệ thống những quan niệm, những ..., những giá trị, và những khuôn mẫu hành vi được tất cả các thành viên trong doanh nghiệp nhận thức và thực hiện theo.",
+    "options": [
+      "triết lý",
+      "quy tắc",
+      "biểu tượng",
+      "hệ thống các giá trị"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "biểu tượng"
+  },
+  {
+    "id": 3,
+    "question": "Đâu không phải là đặc trưng của văn hóa:",
+    "options": [
+      "Tính khách quan",
+      "Tính sao chép",
+      "Tính tập quán",
+      "Tính kế thừa"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Tính sao chép"
+  },
+  {
+    "id": 4,
+    "question": "Môn học Văn hóa kinh doanh và tinh thần khởi nghiệp nghiên cứu:",
+    "options": [
+      "Những vấn đề lý luận cơ bản của Văn hóa kinh doanh Việt Nam",
+      "Tất cả các phương án A, B, C",
+      "Những vấn đề lý luận cơ bản về văn hóa, văn hóa kinh doanh",
+      "Những vấn đề lý luận cơ bản về các biểu hiện của văn hóa kinh doanh: Triết lý KD, đạo đức KD, Văn hóa doanh nhân, Văn hóa doanh nghiệp."
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Tất cả các phương án A, B, C"
+  },
+  {
+    "id": 5,
+    "question": "Theo Edward Taylor \"Văn hóa là một tổng thể phức tạp bao gồm ..., tín ngưỡng, nghệ thuật, đạo đức, luật pháp, tập quán, vàcác khả năng và các thói quen khác mà con người tuân thủ với tư cách là một thành viên của xã hội\".",
+    "options": [
+      "kiến thức",
+      "hiểu biết",
+      "truyền thống",
+      "tri thức"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "tri thức"
+  },
+  {
+    "id": 6,
+    "question": "Theo Edward Taylor \"Văn hóa là một tổng thể phức tạp bao gồm tri thức, tín ngưỡng, nghệ thuật, ..., tập quán, và các khả năng và các thói quen khác mà con người tuân thủ với tư cách là một thành viên của xã hội\".",
+    "options": [
+      "luật pháp",
+      "đạo đức",
+      "đạo đức, luật pháp",
+      "luật pháp, truyền thống"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "đạo đức, luật pháp"
+  },
+  {
+    "id": 7,
+    "question": "Văn hóa có các chức năng căn bản là:",
+    "options": [
+      "Chức năng nhận thức, chức năng giáo dục, chức năng giải trí",
+      "Chức năng thẩm mỹ, chức năng nhận thức",
+      "Chức năng giáo dục, chức năng thẩm mỹ, chức năng giải trí",
+      "Chức năng nhận thức, chức năng giáo dục, chức năng thẩm mỹ, chức năng giải trí"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Chức năng nhận thức, chức năng giáo dục, chức năng thẩm mỹ, chức năng giải trí"
+  },
+  {
+    "id": 8,
+    "question": "Văn hóa doanh nhân là hệ thống các giá trị, các chuẩn mực, các quan niệm và hành vi của doanh nhân trong quá trình",
+    "options": [
+      "quản trị doanh nghiệp",
+      "lãnh đạo và quản lý doanh nghiệp",
+      "tuyển dụng và đãi ngộ nhân viên",
+      "giao tiếp với khách hàng"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "lãnh đạo và quản lý doanh nghiệp"
+  },
+  {
+    "id": 9,
+    "question": "Đây là đặc trưng nào của văn hóa: \"Cùng một sự việc nhưng có thể được hiểu và đánh giá khác nhau bởi những người có nền văn hóa khác nhau\"",
+    "options": [
+      "Văn hóa có thể học hỏi",
+      "VH mang tính chủ quan",
+      "VH mang tính khách quan",
+      "VH mang tính cộng đồng"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "VH mang tính chủ quan"
+  },
+  {
+    "id": 10,
+    "question": "Văn hoá là tổng hoà những giá trị vật chất và tinh thần cũng như các phương thức tạo ra chúng,... sử dụng các giá trị đó vì sự tiến bộ của loài người và sự truyền thụ các giá trị đó từ thế hệ này sang thế hệ khác",
+    "options": [
+      "kỹ năng",
+      "tiềm năng",
+      "thói quen",
+      "tập quán"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "kỹ năng"
+  },
+  {
+    "id": 11,
+    "question": "Phát biểu nào dưới đậy không chính xác:",
+    "options": [
+      "Văn hóa là mục tiêu của sự phát triển xã hội",
+      "Văn hóa là linh hồn và hệ điều tiết của phát triển",
+      "Văn hóa là động lực của sự phát triển",
+      "Văn hóa không quyết định đến việc hình thành và hoàn thiện nhân cách của con người"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Văn hóa không quyết định đến việc hình thành và hoàn thiện nhân cách của con người"
+  },
+  {
+    "id": 12,
+    "question": ".......... làm cho mỗi con người trong xã hội có sự giống nhau và làm cho các xã hội khác biệt nhau.",
+    "options": [
+      "Thẩm mỹ",
+      "Văn hoá",
+      "Ngôn ngữ",
+      "Giáo dục"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Văn hoá"
+  },
+  {
+    "id": 13,
+    "question": "Theo Edgar H.Shein, văn hoá doanh nghiệp có thể chia thành mấy cấp độ (level) khác nhau?",
+    "options": [
+      "1 cấp độ",
+      "2 cấp độ",
+      "3 cấp độ",
+      "4 cấp độ"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "3 cấp độ"
+  },
+  {
+    "id": 14,
+    "question": "Văn hóa kinh doanh do .... tạo ra trong quá trình kinh doanh.",
+    "options": [
+      "Chủ thể kinh doanh",
+      "Tổ chức sản xuất",
+      "Sản phẩm văn hóa",
+      "Hoạt động kinh doanh"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Chủ thể kinh doanh"
+  },
+  {
+    "id": 15,
+    "question": "Văn hóa kinh doanh có thể được ví như:",
+    "options": [
+      "Văn hóa của nghề kinh doanh",
+      "Văn hóa của cộng đồng kinh doanh",
+      "Văn hóa của giới doanh nhân",
+      "Tất cả phương án A, B, C"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Tất cả phương án A, B, C"
+  },
+  {
+    "id": 16,
+    "question": "Triết lý kinh doanh là những ............, ............mà doanh nghiệp, doanh nhân và các chủ thể kinh doanh theo đuổi trong quá trình hoạt động của doanh nghiệp",
+    "options": [
+      "quan niệm/ hành vi",
+      "hành vi/ chuẩn mực",
+      "giá trị/ chuẩn mực",
+      "quan niệm/ giá trị"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "quan niệm/ giá trị"
+  },
+  {
+    "id": 17,
+    "question": "Đâu không phải là các yếu tố cơ bản khi xây dựng sứ mệnh:",
+    "options": [
+      "Hệ thống các giá trị",
+      "Lịch sử",
+      "Những năng lực đặc biệt",
+      "Môi trường của doanh nghiệp (tổ chức)"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Hệ thống các giá trị"
+  },
+  {
+    "id": 18,
+    "question": "\"Chất lượng và sáng tạo là người bạn đồng hành, xem khách hàng là trung tâm và cam kết đáp ứng mọi nhu cầu của khách hàng\" là triết lý kinh doanh của công ty nào?",
+    "options": [
+      "Vinamilk",
+      "TH true milk",
+      "Vingroup",
+      "Viettel"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Vinamilk"
+  },
+  {
+    "id": 19,
+    "question": "Sản phẩm của doanh nghiệp bị lỗi thời so với sản phẩm của đối thủ cạnh tranh là bị tác động bởi yếu tố môi trường",
+    "options": [
+      "Văn hóa-Xã hội",
+      "Kinh tế",
+      "Chính trị-pháp luật",
+      "Công nghệ"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Công nghệ"
+  },
+  {
+    "id": 20,
+    "question": ".............của doanh nghiệp xác định thái độ của doanh nghiệp với những đối tượng hữu quan như: người sở hữu, những nhà quản trị, đội ngũ những người lao động, khách hàng và các đối tượng khác có liên quan đến hoạt động của doanh nghiệp.",
+    "options": [
+      "Hệ thống các giá trị",
+      "Mục tiêu",
+      "Chiến lược",
+      "Sứ mệnh"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Hệ thống các giá trị"
+  },
+  {
+    "id": 21,
+    "question": "\"Động lực chính cho phát triển bền vững là đổi mới sáng tạo dựa trên tiếp thu tinh hoa tri thức của nhân loại, kế thừa những thành quả đã đạt được và phát huy những giá trị truyền thống tốt đẹp\" là nội dung của cặp giá trị cốt lõi nào của Trường Đại học Bách Khoa Hà Nội?",
+    "options": [
+      "Chất lượng - hiệu quả",
+      "Tận tuỵ - cống hiến",
+      "Tài năng cá nhân - trí tuệ tập thể",
+      "Kế thừa - Sáng tạo"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Kế thừa - Sáng tạo"
+  },
+  {
+    "id": 22,
+    "question": "Triết lý kinh doanh 3P: Profit - Product - People có ý nghĩa là:",
+    "options": [
+      "Bán sản phẩm mà doanh nghiệp có để thu lợi nhuận",
+      "Bán sản phẩm mà khách hàng cần",
+      "Làm chủ công nghệ, sản xuất sản phẩm dẫn dụ và định hướng khách hàng",
+      "Khách hàng là trung tâm"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Bán sản phẩm mà doanh nghiệp có để thu lợi nhuận"
+  },
+  {
+    "id": 23,
+    "question": "Triết lý kinh doanh 3P: People - Profit - Product có ý nghĩa là:",
+    "options": [
+      "Bán sản phẩm mà doanh nghiệp có để thu lợi nhuận",
+      "Bán sản phẩm mà khách hàng cần",
+      "Làm chủ công nghệ, sản xuất sản phẩm dẫn dụ và định hướng khách hàng",
+      "Sản phẩm là trung tâm"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Bán sản phẩm mà khách hàng cần"
+  },
+  {
+    "id": 24,
+    "question": "Triết lý kinh doanh 3P: Product - Profit - People có ý nghĩa là:",
+    "options": [
+      "Bán sản phẩm mà doanh nghiệp có để thu lợi nhuận",
+      "Bán sản phẩm mà khách hàng cần",
+      "Làm chủ công nghệ, sản xuất sản phẩm dẫn dụ và định hướng khách hàng",
+      "Sản phẩm là trung tâm"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Sản phẩm là trung tâm"
+  },
+  {
+    "id": 25,
+    "question": "..........là tập hợp các nguyên tắc, chuẩn mực có tác dụng điều chỉnh, đánh giá, hướng dẫn và kiểm soát hành vi của các chủ thể kinh doanh",
+    "options": [
+      "Đạo đức",
+      "Đạo đức kinh doanh",
+      "Trách nhiệm XH",
+      "Trách nhiệm đạo đức"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Đạo đức kinh doanh"
+  },
+  {
+    "id": 26,
+    "question": "Trách nhiệm XH là nghĩa vụ mà một DN phải thực hiện đối với XH. Có trách nhiệm với XH là tăng đến mức tối đa các ......... và giảm tới mức tối thiểu các......... đối với XH.",
+    "options": [
+      "Tác động tiêu cực, hậu quả tiêu cực",
+      "Tác động tích cực, hậu quả tiêu cực",
+      "Tác động tích cực, trách nhiệm",
+      "Nghĩa vụ kinh tế, hậu quả tiêu cực"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Tác động tích cực, hậu quả tiêu cực"
+  },
+  {
+    "id": 27,
+    "question": "Để bảo vệ người tiêu dùng, Liên hợp quốc đã có bản hướng dẫn gửi Chính phủ các nước thành viên. Hãy cho biết người tiêu dùng có bao nhiêu quyền?",
+    "options": [
+      "3 quyền",
+      "4 quyền",
+      "6 quyền",
+      "8 quyền"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "8 quyền"
+  },
+  {
+    "id": 28,
+    "question": "Các trách nhiệm xã hội của Doanh nghiệp bao gồm:",
+    "options": [
+      "Nghĩa vụ Kinh tế, Pháp lý, Đạo đức, Nhân văn",
+      "Nghĩa vụ Lợi Nhuận, Pháp lý, Đạo đức, Nhân văn",
+      "Nghĩa vụ Lợi Nhuận, Pháp lý, Chính trị, Nhân văn",
+      "Nghĩa vụ Kinh tế, Chính trị, Đao đức, Nhân văn"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Nghĩa vụ Kinh tế, Pháp lý, Đạo đức, Nhân văn"
+  },
+  {
+    "id": 29,
+    "question": "..............trong trách nhiệm xã hội của Doanh nghiệp là những hành vi và hoạt động mà xã hội mong đợi ở Doanh nghiệp nhưng không được quy định trong hệ thống luật pháp, không được thể chế hoá thành luật. Nó chỉ những hành vi và hoạt động mà các thành viên của tổ chức, cộng đồng và xã hội mong đợi từ phía các doanh nghiệp.",
+    "options": [
+      "Nghĩa vụ pháp lý",
+      "Nghĩa vụ đạo đức",
+      "Nghĩa vụ nhân văn",
+      "Nghĩa vụ kinh tế"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Nghĩa vụ đạo đức"
+  },
+  {
+    "id": 30,
+    "question": "............. trong trách nhiệm xã hội của Doanh nghiệp là những hành vi và hoạt động thể hiện những mong muốn đóng góp và hiến dâng cho cộng đồng và xã hội. Select one:",
+    "options": [
+      "Nghĩa vụ kinh tế",
+      "Nghĩa vụ nhân văn",
+      "Nghĩa vụ pháp lý",
+      "Nghĩa vụ đạo đức"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Nghĩa vụ nhân văn"
+  },
+  {
+    "id": 31,
+    "question": "............ trong trách nhiệm XH của Doanh nghiệp là phải sản xuất hàng hoá và dịch vụ mà Xã hội cần và muốn; tìm kiếm nguồn cung ứng lao động; phát hiện những nguồn tài nguyên mới, thúc đẩy tiến bộ công nghệ; phát triển sản phẩm; phân phối các nguồn sản xuất hàng hoá, dịch vụ trong hệ thống xã hội. Select one:",
+    "options": [
+      "Nghĩa vụ đạo đức",
+      "Nghĩa vụ kinh tế",
+      "Nghĩa vụ nhân văn",
+      "Nghĩa vụ pháp lý"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Nghĩa vụ kinh tế"
+  },
+  {
+    "id": 32,
+    "question": "Các thông điệp quảng cáo hạt nêm của một số hãng như \"Ngon từ thịt, ngọt từ xương\" hoặc \"100% làm từ thịt thăn và xương ống\" khiến bao nhiêu bà nội trợ yên tâm vì có sản phẩm thay thế bột ngọt. Tuy nhiên trong thành phần các loại hạt nêm này thịt và xương chỉ có 2% còn lại là tinh bột sắn, bột bắp, muối, đường, chất điều vị.... Như vậy các quảng cáo này đã vi phạm đạo đức về:",
+    "options": [
+      "Quảng cáo phóng đại, thổi phồng về sản phẩm vượt quá mực hợp lý.",
+      "Quảng cáo có hình thức khó coi, phi thị hiếu.",
+      "Quảng cáo nhằm vào đối tượng nhạy cảm.",
+      "Lôi kéo, nài ép người tiêu dùng ràng buộc với sản phẩm."
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Quảng cáo phóng đại, thổi phồng về sản phẩm vượt quá mực hợp lý."
+  },
+  {
+    "id": 33,
+    "question": "Hành vi hai hay nhiều công ty hoạt động trong cùng một thị trường thoả thuận về việc bán hàng hoá ở cùng một mức giá đã định được gọi là:",
+    "options": [
+      "Bán phá giá",
+      "Cố định giá",
+      "Phân chi thị trường",
+      "Dèm pha hàng hoá của đối thủ cạnh tranh."
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Bán phá giá"
+  },
+  {
+    "id": 34,
+    "question": "Các vấn đề đạo đức liên quan đến người lao động bao gồm:",
+    "options": [
+      "Cáo giác, bí mật kinh doanh, lạm dụng tài sản công, phá hoại ngầm",
+      "Cáo giác, bí mật kinh doanh, bán phá giá, phá hoại ngầm",
+      "Phân chia thị trường, bí mật kinh doanh, lạm dụng tài sản công, phá hoại ngầm",
+      "Cáo giác, phân chia thị trường, bí mật kinh doanh, phá hoại ngầm"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Cáo giác, bí mật kinh doanh, lạm dụng tài sản công, phá hoại ngầm"
+  },
+  {
+    "id": 35,
+    "question": "Doanh nhân là ____",
+    "options": [
+      "Người làm kinh doanh",
+      "Người tham gia quản lý doanh nghiệp",
+      "Người tham gia tổ chức, điều hành hoạt động của doanh nghiệp",
+      "Cả 3 đáp án trên"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Cả 3 đáp án trên"
+  },
+  {
+    "id": 36,
+    "question": "Nhận định \"giản dị, khiêm tốn\" đề cập đến ___ của doanh nhân.",
+    "options": [
+      "Phong cách",
+      "Tố chất",
+      "Đạo đức",
+      "Năng lực"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Phong cách"
+  },
+  {
+    "id": 37,
+    "question": "Năng lực của doanh nhân là",
+    "options": [
+      "Khả năng làm việc trí óc và thể lực",
+      "Trình độ chuyên môn",
+      "Khả năng lãnh đạo, kỹ năng quản lý",
+      "Tất cả các phương án trên đúng"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Tất cả các phương án trên đúng"
+  },
+  {
+    "id": 38,
+    "question": "Tim Cook, CEO của Tập đoàn Apple, nổi tiếng là người đòi hỏi nhân viên khắt khe, tái định hình cách nhân viên Apple làm việc và suy nghĩ. Nhận định này cho biết khía cạnh nào trong văn hóa doanh nhân của ông?",
+    "options": [
+      "Năng lực",
+      "Tố chất",
+      "Đạo đức",
+      "Phong cách"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Phong cách"
+  },
+  {
+    "id": 39,
+    "question": "Phương án nào dưới đây là tiêu chuẩn đánh giá văn hóa doanh nhân",
+    "options": [
+      "Tiêu chuẩn về sức khỏe",
+      "Tiêu chuẩn về đạo đức",
+      "Tiêu chuẩn về trình độ năng lực",
+      "Tất cả các phương án trên đúng"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Tất cả các phương án trên đúng"
+  },
+  {
+    "id": 40,
+    "question": "Theo lý thuyết về phong cách quản trị của Rensis Likert, người quản lý theo phong cách nào có ít niềm tin vào cấp dưới nhất và thực hiện chuyên quyền cao độ",
+    "options": [
+      "Quyết đoán áp chế",
+      "Quyết đoán nhân từ",
+      "Tham vấn",
+      "Tham gia theo nhóm"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Quyết đoán áp chế"
+  },
+  {
+    "id": 41,
+    "question": "Ông Nguyễn Đức Tài, Chủ tịch HDQT Công ty cổ phần Thế giới di động đặt toàn bộ niềm tin vào các nhân viên. Ông đồng ý ký khống các hợp đồng thuê mặt bằng bán lẻ để nhân viên có thể ký hợp đồng với chủ nhà nhanh chóng và thuận lợi. Người đứng đầu các bộ phận tự phân công và chịu trách nhiệm về công việc của nhóm. Theo lý thuyết về phong cách lãnh đạo của Rensis Likert, ông Nguyễn Đức Tài có phong cách lãnh đạo",
+    "options": [
+      "Quyết đoán áp chế",
+      "Quyết đoán nhân từ",
+      "Tham vấn",
+      "Tham gia theo nhóm"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Tham gia theo nhóm"
+  },
+  {
+    "id": 42,
+    "question": "Theo lý thuyết về phong cách lãnh đạo của Goleman, khi người quản lý đòi hỏi cấp dưới tuân thủ tức thì các mệnh lệnh và rất coi trọng thành tích, sáng kiến, người quản lý áp dụng phong cách lãnh đạo nào dưới đây:",
+    "options": [
+      "Gia trưởng",
+      "Ủy thác",
+      "Bằng hữu",
+      "Dân chủ"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Gia trưởng"
+  },
+  {
+    "id": 43,
+    "question": "Tại Tập đoàn Google, toàn bộ công việc được giải quyết theo nhóm, thông tin được trao đổi nhanh chóng và chính xác để các nhóm có thể giải quyết các vấn đề hiệu quả nhất. Theo lý thuyết về phong cách lãnh đạo của Goleman, người quản lý của tập đoàn áp dụng phong cách lãnh đạo nào dưới đây",
+    "options": [
+      "Gia trưởng",
+      "Ủy thác",
+      "Bằng hữu",
+      "Dân chủ"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Dân chủ"
+  },
+  {
+    "id": 44,
+    "question": "Văn hóa doanh nghiệp theo định nghĩa của E.N. Schein.",
+    "options": [
+      "Toàn bộ các nét đẹp kinh doanh được doanh nghiệp tạo ra, chọn lọc và lưu truyền qua các thế hệ, được sử dụng và biểu hiện trong hoạt động kinh doanh và trở thành bản sắc kinh doanh của DN",
+      "Các quan niệm, nghi thức tạo thành nền móng sâu xa của doanh nghiệp",
+      "Tổng thế những thủ pháp và quy tắc giải quyết các vấn đề thích ứng bên ngoài và thống nhất bên trong các nhân viên",
+      "Cả A và B đều đúng"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "Tổng thế những thủ pháp và quy tắc giải quyết các vấn đề thích ứng bên ngoài và thống nhất bên trong các nhân viên"
+  },
+  {
+    "id": 45,
+    "question": "\"Trung Nguyên: Tạo dựng thương hiệu hàng đầu qua việc mang đến cho người thưởng thức cà phê nguồn cảm hứng sáng tạo và niềm tự hào trong phong cách Trung Nguyên đậm đà văn hóa Việt.\" là biểu hiện cho cấp độ nào trong các cấp độ biểu hiện văn hóa doanh nghiệp?",
+    "options": [
+      "Cấp độ 4",
+      "Cấp độ 2",
+      "Cấp độ 3",
+      "Cấp độ 1"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Cấp độ 2"
+  },
+  {
+    "id": 46,
+    "question": "Nhân tố bên trong ảnh hưởng tới văn hóa doanh nghiệp.",
+    "options": [
+      "Ngành nghề hoạt động",
+      "Thể chế xã hội",
+      "Xu hướng phát triển kinh doanh",
+      "Khách hàng và đối tác"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Ngành nghề hoạt động"
+  },
+  {
+    "id": 47,
+    "question": "Giai đoạn văn hóa doanh nghiệp có đặc điểm người sáng lập không còn giữ vai trò thống trị hoặc chuyển giao quyền lực cho ít nhất 2 thế hệ. Doanh nghiệp có nhiều biến đổi và có thể xuất hiện những xung đột giữa phe bảo thủ và phe đổi mới.",
+    "options": [
+      "Giai đoạn non trẻ",
+      "Giai đoạn giữa",
+      "Giai đoạn chín mồi và nguy cơ suy thoái",
+      "Giai đoạn phá sản"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Giai đoạn giữa"
+  },
+  {
+    "id": 48,
+    "question": "Mô hình xây dựng văn hóa doanh nghiệp mang đặc điểm nhấn mạnh nhiệm vụ và thứ bậc.",
+    "options": [
+      "Mô hình văn hóa gia đình",
+      "Mô hình tháp Eiffel",
+      "Mô hình tên lửa được định hướng",
+      "Mô hình lò ấp trứng"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Mô hình tháp Eiffel"
+  },
+  {
+    "id": 49,
+    "question": "Game Axie Infinity- game NFT rất thành công mới đây có thể coi là một mô hình thành công về:",
+    "options": [
+      "Kinh doanh nhỏ",
+      "Khởi ngiệp",
+      "Kinh doanh theo chuỗi",
+      "Startup"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Startup"
+  },
+  {
+    "id": 50,
+    "question": "Tính sáng tạo của một dự án khởi nghiệp thường gắn với đặc điểm:",
+    "options": [
+      "Mới",
+      "Hữu ích",
+      "Phù hợp",
+      "Tất cả các đặc điểm trên"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Tất cả các đặc điểm trên"
+  },
+  {
+    "id": 51,
+    "question": "Khái niệm \"cái gì còn lại khi tất cả những thứ đã mất đi , cái đó là văn hóa\" là của ai:",
+    "options": [
+      "E. Heriot",
+      "E.Herior",
+      "E. Horiet D.",
+      "Hero"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "E. Heriot"
+  },
+  {
+    "id": 52,
+    "question": "Văn hoá là tổng hoà những ...............cũng như các phương thức tạo ra chúng, kỹ năng sử dụng các giá trị đó vì sự tiến bộ của loài người và sự truyền thụ các giá trị đó tù thế hệ này sang thế hệ khác",
+    "options": [
+      "Tôn giáo và tín ngưỡng",
+      "Giá trị và thái độ",
+      "Giá trị vật chất và tinh thần",
+      "Phong tục và tập quán"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "Giá trị vật chất và tinh thần"
+  },
+  {
+    "id": 53,
+    "question": "Đâu không phải là đặc trưng của văn hóa",
+    "options": [
+      "Tính Tập Quán",
+      "Tính Cổ Truyền",
+      "Tính Khách Quan",
+      "TÍnh kế thừa"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Tính Cổ Truyền"
+  },
+  {
+    "id": 54,
+    "question": "\"Triết lý kinh doanh là những tư tưởng chỉ đạo, định hướng, dẫn dắt hoạt động kinh doanh\". Đây là khái niệm triết lý kinh doanh theo:",
+    "options": [
+      "Cách thức hình thành",
+      "Yếu tố cấu thành",
+      "Vai trò",
+      "Nội dung"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "Vai trò"
+  },
+  {
+    "id": 55,
+    "question": "\"Triết lý kinh doanh là những tư tưởng phản ánh thực tiễn kinh doanh qua con đường trải nghiệm, suy ngẫm và khái quát hóa của các chủ thể kinh doanh và chỉ dẫn cho hoạt động kinh doanh\". Khái niệm triết lý kinh doanh này phân loại theo:",
+    "options": [
+      "Cách thức hình thành",
+      "Yếu tố cấu thành",
+      "Vai trò",
+      "Nội dung"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Cách thức hình thành"
+  },
+  {
+    "id": 56,
+    "question": ".........là phương châm hành động, là hệ giá trị và mục tiêu của Doanh nghiệp chỉ dẫn cho hoạt động kinh doanh",
+    "options": [
+      "Văn hoá",
+      "Triết lý kinh doanh",
+      "Tầm nhìn",
+      "Sứ mệnh"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Triết lý kinh doanh"
+  },
+  {
+    "id": 57,
+    "question": "Nội dung của Triết lý kinh doanh bao gồm:",
+    "options": [
+      "Sứ mệnh",
+      "Mục tiêu",
+      "Hệ thống các giá trị",
+      "Tất cả các đáp án trên"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Tất cả các đáp án trên"
+  },
+  {
+    "id": 58,
+    "question": "______________ xác định mục đích của tổ chức và trả lời câu hỏi: \"lý do tồn tại, hoạt động của tổ chức là gì?\"",
+    "options": [
+      "Mục tiêu",
+      "Đánh giá",
+      "Sứ mệnh",
+      "Chiến lược"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "Sứ mệnh"
+  },
+  {
+    "id": 59,
+    "question": "........của trường Đại học Bách Khoa HN là: \"Trở thành một đại học nghiên cứu hàng đầu khu vực với nòng cốt là kỹ thuật và công nghệ, tác động quan trọng vào phát triển nền kinh tế tri thức và góp phần gìn giữ an ninh, hòa bình đất nước, tiên phong trong hệ thống giáo dục đại học Việt Nam\".",
+    "options": [
+      "Sứ mệnh",
+      "Tầm nhìn",
+      "Chiến lược",
+      "Mục tiêu"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Tầm nhìn"
+  },
+  {
+    "id": 60,
+    "question": "Đặc điểm của một bản tuyên bố sứ mệnh là:",
+    "options": [
+      "Tập trung vào thị trường chứ không phải sản phẩm cụ thể",
+      "Cụ thể",
+      "Khả thi",
+      "Tất cả các đáp án trên"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Tất cả các đáp án trên"
+  },
+  {
+    "id": 61,
+    "question": "Hệ thống các giá trị xác định ....... của doanh nghiệp với những người sở hữu, nhà quản trị, người lao động, khách hàng và các đối tượng hữu quan khác",
+    "options": [
+      "Hành vi",
+      "Nguyên tắc",
+      "Thái độ",
+      "Ứng xử"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "Thái độ"
+  },
+  {
+    "id": 62,
+    "question": "Nội dung nào sau đây không phải là nội dung của hệ thống các giá trị trong Doanh nghiêp:",
+    "options": [
+      "Nguyên tắc của Doanh nghiệp",
+      "Những năng lực đặc biệt",
+      "Lòng trung thành và sự cam kết",
+      "Phong cách ứng xử, giao tiếp"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Những năng lực đặc biệt"
+  },
+  {
+    "id": 63,
+    "question": "Ba yếu tố trong mô hình 3 P là:",
+    "options": [
+      "Sản phẩm, Lợi nhuận, Con người",
+      "Sản phẩm, Lợi nhuận, Phân phối",
+      "Lợi nhuận, Phân phối, Con người",
+      "Lợi nhuận, Phân phối, Giá"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Sản phẩm, Lợi nhuận, Con người"
+  },
+  {
+    "id": 64,
+    "question": "\"Triết lý kinh doanh là phương châm hành động, là hệ giá trị và mục tiêu của doanh nghiệp chỉ dẫn cho hoạt động kinh doanh\". Khái niệm triết lý kinh doanh này phân loại theo: Select one:",
+    "options": [
+      "Ý nghĩa",
+      "Yếu tố cấu thành",
+      "Vai trò",
+      "Cách thức hình thành"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Yếu tố cấu thành"
+  },
+  {
+    "id": 65,
+    "question": "\"......... là chương trình hành động tổng quát giúp đạt được các mục tiêu\" Select one:",
+    "options": [
+      "Kế hoạch tác nghiệp",
+      "Kế hoạch đa dụng",
+      "Kế hoạch đơn dụng",
+      "Chiến lược"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Chiến lược"
+  },
+  {
+    "id": 66,
+    "question": "Triết lý kinh doanh được tạo lập theo: Select one:",
+    "options": [
+      "Mong muốn của nhân viên",
+      "Mong muốn của người quản lý, sự thảo luận của lãnh đạo với nhân viên",
+      "Mong muốn của người quản lý",
+      "Mong muốn của khách hàng"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Mong muốn của người quản lý, sự thảo luận của lãnh đạo với nhân viên"
+  },
+  {
+    "id": 67,
+    "question": ".............. là kết quả mong muốn đạt được của một cá nhân hay tổ chức nào đó sau khi thực hiện các kế hoạch trong tương lai Select one:",
+    "options": [
+      "Sứ mệnh",
+      "Chiến lược",
+      "Mục tiêu",
+      "Hệ thống các giá trị"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "Mục tiêu"
+  },
+  {
+    "id": 68,
+    "question": "Ai là người có nghĩa vụ thực hiện các giá trị đã được xây dựng trong doanh nghiệp: Select one:",
+    "options": [
+      "Các thành viên trong doanh nghiệp",
+      "Nhà cung cấp",
+      "Nhân viên",
+      "Khách hàng"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Các thành viên trong doanh nghiệp"
+  },
+  {
+    "id": 69,
+    "question": "Đâu là một công cụ thường được sử dụng để xác định các điểm mạnh, điểm yếu, cơ hội và nguy cơ cho tổ chức trong việc xây dựng chiến lược. Select one:",
+    "options": [
+      "SWOT",
+      "Sơ đồ Gantt",
+      "KPI (các chỉ số đánh giá kết quả)",
+      "SMART"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "SWOT"
+  },
+  {
+    "id": 70,
+    "question": "Xây dựng chiến lược và lập kế hoạch giúp nhà quản trị những lợi ích chính sau đây, ngoại trừ: Select one:",
+    "options": [
+      "Tập trung vào các mục tiêu và chính sách của doanh nghiệp",
+      "Phối hợp các nguồn lực hữu hiệu hơn",
+      "Tư duy tốt các tình huống quản trị",
+      "Sẵn sàng né tránh những thay đổi của môi trường bên ngoài"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Sẵn sàng né tránh những thay đổi của môi trường bên ngoài"
+  },
+  {
+    "id": 71,
+    "question": "Doanh nghiệp sử dụng chiến lược chi phí thấp thường không chú trọng: Select one:",
+    "options": [
+      "Phân phối",
+      "Gia công, chế biến",
+      "Chuyển giao, sao chép công nghệ",
+      "Đầu tư cho nghiên cứu và phát triển"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Đầu tư cho nghiên cứu và phát triển"
+  },
+  {
+    "id": 72,
+    "question": "Quản lý theo mục tiêu (MBO) có nhiều đặc trưng ngoại trừ trường hợp nào sau đây? Select one:",
+    "options": [
+      "Phần thưởng được đưa ra dựa trên cơ sở những tiến bộ đó.",
+      "Các mục tiêu về kết quả cụ thể do nhân viên và những người quản lý cùng xác định.",
+      "Các mục tiêu thường chung chung, mơ hồ.",
+      "Những tiến bộ của quá trình đạt được mục tiêu được xem xét định kỳ."
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Các mục tiêu về kết quả cụ thể do nhân viên và những người quản lý cùng xác định."
+  },
+  {
+    "id": 73,
+    "question": "Những người tiêu dùng ở Hà Nội có thu nhập cao quan tâm tới việc mua những sản phẩm an toàn cho sức khỏe hơn là giá cả, điều này thể hiện doanh nghiệp bị tác động bởi yếu tố Select one:",
+    "options": [
+      "Kinh tế",
+      "Phong cách lối sống",
+      "Dân số",
+      "Khách hàng"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Khách hàng"
+  },
+  {
+    "id": 74,
+    "question": "\"Với tinh thần gần gũi với thiên nhiên, luôn nỗ lực hết mình để nuôi dưỡng thể chất và tâm hồn Việt bằng cách cung cấp những sản phẩm thực phẩm có nguồn gốc từ thiên nhiên - sạch, an toàn, tươi ngon và bổ dưỡng\" là tuyên bố sứ mệnh của doanh nghiệp nào? Select one:",
+    "options": [
+      "Ba Vì Milk",
+      "TH true milk",
+      "Vinamilk",
+      "Nuti food"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "TH true milk"
+  },
+  {
+    "id": 75,
+    "question": "Khả năng gây ảnh hưởng, định hướng và điều khiển người khác thực hiện theo mục đích của mình thuộc về ___ của doanh nhân Select one:",
+    "options": [
+      "Trình độ quản lý kinh doanh",
+      "Trình độ chuyên môn",
+      "Tố chất",
+      "Năng lực lãnh đạo"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Năng lực lãnh đạo"
+  },
+  {
+    "id": 76,
+    "question": "Các doanh nghiệp kinh doanh có văn hóa đều có đặc điểm chung là Select one:",
+    "options": [
+      "Đề cao con người, tính trung thực và kinh doanh chính đáng, chất lượng",
+      "Kinh doanh chính đáng, chất lượng",
+      "Đề cao tính trung thực",
+      "Đề cao con người"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Đề cao con người, tính trung thực và kinh doanh chính đáng, chất lượng"
+  },
+  {
+    "id": 77,
+    "question": "Việc nhà nước quy định giá trần với một số mặt hàng để bảo vệ người tiêu dùng khiến doanh nghiệp không thể bán cao hơn mức giá đó, điều này thể hiện DN bị tác động bởi yếu tố Select one:",
+    "options": [
+      "Chính trị pháp luật",
+      "Kinh tế",
+      "Xã hội",
+      "Khách hàng"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Chính trị pháp luật"
+  },
+  {
+    "id": 78,
+    "question": "Trong bản hướng dẫn về bảo vệ người tiêu dùng của Liên hiệp quốc gửi Chính phủ các nước thành viên, quyền được tiếp thu những kiến thức và kỹ năng cần thiết để có thể lựa chọn sản phẩm, dịch vụ một cách thoả đáng, được hiểu biết về các quyền cơ bản và trách nhiệm của người tiêu dùng, được biết làm cách nào để thực hiện các quyền và trách nhiệm của mình, là quyền nào sau đây: Select one:",
+    "options": [
+      "Quyền được lựa chọn",
+      "Quyền được giáo dục về tiêu dùng",
+      "Quyền được thông tin",
+      "Quyền được lắng nghe"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Quyền được giáo dục về tiêu dùng"
+  },
+  {
+    "id": 79,
+    "question": "Trong đạo đức tuyển dụng, sử dụng và bổ nhiệm người lao động có thể xuất hiện vấn đề phân biệt đối xử về: Select one:",
+    "options": [
+      "Chủng tộc, tôn giáo, văn hoá, pháp lý, tuổi tác, địa phương.",
+      "Đạo đức, tôn giáo, văn hoá, giới tính, tuổi tác, địa phương.",
+      "Đạo đức, tôn giáo, văn hoá, pháp lý, tuổi tác, địa phương.",
+      "Chủng tộc, tôn giáo, văn hoá, giới tính, tuổi tác, địa phương."
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Chủng tộc, tôn giáo, văn hoá, giới tính, tuổi tác, địa phương."
+  },
+  {
+    "id": 80,
+    "question": "Đối với............, nghĩa vụ kinh tế của Doanh nghiệp là cung cấp hàng hoá và dịch vụ, các vấn đề liên quan đến chất lượng sản phẩm, an toàn sản phẩm, định giá, thông tin về sản phẩm, phân phối, cạnh tranh. Select one:",
+    "options": [
+      "đối thủ cạnh tranh",
+      "chủ sở hữu",
+      "người lao động",
+      "người tiêu dùng"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "người tiêu dùng"
+  },
+  {
+    "id": 81,
+    "question": "Đối với ............, nghĩa vụ kinh tế của Doanh nghiệp là tạo công ăn việc làm với mức thù lao xứng đáng cơ hội việc làm như nhau, cơ hội phát triển nghề và chuyên môn, hưởng thù lao tương xứng, hưởng môi trường lao động an toàn và đảm bảo quyền riêng tư cá nhân nơi làm việc. Select one:",
+    "options": [
+      "đối thủ cạnh tranh",
+      "người tiêu dùng",
+      "người lao động",
+      "chủ sở hữu"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "người lao động"
+  },
+  {
+    "id": 82,
+    "question": "Các vấn đề liên quan đến vi phạm đạo đức trong lĩnh vực marketing bao gồm những hoạt động nào sau đây: Select one:",
+    "options": [
+      "Quảng cáo phi đạo đức, bán hàng phi đạo đức, thủ đoạn với đối thủ cạnh tranh.",
+      "Quảng cáo phi đạo đức, bảo hộ người tiêu dùng, tuyển dụng nhân viên",
+      "Quảng cáo phi đạo đức, bán hàng phi đạo đức, tuyển dụng nhân viên.",
+      "Bán hàng phi đạo đức, thủ đoạn với đối thủ cạnh tranh, bảo hộ người tiêu dùng."
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Quảng cáo phi đạo đức, bán hàng phi đạo đức, thủ đoạn với đối thủ cạnh tranh."
+  },
+  {
+    "id": 83,
+    "question": "Chiến lược khác biệt hóa đòi hỏi: Select one:",
+    "options": [
+      "Sản phẩm được thiết kế đặc biệt",
+      "Đẩy mạnh kênh phân phối",
+      "Đẩy mạnh chiến lược Marketing",
+      "Sản phẩm được thiết kế để sản xuất hàng loạt"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Sản phẩm được thiết kế đặc biệt"
+  },
+  {
+    "id": 84,
+    "question": "Một thương hiệu lụa lâu năm có nhiều cửa hàng ở Hà Nội và TPHCM bị tố bán khăn lụa có 2 mác Made in China và Made in Vietnam. Thực tế họ đã nhập khăn của Trung quốc về và gắn mác của Việt Nam. Khi vụ việc bị phát hiện, ông chủ của thương hiệu đó cho biết sẽ thu hồi các sản phẩm đã bán ra thị trường có xuất xứ Trung Quốc nếu khách hàng có mong muốn đổi trả. Thương hiệu này sẽ bồi thường cho khách hàng một cách nghiêm túc. Sự việc vi phạm đến nguyên tắc, chuẩn mực nào trong đạo đức kinh doanh của doanh nghiệp. Select one:",
+    "options": [
+      "Tính trung thực",
+      "Cả A và C",
+      "Tôn trọng khách hàng",
+      "Bí mật trung thành với các trách nhiệm đặc biệt"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Cả A và C"
+  },
+  {
+    "id": 85,
+    "question": "Công ty Abbott L. trong sản xuất đã sáng chế ra một chất thay thế cho đường - đường Sucaril. Công thức này đã bị hai nhân viên của công ty ghi nhớ trong đầu rồi đem bán cho một công ty khác bắt chước sản xuất đề lấy một số tiền lớn. Hai nhân viên này đã bị khởi tố và công ty bị thiệt hại quá nặng nề. Về mặt đạo đức kinh doanh, hai nhân viên này đã vi phạm: Select one:",
+    "options": [
+      "Phá hoại ngầm",
+      "Cáo giác",
+      "Bí mật kinh doanh",
+      "Lạm dụng của công"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "Bí mật kinh doanh"
+  },
+  {
+    "id": 86,
+    "question": "Phát biểu nào sau đây là sai? Select one:",
+    "options": [
+      "Đạo đức kinh doanh chính là đạo đức được vận dụng vào trong hoạt động kinh doanh.",
+      "Đạo đức kinh doanh chỉ quy định thái độ, nghĩa vụ, trách nhiệm của mỗi người đối với bản thân cũng như đối với người khác",
+      "Đạo đức kinh doanh là một tập hợp các nguyên tắc, chuẩn mực có tác dụng điều chỉnh, đánh giá, hướng dẫn và kiểm soát hành vi của các chủ thể kinh doanh.",
+      "Đạo đức kinh doanh là một dạng đạo đức nghề nghiệp và có tính đặc thù của hoạt động kinh doanh."
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Đạo đức kinh doanh chỉ quy định thái độ, nghĩa vụ, trách nhiệm của mỗi người đối với bản thân cũng như đối với người khác"
+  },
+  {
+    "id": 87,
+    "question": "Hành vi định cho hàng hoá của công ty mình những giá bán thấp hơn giá thành nhằm mục đích thôn tính để thu hẹp cạnh tranh là: Select one:",
+    "options": [
+      "Dèm pha hàng hoá của đối thủ cạnh tranh.",
+      "Bán phá giá",
+      "Cố định giá",
+      "Phân chi thị trường"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Bán phá giá"
+  },
+  {
+    "id": 88,
+    "question": "Đạo đức kinh doanh không được thể hiện chủ yếu trong lĩnh vực nào của doanh nghiệp? Select one:",
+    "options": [
+      "Đạo đức trong hoạt động kế toán, tài chính",
+      "Đạo đức trong hoạt động Marketing",
+      "Đạo đức trong quản trị nguồn nhân lực",
+      "Đạo đức trong công nghệ kỹ thuật"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Đạo đức trong công nghệ kỹ thuật"
+  },
+  {
+    "id": 89,
+    "question": "Các nguyên tắc và chuẩn mực của đạo đức kinh doanh không bao gồm:",
+    "options": [
+      "Tính trung thực",
+      "Tôn trọng con người",
+      "Bí mật trung thành với các trách nhiệm đặc biệt",
+      "Lợi nhuận của Doanh nghiệp"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Lợi nhuận của Doanh nghiệp"
+  },
+  {
+    "id": 90,
+    "question": "Đối tượng điều chỉnh của đạo đức kinh doanh là:",
+    "options": [
+      "Tầng lớp doanh nhân làm nghề kinh doanh",
+      "Khách hàng của doanh nhân.",
+      "Các chủ thể hoạt động kinh doanh.",
+      "Đối thủ cạnh tranh của doanh nghiệp"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "Các chủ thể hoạt động kinh doanh."
+  },
+  {
+    "id": 91,
+    "question": "Câu nào không phải là vai trò của đạo đức kinh doanh?",
+    "options": [
+      "Góp phần làm tăng chất lượng hoạt động của DN",
+      "Làm cho khách hàng hài lòng",
+      "Là những hành vi và hoạt động thể hiện mong muốn đóng góp cho cộng đồng và cho XH",
+      "Tạo ra lợi nhuận bền vững cho DN"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "Là những hành vi và hoạt động thể hiện mong muốn đóng góp cho cộng đồng và cho XH"
+  },
+  {
+    "id": 92,
+    "question": "Nghĩa vụ pháp lý trong trách nhiệm xã hội của doanh nghiệp?",
+    "options": [
+      "Các nghĩa vụ pháp lý trong trách nhiệm xã hội gồm điều tiết cạnh tranh, bảo vệ người tiêu dùng, bảo vệ môi trường, an toàn và bình đẳng, khuyến khích phát hiện và ngăn chặn hành vi sai trái.",
+      "Các nghĩa vụ pháp lý trong trách nhiệm xã hội thể hiện thông qua các tiêu chuẩn, chuẩn mực hay quan niệm, kỳ vọng của các đối tượng hữu quan",
+      "Các nghĩa vụ pháp lý trong trách nhiệm xã hội đòi hỏi doanh nghiệp những đóng góp cho cộng đồng và XH",
+      "Các nghĩa vụ pháp lý trong trách nhiệm xã hội đòi hỏi doanh nghiệp cung cấp sản phẩm, dịch vụ, tạo công ăn việc làm, cạnh tranh, bảo tồn và phát triển giá trị"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Các nghĩa vụ pháp lý trong trách nhiệm xã hội gồm điều tiết cạnh tranh, bảo vệ người tiêu dùng, bảo vệ môi trường, an toàn và bình đẳng, khuyến khích phát hiện và ngăn chặn hành vi sai trái."
+  },
+  {
+    "id": 93,
+    "question": "Hình thức cạnh tranh lành mạnh giữa các doanh nghiệp",
+    "options": [
+      "Ăn cắp bí mật thương mại",
+      "Sao chép, làm nhái sản phẩm",
+      "Gièm pha hàng hóa của dối thủ cạnh tranh",
+      "Không ngừng cải tiến công nghệ, nâng cao chất lượng sản phẩm"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Không ngừng cải tiến công nghệ, nâng cao chất lượng sản phẩm"
+  },
+  {
+    "id": 94,
+    "question": "Hoạt động tài chính kế toán đạo đức được biểu hiện như thế nào?",
+    "options": [
+      "Cho mượn danh kiểm toán viên để hành nghề.",
+      "Liêm chính, khách quan, độc lập và cẩn thận.",
+      "Giảm giá dịch vụ khi công ty kiểm toán nhận một hợp đồng cung cấp dịch vụ với mức phí thấp hơn nhiều so với mức phí của công ty kiểm toán trước đó",
+      "Điều chỉnh số liệu trong bảng cân đối kế toán."
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Liêm chính, khách quan, độc lập và cẩn thận."
+  },
+  {
+    "id": 95,
+    "question": "Đạo đức kinh doanh trong quản trị nguồn nhân lực không liên quan đến những vấn đề nào? Chọn một câu trả lời",
+    "options": [
+      "Bắt buộc người lao động thực hiện những công việc nguy hiểm mà không cho phép họ có cơ hội từ chối, bất chấp thể trạng, bất chấp khả năng và năng lực của họ.",
+      "Không trang bị đầy đủ các trang thiết bị an toàn lao động cho người lao động, cố tình duy trì các điều kiện nguy hiểm và không đảm bảo sức khỏe tại nơi làm việc.",
+      "Sử dụng lao động, sử dụng chất xám của các chuyên gia nhưng không đãi ngộ xứng đáng với công sức đóng góp của họ",
+      "Lạm dụng quảng cáo có thể xếp từ nói phóng đại về sản phẩm và che dấu sự thật tới lừa gạt hoàn toàn."
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Lạm dụng quảng cáo có thể xếp từ nói phóng đại về sản phẩm và che dấu sự thật tới lừa gạt hoàn toàn."
+  },
+  {
+    "id": 96,
+    "question": "Doanh nhân Kao Siêu Lực, chủ thương hiệu ABC Bakery, đã nghĩ ra và chia sẻ công khai công thức bánh mì thanh long giúp giải cứu nông dân đang phải bán đổ bán tháo thanh long vì không xuất khẩu được. Điều này thể hiện vai trò ___ của doanh nhân.",
+    "options": [
+      "Phát triển nguồn nhân lực",
+      "Giải quyết việc làm",
+      "Sáng tạo sản phẩm, phương thức sản xuất mới",
+      "Tham mưu cho nhà nước về đường lối phát triển kinh tế"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "Sáng tạo sản phẩm, phương thức sản xuất mới"
+  },
+  {
+    "id": 97,
+    "question": "Các nhân tố tác động đến văn hóa doanh nhân bao gồm",
+    "options": [
+      "Nhân tố kinh tế",
+      "Nhân tố văn hóa",
+      "Nhân tố chính trị pháp luật",
+      "Cả 3 đáp án trên"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Cả 3 đáp án trên"
+  },
+  {
+    "id": 98,
+    "question": "Nhận định một doanh nhân giản dị, khiêm tốn đề cập đến ____ của doanh nhân",
+    "options": [
+      "Phong Kách",
+      "Tố chất",
+      "Đạo đức",
+      "Năng lực"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Phong Kách"
+  },
+  {
+    "id": 99,
+    "question": "Các bộ phận cấu thành văn hóa doanh nhân gồm",
+    "options": [
+      "Tính cách, công việc, đạo đức, phong cách của doanh nhân",
+      "Tính cách, công việc, thành tựu, hoạt động của doanh nhân",
+      "Năng lực, tố chất, đạo đức, phong cách của doanh nhân",
+      "Năng lực, tố chất, tính cách, thành tựu của doanh nhân"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "Năng lực, tố chất, đạo đức, phong cách của doanh nhân"
+  },
+  {
+    "id": 100,
+    "question": "Quỹ Bill & Melinda Gates của tỷ phú Bill Gates chi 50 triệu đô la Mỹ giúp chữa bệnh Ebola bùng phát ở châu Phi năm 2014 thể hiện ___ doanh nhân của tỷ phú.",
+    "options": [
+      "Năng lực",
+      "Tố chất",
+      "Đạo đức",
+      "Phong cách"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "Đạo đức"
+  },
+  {
+    "id": 101,
+    "question": "Bà Mai Kiều Liên, tổng giám đốc của Vinamilk có xuất thân là kỹ sư ngành chế biến sữa và đã từng làm phó giám đốc kỹ thuật Nhà máy sữa Thống Nhất, tiền thân của Vinamilk hiện nay. Điều này cho thấy bà có ____ của một doanh nhân.",
+    "options": [
+      "Năng lực",
+      "Tố chất",
+      "Đạo đức",
+      "Phong cách"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Năng lực"
+  },
+  {
+    "id": 102,
+    "question": "Để đánh giá văn hóa doanh nhân của một doanh nhân nào đó, người ta thường dựa vào ___ tiêu chuẩn để phân tích.",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "6"
+  },
+  {
+    "id": 103,
+    "question": "___ là một hệ thống các giá trị, chuẩn mực, quan niệm và hành vi của doanh nhân trong quá trình lãnh đạo và quản lý doanh nghiệp.",
+    "options": [
+      "Văn hóa",
+      "Văn hóa doanh nhân",
+      "Đạo đức doanh nhân",
+      "Văn hóa doanh nghiệp"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Văn hóa doanh nhân"
+  },
+  {
+    "id": 104,
+    "question": "Theo quan điểm của Edgar Schein, cách bài trí, biểu tượng, khẩu hiệu, lễ hội thuộc về cấp độ ___ trong văn hóa doanh nghiệp",
+    "options": [
+      "Hữu hình",
+      "Những giá trị được chấp nhận",
+      "Những quan niệm chung",
+      "Cả 3 đáp án trên"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Hữu hình"
+  },
+  {
+    "id": 105,
+    "question": "Theo quan điểm của Edgar Schein, những niềm tin, nhận thức, suy nghĩ, tình cảm mang tính vô thức, mặc nhiên được công nhận thuộc về cấp độ ____ trong văn hóa doanh nghiệp.",
+    "options": [
+      "Hữu hình",
+      "Những giá trị được chấp nhận",
+      "Những quan niệm chung",
+      "Cả 3 đáp án trên"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "Những quan niệm chung"
+  },
+  {
+    "id": 106,
+    "question": "Theo quan điểm của Edgar Schein, các chiến lược, mục tiêu, triết lý kinh doanh cũng như các quy đinh, nguyên tắc hoạt động tuộc về cấp độ ___ trong văn hóa doanh nghiệp",
+    "options": [
+      "Hữu hình",
+      "Những giá trị được chấp nhận",
+      "Những quan niệm chung",
+      "Cả 3 đáp án trên"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Những giá trị được chấp nhận"
+  },
+  {
+    "id": 107,
+    "question": "Sứ mệnh \"Vì một tương lai tốt đẹp hơn cho người Việt\" của tập đoàn Vingroup thể hiện cấp độ ___ trong văn hóa doanh nghiệp này.",
+    "options": [
+      "Hữu hình",
+      "Những giá trị được chấp nhận",
+      "Những quan niệm chung",
+      "Cả 3 đáp án trên"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Hữu hình"
+  },
+  {
+    "id": 108,
+    "question": "Cốt lõi của văn hóa FPT là niềm vui và tình cảm. Nhận định này cho thấy cấp độ ___ trong văn hóa doanh nghiệp của tập đoàn này.",
+    "options": [
+      "Hữu hình",
+      "Những giá trị được chấp nhận",
+      "Những quan niệm chung",
+      "Cả 3 đáp án trên"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "Những quan niệm chung"
+  },
+  {
+    "id": 109,
+    "question": "Sự chuyển đổi chiến lược kinh doanh từ ngành nghề cốt lõi là bất động sản sang công nghệ cho thấy thay đổi trong cấp độ ____ trong văn hóa doanh nghiệp của Vingroup",
+    "options": [
+      "Hữu hình",
+      "Những giá trị được chấp nhận",
+      "Những quan niệm chung",
+      "Cả 3 đáp án trên"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Những giá trị được chấp nhận"
+  },
+  {
+    "id": 110,
+    "question": "Sự hình thành và phát triển văn hóa doanh nghiệp thường trải qua ___ giai đoạn.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "3"
+  },
+  {
+    "id": 111,
+    "question": "Nếu văn hóa doanh nghiệp bị chi phối bởi văn hóa của người lãnh đạo, doanh nghiệp đó có mô hình văn hóa ___",
+    "options": [
+      "Mô hình văn hóa quyền hạn",
+      "Mô hình văn hóa đồng đội",
+      "Mô hình văn hóa sáng tạo",
+      "Không có mô hình nào"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Mô hình văn hóa quyền hạn"
+  },
+  {
+    "id": 112,
+    "question": "Nếu văn hóa doanh nghiệp đề cao sự sáng tạo với cơ chế hoạt động tự do, doanh nghiệp đó có mô hình văn hóa ___",
+    "options": [
+      "Mô hình văn hóa quyền hạn",
+      "Mô hình văn hóa đồng đội",
+      "Mô hình văn hóa sáng tạo",
+      "Không có mô hình nào"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "Mô hình văn hóa sáng tạo"
+  },
+  {
+    "id": 113,
+    "question": "Nếu văn hóa doanh nghiệp đề cao sự hỗ trợ và hợp tác trong quá trình làm việc, doanh nghiệp đó có mô hình văn hóa ___",
+    "options": [
+      "Mô hình văn hóa quyền hạn",
+      "Mô hình văn hóa đồng đội",
+      "Mô hình văn hóa sáng tạo",
+      "Không có mô hình nào"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Mô hình văn hóa đồng đội"
+  },
+  {
+    "id": 114,
+    "question": "___ là một hệ thống các giá trị, quan điểm, niềm tin, nguyên tắc, chuẩn mực, v.v. chi phối mọi hoạt động của doanh nghiệp, tạo nên bản sắc riêng.",
+    "options": [
+      "Văn hóa",
+      "Văn hóa doanh nhân",
+      "Văn hóa kinh doanh",
+      "Văn hóa doanh nghiệp"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Văn hóa doanh nghiệp"
+  },
+  {
+    "id": 115,
+    "question": "Văn hóa doanh nghiệp có tác động ___ đến hoạt động của tổ chức",
+    "options": [
+      "Tích cực",
+      "Tiêu cực",
+      "Tích cực hoặc tiêu cực",
+      "Tích cực và tiêu cực"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Tích cực và tiêu cực"
+  },
+  {
+    "id": 116,
+    "question": "Theo quan điểm của Trompenaars, nếu một doanh nghiệp đề cao sự sáng tạo và hoàn thiện cá nhân, doanh nghiệp đó có văn hóa theo mô hình ___.",
+    "options": [
+      "Lò ấp trứng",
+      "Tên lửa định hướng",
+      "Gia đình",
+      "Tháp Eiffel"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Lò ấp trứng"
+  },
+  {
+    "id": 117,
+    "question": "Theo quan điểm của Trompenaars, nếu một doanh nghiệp đề cao thứ bậc với nhiều quyền hạn của người lãnh đạo và yếu tố cá nhân, doanh nghiệp đó có văn hóa theo mô hình ___.",
+    "options": [
+      "Lò ấp trứng",
+      "Tên lửa định hướng",
+      "Gia đình",
+      "Tháp Eiffel"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "Gia đình"
+  },
+  {
+    "id": 118,
+    "question": "Theo quan điểm của Trompenaars, nếu một doanh nghiệp đề cao thứ bậc và phân chia lao động theo vai trò và chức năng, doanh nghiệp đó có văn hóa theo mô hình ___.",
+    "options": [
+      "Lò ấp trứng",
+      "Tên lửa định hướng",
+      "Gia đình",
+      "Tháp Eiffel"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Tháp Eiffel"
+  },
+  {
+    "id": 119,
+    "question": "Theo quan điểm của Trompenaars, nếu một doanh nghiệp đề cao yếu tố bình đẳng với các nhóm làm việc nhằm đạt được mục tiêu, doanh nghiệp đó có văn hóa theo mô hình ___.",
+    "options": [
+      "Lò ấp trứng",
+      "Tên lửa định hướng",
+      "Gia đình",
+      "Tháp Eiffel"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Tên lửa định hướng"
+  },
+  {
+    "id": 120,
+    "question": ".........đưa ra khái niệm văn hóa doanh nghiệp với nội dung \"Văn hóa doanh nghiệp là tổng hợp các giá trị, các biểu tượng, huyền thoại, nghi thức, các điều cấm kỵ, các quan điểm triết học, đạo đức tạo thành nền móng sâu xa của doanh nghiệp\". Select one:",
+    "options": [
+      "Georges de Sainte Marie",
+      "Trần Ngọc Thêm",
+      "Edgar Schein",
+      "Trần Quốc Vượng"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Georges de Sainte Marie"
+  },
+  {
+    "id": 121,
+    "question": "Các hình thức văn hóa doanh nghiệp được Trompenaars phân loại theo cơ cấu và định hướng về con người và nhiệm vụ bao gồm? Select one:",
+    "options": [
+      "Mô hình lò ấp trứng, mô hình đồng đội, mô hình quyền hạn, mô hình tên lửa dẫn đường",
+      "Mô hình tháp EIFFEL, mô hình lò ấp trứng, mô hình đồng đội, mô hình tên lửa dẫn đường",
+      "Mô hình lò ấp trứng, mô hình tên lửa dẫn đường, mô hình gia đình, mô hình đồng đội",
+      "Mô hình tháp EIFFEL, mô hình lò ấp trứng, mô hình tên lửa dẫn đường, mô hình gia đình"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Mô hình tháp EIFFEL, mô hình lò ấp trứng, mô hình tên lửa dẫn đường, mô hình gia đình"
+  },
+  {
+    "id": 122,
+    "question": "Việc tự động hóa, máy tính hóa trong các nhà máy, công sở sẽ khiến người lao động thay đổi tác phong, lề thói làm việc, phải học hỏi để sử dụng tốt công nghệ mới từ đố sẽ dẫn đến thay đổi những niềm tin. Đây là cách thức thay đổi văn hóa nào? Select one:",
+    "options": [
+      "Thay đổi nhờ áp dụng công nghệ mới",
+      "Thay đổi nhờ thay thế các vị trí trong doanh nghiệp",
+      "Tạo ra thay đổi nhờ nhân rộng điển hình",
+      "Thay đổi nhỏ ở mức độ tổng thể và chi tiết"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Thay đổi nhờ áp dụng công nghệ mới"
+  },
+  {
+    "id": 123,
+    "question": "Ưu điểm của mô hình văn hóa gia đình. Select one:",
+    "options": [
+      "Lãnh đạo phải làm gương, có tiếng nói, tạo được mẫu hình riêng, có vị thế và mong muốn cấp dưới \"cùng chung chí hướng\".",
+      "Cả ba đáp án trên",
+      "Người lãnh đạo giữ vai trò như người cha biết việc gì cần làm và biết điều gì tốt cho con cái. Đây là loại quyền lực hết sức thân thiện, không hề có tính đe dọa, áp lực.",
+      "Quyền lực trong mô hình gia đình không thể tranh giành được vì nó không phụ thuộc vào nhiệm vụ mà vào vị trí được giao."
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Cả ba đáp án trên"
+  },
+  {
+    "id": 124,
+    "question": "Tinh thần khởi nghiệp (entrepreneurship) là sự theo đuổi các...trong điều kiện nguồn lực bị giới hạn",
+    "options": [
+      "đam mê",
+      "cơ hội",
+      "kế hoạch",
+      "phương án"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "cơ hội"
+  },
+  {
+    "id": 125,
+    "question": "Tinh thần khởi nghiệp (entrepreneurship) là sự theo đuổi các cơ hội trong điều kiện nguồn lực ...",
+    "options": [
+      "bị giới hạn",
+      "được các nhà đâu tư bỏ ra",
+      "được Nhà nước đầu tư",
+      "không bị giới hạn"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "bị giới hạn"
+  },
+  {
+    "id": 126,
+    "question": "Startup có thể hiểu là:",
+    "options": [
+      "Một công ty nhỏ, có tuổi đời vài ba năm.",
+      "Một hình thức khởi nghiệp gắn với công nghệ, đổi mới, sáng tạo",
+      "Một tổ chức được thiết kế nhằm cung cấp sản phẩm và dịch vụ trong những điều kiện chưa chắc chắn.",
+      "Tất cả các phương án A, B, C"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "Một tổ chức được thiết kế nhằm cung cấp sản phẩm và dịch vụ trong những điều kiện chưa chắc chắn."
+  },
+  {
+    "id": 127,
+    "question": "Các cơ hội khởi nghiệp có thể đến từ",
+    "options": [
+      "Nhu cầu của thị trường",
+      "Sự phát triển công nghệ",
+      "Các ý tưởng ngẫu hứng của người khởi nghiệp",
+      "Cả phương án A và B"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Cả phương án A và B"
+  },
+  {
+    "id": 128,
+    "question": "Nguồn lực cần thiết cho hoạt động khởi nghiệp là:",
+    "options": [
+      "Tiền và các khoản đầu tư tài chính",
+      "Nhân lực, tài chính",
+      "Nhân lực, tài chính, các nguồn lực vật chất và cơ chế chính sách hỗ trợ của Nhà nước.",
+      "Nhân lực, tài chính và các nguồn lực vật chất."
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "Nhân lực, tài chính, các nguồn lực vật chất và cơ chế chính sách hỗ trợ của Nhà nước."
+  },
+  {
+    "id": 129,
+    "question": "Người khởi nghiệp có vai trò quyết định trong việc phát hiện và tận dụng các cơ hội, ...và mang lại những giá trị/ sáng tạo mới",
+    "options": [
+      "hỏi ý kiến các chuyên gia",
+      "tạo lập hoạt động kinh doanh",
+      "tìm kiếm nguồn đầu tư.",
+      "xin phép các cơ quan có thẩm quyền"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "tạo lập hoạt động kinh doanh"
+  },
+  {
+    "id": 130,
+    "question": "Hành trình khởi nghiêp có thể hiểu là",
+    "options": [
+      "Quá trình gọi vốn đầu tư",
+      "Con đường từ ý tưởng đến sản phẩm hoàn thiện",
+      "Quá trình xây dựng phương án kinh doanh",
+      "Con đường từ phòng thí nghiệm ra thị trường"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Con đường từ ý tưởng đến sản phẩm hoàn thiện"
+  },
+  {
+    "id": 131,
+    "question": "Ý tưởng kinh doanh thường đến từ:",
+    "options": [
+      "Đáp ứng nhu cầu của cá nhân người khỏi nghiệp hoặc người khác",
+      "Những sở thích, kinh nghiệm của người khởi nghiệp",
+      "Những thử thách, khó khăn mà người khởi nghiệp cần phải vượt qua",
+      "Tất cả các phương án A, B, C"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Tất cả các phương án A, B, C"
+  },
+  {
+    "id": 132,
+    "question": "Việc thương mại hóa ban đầu trong hành trình khởi nghiệp cần phải đề cập đến các yếu tố",
+    "options": [
+      "Ai là khách hàng và thị trường mục tiêu",
+      "Thời điểm, địa điểm đưa sản phẩm ra thị trường",
+      "Chiến lược đưa sản phẩm ra thị trường",
+      "Tất cả các phương án A,B,C"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Tất cả các phương án A,B,C"
+  },
+  {
+    "id": 133,
+    "question": "Tính sáng tạo của một dự án khởi nghiệp thường gắn với đặc điểm:",
+    "options": [
+      "Mới",
+      "Hữu ích",
+      "Phù hợp",
+      "Tất cả các phương án A, B, C"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "Tất cả các phương án A, B, C"
+  },
+  {
+    "id": 134,
+    "question": ".............. là kết quả mong muốn đạt được của một cá nhân hay tổ chức nào đó sau khi thực hiện các kế hoạch trong tương lai",
+    "options": [
+      "Sứ mệnh",
+      "Mục tiêu",
+      "Hệ thống các giá trị",
+      "Chiến lược"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Mục tiêu"
+  },
+  {
+    "id": 135,
+    "question": "Bước cuối cùng trong hành trình khởi nghiệp là gì?",
+    "options": [
+      "M&A",
+      "Mở rộng sản phẩm",
+      "Phát hành cổ phiếu IPO",
+      "Thương mại hoá toàn phần"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "Phát hành cổ phiếu IPO"
+  },
+  {
+    "id": 136,
+    "question": "Trong chiến lược chi phí thấp, yếu tố nào được ưu tiên nhiều nhất",
+    "options": [
+      "Nâng cao hiệu suất",
+      "Phát triển sản phẩm mới",
+      "Đổi mới công nghệ",
+      "Đa dạng hoá sản phẩm"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Nâng cao hiệu suất"
+  },
+  {
+    "id": 137,
+    "question": "Điều kiện cơ bản cho sự ra đời của triết lý kinh doanh:",
+    "options": [
+      "Cơ chế luật pháp, thời gian hoạt động của doanh nghiệp, năng lực lãnh đạo của doanh nhân, sự tự giác của nhân viên",
+      "Cơ chế pháp luật, thời gian hoạt động của doanh nghiệp, ủng hộ của khách hàng, năng lực lãnh đạo",
+      "Điều kiện kinh tế, chính trị, pháp luật, thời gian hoạt động của doanh nghiệp, năng lực lãnh đạo của doanh nhân, ủng hộ của khách hàng, sự tự giác của nhân viên",
+      "Điều kiện văn hoá, kinh tế chính trị, xã hội, thời gian hoạt động của doanh nghiệp, năng lực lãnh đạo của doanh nhân, sự ủng hộ của khách hàng, sự tự giác của nhân viên"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Cơ chế luật pháp, thời gian hoạt động của doanh nghiệp, năng lực lãnh đạo của doanh nhân, sự tự giác của nhân viên"
+  },
+  {
+    "id": 138,
+    "question": "............là việc một thành viên của tổ chức công bố những thông tin làm chứng cứ về những hành động bất hợp pháp hay vô đạo đức của tổ chức.",
+    "options": [
+      "Tiết lộ bí mật kinh doanh",
+      "Cáo giác",
+      "Phá hoại",
+      "Lạm dụng của công"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Cáo giác"
+  },
+  {
+    "id": 139,
+    "question": "\"Ít quan tâm đến năng suất, hiệu quả mà ưu tiên cho bầu không khí của tổ chức\" là nhược điểm của mô hình văn hóa doanh nghiệp nào?",
+    "options": [
+      "Gia đình",
+      "Tháp eiffel",
+      "Tên lửa dẫn đường",
+      "Lò ấp trứng"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "Gia đình"
+  },
+  {
+    "id": 140,
+    "question": "Một số sản phẩm trên bao gói ghi \"mới\" hoặc \"cải tiến\" nhưng thực tế sản phẩm không hề có tính chất này hoặc hình dáng bao bì, hình ảnh quá hấp dẫn gây hiểu lầm đáng kể cho người tiêu dùng. Điều này được coi là vi phạm trong đạo đức marketing về:",
+    "options": [
+      "Quảng cáo có hình thức khó coi, phi thị hiếu.",
+      "Bao bì và dán nhãn lừa gạt",
+      "Bán hàng lừa gạt",
+      "Bán hàng dưới chiêu bài nghiên cứu thị trường"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "Bao bì và dán nhãn lừa gạt"
+  }
+]

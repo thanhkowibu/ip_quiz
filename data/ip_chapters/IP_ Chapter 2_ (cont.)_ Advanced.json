@@ -1,0 +1,357 @@
+[
+  {
+    "id": 84,
+    "original_id": "ospf_database_0",
+    "chapter": "Chapter 2. (cont.): Advanced",
+    "type": "fill_in_blank",
+    "question": "OSPF database của một router có nội dung như sau:\nOSPF Router with ID (3.3.3.3)\nRouter Link States (Area 0.0.0.1)\nLink ID         ADV Router      Age  Seq#       CkSum  Link count\n1.1.1.1        1.1.1.1           12 0x80000006 0xe4c3 2\n2.2.2.2        2.2.2.2           12 0x80000007 0xb9e3 2\n3.3.3.3        3.3.3.3           12 0x80000006 0x9202 2\n4.4.4.4        4.4.4.4           12 0x80000006 0x9202 2\nNet Link States (Area 0.0.0.1)\nLink ID         ADV Router      Age  Seq#       CkSum\n192.168.56.13  2.2.2.2           12 0x80000002 0xdba6\nHãy phán đoán sơ đồ kiến trúc kết nối mạng của hệ thống.\n1. Hệ thống có bao nhiêu router?",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "OSPF Database",
+    "correctAnswer": "4"
+  },
+  {
+    "id": 85,
+    "original_id": "ospf_database_1",
+    "chapter": "Chapter 2. (cont.): Advanced",
+    "type": "fill_in_blank",
+    "question": "2. Hệ thống có bao nhiêu mạng nghiệp vụ (business network)? (coi mạng nghiệp vụ là mạng chỉ kết nối\nvào 1 router làm gateway phục vụ các máy trạm làm việc trong mạng nghiệp vụ này)",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "OSPF Database",
+    "correctAnswer": "4"
+  },
+  {
+    "id": 86,
+    "original_id": "ospf_database_2",
+    "chapter": "Chapter 2. (cont.): Advanced",
+    "type": "single",
+    "question": "3. các router kết nối với nhau như thế nào?\nHW #4: OSPF (multi area &\nexternal)\n \n Phần 1: OSPF multi area\nPhần 1: OSPF multi area",
+    "options": [
+      "kết nối vòng",
+      "kết nối đôi một (point-to-point)",
+      "tất cả router cùng kết nối vào một đường trục",
+      "không đủ thông tin để xác định sơ đồ kết nối"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 2,
+    "section_title": "OSPF Database"
+  },
+  {
+    "id": 87,
+    "original_id": "section_0",
+    "chapter": "Chapter 2. (cont.): Advanced",
+    "type": "single",
+    "question": "Trong các LSA sau đây, LSA nào chứa thông tin cho phép xây dựng đồ thị mô phỏng kết nối liên mạng\n(không quan tâm đến cost các cạnh)?",
+    "options": [
+      "router-LSA",
+      "network-LSA",
+      "summary-LSA",
+      "external-LSA"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 1,
+    "section_title": "Section"
+  },
+  {
+    "id": 89,
+    "original_id": "question_#8940e_0",
+    "chapter": "Chapter 2. (cont.): Advanced",
+    "type": "fill_in_blank",
+    "question": "Sử dụng môi trường thực hành, xây dựng hệ thống kết nối mạng sử dụng OSPF multi area có sơ đồ kết\nnối như sau:\n========= (AREA 0) =========   ====== (AREA 1) =======\n/------- 192.168.2.0/24\n/\n192.168.1.0/24 -- R1 ------ R2(ABR)\n\\\n\\------- 192.168.3.0/24\n- Hệ thống gồm 2 area 0 và 1, kết nối với nhau thông qua ABR là R2\n- Trong area 0 có 1 mạng nội vùng 192.168.1.0\n- Trong area 1 có 2 mạng nội vùng 192.168.2.0 và 192.168.3.0\n- Từng router khai báo kích hoạt OSPF trên tất cả các kết nối mạng của nó\nHãy cho biết số lượng các LSA được quảng bá trong từng area là bao nhiêu?\nSummary-LSA trong Area 0\n\\(\\)\nSummary-LSA trong Area 1\n\\(\\)",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #8940eb",
+    "correctAnswer": "2"
+  },
+  {
+    "id": 91,
+    "original_id": "question_#9a8c5_0",
+    "chapter": "Chapter 2. (cont.): Advanced",
+    "type": "fill_in_blank",
+    "question": "Sử dụng môi trường thực hành, xây dựng hệ thống kết nối liên mạng có sơ đồ kết nối như sau:\nArea 0     |      Area 1\n|\nR ---- ... ----- [ABR1] ----- ... ---- (.) prefix N\n\\                 |                   /\n\\---- ... ---- [ABR2] ----- ... ----/\n- Hệ thống OSPF multi area\n- router R thuộc Area #0 kết nối prefix N thuộc Area #1 qua các ABR1 hoặc ABR2\nBiết rằng router R thuộc Area 0 đang thiết lập đường đi đến prefix N là 150 khi đi qua ABR1 và 160 khi đi\nqua ABR2. Area 1 có thay đổi trạng thái mạng, router-LSA và network-LSA được lan truyền trong vùng\n#1 đến 2 router ABR và kích hoạt summary-LSA từ 2 ABR này đến router R với thông số lần lượt là ARB1:\n(prefix_N, sum_N = 55) và ARB2:(prefix_N, sum_N = 65). Biết rằng cost đường đi từ R đến ABR1 là 100\nvà đến ABR2 là 80. Hãy cập nhật cost từ router R đến prefix N theo trạng thái mới của mạng.\n\\(\\)",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #9a8c5c",
+    "correctAnswer": "145"
+  },
+  {
+    "id": 93,
+    "original_id": "question_#2d1d2_0",
+    "chapter": "Chapter 2. (cont.): Advanced",
+    "type": "multiple",
+    "question": "Sử dụng môi trường thực hành, xây dựng hệ thống kết nối liên mạng có sơ đồ kết nối như sau:\nArea 1  |  Area 2\n|\nR1 --- R3      |       R4 --- R5\n\\             |       /\n\\ ---------- R2 ----/\n(Kết nối OSPF theo 2 vùng: [Area 1:R1,R2,R3] - [Area 2: R2,R4,R5])\nLựa chọn các nhận định đúng sau đây:",
+    "options": [
+      "ABR là R2",
+      "R4 nhận được router-LSA từ R1",
+      "Bảng routing của R4 không xuất hiện các đường đi đến prefix thuộc Area 1",
+      "R5 nhận được summary-LSA từ R2",
+      "R1 và R4 nhận được cùng một summary-LSA gửi từ R2"
+    ],
+    "correctAnswerIndices": [
+      0,
+      3
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #2d1d2b"
+  },
+  {
+    "id": 95,
+    "original_id": "question_#af603_0",
+    "chapter": "Chapter 2. (cont.): Advanced",
+    "type": "single",
+    "question": "Trong mô hình OSPF multi area, đồ thị được xây dựng tại các router nhằm mô phỏng sơ đồ kết nối\nmạng. LSA nào được lan truyền để cập nhật giá (cost) của đường đi từ một đỉnh đến nút lá của đồ thị?",
+    "options": [
+      "router-LSA",
+      "network-LSA",
+      "summary-LSA",
+      "external-LSA"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 2,
+    "section_title": "Question #af6035"
+  },
+  {
+    "id": 97,
+    "original_id": "question_#d3027_0",
+    "chapter": "Chapter 2. (cont.): Advanced",
+    "type": "multiple",
+    "question": "Trong giao thức OSPF, LSA nào có thể chứa thông tin trạng thái kết nối mạng",
+    "options": [
+      "router-LSA",
+      "network-LSA",
+      "summary-LSA",
+      "external-LSA"
+    ],
+    "correctAnswerIndices": [
+      0,
+      2,
+      3
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #d3027f"
+  },
+  {
+    "id": 99,
+    "original_id": "question_#03f7b_0",
+    "chapter": "Chapter 2. (cont.): Advanced",
+    "type": "single",
+    "question": "Khi một router nhận được một Summary-LSA và cập nhật vào LS Database, nó có thực hiện chạy thuật\ntoán tìm đường đi ngắn nhất (thuật toán SPF) các cho mạng \"ở xa\" hay không?\nGhi chú: \"ở xa\" ý nói các prefix nằm trong các area khác.",
+    "options": [
+      "Có thực hiện",
+      "Không thực hiện"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 1,
+    "section_title": "Question #03f7b6"
+  },
+  {
+    "id": 101,
+    "original_id": "question_#0f276_0",
+    "chapter": "Chapter 2. (cont.): Advanced",
+    "type": "single",
+    "question": "Nhận định sau đấy đúng hay sai? Trong hệ thống OSPF multi area, các router luôn cập nhật đầy đủ hình\ntrạng mạng và trạng thái các kết nối mạng vào LS Database để mỗi router có thể xây dựng bản đồ đầy\nđủ của hệ thống.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 1,
+    "section_title": "Question #0f2762"
+  },
+  {
+    "id": 103,
+    "original_id": "question_#a37e8_0",
+    "chapter": "Chapter 2. (cont.): Advanced",
+    "type": "fill_in_blank",
+    "question": "Sử dụng môi trường thực hành, xây dựng hệ thống kết nối liên mạng có sơ đồ kết nối như sau:\nArea 0     |      Area 2\n|\nR ----- R1 ----- [ABR] ----- R2 ----> (.) prefix N\n|\n- Hệ thống OSPF multi area\n- router R thuộc Area #0 kết nối prefix N thuộc Area #2 qua các router trung gian và ABR\n- ABR kết nối liên vùng 0-2\nCho biết trong data plane của router R đang lưu trữ cost ngắn nhất đến prefix N là 125. Area #2 xuất\nhiện thay đổi trạng thái mạng, router-LSA được lan truyền trong Area #2 và kích hoạt summary-LSA\ntại ABR để lan truyền đến router R với thông số (prefix_N, sum_N = 35). Biết rằng cost hiện tại trong\ndata plane từ R đến ABR là 100. R sẽ cập nhật cost mới đến prefix N với giá trị bao nhiêu?\n\\(\\)",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #a37e82",
+    "correctAnswer": "135"
+  },
+  {
+    "id": 105,
+    "original_id": "question_#00cc7_0",
+    "chapter": "Chapter 2. (cont.): Advanced",
+    "type": "fill_in_blank",
+    "question": "Sử dụng môi trường thực hành, xây dựng hệ thống kết nối mạng sử dụng OSPF multi area có sơ đồ kết\nnối như sau:\n==== (AREA 0) ===   ====== (AREA 1) =======\n/---- (net1) ---\\\n/                 \\\nR1 ------ R2(ABR)                 R3 --- (net3)\n\\                 /\n\\---- (net2) ---/\n- Hệ thống gồm 2 area 0 và 1, kết nối với nhau thông qua ABR là R2\n- Trong area 0 có 1 router nội vùng là R1\n- Trong area 1 có 1 router nội vùng là R3, cùng với 3 mạng nội vùng kết nối với các router thuộc area 1\n- Từng router khai báo kích hoạt OSPF trên tất cả các kết nối mạng của nó\nHãy cho biết số lượng các summary-LSA được ABR quảng bá vào area 0 để cung cấp các thông tin\nnetwork trong area 1?\nKhi khởi tạo hệ thống:\n\\(\\)\nKhi xuất hiện thay đổi trạng thái của net3:\n\\(\\)\nKhi tốc độ kết nối của net2 tăng dần đều:\n\\(\\)\nKhi tốc độ kết nối net2 giảm dần đều:\n\\(\\)\nHW #4: OSPF (multi area &\nexternal)\n \n Phần 2: OSPF external\nPhần 2: OSPF external",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #00cc7f",
+    "correctAnswer": "3"
+  },
+  {
+    "id": 106,
+    "original_id": "section_0",
+    "chapter": "Chapter 2. (cont.): Advanced",
+    "type": "multiple",
+    "question": "Sử dụng môi trường thực hành, xây dựng hệ thống kết nối liên mạng có sơ đồ kết nối như bên dưới. Cả 3\nrouter R1, R2, R3 được khai báo sử dung IGP OSPF và cùng thuộc area 0. Kết quả OSPF tạo nên bảng\nrouting của R1 như trong hình:\nNAT Gateway ------- (Internet)\n/\n(10.0.2.0/24)\n/\n(172.16.100.0/24)--R2--(192.168.1.0/24)--R1--(192.168.2.0/24)--R3--(172.168.200.0/24)\nR1:~$ route -n\nKernel IP routing table\nDestination     Gateway         Genmask         Flags Metric Ref    Use Iface\n0.0.0.0         10.0.2.2        0.0.0.0         UG    100    0        0 enp0s3\n10.0.2.0        0.0.0.0         255.255.255.0   U     0      0        0 enp0s3\n10.0.2.2        0.0.0.0         255.255.255.255 UH    100    0        0 enp0s3\n172.16.100.0    192.168.0.2     255.255.255.0   UG    20     0        0 enp0s8\n172.16.200.0    192.168.1.2     255.255.255.0   UG    20     0        0 enp0s9\n192.168.0.0     0.0.0.0         255.255.255.0   U     0      0        0 enp0s8\n192.168.1.0     0.0.0.0         255.255.255.0   U     0      0        0 enp0s9\nCâu a:\nR1 kết nối với Internet qua NAT Gateway và khai báo redistribute connected . Nhận định sau đây đúng\nhay sai?\nCâu b:\nKhai báo redistribute connected  trên R1 cập nhật bảng routing trên R2 như sau:\nR2:~$ route -n\nKernel IP routing table\nDestination     Gateway         Genmask         Flags Metric Ref    Use Iface\n10.0.2.0        192.168.0.1     255.255.255.0   UG    20     0        0 enp0s8\n172.16.100.0    0.0.0.0         255.255.255.0   U     0      0        0 enp0s3\n172.16.200.0    192.168.0.1     255.255.255.0   UG    20     0        0 enp0s8\n192.168.0.0     0.0.0.0         255.255.255.0   U     0      0        0 enp0s8\n192.168.1.0     192.168.0.1     255.255.255.0   UG    20     0        0 enp0s8\nDòng \"Destination\" nào được cập nhật thêm vào bảng routing của R2 so với khi không khai báo\nredistribute connected  trên R1 (chỉ nhập vào địa chỉ IP cột \"Destination\")?\nCâu c:\nKhai báo redistribute connected  trên R1 tạo ra bao nhiêu external-LSA lan tỏa vào hệ thống?\nCâu d:\nKhai báo redistribute connected  trên R1 có tác dụng gì (chọn các phương án đúng)?\nCâu e:\nVới khai báo redistribute connected  trên R1 cùng với kết quả các bảng routing được tạo ra trên R1 và\nR2 như các câu trên. Nhận định sau đây đúng hay sai?",
+    "options": [
+      "Khai báo redistribute connected  làm thay đổi bảng routing của R1",
+      "Khai báo redistribute connected  không làm thay đổi bảng routing của R1",
+      "lan truyền External LSA 10.0.2.0 vào hệ thống OSPF",
+      "lan truyền các LSA lên kết nối mạng 10.0.2.0 của R1",
+      "thiết lập đường đi đến prefix 10.0.2.0 trong bảng routing của R2 và R3: next hop là R1",
+      "thiết lập default gateway của R2 và R3 là R1",
+      "R1 kết nối thành công ra Internet (check bằng lệnh ping 8.8.8.8 ) thì R2 cũng kết nối thành công\nra Internet",
+      "R1 kết nối thành công ra Internet (check bằng lệnh ping 8.8.8.8 ) nhưng R2 không kết nối thành\ncông ra Internet"
+    ],
+    "correctAnswerIndices": [
+      1,
+      2,
+      4,
+      7
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Section",
+    "correctAnswer": "10.0.2.0"
+  },
+  {
+    "id": 108,
+    "original_id": "question_#4716a_0",
+    "chapter": "Chapter 2. (cont.): Advanced",
+    "type": "single",
+    "question": "===== OSPF =====>       <===== External ==============\n---- R1                            Net1\n\\                          /\nR2 ------ R(ASBR) ----- Rx(external)\n/               /          \\\n---- R3 ------- [switch]           Net2\nKhi kết nối OSPF với một hệ thống bên ngoài, router R đóng vai trò là ASBR kết nối trực tiếp với router\nbên ngoài là Rx. Rx quảng bá 2 prefix Net1 và Net2 đến ASBR và ASBR kích hoạt external-LSA để lan\ntruyền thông tin các prefix này vào trong hệ thống OSPF. Xem bảng routing của các router R1, R2, R3\nbên trong hệ thống OSPF, đối với prefix Net1 và Net2, next hope luôn luôn là router ASBR. Nhận định này\nđúng hay sai?",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 1,
+    "section_title": "Question #4716a6"
+  },
+  {
+    "id": 110,
+    "original_id": "question_#bd18c_0",
+    "chapter": "Chapter 2. (cont.): Advanced",
+    "type": "multiple",
+    "question": "Sử dụng môi trường thực hành, xây dựng hệ thống mạng được kết nối với nhau như sau:\n--- OSPF -------    /----- RIP -----\n(172.1.0.0/16)     |  /      (192.168.1.0/24)\n(172.2.0.0/16)...-- R ---... (192.168.2.0/24)\n|  \\      (192.168.3.0/24)\n-----    \\------\n- Router R kết nối 2 hệ thống mạng sử dụng 2 IGP khác nhau là RIP và OSPF\n- Trong hệ thống OSPF có 2 prefix được quảng bá là 172.1.x.x/16\n- Trong hệ thống RIP có 3 prefix được quảng bá là 192.168.x.x/24\nKhai báo redistribute rip  trong cấu hình OSPF của router R sẽ có những tác dụng gì?",
+    "options": [
+      "khai báo hệ thống OSPF được kết nối với một hệ thống ngoài (external) mà hệ thống ngoài này\nđang sử dụng RIP",
+      "khai báo hệ thống RIP được kết nối với một hệ thống ngoài (external) mà hệ thống ngoài này đang\nsử dụng OSPF",
+      "lan truyền 1 external-LSA 172.x.0.0/16",
+      "lan truyền 2 external-LSA 172.x.0.0/16",
+      "lan truyền 1 external-LSA 192.168.x.0/24",
+      "lan truyền 2 external-LSA 192.168.x.0/24",
+      "lan truyền 3 external-LSA 192.168.x.0/24"
+    ],
+    "correctAnswerIndices": [
+      0,
+      6
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #bd18c0"
+  },
+  {
+    "id": 112,
+    "original_id": "question_#f8ae8_0",
+    "chapter": "Chapter 2. (cont.): Advanced",
+    "type": "multiple",
+    "question": "[GW: 192.168.56.1] ------- (172.21.0.0/16)\n/\nR2 ---(1)--- R1 ---(2)--- R3\n- Router R1 kết nối trực tiếp đến 2 router láng giềng R2 và R3 qua các link (1) và (2)\n- Các router kích hoạt OSPF trên các link (1) và (2)\n- R1 kết nối với GW có địa chỉ 192.168.56.1 để thông sang network 172.21.0.0/16\n- R1 khai báo static trong bảng routing là đi đến 172.21.0.0/16 thì next hop là 192.168.56.1\nĐể R2, R3 có thể kết nối với mạng 172.21.0.0/16, R1 khái báo OSPF redistribute static . Như vậy, R1\nđang nối hệ thống OSPF với một hệ thống ngoài (external) thông qua gateway 192.168.56.1\nKhai báo redistribute static  trên R1 có tác dụng gì (chọn các phương án đúng)?\nHW #4: OSPF (multi area &\nexternal)\n \n Phần 3: Tối ưu OSPF\nPhần 3: Tối ưu OSPF",
+    "options": [
+      "lan truyền External LSA 192.168.56.0 vào hệ thống OSPF",
+      "lan truyền External LSA 172.21.0.0 vào hệ thống OSPF",
+      "lan truyền summary-LSA vào mạng 172.21.0.0",
+      "thiết lập đường đi đến prefix 192.168.56.0 trong bảng routing của R2: next hop là R1",
+      "thiết lập đường đi đến prefix 172.21.0.0/16 trong bảng routing của R2: next hop là R1"
+    ],
+    "correctAnswerIndices": [
+      1,
+      4
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #f8ae84"
+  },
+  {
+    "id": 113,
+    "original_id": "section_0",
+    "chapter": "Chapter 2. (cont.): Advanced",
+    "type": "single",
+    "question": "Từ khóa nào dùng để khai báo một vùng (area) là totally stub ?",
+    "options": [
+      "totally stub",
+      "stub totally",
+      "no-summary",
+      "summarize"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 2,
+    "section_title": "Section"
+  },
+  {
+    "id": 115,
+    "original_id": "question_#1eded_0",
+    "chapter": "Chapter 2. (cont.): Advanced",
+    "type": "multiple",
+    "question": "LSA nào được lan truyền trong OSPF Stub Area? Chọn 3 tùy chọn",
+    "options": [
+      "Type 1",
+      "Type 2",
+      "Type 3",
+      "Type 4",
+      "Type 7"
+    ],
+    "correctAnswerIndices": [
+      0,
+      1,
+      2
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #1ededa"
+  },
+  {
+    "id": 117,
+    "original_id": "question_#b1f1a_0",
+    "chapter": "Chapter 2. (cont.): Advanced",
+    "type": "single",
+    "question": "Cú pháp để khai bào area 3 là dạng totally stub trong môi trường Quagga/FRR là gì?",
+    "options": [
+      "area 3 no-summary",
+      "area 3 stub no-summary",
+      "area 3 stub",
+      "area 3 stub summary"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 1,
+    "section_title": "Question #b1f1a3"
+  },
+  {
+    "id": 119,
+    "original_id": "question_#3c071_0",
+    "chapter": "Chapter 2. (cont.): Advanced",
+    "type": "single",
+    "question": "Cú pháp cấu hình area 10 là loại Stub trong môi trường Quagga/FRR là gì?",
+    "options": [
+      "area 10 stub",
+      "router ospf 1",
+      "router ospf id 1",
+      "area 10 stub enable"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Question #3c071a"
+  },
+  {
+    "id": 121,
+    "original_id": "question_#97605_0",
+    "chapter": "Chapter 2. (cont.): Advanced",
+    "type": "single",
+    "question": "Các area stub được sử dụng trong OSPF với mục đích:",
+    "options": [
+      "giảm thời gian LSA flooding",
+      "giảm LS database size",
+      "giảm routing table size",
+      "tất cả các ý trên"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 3,
+    "section_title": "Question #976058"
+  }
+]

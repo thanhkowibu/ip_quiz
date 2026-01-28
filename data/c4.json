@@ -1,0 +1,506 @@
+[
+  {
+    "id": 1,
+    "question": "Nhận định nào dưới đây thể hiện khái niệm văn hóa doanh nhân",
+    "options": [
+      "a. Hệ thống các giá trị, chuẩn mực, quan niệm và hành vi của doanh nhân trong quá trình lãnh đạo và quản lý doanh nghiệp.",
+      "b. Hệ thống các giá trị, chuẩn mực, quan niệm và hành vi của doanh nghiệp",
+      "c. Tổng hòa những giá trị và thái độ cũng như các phương thức tạo ra chúng, kỹ năng sử dụng các giá trị đó vì sự tiến bộ của loài ngoài và sự truyền thụ các giá trị đó từ thế hệ này sang thế hệ khác.",
+      "d. Tập hợp các nguyên tắc, chuẩn mực có tác dụng điều chỉnh, đánh giá, hướng dẫn và kiểm soát hành vi của các chủ thể kinh doanh"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 2,
+    "question": "Phương án nào dưới đây là tiêu chuẩn đánh giá văn hóa doanh nhân",
+    "options": [
+      "a. Tiêu chuẩn về phong cách",
+      "b. Tất cả các phương án trên",
+      "c. Tiêu chuẩn về đạo đức",
+      "d. Tiêu chuẩn về trách nhiệm xã hội"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 3,
+    "question": "Phương án nào dưới đây không phải là tiêu chuẩn đánh giá văn hóa doanh nhân",
+    "options": [
+      "a. Tiêu chuẩn về số năm kinh nghiệm",
+      "b. Tiêu chuẩn về sức khỏe",
+      "c. Tiêu chuẩn về trình độ năng lực",
+      "d. Tiêu chuẩn về đạo đức"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 4,
+    "question": "Sự kết hợp giữa văn hóa dân tộc, văn hóa tổ chức và văn hóa cá nhân thể hiện nhân tố nào có tác động đến văn hóa doanh nhân?",
+    "options": [
+      "a. Nhân tố văn hóa",
+      "b. Tất cả các phương án trên đúng",
+      "c. Nhân tố chính trị pháp luật",
+      "d. Nhân tố kinh tế"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 5,
+    "question": "CEO của Tập đoàn Facebook, Mark Zuckerbug đã tuyên bố sẽ trao tặng 99% tài sản tại Facebook trong suốt cuộc đời mình cho hoạt động từ thiện. Điều này cho thấy khía cạnh nào trong văn hóa doanh nhân?",
+    "options": [
+      "a. Tố chất",
+      "b. Năng lực",
+      "c. Đạo đức",
+      "d. Phong cách"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 6,
+    "question": "Những doanh nhân có tầm nhìn chiến lược tốt thể hiện yếu tố nào trong văn hóa doanh nhân",
+    "options": [
+      "a. Không có phương án đúng",
+      "b. Đạo đức của doanh nhân",
+      "c. Tố chất của doanh nhân",
+      "d. Phong cách doanh nhân"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 7,
+    "question": "Tố chất của doanh nhân thể hiện ở các khía cạnh",
+    "options": [
+      "a. Tầm nhìn chiến lược",
+      "b. Say mê, yêu thích kinh doanh",
+      "c. Năng lực quan hệ xã hội tốt",
+      "d. Tất cả các phương án trên đúng"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 8,
+    "question": "Elon Musk, CEO của Tập đoàn Tesla, là một người được đào tạo bài bản trong cả lĩnh vực vật lý và kinh doanh. Điều này cho thấy khía cạnh nào trong văn hóa doanh nhân của ông?",
+    "options": [
+      "a. Tố chất",
+      "b. Đạo đức",
+      "c. Năng lực",
+      "d. Phong cách"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 9,
+    "question": "Nhân tố nào ảnh hưởng lớn nhất đến văn hóa doanh nghiệp?",
+    "options": [
+      "a. Văn hóa doanh nhân",
+      "b. Đạo đức kinh doanh",
+      "c. Mục tiêu của doanh nghiệp",
+      "d. Sứ mệnh của doanh nghiệp"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 10,
+    "question": "Ông Phạm Nhật Vượng, chủ tịch Tập đoàn Vingroup cho rằng mục tiêu cuối cùng là làm cái gì đó cho đời và trong năm 2020, ông đã được vinh danh trong danh sách thiện nguyện châu Á. Điều này cho thấy yếu tố nào trong văn hóa doanh nhân của ông Vượng?",
+    "options": [
+      "a. Không có phương án đúng",
+      "b. Tố chất của doanh nhân",
+      "c. Đạo đức của doanh nhân",
+      "d. Phong cách doanh nhân"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 11,
+    "question": "Khả năng gây ảnh hưởng, định hướng và điều khiển người khác thực hiện theo mục đich của mình thuộc về",
+    "options": [
+      "a. Trình độ quản lý kinh doanh",
+      "b. Tố chất",
+      "c. Năng lực lãnh đạo",
+      "d. Trình độ chuyên môn"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 12,
+    "question": "Là một người cầu toàn, Steve Jobs, cố CEO của tập đoàn Apple luôn đặt tiêu chuẩn công việc rất cao cho các nhân viên, sẵn sàng la mắng hoặc sa thải khi họ không làm tốt công việc của mình. Đổi lại, nhân viên của tập đoàn Apple luôn phải hướng đến sự hoàn hảo. Điều này cho thấy Steve Jobs có đặc điểm của phong cách lãnh đạo nào theo lý thuyết của Daniel Goleman",
+    "options": [
+      "a. Gia trưởng",
+      "b. Ủy thác",
+      "c. Bề trên",
+      "d. Nhạc trưởng"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 13,
+    "question": "Doanh nhân có vai trò như thế nào trong văn hóa doanh nghiệp",
+    "options": [
+      "a. Kết hợp các lợi ích cho toàn bộ thành viên trong doanh nghiệp",
+      "b. Tất cả các phương án trên đúng",
+      "c. Chỗ dựa về mặt tinh thần cho cả doanh nghiệp",
+      "d. Người đi đầu trong hoạt động kinh doanh của doanh nghiệp"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 14,
+    "question": "Với tầm nhìn chiến lược về tương lai của thương mại điện tử, ông Jeff Bezos sáng lập Amazon hoạt động trong lĩnh vực thương mại điện tử từ năm 1993 và Amazon hiện đã trở thành công thương mại điện tử hàng đầu thế giới. Điều này cho thấy ông sở hữu",
+    "options": [
+      "a. Phong cách doanh nhân",
+      "b. Tố chất của doanh nhân",
+      "c. Đạo đức của doanh nhân",
+      "d. Không có phương án đúng"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 15,
+    "question": "Năng lực của doanh nhân là",
+    "options": [
+      "a. Trình độ chuyên môn",
+      "b. Khả năng lãnh đạo, kỹ năng quản lý",
+      "c. Khả năng làm việc trí óc và thể lực",
+      "d. Tất cả các phương án trên đúng"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 16,
+    "question": "Những yếu tố nào làm nên phong cách doanh nhân",
+    "options": [
+      "a. Văn hóa và tâm lý cá nhân",
+      "b. Môi trường xã hội",
+      "c. Kinh nghiệm và nguồn gốc đào tạo",
+      "d. Tất cả các phương án trên đúng"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 17,
+    "question": "Những doanh nhân có trình độ chuyên môn và kỹ năng quản lý tốt thể hiện yếu tố nào trong văn hóa doanh nhân",
+    "options": [
+      "a. Đạo đức của doanh nhân",
+      "b. Năng lực của doanh nhân",
+      "c. Không có phương án đúng",
+      "d. Phong cách doanh nhân"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 18,
+    "question": "Nhận định nào dưới đây phản án khái niệm phong cách doanh nhân",
+    "options": [
+      "a. Tất cả các phương án trên đúng",
+      "b. Cách thức làm việc của doanh nhân",
+      "c. Khuynh hướng suy nghĩ, quản lý mang bản sắc cá nhân của doanh nhân",
+      "d. Hệ thống các dấu hiệu đặc trưng trong hoạt động quản lý của doanh nhân, thể hiện qua đặc điểm nhân cách"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 19,
+    "question": "Quỹ Bill & Melinda Gates của tỷ phú Bill Gates chi 50 triệu đô la Mỹ giúp chữa bệnh Ebola bùng phát ở châu Phi vào năm 2014 thể hiện ___ trong văn hóa doanh nhân của tỷ phú.",
+    "options": [
+      "a. Phong cách",
+      "b. Đạo đức",
+      "c. Tố chất",
+      "d. Năng lực"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 20,
+    "question": "Bà Mai Kiều Liên, Tổng giám đốc của Vinamilk đã được đào tạo thành kỹ sư ngành chế biến sữa và đã từng làm Phó giám đốc phụ trách kỹ thuật Nhà máy sữa Thống Nhất, tiền thân của công ty Vinamilk hiện nay. Điều nay cho thấy bà Liên có ___ của một doanh nhân.",
+    "options": [
+      "a. Tố chất",
+      "b. Phong cách",
+      "c. Đạo đức",
+      "d. Năng lực"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 21,
+    "question": "Những doanh nhân cho rằng mục đích làm kinh doanh còn để phục vụ xã hội thể hiện yếu tố nào trong văn hóa doanh nhân",
+    "options": [
+      "a. Năng lực của doanh nhân",
+      "b. Phong cách doanh nhân",
+      "c. Không có phương án đúng",
+      "d. Đạo đức của doanh nhân"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 22,
+    "question": "Theo lý thuyết về phong cách quản trị của Rensis Likert, người quản lý theo phong cách nào có niềm tin vào cấp dưới, thúc đẩy bằng khen thưởng và một chút bằng đe doạ và trừng phạt, cho phép có ít nhiều thông tin lên trên, tiếp thu một số tư tưởng và ý kiến từ cấp dưới, cho phép phần nào sự giao quyền ra quyết định nhưng với kiểm tra chặt chẽ về mặt chính sách",
+    "options": [
+      "a. Tham gia theo nhóm",
+      "b. Tham vấn",
+      "c. Quyết đoán nhân từ",
+      "d. Quyết đoán áp chế"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 23,
+    "question": "Bất kể chưa nhận được bằng đại học từ Đại học Harvard do bỏ học giữa chừng, Bill Gates, người sáng lập Tập đoàn Microsoft đã dành rất nhiều thời gian tự học và trở nên rất giỏi về lập trình. Điều này cho thấy khía cạnh nào trong văn hóa doanh nhân của ông?",
+    "options": [
+      "a. Đạo đức",
+      "b. Năng lực",
+      "c. Phong cách",
+      "d. Tố chất"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 24,
+    "question": "Nhận xét \"làm việc với ông ấy thú vị khủng khiếp nhưng cũng áp lực khủng khiếp\" của nhân viên thân cận khi làm việc với Steve Jobs, cố CEO của Tập đoàn Apple cho thấy khía cạnh nào trong văn hóa doanh nhân của ông?",
+    "options": [
+      "a. Tố chất",
+      "b. Phong cách",
+      "c. Đạo đức",
+      "d. Năng lực"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 25,
+    "question": "Theo lý thuyết về phong cách lãnh đạo của Goleman, khi người quản lý tạo lập một bầu không khí tích cực qua việc tính cực hỗ trợ cho nhân viên trong việc hình thành năng lực cần thiết để đạt được thành công lâu dài, tin cậy giao phó trách nhiệm, và rất khéo léo trong khi giao việc những khó khăn, người quản lý áp dụng phong cách lãnh đạo nào dưới đây",
+    "options": [
+      "a. Gia trưởng",
+      "b. Ủy thác",
+      "c. Bề trên",
+      "d. Nhạc trưởng"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 26,
+    "question": "Theo lý thuyết về phong cách quản trị của Rensis Likert, người quản lý theo phong cách nào có sự tin tưởng và hy vọng lớn nhưng không hoàn toàn vào cấp dưới, tham khảo ý kiến cấp dưới và dùng phần thưởng để tạo động lực cho nhân viên",
+    "options": [
+      "a. Tham gia theo nhóm",
+      "b. Tham vấn",
+      "c. Quyết đoán áp chế",
+      "d. Quyết đoán nhân từ"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 27,
+    "question": "Các khía cạnh dưới đây KHÔNG thể hiện năng lực của doanh nhân,",
+    "options": [
+      "a. Khả năng lãnh đạo, kỹ năng quản lý",
+      "b. Đạo đức doanh nhân",
+      "c. Khả năng làm việc trí óc và thể lực",
+      "d. Trình độ chuyên môn"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 28,
+    "question": "Theo lý thuyết về phong cách lãnh đạo của Goleman, khi người quản lý khích lệ cấp dưới theo đuổi hoài bão, mục tiêu lâu dài, tạo môi trường năng động, chấp nhận thay đổi, người quản lý áp dụng phong cách lãnh đạo nào dưới đây",
+    "options": [
+      "a. Ủy thác",
+      "b. Gia trưởng",
+      "c. Dân chủ",
+      "d. Bằng hữu"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 29,
+    "question": "Mức độ phát triển kinh tế và đặc thù ngành nghề kinh doanh thể hiện nhân tố nào có tác động đến văn hóa doanh nhân?",
+    "options": [
+      "a. Nhân tố chính trị pháp luật",
+      "b. Tất cả các phương án trên đúng",
+      "c. Nhân tố văn hóa",
+      "d. Nhân tố kinh tế"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 30,
+    "question": "Quy tắc, luật lệ, thể chế hành chính đề cập tới nhân tố nào có tác động đến văn hóa doanh nhân?",
+    "options": [
+      "a. Nhân tố văn hóa",
+      "b. Tất cả các phương án trên sai",
+      "c. Nhân tố chính trị pháp luật",
+      "d. Nhân tố kinh tế"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 31,
+    "question": "Nhân tố nào sau đây phản ánh nhân tố kinh tế tác động đến văn hóa doanh nhân",
+    "options": [
+      "a. Quy tắc, luật lệ, thể chế hành chính",
+      "b. Sự kết hợp giữa văn hóa dân tộc, văn hóa tổ chức và văn hóa cá nhân",
+      "c. Không có đáp án đúng",
+      "d. Mức độ phát triển kinh tế và đặc thù ngành nghề kinh doanh"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 32,
+    "question": "Tim Cook, CEO của Tập đoàn Apple, nổi tiếng là người đòi hỏi nhân viên khắt khe, tái định hình cách nhân viên Apple làm việc và suy nghĩ. Nhận định này cho biết khía cạnh nào trong văn hóa doanh nhân của ông?",
+    "options": [
+      "a. Phong cách",
+      "b. Đạo đức",
+      "c. Năng lực",
+      "d. Tố chất"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 33,
+    "question": "Yếu tố nào dưới đây không phải là bộ phận cấu thành văn hóa doanh nhân",
+    "options": [
+      "a. Phong cách của doanh nhân",
+      "b. Năng lực và tố chất",
+      "c. Đạo đức",
+      "d. Đặc điểm doanh nghiệp"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 34,
+    "question": "Nhận định \"quyết đoán, tự tin\" đề cập đến ___ của doanh nhân.",
+    "options": [
+      "a. Phong cách",
+      "b. Năng lực",
+      "c. Đạo đức",
+      "d. Tố chất"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 35,
+    "question": "Tại Tập đoàn Google, toàn bộ công việc được giải quyết theo nhóm, thông tin được trao đổi nhanh chóng và chính xác để các nhóm có thể giải quyết các vấn đề hiệu quả nhất. Theo lý thuyết về phong cách lãnh đạo của Goleman, người quản lý của tập đoàn áp dụng phong cách lãnh đạo nào dưới đây",
+    "options": [
+      "a. Gia trưởng",
+      "b. Bằng hữu",
+      "c. Ủy thác",
+      "d. Dân chủ"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 36,
+    "question": "Các khía cạnh dưới đây KHÔNGthể hiện đạo đức của doanh nhân",
+    "options": [
+      "a. Hướng tới điều thiện",
+      "b. Có trình độ chuyên môn tốt",
+      "c. Có trách nhiệm với công việc",
+      "d. Có trách nhiệm với người khác trong tổ chức và ngoài xã hội"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 37,
+    "question": "Phong cách doanh nhân là phong cách thỏa mãn các điều kiện, loại trừ",
+    "options": [
+      "a. Đáp ứng nhu cầu kinh tế chỉ của riêng người doanh nhân",
+      "b. Đáp ứng nhu cầu khác nhau của người lao động",
+      "c. Phát huy sức mạnh cá nhân người lao động",
+      "d. Phát huy sức mạnh cộng hưởng của tập thể những người lao động"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 38,
+    "question": "Theo lý thuyết về phong cách quản trị của Rensis Likert, người quản lý theo phong cách nào có nhiều niềm tin hoàn toàn vào cấp dưới, khuyến khích họ tự ra quyết định và hoạt động theo nhóm",
+    "options": [
+      "a. Tham vấn",
+      "b. Quyết đoán áp chế",
+      "c. Tham gia theo nhóm",
+      "d. Quyết đoán nhân từ"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 39,
+    "question": "Theo lý thuyết về phong cách lãnh đạo của Goleman, khi người quản lý tạo ra bầu không khí bất lợi do những yêu cầu đặt ra là quá cao, người quản lý áp dụng phong cách lãnh đạo nào dưới đây",
+    "options": [
+      "a. Bề trên",
+      "b. Ủy thác",
+      "c. Gia trưởng",
+      "d. Nhạc trưởng"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 40,
+    "question": "Nhận thấy tương lai của ngành bán lẻ có nhiều biến động do sự xuất hiện của thương mại điện tử trong khi công nghệ sản xuất xe ô tô đang có thay đổi mạnh mẽ, ông Phạm Nhật Vượng đã quyết định bán các doanh nghiệp thuộc lĩnh vực bán lẻ của tập đoàn và chuyển hướng đầu tư sang sản xuất và kinh doanh xe ô tô. Điều này cho thấy đặc điểm gì trong tố chất doanh nhân của ông Vượng?",
+    "options": [
+      "a. Khả năng thích ứng với môi trường",
+      "b. Say mê kinh doanh",
+      "c. Năng lực quan hệ xã hội tốt",
+      "d. Không có phương án đúng"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 41,
+    "question": "Mark Zuckerberg, CEO của tập đoàn Facebook đã xây dựng tập đoàn thành nơi làm việc tốt nhất nước Mỹ nhờ coi trọng và đặt niềm tin vào nhân viên, nhân viên luôn được trau dồi năng lực nhờ làm việc với những người giỏi nhất, nhân viên thích được thử thách bằng những công việc khó. Điều này cho thấy ông có đặc điểm của phong cách lãnh đạo nào theo lý thuyết của Daniel Goleman",
+    "options": [
+      "a. Người quan liêu",
+      "b. Con sói đơn độc",
+      "c. Bề trên",
+      "d. Gia trưởng"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 42,
+    "question": "Theo lý thuyết về phong cách lãnh đạo của Goleman, khi người quản lý chú trọng đến sự tích cực và vai trò của nhóm, tập thể để đi đến quyết định tập thể và tăng cường thông tin và giao tiếp trong tổ chức, người quản lý áp dụng phong cách lãnh đạo nào dưới đây",
+    "options": [
+      "a. Dân chủ",
+      "b. Bằng hữu",
+      "c. Ủy thác",
+      "d. Gia trưởng"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  }
+]

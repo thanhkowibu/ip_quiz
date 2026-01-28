@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ôn tập câu hỏi trắc nghiệm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- File Selection Screen -->
+        <div class="file-selection" id="file-selection">
+            <h1 class="selection-title">Chọn bộ câu hỏi</h1>
+            <p class="selection-subtitle">Chọn một file để bắt đầu ôn tập</p>
+            <div class="file-grid">
+                <button class="file-card"
+                    onclick="window.quizApp.startQuiz('data/ip_chapters/IP_ Chapter 1_ Internet backbone.json', 'IP: Chapter 1')">
+                    <div class="file-name">IP: Chapter 1</div>
+                    <div class="file-info">Internet backbone</div>
+                </button>
+                <button class="file-card"
+                    onclick="window.quizApp.startQuiz('data/ip_chapters/IP_ Chapter 2_ AS backbone &.json', 'IP: Chapter 2 (RIP)')">
+                    <div class="file-name">IP: Chapter 2 (RIP)</div>
+                    <div class="file-info">AS backbone & RIP</div>
+                </button>
+                <button class="file-card"
+                    onclick="window.quizApp.startQuiz('data/ip_chapters/IP_ Chapter 2_ (cont.): OSPF.json', 'IP: Chapter 2 (OSPF)')">
+                    <div class="file-name">IP: Chapter 2 (OSPF)</div>
+                    <div class="file-info">OSPF Basic</div>
+                </button>
+                <button class="file-card"
+                    onclick="window.quizApp.startQuiz('data/ip_chapters/IP_ Chapter 2_ (cont.): Advanced.json', 'IP: Chapter 2 (Adv OSPF)')">
+                    <div class="file-name">IP: Chapter 2 (Adv)</div>
+                    <div class="file-info">Advanced OSPF</div>
+                </button>
+                <button class="file-card"
+                    onclick="window.quizApp.startQuiz('data/ip_chapters/IP_ Chapter 3_ Inter-AS.json', 'IP: Chapter 3')">
+                    <div class="file-name">IP: Chapter 3</div>
+                    <div class="file-info">Inter-AS (BGP)</div>
+                </button>
+                <button class="file-card"
+                    onclick="window.quizApp.startQuiz('data/ip_chapters/IP_ Chapter 4_ Private Network &.json', 'IP: Chapter 4')">
+                    <div class="file-name">IP: Chapter 4</div>
+                    <div class="file-info">Private Network & VPN</div>
+                </button>
+                <button class="file-card"
+                    onclick="window.quizApp.startQuiz('data/ip_chapters/IP_ Chapter 5_ Basic IP services.json', 'IP: Chapter 5')">
+                    <div class="file-name">IP: Chapter 5</div>
+                    <div class="file-info">Basic IP Services</div>
+                </button>
+                <button class="file-card"
+                    onclick="window.quizApp.startQuiz('data/ip_chapters/IP_ Chapter 6_ IP Multicast.json', 'IP: Chapter 6')">
+                    <div class="file-name">IP: Chapter 6</div>
+                    <div class="file-info">IP Multicast</div>
+                </button>
+                <button class="file-card"
+                    onclick="window.quizApp.startQuiz('data/ip_chapters/IP_ Chapter 7_ Quality of Service.json', 'IP: Chapter 7')">
+                    <div class="file-name">IP: Chapter 7</div>
+                    <div class="file-info">Quality of Service</div>
+                </button>
+
+                <!-- Keep the full extracted file as an option just in case -->
+                <button class="file-card"
+                    onclick="window.quizApp.startQuiz('data/extracted_questions_pdf.json', 'Full Extracted HTML')">
+                    <div class="file-name">All Extracted</div>
+                    <div class="file-info">Tất cả câu hỏi</div>
+                </button>
+            </div>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-container" id="progress-container">
+            <div class="progress-info">
+                <span class="progress-text"><span id="current-question">0</span> / <span
+                        id="total-questions">0</span></span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+        </div>
+
+        <!-- Quiz Card -->
+        <div class="quiz-card" id="quiz-card">
+            <div class="card-header">
+                <h2 class="card-title">Định nghĩa</h2>
+            </div>
+
+            <div class="question-content" id="question-content">
+                <p class="question-text" id="question-text">Loading...</p>
+            </div>
+
+            <div class="options-grid" id="options-grid">
+                <!-- Options will be dynamically inserted here -->
+            </div>
+
+            <div class="result-message" id="result-message"></div>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <div class="navigation-buttons" id="navigation-buttons">
+            <button class="nav-btn" id="prev-btn" disabled>
+
+                Câu trước
+            </button>
+            <button class="nav-btn primary" id="next-btn">
+                Câu tiếp theo
+
+            </button>
+        </div>
+
+        <!-- Results Screen -->
+        <div class="results-screen" id="results-screen" style="display: none;">
+            <div class="results-content">
+
+                <h1 class="results-title">Hoàn thành!</h1>
+                <div class="results-stats">
+                    <div class="stat-item">
+                        <div class="stat-value" id="correct-count">0</div>
+                        <div class="stat-label">Đúng</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="incorrect-count">0</div>
+                        <div class="stat-label">Sai</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="accuracy">0%</div>
+                        <div class="stat-label">Độ chính xác</div>
+                    </div>
+                </div>
+
+
+
+                <!-- Restart Options -->
+                <div class="restart-options">
+                    <h3 class="options-title">Học lại</h3>
+                    <div class="options-grid">
+                        <button class="option-card" onclick="window.quizApp.restartAll(true)">
+
+                            <div class="option-name">Tất cả (Shuffle)</div>
+                        </button>
+                        <button class="option-card" onclick="window.quizApp.restartAll(false)">
+
+                            <div class="option-name">Tất cả (Thứ tự)</div>
+                        </button>
+                        <button class="option-card study-incorrect-btn" onclick="window.quizApp.restartIncorrect(true)">
+
+                            <div class="option-name">Câu sai (Shuffle)</div>
+                        </button>
+                        <button class="option-card study-incorrect-btn"
+                            onclick="window.quizApp.restartIncorrect(false)">
+
+                            <div class="option-name">Câu sai (Thứ tự)</div>
+                        </button>
+                    </div>
+                    <button class="back-btn" onclick="window.quizApp.backToMenu()">
+
+                        Về menu chính
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

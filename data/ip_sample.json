@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "type": "single",
+    "question": "Trong môn IP, giao thức nào sau đây hoạt động ở tầng mạng (Network Layer)?",
+    "options": [
+      "HTTP",
+      "TCP",
+      "IP",
+      "FTP"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 2,
+    "type": "multiple",
+    "question": "Chọn tất CẢ các phát biểu đúng về địa chỉ IPv4 private:",
+    "options": [
+      "10.0.0.0/8",
+      "172.16.0.0/12",
+      "192.168.0.0/16",
+      "8.8.8.8/32"
+    ],
+    "correctAnswerIndices": [0, 1, 2],
+    "correctAnswerText": "A, B, C"
+  },
+  {
+    "id": 3,
+    "type": "single",
+    "question": "Dựa vào hình dưới, hãy xác định lớp địa chỉ IP của 192.168.1.10:",
+    "image": "data/img1.png",
+    "options": [
+      "Lớp A",
+      "Lớp B",
+      "Lớp C",
+      "Lớp D"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  }
+]
+

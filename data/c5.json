@@ -1,0 +1,782 @@
+[
+  {
+    "id": 1,
+    "question": "Văn hóa doanh nghiệp theo định nghĩa của E.N. Schein.",
+    "options": [
+      "a. Cả A và B đều đúng",
+      "b. Các quan niệm, nghi thức tạo thành nền móng sâu xa của doanh nghiệp",
+      "c. Tổng thế những thủ pháp và quy tắc giải quyết các vấn đề thích ứng bên ngoài và thống nhất bên trong các nhân viên",
+      "d. Toàn bộ các nét đẹp kinh doanh được doanh nghiệp tạo ra, chọn lọc và lưu truyền qua các thế hệ, được sử dụng và biểu hiện trong hoạt động kinh doanh và trở thành bản sắc kinh doanh của DN"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 2,
+    "question": "Phương án nào dưới đây không phải là tác động tích cực của văn hoá doanh nghiệp?",
+    "options": [
+      "a. Văn hoá doanh nghiệp tạo ra cơ chế quản lý cứng nhắc",
+      "b. Văn hoá doanh nghiệp tạo nên lực hướng tâm chung cho toàn doanh nghiệp",
+      "c. Văn hoá doanh nghiệp tạo nên phong thái của doanh nghiệp, giúp phân biệt doanh nghiệp này với doanh nghiệp khác",
+      "d. Văn hoá doanh nghiệp khích lệ quá trình đổi mới và sáng chế"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 3,
+    "question": "Văn hoá doanh nghiệp theo mô hình gia đình có nhược điểm:",
+    "options": [
+      "a. Phân chia lao động hướng vai trò và chức năng",
+      "b. Quan tâm đến năng suất và định hướng phát triển, đào tạo cá nhân",
+      "c. Ưu tiên cho bầu không khí của tổ chức, ít quan tâm đến năng suất",
+      "d. Khó thích nghi trước sự thay đổi của môi trường"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 4,
+    "question": "Các yếu tố ảnh hưởng đến sự hình thành văn hóa doanh nghiệp.",
+    "options": [
+      "a. Nhà lãnh đạo doanh nghiệp",
+      "b. Văn hóa dân tộc",
+      "c. Cả 3 đáp án trên.",
+      "d. Những giá trị văn hóa học hỏi được"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 5,
+    "question": ".........đưa ra khái niệm văn hóa doanh nghiệp với nội dung \"Văn hóa doanh nghiệp là tổng hợp các giá trị, các biểu tượng, huyền thoại, nghi thức, các điều cấm kỵ, các quan điểm triết học, đạo đức tạo thành nền móng sâu xa của doanh nghiệp\".",
+    "options": [
+      "a. Trần Quốc Vượng",
+      "b. Trần Ngọc Thêm",
+      "c. Georges de Saite Marie",
+      "d. Edgar Schein"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 6,
+    "question": "Mô hình văn hoá gia đình áp dụng phổ biến tại doanh nghiệp ở quốc gia nào?",
+    "options": [
+      "a. Nhật Bản",
+      "b. Ai Cập",
+      "c. Italia",
+      "d. Tây Ban Nha"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 7,
+    "question": "Phương án nào sau đây không nằm trong các bước xây dựng văn hóa doanh nghiệp của Julie Heifetz & Richard Hagberg?",
+    "options": [
+      "a. Tạo động lực cho sự thay đổi",
+      "b. Xây dựng tầm nhìn doanh nhiệp sẽ vươn tới",
+      "c. Tham khảo ý kiến chuyên gia",
+      "d. Xác định giá trị cốt lõi"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 8,
+    "question": "Phương án nào dưới đây không phải là mô hình văn hoá doanh nghiệp?",
+    "options": [
+      "a. Mô hình văn hoá chi tiết",
+      "b. Mô hình văn hoá nguyên tắc",
+      "c. Mô hình văn hoá quyền hạn",
+      "d. Mô hình văn hoá đồng đội"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 9,
+    "question": "Theo phân loại của Edgar H. Schein, cấp độ thứ nhất trong văn hoá doanh nghiệp được biểu hiện qua:",
+    "options": [
+      "a. Tất cả các đáp án trên",
+      "b. Những quan niệm chung",
+      "c. Những giá trị được chấp nhận",
+      "d. Những quá trình và cấu trúc hữu hình của doanh nghiệp"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 10,
+    "question": ".......... là một hệ thống các giá trị, các chuẩn mực, các quan niệm và hành vi của doanh nghiệp, chi phối hoạt động của mọi thành viên trong doanh nghiệp và tạo nên bản sắc kinh doanh riêng của doanh nghiệp.",
+    "options": [
+      "a. Văn hóa doanh nghiệp",
+      "b. Văn hóa kinh doanh",
+      "c. Triết lý kinh doanh",
+      "d. Văn hóa doanh nhân"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 11,
+    "question": "Theo phân loại của Edgar H. Schein, cấp độ thứ hai trong văn hoá doanh nghiệp được biểu hiện qua:",
+    "options": [
+      "a. Những giá trị được chấp nhận",
+      "b. Những quan niệm chung",
+      "c. Những quá trình và cấu trúc hữu hình của doanh nghiệp",
+      "d. Tất cả các đáp án trên"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 12,
+    "question": "Ngày Văn hóa doanh nghiệp Việt Nam là ngày bao nhiêu?",
+    "options": [
+      "a. 13/11",
+      "b. 11/11",
+      "c. 12/11",
+      "d. 10/11"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 13,
+    "question": "Mô hình nào dưới đây không phải là một mô hình văn hóa doanh nghiệp?",
+    "options": [
+      "a. Mô hình Tháp Hà Nội.",
+      "b. Mô hình văn hóa gia đình.",
+      "c. Mô hình tháp Eiffel.",
+      "d. Mô hình tên lửa dẫn đường."
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 14,
+    "question": "Yếu tố ảnh hưởng trực tiếp đến môi trường kinh doanh và ảnh hưởng sâu sắc tới việc hình thành và phát triển văn hóa kinh doanh là:",
+    "options": [
+      "a. Thể chế",
+      "b. Văn hóa xã hội, văn hóa dân tộc, văn hóa vùng miền",
+      "c. Quá trình toàn cầu hóa",
+      "d. Khách hàng"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 15,
+    "question": "Đặc tính cơ bản của văn hóa đồng đội",
+    "options": [
+      "a. Quản lý là việc tiếp tục giải quyết vấn đề",
+      "b. Quản lý được coi là việc hành chính lặt vặt",
+      "c. Quản lý dựa vào công việc hơn là dựa vào phẩm chất cá nhân",
+      "d. Quản lý trên cơ sở quyền lực cá nhân lãnh đạo"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 16,
+    "question": "Văn hóa doanh nghiệp hình thành và phát triển theo ............",
+    "options": [
+      "a. 2 giai đoạn",
+      "b. 3 giai đoạn",
+      "c. 1 giai đoạn",
+      "d. 4 giai đoạn"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 17,
+    "question": "\"Nhân cách của người chủ hay người đứng đầu doanh nghiệp sẽ quyết định chất lượng văn hóa của cả doanh nghiệp\" nói về nhân tố:",
+    "options": [
+      "a. Mối quan hệ giữa các thành viên của doanh nghiệp",
+      "b. Nhân viên",
+      "c. Khách hàng",
+      "d. Người đứng đầu"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 18,
+    "question": "Phương án nào dưới đây không phải là nhân tố bên trong ảnh hưởng đến văn hóa doanh nghiệp?",
+    "options": [
+      "a. Hình thức sở hữu của doanh nghiệp",
+      "b. Lịch sử, truyền thống của doanh nghiệp",
+      "c. Khách hàng",
+      "d. Ngành nghề kinh doanh của doanh nghiệp"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 19,
+    "question": "Mô hình xây dựng văn hóa doanh nghiệp mang đặc điểm nhấn mạnh nhiệm vụ và thứ bậc.",
+    "options": [
+      "a. Mô hình tháp Eiffel",
+      "b. Mô hình văn hóa gia đình",
+      "c. Mô hình lò ấp trứng",
+      "d. Mô hình tên lửa được định hướng"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 20,
+    "question": "Bước đầu tiên trong các bước xây dựng văn hóa doanh nghiệp theo nghiên cứu của Julie Heifetz & Richard Hagberg.",
+    "options": [
+      "a. Tìm hiểu môi trường và các yếu tố ảnh hưởng đến chiến lược doanh nghiệp trong tương lai.",
+      "b. Đánh giá văn hóa hiện tại, xác định những yếu tố văn hóa nào cần thay đổi và kết hợp với chiến lược phát triển.",
+      "c. Xác định đâu là giá trị cốt lõi làm cơ sở cho thành công.",
+      "d. Xác định tầm nhìn mà doanh nghiệp sẽ vươn tới."
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 21,
+    "question": ".........đưa ra khái niệm văn hóa doanh nghiệp với nội dung \"Văn hóa công ty là tổng hợp những quan niệm chung mà các thành viên trong công ty học được trong quá trình giải quyết các vấn đề nội bộ và xử lý các vấn đề với môi trường xung quanh\".",
+    "options": [
+      "a. Trần Ngọc Thêm",
+      "b. ILO",
+      "c. Edgar Schein",
+      "d. Nguyễn Văn Huyên"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 22,
+    "question": "Trong các bước xây dựng văn hóa doanh nghiệp của Julie Heifetz & Richard Hagberg, đâu là bước cơ bản nhất?",
+    "options": [
+      "a. Xác định giá trị cốt lõi",
+      "b. Xây dựng tầm nhìn doanh nghiệp sẽ vươn tới",
+      "c. Tìm hiểu môi trường và chiến lược của doanh nghiệp trong tương lai",
+      "d. Kế hoạch hành động"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 23,
+    "question": "Khi bước vào tất cả các điểm giao dịch của ngân hàng BIDV, chúng ta đều thấy các nhân viên mặc đồng phục và có cách giao tiếp thân thiện, làm việc chuyên nghiệp trong những tòa nhà được trang trí gần như giống nhau. Những biểu hiện như vậy thuộc cấp độ nào trong văn hoá doanh nghiệp của BIDV?",
+    "options": [
+      "a. Cả 3 cấp độ trên",
+      "b. Cấp độ thứ hai",
+      "c. Cấp độ thứ ba",
+      "d. Cấp độ thứ nhấ"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 24,
+    "question": "Các dạng văn hóa doanh nghiệp được phân loại theo sự phân cấp quyền lực.",
+    "options": [
+      "a. Văn hóa sáng tạo, văn hóa đồng đội, văn hóa quyền hạn, văn hóa hợp nhất",
+      "b. Văn hóa nguyên tắc, văn hóa quyền hạn, văn hóa sáng tạo, văn hóa đồng đội",
+      "c. Văn hóa nguyên tắc, văn hóa quyền hạn, văn hóa đồng đội, văn hóa hợp nhất",
+      "d. Văn hóa nguyên tắc, văn hóa đồng đội, văn hóa sáng tạo, văn hóa tập thể"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 25,
+    "question": "Theo Edgar H. Schein, văn hóa doanh nghiệp có thể chia thành bao nhiêu cấp độ?",
+    "options": [
+      "a. 3",
+      "b. 1",
+      "c. 4",
+      "d. 2"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 26,
+    "question": "Giai đoạn văn hóa doanh nghiệp có đặc điểm người sáng lập không còn giữ vai trò thống trị hoặc chuyển giao quyền lực cho ít nhất 2 thế hệ. Doanh nghiệp có nhiều biến đổi và có thể xuất hiện những xung đột giữa phe bảo thủ và phe đổi mới.",
+    "options": [
+      "a. Giai đoạn chín mồi và nguy cơ suy thoái",
+      "b. Giai đoạn giữa",
+      "c. Giai đoạn phá sản",
+      "d. Giai đoạn non trẻ"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 27,
+    "question": "Một loại mô hình văn hóa doanh nghiệp.",
+    "options": [
+      "a. Mô hình lò hấp trứng",
+      "b. Mô hình vệ tinh soi đường",
+      "c. Mô hình tháp Eiffel",
+      "d. Mô hình kinh tế gia đình"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 28,
+    "question": "Có bao nhiêu loại văn hóa doanh nghiệp theo cách phân loại của Trompenaar?",
+    "options": [
+      "a. 3",
+      "b. 1",
+      "c. 4",
+      "d. 2"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 29,
+    "question": ".........đưa ra khái niệm văn hóa doanh nghiệp với nội dung \"Văn hóa doanh nghiệp là sự trộn lẫn đặc biệt các giá trị, các tiêu chuẩn, thói quen và truyền thống, những thái độ ứng xử và lễ nghi mà toàn bộ chúng là duy nhất đối với một tổ chức đã biết\".",
+    "options": [
+      "a. Georges de Saite Marie",
+      "b. Edgar Schein",
+      "c. Tổ chức lao động quốc tế - ILO",
+      "d. E. Heriot"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 30,
+    "question": "Ưu điểm của mô hình văn hóa gia đình.",
+    "options": [
+      "a. Cả ba đáp án trên",
+      "b. Lãnh đạo phải làm gương, có tiếng nói, tạo được mẫu hình riêng, có vị thế và mong muốn cấp dưới \"cùng chung chí hướng\".",
+      "c. Quyền lực trong mô hình gia đình không thể tranh giành được vì nó không phụ thuộc vào nhiệm vụ mà vào vị trí được giao.",
+      "d. Người lãnh đạo giữ vai trò như người cha biết việc gì cần làm và biết điều gì tốt cho con cái. Đây là loại quyền lực hết sức thân thiện, không hề có tính đe dọa, áp lực."
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 31,
+    "question": "Ưu điểm của mô hình văn hóa lò ấp trứng là:",
+    "options": [
+      "a. Có sức lôi cuốn các chuyên gia và có tinh thần kỷ luật chéo",
+      "b. Thực hiện công việc hiệu quả có ý nghĩa quyết định và mức độ hoàn thành công việc sẽ là cơ sở đánh giá hiệu quả.",
+      "c. Sự gắn bó này hoàn toàn tự nguyện, được nuôi dưỡng và bồi đắp bởi hy vọng và lý tưởng, nó có thể trở thành kinh nghiệm quý báu và có ý nghĩa nhất trong cuộc đời con người.",
+      "d. Nhiệm vụ do một đội ngũ hay nhóm dự án đảm trách"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 32,
+    "question": "Nhược điểm của mô hình văn hóa tháp Eiffel",
+    "options": [
+      "a. Ít quan tâm đến năng suất, hiệu quả mà ưu tiên cho bầu không khí của tổ chức",
+      "b. Môi trường càng khép kín thì người ngoài càng cảm thấy khó khăn khi trở thành một thành viên",
+      "c. Lãnh đạo phải làm gương, có tiếng nói, tạo được mẫu hình riêng, có vị thế và mong muốn cấp dưới \"cùng chung chí hướng\".",
+      "d. Khó thích nghi trước sự thay đổi của môi trường"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 33,
+    "question": "Yếu tố nào dưới đây không thuộc các yếu tố ảnh hưởng đến sự hình thành văn hóa doanh nghiệp.",
+    "options": [
+      "a. Các giá trị văn hóa học hỏi được",
+      "b. Nhà lãnh đạo",
+      "c. Văn hóa dân tộc",
+      "d. Công nghệ"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 34,
+    "question": "Theo phân loại của Edgar H. Schein, cấp độ thứ hai của văn hoá doanh nghiệp được biểu hiện thông qua:",
+    "options": [
+      "a. Triết lý của doanh nghiệp",
+      "b. Biểu tượng logo, slogan, khẩu hiệu, tài liệu quảng cáo của doanh nghiệp",
+      "c. Lễ nghi và lễ hội hàng năm",
+      "d. Thái độ cung cách ứng xử của các thành viên"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 35,
+    "question": "Quan điểm đúng về quy chế và văn hóa doanh nghiệp.",
+    "options": [
+      "a. Quy chế và văn hóa doanh nghiệp giống nhau",
+      "b. Quy chế cần thiết hơn văn hóa",
+      "c. Quy chế bắt buộc; văn hóa tự nguyện",
+      "d. Quy chế có văn bản ban hành; văn hóa không có văn bản ban hành"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 36,
+    "question": "Mô hình văn hóa doanh nghiệp thường được áp dụng cho các công ty khởi nghiệp công nghệ.",
+    "options": [
+      "a. Mô hình lò ấp trứng",
+      "b. Mô hình văn hóa gia đình",
+      "c. Mô hình tên lửa dẫn đường",
+      "d. Mô hình tháp Eiffel"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 37,
+    "question": "Cách thức thay đổi văn hoá doanh nghiệp.",
+    "options": [
+      "a. Cả ba đáp án trên",
+      "b. Thay đổi tự giác",
+      "c. Thay đổi nhỏ ở mức độ tổng thể và chi tiết",
+      "d. Tạo ra thay đổi nhờ nhân rộng điển hình"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 38,
+    "question": "Mô hình văn hóa doanh nghiệp thường được áp dụng cho các công ty phần mềm và quảng cáo.",
+    "options": [
+      "a. Mô hình văn hóa gia đình",
+      "b. Mô hình lò ấp trứng",
+      "c. Mô hình tên lửa dẫn đường",
+      "d. Mô hình tháp Eiffel"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 39,
+    "question": "Hành động nào sau đây có thể khiến cho doanh nghiệp có văn hóa yếu kém?",
+    "options": [
+      "a. Giải quyết việc làm một cách chủ động, nhân viên thoải mái làm việc trong khuôn khổ nội quy của công ty",
+      "b. Tạo môi trường cạnh tranh lành mạnh cho nhân viên tích cực tham gia công việc",
+      "c. Yêu cầu tất cả thành viên trong công ty chấp hành nội quy, quy định của công ty, doanh nghiệp",
+      "d. Luôn tạo áp lực cho nhân viên và sa thải nhân viên một cách tùy tiện"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 40,
+    "question": "Văn hóa doanh nghiệp tạo nên ...... chung cho toàn doanh nghiệp.",
+    "options": [
+      "a. lực ma sát",
+      "b. lực hướng tâm",
+      "c. lực hấp dẫn",
+      "d. lực kéo"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 41,
+    "question": "Phân theo cơ cấu, định hướng về con người và nhiệm vụ, văn hóa tháp Eiffel được hiểu:",
+    "options": [
+      "a. Văn hóa định hướng nguyên tắc",
+      "b. Văn hóa định hướng dự án",
+      "c. Văn hóa định hướng quyền lực",
+      "d. Văn hóa định hướng hoàn thành"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 42,
+    "question": "\"Vấn đề trả lương cho người lao động, các công ty Mỹ và hầu hết các công ty Châu Âu trả lương theo năng lực làm việc của người lao động, do vậy người trẻ có năng lực thực sự hoàn toàn có thể có mức lương cao hơn người lớn tuổi và có thâm niên.\" Nội dung này đề cập đến cấp độ văn hóa nào trong văn hóa doanh nghiệp của các công ty Mỹ và các công ty Châu Âu?",
+    "options": [
+      "a. Những quan niệm chung",
+      "b. Biểu trưng trực quan - hữu hình",
+      "c. Biểu trưng phi trực quan - vô hình",
+      "d. Cả 3 đáp án trên"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 43,
+    "question": "Việc tự động hóa, máy tính hóa trong các nhà máy, công sở sẽ khiến người lao động thay đổi tác phong, lề thói làm việc, phải học hỏi để sử dụng tốt công nghệ mới từ đố sẽ dẫn đến thay đổi những niềm tin. Đây là cách thức thay đổi văn hóa nào?",
+    "options": [
+      "a. Thay đổi nhỏ ở mức độ tổng thể và chi tiết",
+      "b. Thay đổi nhờ thay thế các vị trí trong doanh nghiệp",
+      "c. Tạo ra thay đổi nhờ nhân rộng điển hình",
+      "d. Thay đổi nhờ áp dụng công nghệ mới"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 44,
+    "question": "Văn hóa doanh nghiệp là hệ thống hữu cơ các giá trị, các chuẩn mực, các quan niệm và hành vi do:",
+    "options": [
+      "a. Lãnh đạo thiết lập và yêu cầu toàn bộ nhân viên phải tuân thủ",
+      "b. Xã hội tích lũy qua nhiều thế hệ, được doanh nghiệp tiếp thu và phát triển",
+      "c. Bộ Văn hóa ban hành, yêu cầu các doanh nghiệp phải tuân thủ",
+      "d. Các thành viên trong doanh nghiệp đó sáng tạo và tích lũy trong quá trình tương tác với môi trường bên ngoài và hội nhập bên trong tổ chức"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 45,
+    "question": "Dạng thức văn hóa doanh nghiệp phổ biến tại Nhật Bản.",
+    "options": [
+      "a. Cả 3 đáp án đều sai",
+      "b. Văn hóa lò ấp trứng",
+      "c. Văn hoá cộng đồng",
+      "d. Văn hoá tên lửa dẫn đường"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 46,
+    "question": "Mô hình văn hóa tên lửa dẫn đường thường được áp dụng cho đối tượng nào?",
+    "options": [
+      "a. Các doanh nghiệp lâu đời ở Châu Âu",
+      "b. Công ty mới ở Thung lũng Silicon, Canifornia, Scotlen",
+      "c. Các công ty phần mềm và quảng cáo",
+      "d. Các doanh nghiệp ở Ai Cập, Italia, Singapore, Bắc Triều Tiên, Tây Ban Nha"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 47,
+    "question": "Đặc điểm của giai đoạn thứ 3 trong các giai đoạn hình thành văn hóa doanh nghiệp.",
+    "options": [
+      "a. Tất cả đều sai",
+      "b. Giai đoạn này doanh nghiệp phải tập trung tạo ra các giá trị văn hoá khác biệt so với đối thủ canh tranh, củng cố giá trị văn hoá và truyền đạt cho những người mới",
+      "c. Giai đoạn này doanh nghiệp không tiếp tục tăng trưởng nữa do thị trường đã bão hoà hoặc do sản phẩm trở nên lỗi thời",
+      "d. Giai đoạn này người sáng lập không còn giữ vai trò thống trị hoặc đã chuyển giao quyền lực cho ít nhất hai thế hệ"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 48,
+    "question": "Mô hình văn hóa doanh nghiệp nào thường xuất hiện trong những nhóm làm việc của các chuyên gia?",
+    "options": [
+      "a. Văn hóa tên lửa định đường",
+      "b. Văn hóa lò ấp trứng",
+      "c. Văn hóa tháp Eiffel",
+      "d. Văn hóa gia đình"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 49,
+    "question": "Dạng thức văn hóa nào dưới đây không thuộc các văn hóa doanh nghiệp được phân chia theo nguyên tắc phân cấp quyền lực?",
+    "options": [
+      "a. Văn hóa nguyên tắc",
+      "b. Văn hóa gia đình",
+      "c. Văn hóa quyền hạn",
+      "d. Văn hóa đồng đội"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 50,
+    "question": "Doanh nghiệp có văn hóa mạnh sẽ:",
+    "options": [
+      "a. Tạo ra niềm tự hào cho nhân viên về doanh nghiệp, từ đó mọi người luôn sống phấn đâu hết mình vì mục tiêu chung",
+      "b. Giúp lãnh đạo dễ dàng hơn trong việc quản lý doanh nghiệp",
+      "c. Cả A, B, C đều đúng",
+      "d. Giúp cho nhân viên thỏa mái và chủ động hơn trong việc đinh hướng cách nghĩ và cách làm việc"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 51,
+    "question": "Mô hình nào được áp dụng nhiều ở các doanh nghiệp lâu đời ở Châu Âu, có cấu trúc quan trọng hơn chức năng?",
+    "options": [
+      "a. Mô hình lò ấp trứng",
+      "b. Mô hình tên lửa dẫn đường",
+      "c. Mô hình văn hóa gia đình",
+      "d. Mô hình tháp Eiffel"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 52,
+    "question": "\"Trung Nguyên: Tạo dựng thương hiệu hàng đầu qua việc mang đến cho người thưởng thức cà phê nguồn cảm hứng sáng tạo và niềm tự hào trong phong cách Trung Nguyên đậm đà văn hóa Việt.\" là biểu hiện cho cấp độ nào trong các cấp độ biểu hiện văn hóa doanh nghiệp?",
+    "options": [
+      "a. Cấp độ 3",
+      "b. Cấp độ 1",
+      "c. Cấp độ 4",
+      "d. Cấp độ 2"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 53,
+    "question": "\"Ít quan tâm đến năng suất, hiệu quả mà ưu tiên cho bầu không khí của tổ chức\" là nhược điểm của mô hình văn hóa doanh nghiệp nào?",
+    "options": [
+      "a. Mô hình tháp Eiffel",
+      "b. Mô hình tên lửa dẫn đường",
+      "c. Mô hình lò ấp trứng",
+      "d. Mô hình văn hóa gia đình"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 54,
+    "question": "Các hình thức văn hóa doanh nghiệp được Trompenaars phân loại theo cơ cấu và định hướng về con người và nhiệm vụ bao gồm?",
+    "options": [
+      "a. Mô hình tháp EIFFEL, mô hình lò ấp trứng, mô hình tên lửa dẫn đường, mô hình gia đình",
+      "b. Mô hình tháp EIFFEL, mô hình lò ấp trứng, mô hình đồng đội, mô hình tên lửa dẫn đường",
+      "c. Mô hình lò ấp trứng, mô hình đồng đội, mô hình quyền hạn, mô hình tên lửa dẫn đường",
+      "d. Mô hình lò ấp trứng, mô hình tên lửa dẫn đường, mô hình gia đình, mô hình đồng đội"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 55,
+    "question": "Ưu điểm của mô hình văn hóa tháp Eiffel",
+    "options": [
+      "a. Sân chơi lành mạnh để phát huy những ý tưởng và đáp lại một cách thông minh những sáng kiến mới.",
+      "b. Có sức lôi cuốn các chuyên gia và có tinh thần kỷ luật chéo",
+      "c. Tất cả các đáp án trên",
+      "d. Thực hiện công việc hiệu quả có ý nghĩa quyết định và mức độ hoàn thành sẽ là cơ sở đánh giá kết quả."
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 56,
+    "question": "Nhược điểm của mô hình tên lửa dẫn đường.",
+    "options": [
+      "a. Không chiếm được cảm tình và sự tận tụy",
+      "b. Tốn kém do phải thuê các chuyên gia",
+      "c. Cả 3 phương án trên",
+      "d. Họ hợp tác với nhau vì tiền chứ không phải vì mục tiêu. Họ không cần phải biết quá rõ về nhau"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 57,
+    "question": "Theo quan điểm của Edgar Schein, những niềm tin, nhận thức, suy nghĩ, tình cảm mang tính vô thức, mặc nhiên được công nhận thuộc về cấp độ ____ trong văn hóa doanh nghiệp",
+    "options": [
+      "a. Những quan niệm chung",
+      "b. Những giá trị được chấp nhận",
+      "c. Hữu hình",
+      "d. Cả 3 đáp án trên"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 58,
+    "question": "Mô hình văn hóa nguyên tắc không có đặc tính này.",
+    "options": [
+      "a. Các quyết định đưa ra trên cơ sở quy trình và hệ thống",
+      "b. Tổ chức khách quan và khẳng định",
+      "c. Không linh hoạt",
+      "d. Thăng tiến đạt được thông qua việc tỏ rõ lòng trung thành với lãnh đạo"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 59,
+    "question": "Văn hoá doanh nghiệp được hiểu là:",
+    "options": [
+      "a. Hệ thống hữu cơ các giá trị, các chuẩn mực, hành vi do các thành viên trong doanh nghiệp sáng tạo và tích luỹ trong quá trình tương tác với bên ngoài và hội nhập bên trong tổ chức",
+      "b. Cả 3 đáp án trên",
+      "c. Hệ thống hữu cơ các giá trị, các chuẩn mực, hành vi do các thành viên ngoài doanh nghiệp sáng tạo và tích luỹ",
+      "d. Văn hoá trong hoạt động kinh doanh"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 60,
+    "question": "Văn hóa doanh nghiệp có tác động ___ đến hoạt động của tổ chức",
+    "options": [
+      "a. Tích cực hoặc tiêu cực",
+      "b. Tích cực",
+      "c. Tích cực và tiêu cực",
+      "d. Tiêu cực"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 61,
+    "question": "Theo quan điểm của Trompenaars, nếu một doanh nghiệp đề cao sự sáng tạo và hoàn thiện cá nhân, doanh nghiệp đó có văn hóa theo mô hình ___",
+    "options": [
+      "a. Lò ấp trứng",
+      "b. Tên lửa định hướng",
+      "c. Tháp Eiffel",
+      "d. Gia đình"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 62,
+    "question": "Theo quan điểm của Trompenaars, nếu một doanh nghiệp đề cao thứ bậc với nhiều quyền hạn của người lãnh đạo và yếu tố cá nhân, doanh nghiệp đó có văn hóa theo mô hình ___",
+    "options": [
+      "a. Lò ấp trứng",
+      "b. Gia đình",
+      "c. Tháp Eiffel",
+      "d. Tên lửa định hướng"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 63,
+    "question": "Theo quan điểm của Trompenaars, nếu một doanh nghiệp đề cao yếu tố bình đẳng với các nhóm làm việc nhằm đạt được mục tiêu, doanh nghiệp đó có văn hóa theo mô hình ___",
+    "options": [
+      "a. Gia đình",
+      "b. Tên lửa định hướng",
+      "c. Lò ấp trứng",
+      "d. Tháp Eiffel"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 64,
+    "question": "Sứ mệnh \"Vì một tương lai tốt đẹp hơn cho người Việt\" của tập đoàn Vingroup thể hiện cấp độ ___ trong văn hóa doanh nghiệp này",
+    "options": [
+      "a. Những giá trị được chấp nhận",
+      "b. Cả 3 đáp án trên",
+      "c. Những quan niệm chung",
+      "d. Hữu hình"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 65,
+    "question": "Phương án nào dưới đây không phải là mô hình văn hoá doanh nghiệp?",
+    "options": [
+      "a. Mô hình văn hoá chi tiết",
+      "b. Mô hình văn hoá nguyên tắc",
+      "c. Mô hình văn hoá quyền hạn",
+      "d. Mô hình văn hoá đồng đội"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  }
+]

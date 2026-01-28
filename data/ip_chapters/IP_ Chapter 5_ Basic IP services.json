@@ -1,0 +1,399 @@
+[
+  {
+    "id": 176,
+    "original_id": "section_0",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "fill_in_blank",
+    "question": "Cho sơ đồ kết nối mạng như sau:\nCác hoạt động đánh số từ 1 đến 4 trên hình vẽ là kết quả của lệnh ping sau đây:\n$ ping 203.162.0.11\nPING 203.162.0.11 56(84) bytes of data.\nFrom 10.0.0.1: icmp_seq=1 Redirect Host(New nexthop: a.b.c.d)\n64 bytes from 203.162.0.11: icmp_seq=1 ttl=62 time=4.24 ms\nFrom 10.0.0.1: icmp_seq=1 Redirect Host(New nexthop: a.b.c.d)\n64 bytes from 203.162.0.11: icmp_seq=2 ttl=62 time=5.05 ms\nHãy lựa chọn Đúng/Sai cho các nhận định sau đây:",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "Section",
+    "image": "data/images/pdf_176_q.png"
+  },
+  {
+    "id": 177,
+    "original_id": "section_1",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "single",
+    "question": "Câu hỏi (a):\nGiá trị của a.b.c.d là 10.0.0.1",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 1,
+    "section_title": "Section"
+  },
+  {
+    "id": 178,
+    "original_id": "section_2",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "single",
+    "question": "Câu hỏi (b):\nGói tin số 1 trong hình vẽ là ICMP Echo Request có địa chỉ nguồn là 10.0.0.100 và đích là 203.162.0.11",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Section"
+  },
+  {
+    "id": 179,
+    "original_id": "section_3",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "single",
+    "question": "Câu hỏi (c):\nGói tin số 4 và gói tin số 1 là giống nhau",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Section"
+  },
+  {
+    "id": 180,
+    "original_id": "section_4",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "single",
+    "question": "Câu hỏi (d):\nGói tin ICMP Echo Reply không được thể hiện trên hình vẽ",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Section"
+  },
+  {
+    "id": 181,
+    "original_id": "section_5",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "single",
+    "question": "Câu hỏi (e):\nICMP Redirect thông báo đang có hiện tượng routing đi vòng. Để loại bỏ tình huống này, cần thêm một\ngateway nữa vào routing table của máy Host\nBasic IP Services\nHomework due Dec 12, 2025 23:59 +07\nCompleted",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Section"
+  },
+  {
+    "id": 182,
+    "original_id": "question_#37364_0",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "multiple",
+    "question": "Để cấm các máy trạm trong private network sử dụng DNS trên public (như là 8.8.8.8) mà phải dùng\nDNS server nội bộ thì sử dụng phương pháp nào?",
+    "options": [
+      "DHCP thiết lập tự động DNS server",
+      "Firewall cấm cổng outbound 53 cho vùng các máy trạm",
+      "Firewall cấm cổng inbound 53 tới vùng các máy trạm",
+      "Xử lý cấu hình liên quan DNS tại các switch vùng máy trạm"
+    ],
+    "correctAnswerIndices": [
+      1,
+      3
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #37364c"
+  },
+  {
+    "id": 183,
+    "original_id": "question_#e8248_0",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "single",
+    "question": "Kiển bản ghi nào gắn với chức năng Reverse DNS?",
+    "options": [
+      "SRV record",
+      "SPF record",
+      "AAAA record",
+      "PTR record",
+      "TXT record"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 3,
+    "section_title": "Question #e8248a"
+  },
+  {
+    "id": 184,
+    "original_id": "question_#abaca_0",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "single",
+    "question": "Đâu là từ khóa để khai báo domain alias trong dịch vụ DNS?",
+    "options": [
+      "NS",
+      "MX",
+      "PTR",
+      "CNAME"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 3,
+    "section_title": "Question #abaca9"
+  },
+  {
+    "id": 185,
+    "original_id": "question_#26e30_0",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "single",
+    "question": "Một email đính kèm tập tin chứa mã độc được gửi đến cho bạn. Nếu bạn đọc email mà chưa mở tập tin\nđính kèm thì máy tính của bạn còn an toàn không?",
+    "options": [
+      "An toàn",
+      "Không an toàn"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Question #26e308"
+  },
+  {
+    "id": 186,
+    "original_id": "question_#b7f80_0",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "single",
+    "question": "Đâu là bản ghi cần được đăng ký tại TLD name server?",
+    "options": [
+      "SRV records",
+      "A records",
+      "SOA records",
+      "NS records",
+      "CNAME records"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 3,
+    "section_title": "Question #b7f800"
+  },
+  {
+    "id": 187,
+    "original_id": "question_#20519_0",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "single",
+    "question": "Có thể dùng Gmail để gửi và nhận các email khác với domain @gmail.com (ví dụ\nuser@soict.hust.edu.vn).\nĐể làm được điều này, Google Gmail được ủy quyền quản trị domain của người dùng. Đúng hay sai?",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 1,
+    "section_title": "Question #20519c"
+  },
+  {
+    "id": 188,
+    "original_id": "question_#d31fa_0",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "multiple",
+    "question": "Chọn các nhận định đúng sau đây về các giao thức email",
+    "options": [
+      "SMTP, POP3, IMAP, MIME là các giao thức liên quan đến dịch vụ email",
+      "POP3 và IMAP là 2 giao thức liên lạc giữa email client và email server",
+      "POP3 dùng để gửi email, IMAP dùng để nhận email",
+      "SMTP dùng để vừa nhận mail và gửi mail giữa các server"
+    ],
+    "correctAnswerIndices": [
+      1,
+      3
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #d31fae"
+  },
+  {
+    "id": 189,
+    "original_id": "question_#36261_0",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "single",
+    "question": "Bản ghi nào trong DNS chứa thông tin ánh xạ từ domain sang địa chỉ IP?",
+    "options": [
+      "A record",
+      "HTTP Redirection record",
+      "SPF record",
+      "MX record",
+      "NS record"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Question #362613"
+  },
+  {
+    "id": 190,
+    "original_id": "question_#d6d82_0",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "multiple",
+    "question": "Chọn các nhận định đúng sau đây về dịch vụ email?",
+    "options": [
+      "Giống như trong dịch vụ bưu chính, dịch vụ Email được thiết kế để server người gửi chuyển tiếp\nemail qua nhiều server trung gian, dựa theo tên miềm của email người nhận, cho đến khi email\nđược chuyển đến server người nhận",
+      "Các máy chủ chuyển tiếp email bằng sử dụng giao thức SMTP",
+      "Một cách mặc định, máy chủ email chỉ nhận chuyển tiếp email từ các người dùng địa phương,\nkhông nhận chuyển tiếp email từ người dùng lạ",
+      "Giống như trong dịch vụ bưu chính, email không được tự động chuyển ngay đến người nhận mà\ndừng tại máy chủ email địa phương của người nhận (như là bưu cục địa phương). Người nhận phải\nchủ động kết nối đến máy chủ email địa phương này để lấy email về đọc"
+    ],
+    "correctAnswerIndices": [
+      1,
+      3
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #d6d82c"
+  },
+  {
+    "id": 191,
+    "original_id": "question_#19d76_0",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "multiple",
+    "question": "Tại sao user không truy nhập được đến dịch vụ FTP trên Internet thông qua NAT Gateway?",
+    "options": [
+      "Do FTP hoạt động theo cơ chế không xác định cổng",
+      "Do FTP sử dụng 2 cổng riêng rẽ cho 2 kết nối: control và data",
+      "Do chế độ Active, server chủ động thiết lập kết nối data với client mà client lại nằm trong private\nnetwork",
+      "Do chế độ Pasive, client nhận được địa chỉ IP của server thông qua gói tin FTP tầng ứng dụng"
+    ],
+    "correctAnswerIndices": [
+      2,
+      3
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #19d76b"
+  },
+  {
+    "id": 192,
+    "original_id": "question_#e9a79_0",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "single",
+    "question": "Đâu là thông tin được định nghĩa trong SOA (Start of Authority) để báo cho secondary DNS thời điểm\ncần kết nối và cập nhật dữ liệu từ primary DNS?",
+    "options": [
+      "Expiry",
+      "Refresh",
+      "Retry",
+      "Serial"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 1,
+    "section_title": "Question #e9a795"
+  },
+  {
+    "id": 193,
+    "original_id": "question_#3bb04_0",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "single",
+    "question": "Trong dịch vụ FTP, chế độ Active được áp dụng cho trường hợp client nằm trên Internet public, còn chế\nđộ Pasive được áp dụng cho trường hợp client nằm trong private network. Đúng hay sai?",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Question #3bb048"
+  },
+  {
+    "id": 194,
+    "original_id": "question_#7855b_0",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "single",
+    "question": "Bản ghi nào trong hệ thống DNS xác định máy chủ dịch vụ Mail?",
+    "options": [
+      "NS",
+      "PTR",
+      "MX",
+      "CNAME"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 2,
+    "section_title": "Question #7855b2"
+  },
+  {
+    "id": 195,
+    "original_id": "question_#84902_0",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "single",
+    "question": "Biết rằng dịch vụ email hoạt động ở cổng 25. Để chặn sử dụng Gmail, firewall cần chặn cổng 25. Đúng\nhay sai?\nPrivate Network Security",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 1,
+    "section_title": "Question #84902a"
+  },
+  {
+    "id": 196,
+    "original_id": "section_0",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "single",
+    "question": "Một firewall hoạt động ở tầng network còn được gọi là?",
+    "options": [
+      "Stateful Filters",
+      "Packet Filters",
+      "personal firewall",
+      "Area Filters"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 1,
+    "section_title": "Section"
+  },
+  {
+    "id": 197,
+    "original_id": "question_#21668_0",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "single",
+    "question": "Một gateway ở tầng ứng dụng (Application-level gateway) được coi là một proxy firewall. Đúng hay\nsai?",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Question #216683"
+  },
+  {
+    "id": 198,
+    "original_id": "question_#5e732_0",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "multiple",
+    "question": "Một mạng private sử dụng firewall tại Gateway để đảm bảo an toàn như trong hình dưới:\nFirewall cần được cấu hình cho phép local user (vùng 'green') gửi và nhận gói tin với các server dịch vụ\n(vùng DMZ) và trạm Internet (vùng 'red'). Các cấu hình nào sau đây cần được áp dụng?",
+    "options": [
+      "red => green: Open",
+      "green => red: NAT",
+      "green => orange: Open",
+      "orange => green: Open"
+    ],
+    "correctAnswerIndices": [
+      1,
+      2
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #5e7322"
+  },
+  {
+    "id": 199,
+    "original_id": "question_#c1ecd_0",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "single",
+    "question": "....... là một vùng trung lập trên hệ thống mạng, nằm giữa vùng tin cậy và vùng không tin cậy. Hãy điền\ntừ thích hợp vào chỗ trống.",
+    "options": [
+      "Domain",
+      "Gateway",
+      "Firewall",
+      "DMZ"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 3,
+    "section_title": "Question #c1ecd6"
+  },
+  {
+    "id": 200,
+    "original_id": "question_#e39b2_0",
+    "chapter": "Chapter 5. Basic IP services",
+    "type": "multiple",
+    "question": "Một mạng private sử dụng firewall tại Gateway để đảm bảo an toàn như trong hình dưới:\nFirewall được cấu hình luật chuyển tiếp gói tin từ public Internet (vùng 'red') đến các server dịch vụ\n(vùng DMZ) như sau:\nred => orange: Closed. Use port forwarding\nCác nhận định nào sau đây là đúng?",
+    "options": [
+      "Các truy nhập từ public Internet đến Web server tại DMZ luôn bị cấm",
+      "DNS server đặt tại DMS có thể tham gia vào hệ thống DNS toàn cầu để cung cấp địa chỉ IP của\ncác máy thuộc mạng private",
+      "Email server đặt tại DMZ là hợp lý",
+      "Người dùng wife và local luôn truy nhập được đến các server tại DMZ"
+    ],
+    "correctAnswerIndices": [
+      1,
+      2
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #e39b2d"
+  }
+]

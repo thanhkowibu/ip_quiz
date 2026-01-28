@@ -1,0 +1,74 @@
+[
+    {
+      "id": 13,
+      "type": "multiple",
+      "question": "Thiết lập hệ thống kết nối liên mạng như sau: đường kết nối từ H1 đến H2 và H3 đi qua 2 router trung gian R1 và R2. H2 và H3 là 2 host kết với switch S1, và nối với router R2. Chạy ping từ H1 đến H2, bắt các gói tin IP trên kênh truyền từ R1 đến R2, nhận định nào sau đây đúng?",
+      "image": "data/hw1-3-1.png",
+      "options": [
+        "gói tin IP có địa chỉ nguồn là 192.169.1.100 và đích là 192.168.1.10",
+        "gói tin IP có địa chỉ mạng nguồn là 192.169.1.0/24 và mạng đích là 192.168.1.0/24",
+        "gói tin IP có địa chỉ mạng nguồn là 192.169.1.0/24 và mạng đích là 192.168.1.0/25",
+        "gói tin IP chứa thông tin netmask là \"/25\" để báo cho các router biết cách lấy địa chỉ mạng từ địa chỉ đích"
+      ],
+      "correctAnswerIndices": [0],
+      "correctAnswerText": "A"
+    },
+    {
+      "id": 14,
+      "type": "multiple",
+      "question": "Thiết lập hệ thống kết nối liên mạng như sau: đường kết nối từ H1 đến H2 và H3 đi qua 3 router trung gian R1, R2 và R3. H2 và H3 là 2 host kết với R3. Sơ đồ mạng được mô tả như bên dưới: Thực hiện ping từ H1 đến H2, R1 kiểm tra thấy có thể sử dụng những luật nào trong routing table để chuyển tiếp gói tin?",
+      "image": "data/hw1-3-2.png",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswerIndices": [0, 1, 2, 4],
+      "correctAnswerText": "A, B, C, E"
+    },
+    {
+      "id": 15,
+      "type": "single",
+    "question": "Thiết lập hệ thống kết nối liên mạng như sau: đường kết nối từ H1 đến H2 và H3 đi qua 3 router trung gian R1, R2 và R3. H2 và H3 là 2 host kết với R3. Sơ đồ mạng được mô tả như bên dưới: Thực hiện ping từ H1 đến H2, R1 sử dụng luật nào trong routing table để chuyển tiếp gói tin?",
+      "image": "data/hw1-3-2.png",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswerIndex": 4,
+      "correctAnswerText": "E"
+    },
+    {
+      "id": 16,
+      "type": "multiple",
+      "question": "Thiết lập hệ thống kết nối liên mạng như sau: đường kết nối từ H1 đến H2 và H3 đi qua 3 router trung gian R1, R2 và R3. H2 và H3 là 2 host kết với R3. Sơ đồ mạng được mô tả như bên dưới: Để tối ưu bảng routing tại R2, các luật chuyển tiếp đến H2 và H3 có thể được thay thế bằng 1 luật \"gộp\". Những luật nào sau đây có thể sử dụng để làm luật gộp?",
+      "image": "data/hw1-3-3.png",
+      "options": [
+        "192.168.0.0/16 >> R3",
+        "192.168.128.0/24 >> R3",
+        "192.168.128.100/25 >> R3",
+        "192.168.128.200/25 >> R3"
+      ],
+      "correctAnswerIndices": [0, 1],
+      "correctAnswerText": "A, B"
+    },
+    {
+      "id": 17,
+      "type": "multiple",
+      "question": "Thiết lập hệ thống kết nối liên mạng như sau: đường kết nối từ H1 đến H2 và H3 đi qua 2 router trung gian R1 và R2. H2 và H3 là 2 host kết với switch S1, và nối với router R2. Sơ đồ mạng được mô tả như bên dưới: Những nhận định nào sau đây là đúng?",
+      "image": "data/hw1-3-4.png",
+      "options": [
+        "R1 và R2 cùng vận hành routing với cơ chế classfull",
+        "R1 và R2 cùng vận hành routing với cơ chế classless",
+        "R1 chạy classfull routing, R2 chạy classless routing",
+        "R1 chạy classless routing, R2 chạy classfull routing"
+      ],
+      "correctAnswerIndices": [1],
+      "correctAnswerText": "B"
+    }
+  ]

@@ -1,0 +1,734 @@
+[
+  {
+    "id": 1,
+    "question": "Các vấn đề liên quan đến vi phạm đạo đức trong lĩnh vực marketing bao gồm những hoạt động nào sau đây:",
+    "options": [
+      "a. Quảng cáo phi đạo đức, bảo hộ người tiêu dùng, tuyển dụng nhân viên",
+      "b. Bán hàng phi đạo đức, thủ đoạn với đối thủ cạnh tranh, bảo hộ người tiêu dùng.",
+      "c. Quảng cáo phi đạo đức, bán hàng phi đạo đức, thủ đoạn với đối thủ cạnh tranh.",
+      "d. Quảng cáo phi đạo đức, bán hàng phi đạo đức, tuyển dụng nhân viên."
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 2,
+    "question": "Đâu không phải là quyền của người tiêu dùng đã được cộng đồng quốc tế công nhận và được thể hiện qua \" Bản hướng dẫn về bảo về người tiêu dùng\" của LHQ?",
+    "options": [
+      "a. Quyền được an toàn",
+      "b. Quyền được thoả mãn những nhu cầu cơ bản",
+      "c. Quyền được giáo dục về tiêu dùng",
+      "d. Quyền được làm việc trong môi trường an toàN"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 3,
+    "question": "Biện pháp marketing dụ dỗ người tiêu dùng mua những thứ mà lúc đầu họ không muốn mua và không cần đến bằng cách sử dụng các biện pháp bán hàng gây sức ép , lôi kéo tinh vi, bất ngờ. Đó là:",
+    "options": [
+      "a. Bán hàng phi đạo đức",
+      "b. Bán hàng dưới chiêu bài nghiên cứu thị trường",
+      "c. Phân chia thị trường",
+      "d. Quảng cáo phi đạo đức"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 4,
+    "question": "Nội dung đạo đức kinh doanh trong quản trị nguồn nhân lực liên quan đến những vấn đề cơ bản nào?",
+    "options": [
+      "a. Đạo đức trong tuyển dụng, bổ nhiệm, sử dụng lao động, đạo đức trong đánh giá người lao động, đạo đức trong bảo vệ người lao động.",
+      "b. Không trang bị đầy đủ các trang thiết bị an toàn lao động cho người lao động, cố tình duy trì các điều kiện nguy hiểm và không đảm bảo sức khỏe tại nơi làm việc",
+      "c. Bắt buộc người lao động thực hiện những công việc nguy hiểm mà không cho phép họ có cơ hội từ chối, bất chấp thể trạng, bất chấp khả năng và năng lực của họ",
+      "d. Che giấu thông tin về mối nguy hiểm của công việc, làm ngơ trước một vụ việc có thể dự đoán được và có thể phòng ngừa được."
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 5,
+    "question": "Đối với khách hàng, doanh nghiệp không được có những hành động nào sau đây?",
+    "options": [
+      "a. Doanh nghiệp không được cố tìm cách ràng buộc người tiêu dùng bởi bất kỳ cam kết đảm bảo chính thức hay ngầm định nào về trách nhiệm bắt buộc.",
+      "b. Doanh nghiệp phải thực hiện trọn vẹn nghĩa vụ cẩn thận, nghĩa là doanh nghiệp phải phòng ngừa mọi khả năng sản phẩm đưa ra thị trường có khiếm khuyết",
+      "c. Thu lợi nhuận mà không cần biết khi có thể gây tai nạn hay thiệt hại cho người tiêu dùng.",
+      "d. Từ ngữ trong lời giới thiệu, trong quảng cáo, trong tuyên bố của doanh nghiệp phải có tính trung thực."
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 6,
+    "question": "Biểu hiện nào sau đây không được coi là quảng cáo phi đạo đức:",
+    "options": [
+      "a. Lôi kéo, nài ép , dụ dỗ người tiêu dùng ràng buộc với các sản phẩm của nhà sản xuất mà không cho người tiêu dùng có cơ hội chống đỡ.",
+      "b. Quảng cáo thổi phồng, phóng đại về sản phẩm.",
+      "c. Quảng cáo nhằm vào các đối tượng nhạy cảm.",
+      "d. Bán hàng dưới chiêu bài nghiên cứu thị trường."
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 7,
+    "question": "Không dùng các thủ đoạn gian dối, xảo trá để kiếm lời; giữ chữ tín trong kinh doanh; không trốn thuế lậu thuế là biểu hiện của nguyên tắc, chuẩn mực nào trong đạo đức kinh doanh:",
+    "options": [
+      "a. Tính trung thực",
+      "b. Tôn trọng con người",
+      "c. Tuân thủ pháp luật",
+      "d. Trung thành với các trách nhiệm đặc biệt"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 8,
+    "question": "............là những thông tin được sử dụng trong quá trình tiến hành hoạt động kinh doanh không được nhiều người biết tới nhưng lại có thể tạo cơ hội cho người sở hữu nó có một lợi thế so với những đối thủ cạnh tranh không biết hoặc không sử dụng những thông tin đó.",
+    "options": [
+      "a. Phá hoại ngầm",
+      "b. Bí mật kinh doanh",
+      "c. Lạm dụng của công",
+      "d. Cáo giác"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 9,
+    "question": "Câu nào không phải là vai trò của đạo đức kinh doanh",
+    "options": [
+      "a. Tạo ra lợi nhuận bền vững cho DN",
+      "b. Góp phần làm tăng chất lượng hoạt động của DN",
+      "c. Là những hành vi và hoạt động thể hiện mong muốn đóng góp cho cộng đồng và cho XH",
+      "d. Làm cho khách hàng hài lòng"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 10,
+    "question": "Phân chia thị trường là:",
+    "options": [
+      "a. Hành vi định cho hàng hóa của doanh nghiệp những mức giá cao hơn đối thủ cạnh tranh.",
+      "b. Hành vi các đối thủ cạnh tranh không cạnh tranh với nhau trên cùng một địa bàn hay thỏa thuận hạn chế khối lượng bán ra.",
+      "c. Hành vi định cho hàng hóa của mình những giá bán thấp hơn giá thành nhằm mục đích thôn tín để thu hẹp cạnh tranh.",
+      "d. Hành vi hai hay nhiều doanh nghiệp hoạt động trong cùng một thị trường thỏa thuận về việc bán hàng hóa ở cùng một mức giá đã định."
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 11,
+    "question": "Đạo đức kinh doanh trong quản trị nguồn nhân lực không liên quan đến những vấn đề nào?",
+    "options": [
+      "a. Lạm dụng quảng cáo có thể xếp từ nói phóng đại về sản phẩm và che dấu sự thật tới lừa gạt hoàn toàn.",
+      "b. Bắt buộc người lao động thực hiện những công việc nguy hiểm mà không cho phép họ có cơ hội từ chối, bất chấp thể trạng, bất chấp khả năng và năng lực của họ.",
+      "c. Không trang bị đầy đủ các trang thiết bị an toàn lao động cho người lao động, cố tình duy trì các điều kiện nguy hiểm và không đảm bảo sức khỏe tại nơi làm việc",
+      "d. Sử dụng lao động, sử dụng chất xám của các chuyên gia nhưng không đãi ngộ xứng đáng với công sức đóng góp của họ"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 12,
+    "question": "Các nguyên tắc và chuẩn mực của đạo đức kinh doanh là:",
+    "options": [
+      "a. Tính trung thực; gắn lợi ích của doanh nghiệp với lợi ích của khách hàng và xã hội; bí mật và trung thành với các trách nhiệm đặc biệt.",
+      "b. Tính trung thực; gắn lợi ích của doanh nghiệp với lợi ích của khách hàng và xã hội, coi trọng hiệu quả gắn với trách nhiệm xã hội; bí mật và trung thành với các trách nhiệm đặc biệt.",
+      "c. Tính trung thực; tôn trọng con người; gắn lợi ích của doanh nghiệp với lợi ích của khách hàng và xã hội, coi trọng hiệu quả gắn với trách nhiệm xã hội; bí mật và trung thành với các trách nhiệm đặc biệt.",
+      "d. Tính trung thực, tôn trọng con người, gắn lợi ích của doanh nghiệp với lợi ích của khách hàng và xã hội."
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 13,
+    "question": "Trách nhiệm XH là nghĩa vụ mà một DN phải thực hiện đối với XH. Có trách nhiệm với XH là tăng đến mức tối đa các ......... và giảm tới mức tối thiểu các......... đối với XH.",
+    "options": [
+      "a. tác động tích cực, trách nhiệm",
+      "b. nghĩa vụ kinh tế, hậu quả tiêu cực",
+      "c. tác động tiêu cực, hậu quả tiêu cực",
+      "d. tác động tích cực, hậu quả tiêu cực"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 14,
+    "question": "Phát biểu nào sau đây là đầy đủ nhất về đối tượng điều chỉnh của đạo đức kinh doanh:",
+    "options": [
+      "a. Các chủ thể hoạt động kinh doanh.",
+      "b. Khách hàng của doanh nhân.",
+      "c. Đối thủ cạnh tranh của doanh nghiệp",
+      "d. Tầng lớp doanh nhân làm nghề kinh doanh."
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 15,
+    "question": "Phát biểu nào sau đây là đúng:",
+    "options": [
+      "a. Đạo đức quy định thái độ, nghĩa vụ, trách nhiệm của mỗi người đối với bản thân cũng như đối với người khác.",
+      "b. Đạo đức quy định thái độ, nghĩa vụ của mỗi người đối với bản thân cũng như đối với người khác và xã hội.",
+      "c. Đạo đức quy định thái độ, nghĩa vụ, trách nhiệm của mỗi người đối với bản thân cũng như đối với người khác và xã hội.",
+      "d. Đạo đức quy định nghĩa vụ, trách nhiệm của mỗi người đối với bản thân cũng như đối với người khác và xã hội"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 16,
+    "question": "Đối với người thực hiện cáo giác trong doanh nghiệp có thể chịu những thiệt hại gì:",
+    "options": [
+      "a. Tất cả các ý trên.",
+      "b. Bị mang tiếng xấu",
+      "c. Bị trừng phạt về thu nhập",
+      "d. Bị trù dập, đe doạ"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 17,
+    "question": "Các trách nhiệm xã hội của Doanh nghiệp bao gồm:",
+    "options": [
+      "a. Nghĩa vụ Lợi Nhuận, Pháp lý, Đạo đức, Nhân văn",
+      "b. Nghĩa vụ Kinh tế, Chính trị, Đao đức, Nhân văn",
+      "c. Nghĩa vụ Kinh tế, Pháp lý, Đạo đức, Nhân văn",
+      "d. Nghĩa vụ Lợi Nhuận, Pháp lý, Chính trị, Nhân văn"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 18,
+    "question": "Các vấn đề đạo đức liên quan đến người lao động bao gồm:",
+    "options": [
+      "a. Cáo giác, phân chia thị trường, bí mật kinh doanh, phá hoại ngầm",
+      "b. Cáo giác, bí mật kinh doanh, bán phá giá, phá hoại ngầm",
+      "c. Phân chia thị trường, bí mật kinh doanh, lạm dụng tài sản công, phá hoại ngầm",
+      "d. Cáo giác, bí mật kinh doanh, lạm dụng tài sản công, phá hoại ngầm"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 19,
+    "question": "Mang về nhà mình các đồ văn phòng phẩm của công ty; sao chép phần mềm mà công ty mua và mang về nhà dùng; sử dụng những dịch vụ mà công ty phải trả tiền (ví dụ: chuyển phát nhanh) cho mục đích cá nhân; gọi điện thoại vì mục đích cá nhân, lướt web vào mục đích cá nhân trong giờ làm việc (chat, mail...). Những hành động này của bạn đã vi phạm vấn đề về đạo đức nào sau đây:",
+    "options": [
+      "a. Cáo giác",
+      "b. Lạm dụng của công",
+      "c. Phá hoại ngầm",
+      "d. Bí mật kinh doanh"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 20,
+    "question": "Đối với ............, nghĩa vụ kinh tế của Doanh nghiệp là tạo công ăn việc làm với mức thù lao xứng đáng cơ hội việc làm như nhau, cơ hội phát triển nghề và chuyên môn, hưởng thù lao tương xứng, hưởng môi trường lao động an toàn và đảm bảo quyền riêng tư cá nhân nơi làm việc.",
+    "options": [
+      "a. người tiêu dùng",
+      "b. đối thủ cạnh tranh",
+      "c. người lao động",
+      "d. chủ sở hữu"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 21,
+    "question": "Để bảo vệ người tiêu dùng, Liên hợp quốc đã có bản hướng dẫn gửi Chính phủ các nước thành viên. Hãy cho biết người tiêu dùng có bao nhiêu quyền?",
+    "options": [
+      "a. 7 quyền",
+      "b. 8 quyền",
+      "c. 9 quyền",
+      "d. 6 quyền"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 22,
+    "question": "Phát biểu nào sau đây không phải là vai trò của đạo đức kinh doanh trong quản trị doanh nghiệp:",
+    "options": [
+      "a. Đạo đức kinh doanh góp phần tạo ra lợi nhuận cho Doanh nghiệp",
+      "b. Đạo đức kinh doanh góp phần làm hài lòng khách hàng.",
+      "c. Đạo đức kinh doanh góp phần vào sự cam kết và tận tậm của nhân viên.",
+      "d. Đạo đức kinh doanh góp phần bảo tồn và phát triển các giá trị của Doanh nghiệp"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 23,
+    "question": "Đối tượng hữu quan bên ngoài doanh nghiệp không phải là đối tượng nào sau đây:",
+    "options": [
+      "a. Khách hàng",
+      "b. Đối thủ cạnh tranh",
+      "c. Nhà cung cấp",
+      "d. Chủ sở hữu"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 24,
+    "question": "Đạo đức trong hoạt động tuyển dụng và bổ nhiệm nhân sự sẽ xuất hiện vấn đề nào sau đây:",
+    "options": [
+      "a. Tất cả đáp án trên đều đúng.",
+      "b. Tình trạng phân biệt đối xử",
+      "c. Sử dụng chất xám và không đãi ngộ xứng đáng với công sức nhân viên bỏ ra.",
+      "d. Không tôn trọng quyền riêng tư cá nhân"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 25,
+    "question": "Phát biểu nào sau đây là sai?",
+    "options": [
+      "a. Đạo đức kinh doanh là một dạng đạo đức nghề nghiệp và có tính đặc thù của hoạt động kinh doanh.",
+      "b. Đạo đức kinh doanh chính là đạo đức được vận dụng vào trong hoạt động kinh doanh.",
+      "c. Đạo đức kinh doanh chỉ quy định thái độ, nghĩa vụ, trách nhiệm của mỗi người đối với bản thân cũng như đối với người khác",
+      "d. Đạo đức kinh doanh là một tập hợp các nguyên tắc, chuẩn mực có tác dụng điều chỉnh, đánh giá, hướng dẫn và kiểm soát hành vi của các chủ thể kinh doanh."
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 26,
+    "question": "Đạo đức kinh doanh không được thể hiện chủ yếu trong lĩnh vực nào của doanh nghiệp?",
+    "options": [
+      "a. Đạo đức trong hoạt động Marketing",
+      "b. Đạo đức trong quản trị nguồn nhân lực",
+      "c. Đạo đức trong hoạt động kế toán, tài chính",
+      "d. Đạo đức trong công nghệ kỹ thuật"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 27,
+    "question": "Trong đạo đức tuyển dụng, sử dụng và bổ nhiệm người lao động có thể xuất hiện vấn đề phân biệt đối xử về:",
+    "options": [
+      "a. Chủng tộc, tôn giáo, văn hoá, pháp lý, tuổi tác, địa phương.",
+      "b. Chủng tộc, tôn giáo, văn hoá, giới tính, tuổi tác, địa phương.",
+      "c. Đạo đức, tôn giáo, văn hoá, giới tính, tuổi tác, địa phương.",
+      "d. Đạo đức, tôn giáo, văn hoá, pháp lý, tuổi tác, địa phương."
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 28,
+    "question": "Người quản lý sẽ bị quy trách nhiệm vô đạo đức trong trường hợp nào sau đây:",
+    "options": [
+      "a. Che dấu thông tin về mối nguy hiểm của công việc",
+      "b. Thường xuyên kiểm tra các thiết bị an toàn lao động để đề ra các biện pháp khắc phục",
+      "c. Không phổ biến kỹ các quy trình, quy phạm sản xuất và an toàn lao động cho người lao",
+      "d. Cả A và C"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 29,
+    "question": "Nếu...........liên quan đến các nguyên tắc và quy định chỉ đạo những quyết định của cá nhân và tổ chức thì ............quan tâm tới hậu quả của những quyết định của tổ chức tới xã hội.",
+    "options": [
+      "a. đạo đức kinh doanh, nghĩa vụ pháp lý",
+      "b. đạo đức kinh doanh, nghĩa vụ nhân văn.",
+      "c. trách nhiệm xã hội, đạo đức kinh doanh",
+      "d. đạo đức kinh doanh, trách nhiệm xã hội"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 30,
+    "question": "..........là tập hợp các nguyên tắc, chuẩn mực có tác dụng điều chỉnh, đánh giá, hướng dẫn và kiểm soát hành vi của các chủ thể kinh doanh",
+    "options": [
+      "a. Đạo đức kinh doanh",
+      "b. Trách nhiệm XH",
+      "c. Trách nhiệm đạo đức",
+      "d. Đạo đức"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 31,
+    "question": "..............của một Doanh nghiệp thường được thể hiện thông qua các nguyên tắc, giá trị đạo đức được tôn trọng trình bày trong bản sứ mệnh và chiến lược của công ty.",
+    "options": [
+      "a. Văn hoá",
+      "b. Mục tiêu",
+      "c. Triết lý kinh doanh",
+      "d. Nghĩa vụ đạo đức"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 32,
+    "question": "Đâu là biểu hiện của nguyên tắc chuẩn mực về tính trung thực trong đạo đức kinh doanh:",
+    "options": [
+      "a. Dùng các thủ đoạn dối trá để kiếm lời",
+      "b. Hối lộ, tham ô, thụt két.",
+      "c. Giữ chữ tín trong kinh doanh",
+      "d. Làm hàng giả, khuyến mại giả, quảng cáo sai sự thật"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 33,
+    "question": "Một thương hiệu lụa lâu năm có nhiều cửa hàng ở Hà Nội và TPHCM bị tố bán khăn lụa có 2 mác Made in China và Made in Vietnam. Thực tế họ đã nhập khăn của Trung quốc về và gắn mác của Việt Nam. Khi vụ việc bị phát hiện, ông chủ của thương hiệu đó cho biết sẽ thu hồi các sản phẩm đã bán ra thị trường có xuất xứ Trung Quốc nếu khách hàng có mong muốn đổi trả. Thương hiệu này sẽ bồi thường cho khách hàng một cách nghiêm túc. Sự việc vi phạm đến nguyên tắc, chuẩn mực nào trong đạo đức kinh doanh của doanh nghiệp.",
+    "options": [
+      "a. Tính trung thực",
+      "b. Tôn trọng khách hàng",
+      "c. Cả A và B",
+      "d. Bí mật trung thành với các trách nhiệm đặc biệt"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 34,
+    "question": "Trong bản hướng dẫn về bảo vệ người tiêu dùng của Liên hiệp quốc gửi Chính phủ các nước thành viên, quyền được tiếp thu những kiến thức và kỹ năng cần thiết để có thể lựa chọn sản phẩm, dịch vụ một cách thoả đáng, được hiểu biết về các quyền cơ bản và trách nhiệm của người tiêu dùng, được biết làm cách nào để thực hiện các quyền và trách nhiệm của mình, là quyền nào sau đây:",
+    "options": [
+      "a. Quyền được lắng nghe",
+      "b. Quyền được lựa chọn",
+      "c. Quyên được giáo dục về tiêu dùng",
+      "d. Quyền được thông tin"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 35,
+    "question": "Nghĩa vụ pháp lý trong trách nhiệm xã hội của Doanh nghiệp không bao gồm khía cạnh nào:",
+    "options": [
+      "a. Bảo vệ môi trường",
+      "b. Điều tiết cạnh tranh",
+      "c. Bảo vệ người tiêu dùng",
+      "d. Phát hiện những nguồn tài nguyên mới"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 36,
+    "question": "Các thông điệp quảng cáo hạt nêm của một số hãng như \"Ngon từ thịt, ngọt từ xương\" hoặc \"100% làm từ thịt thăn và xương ống\" khiến bao nhiêu bà nội trợ yên tâm vì có sản phẩm thay thế bột ngọt. Tuy nhiên trong thành phần các loại hạt nêm này thịt và xương chỉ có 2% còn lại là tinh bột sắn, bột bắp, muối, đường, chất điều vị.... Như vậy các quảng cáo này đã vi phạm đạo đức về:",
+    "options": [
+      "a. Quảng cáo phóng đại, thổi phồng về sản phẩm vượt quá mực hợp lý.",
+      "b. Lôi kéo, nài ép người tiêu dùng ràng buộc với sản phẩm.",
+      "c. Quảng cáo có hình thức khó coi, phi thị hiếu.",
+      "d. Quảng cáo nhằm vào đối tượng nhạy cảm."
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 37,
+    "question": "Đối với............, nghĩa vụ kinh tế của Doanh nghiệp là cung cấp hàng hoá và dịch vụ, các vấn đề liên quan đến chất lượng sản phẩm, an toàn sản phẩm, định giá, thông tin về sản phẩm, phân phối, cạnh tranh.",
+    "options": [
+      "a. người tiêu dùng",
+      "b. đối thủ cạnh tranh",
+      "c. người lao động",
+      "d. chủ sở hữu"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 38,
+    "question": "Câu nào sau đây là câu đúng khi nói về các hình thức ăn cắp bí mật trong kinh doanh?",
+    "options": [
+      "a. Quyền được cung cấp những thông tin cần thiết để có sự lựa chọn và được bảo vệ trước những quảng cáo hoặc ghi nhận không trung thực.",
+      "b. Che giấu thông tin về mối nguy hiểm của công việc, làm ngơ trước một vụ việc có thể dự đoán được và có thể phòng ngừa được.",
+      "c. Lấy thông tin hữu ích qua các cuộc phỏng vấn nghề nghiệp người làm công của doanh nghiệp cạnh tranh.",
+      "d. Sử dụng các cuộc nghiên cứu thị trường nhằm tạo ra một đợt bán điểm hay để thành lập một danh mục khách hàng tiềm năng, hoặc sử dụng các số liệu nghiên cứu thị trường để xây dựng một cơ sở dữ liệu thương mại phục vụ mục tiêu thiết kế sản phẩm."
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 39,
+    "question": "Bí mật kinh doanh trong doanh nghiệp bị lộ sẽ dẫn đến hậu quả gì?",
+    "options": [
+      "a. Cố định giá cả",
+      "b. Mang lại lợi nhuận cho công ty.",
+      "c. Phân chia thị trường",
+      "d. Mất lợi thế cạnh tranh của doanh nghiệp"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 40,
+    "question": "Trong bản hướng dẫn về bảo vệ người tiêu dùng của Liên hiệp quốc gửi Chính phủ các nước thành viên, quyền được cung cấp những thông tin cần thiết để có sự lựa chọn và được bảo vệ trước những quảng cáo hoặc ghi nhãn không trung thực là quyền nào sau đây:",
+    "options": [
+      "a. Quyền được lựa chọn",
+      "b. Quyền được thông tin",
+      "c. Quyền được lắng nghe",
+      "d. Quyền được an toàn"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 41,
+    "question": "Hoạt động nào được coi là hình thức cạnh tranh lành mạnh giữa các doanh nghiệp?",
+    "options": [
+      "a. Sao chép, làm nhái sản phẩm",
+      "b. Ăn cắp bí mật thương mại",
+      "c. Không ngừng cải tiến công nghệ, nâng cao chất lượng sản",
+      "d. Gièm pha hàng hóa của đối thủ cạnh tranh"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 42,
+    "question": "Đối tượng hữu quan bên trong doanh nghiệp không phải là đối tượng nào sau đây:",
+    "options": [
+      "a. Nhà cung cấp",
+      "b. Nhân viên",
+      "c. Nhà Quản lý",
+      "d. Chủ sở hữu"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 43,
+    "question": "Công ty Abbott L. trong sản xuất đã sáng chế ra một chất thay thế cho đường - đường Sucaril. Công thức này đã bị hai nhân viên của công ty ghi nhớ trong đầu rồi đem bán cho một công ty khác bắt chước sản xuất đề lấy một số tiền lớn. Hai nhân viên này đã bị khởi tố và công ty bị thiệt hại quá nặng nề. Về mặt đạo đức kinh doanh, hai nhân viên này đã vi phạm:",
+    "options": [
+      "a. Bí mật kinh doanh",
+      "b. Phá hoại ngầm",
+      "c. Lạm dụng của công",
+      "d. Cáo giác"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 44,
+    "question": "Hoạt động nào sau đây không được coi là thể hiện nghĩa vụ nhân văn của doanh nghiệp:",
+    "options": [
+      "a. Thành lập các tổ chức từ thiện và ủng hộ bà con bị lũ lụt",
+      "b. Thực hiện các hành động bảo vệ môi trường.",
+      "c. Đóng góp tiền cho giáo dục, nghệ thuật, môi trường và cho những người khuyết tật",
+      "d. Xây nhà tình nghĩa, lớp học tình thương cho người nghèo"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 45,
+    "question": "Các nguyên tắc và chuẩn mực của đạo đức kinh doanh không bao gồm:",
+    "options": [
+      "a. Lợi nhuận của Doanh nghiệp",
+      "b. Tôn trọng con người",
+      "c. Tính trung thực",
+      "d. Bí mật trung thành với các trách nhiệm đặc biệt"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 46,
+    "question": "Phát biểu nào sau đây là đúng về nghĩa vụ pháp lý trong trách nhiệm xã hội của doanh nghiệp?",
+    "options": [
+      "a. Các nghĩa vụ pháp lý trong trách nhiệm xã hội gồm điều tiết cạnh tranh, bảo vệ người tiêu dùng, bảo vệ môi trường, an toàn và bình đẳng, khuyến khích phát hiện và ngăn chặn hành vi sai trái.",
+      "b. Các nghĩa vụ pháp lý trong trách nhiệm xã hội thể hiện thông qua các tiêu chuẩn, chuẩn mực hay quan niệm, kỳ vọng của các đối tượng hữu quan.",
+      "c. Các nghĩa vụ pháp lý trong trách nhiệm xã hội đòi hỏi doanh nghiệp cung cấp sản phẩm, dịch vụ, tạo công ăn việc làm, cạnh tranh, bảo tồn và phát triển giá trị.",
+      "d. Các nghĩa vụ pháp lý trong trách nhiệm xã hội đòi hỏi doanh nghiệp những đóng góp cho cộng đồng và XH"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 47,
+    "question": "Những hoạt động nào sau đây được coi là vi phạm đạo đức trong quan hệ với đối thủ cạnh tranh:",
+    "options": [
+      "a. Bán phá giá.",
+      "b. Cố định giá cả.",
+      "c. Phân chia thị trường",
+      "d. Cả 3 đáp án trên đều đúng."
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 48,
+    "question": "............. trong trách nhiệm xã hội của Doanh nghiệp là những hành vi và hoạt động thể hiện những mong muốn đóng góp và hiến dâng cho cộng đồng và xã hội.",
+    "options": [
+      "a. Nghĩa vụ đạo đức",
+      "b. Nghĩa vụ nhân văn",
+      "c. Nghĩa vụ pháp lý",
+      "d. Nghĩa vụ kinh tế"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 49,
+    "question": "Đạo đức trong bảo vệ người lao động được biểu hiện bằng hành động nào sau đây:",
+    "options": [
+      "a. Thực hiện đầy đủ các biện pháp chăm sóc y tế và bảo hiểm.",
+      "b. Không trang bị đầy đủ các trang thiết bị an toàn lao động cho người lao động",
+      "c. Bắt buộc người lao động thực hiện những vông việc nguy hiểm mà không cho phép họ có cơ hội từ chối.",
+      "d. Không tuân thủ các quy định của ngành, quốc gia, quốc tế về các tiêu chuẩn an toàn."
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 50,
+    "question": "..............trong trách nhiệm xã hội của Doanh nghiệp là những hành vi và hoạt động mà xã hội mong đợi ở Doanh nghiệp nhưng không được quy định trong hệ thống luật pháp, không được thể chế hoá thành luật. Nó chỉ những hành vi và hoạt động mà các thành viên của tổ chức, cộng đồng và xã hội mong đợi từ phía các doanh nghiệp.",
+    "options": [
+      "a. Nghĩa vụ nhân văn",
+      "b. Nghĩa vụ kinh tế",
+      "c. Nghĩa vụ đạo đức",
+      "d. Nghĩa vụ pháp lý"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 51,
+    "question": "Nghĩa vụ kinh tế trong trách nhiệm xã hội của doanh nghiệp là:",
+    "options": [
+      "a. Tạo công ăn việc làm cho người lao động",
+      "b. Cung cấp sản phẩm, dịch vụ",
+      "c. Tất cả các đáp án trên đều đúng",
+      "d. Bảo tồn và phát triển các giá trị"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 52,
+    "question": "Để bảo vệ người tiêu dùng, Liên hợp quốc đã có bản hướng dẫn gửi Chính phủ các nước thành viên. Người tiêu dùng có quyền gì?",
+    "options": [
+      "a. Quyền được thông tin.",
+      "b. Cả 3 đáp án trên đều đúng",
+      "c. Quyền được lựa chọn.",
+      "d. Quyền được thỏa mãn những nhu cầu cơ bản"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 53,
+    "question": "Một số sản phẩm trên bao gói ghi \"mới\" hoặc \"cải tiến\" nhưng thực tế sản phẩm không hề có tính chất này hoặc hình dáng bao bì, hình ảnh quá hấp dẫn gây hiểu lầm đáng kể cho người tiêu dùng. Điều này được coi là vi phạm trong đạo đức marketing về:",
+    "options": [
+      "a. Bao bì và dán nhãn lừa gạt.",
+      "b. Quảng cáo có hình thức khó coi, phi thị hiếu.",
+      "c. Bán hàng lừa gạt",
+      "d. Bán hàng dưới chiêu bài nghiên cứu thị trường"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 54,
+    "question": "............là việc một thành viên của tổ chức công bố những thông tin làm chứng cứ về những hành động bất hợp pháp hay vô đạo đức của tổ chức.",
+    "options": [
+      "a. Phá hoại ngầm",
+      "b. Cáo giác",
+      "c. Bí mật kinh doanh",
+      "d. Lạm dụng của công"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 55,
+    "question": "Năm 2011, kỹ sư L.V.T đã liên hệ với nhiều cơ quan báo chí và Cục Đăng kiểm Việt Nam để phản ánh 3 lỗi kỹ thuật trong quá trình lắp ráp 2 dòng xe Innova và Fortuner trên dây chuyền sản xuất của Toyota VN. Các lỗi này được kỹ sư T. phát hiện dựa trên 9 năm kinh nghiệm làm việc trực tiếp trên dây chuyền sản xuất của Toyota VN. Tuy nhiên, Toyota phủ nhận hoàn toàn các phản ánh trên. Nhưng sau đó do áp lực của báo chí và dư luận, Toyota VN thông báo triệu hồi 66.000 xe Innova và Fortuner để kiểm tra bảo dưỡng. Hành động của kỹ sư T. được gọi là:",
+    "options": [
+      "a. Phá hoại ngầm",
+      "b. Bí mật kinh doanh",
+      "c. Lạm dụng của công",
+      "d. Cáo giác"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 56,
+    "question": "Hành vi định cho hàng hoá của công ty mình những giá bán thấp hơn giá thành nhằm mục đích thôn tính để thu hẹp cạnh tranh là:",
+    "options": [
+      "a. Dèm pha hàng hoá của đối thủ cạnh tranh.",
+      "b. Bán phá giá",
+      "c. Phân chi thị trường",
+      "d. Cố định giá"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 57,
+    "question": "Nguyên tắc, chuẩn mực tôn trọng con người trong đạo đức kinh doanh được áp dụng đối với đối tượng nào?",
+    "options": [
+      "a. Tất cả các đáp án trên đều đúng",
+      "b. Đối thủ cạnh tranh",
+      "c. Khách hàng",
+      "d. Nhân viên trong Doanh nghiệp"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 58,
+    "question": "............ trong trách nhiệm XH của Doanh nghiệp là phải sản xuất hàng hoá và dịch vụ mà Xã hội cần và muốn; tìm kiếm nguồn cung ứng lao động; phát hiện những nguồn tài nguyên mới, thúc đẩy tiến bộ công nghệ; phát triển sản phẩm; phân phối các nguồn sản xuất hàng hoá, dịch vụ trong hệ thống xã hội.",
+    "options": [
+      "a. Nghĩa vụ kinh tế",
+      "b. Nghĩa vụ nhân văn",
+      "c. Nghĩa vụ pháp lý",
+      "d. Nghĩa vụ đạo đức"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 59,
+    "question": "Chuẩn mực về đạo đức trong kinh tế-xã hội không bao gồm nghĩa vụ nào sau đây?",
+    "options": [
+      "a. Nghĩa vụ về pháp lý",
+      "b. Nghĩa vụ về kinh tế",
+      "c. Nghĩa vụ về đạo đức",
+      "d. Nghĩa vụ về môi trường sinh thái"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 60,
+    "question": "Hành vi hai hay nhiều công ty hoạt động trong cùng một thị trường thoả thuận về việc bán hàng hoá ở cùng một mức giá đã định được gọi là:",
+    "options": [
+      "a. Bán phá giá",
+      "b. Phân chi thị trường",
+      "c. Dèm pha hàng hoá của đối thủ cạnh tranh.",
+      "d. Cố định giá"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 61,
+    "question": "Đạo đức của hoạt động tài chính kế toán được biểu hiện như thế nào?",
+    "options": [
+      "a. Giảm giá dịch vụ khi công ty kiểm toán nhận một hợp đồng cung cấp dịch vụ với mức phí thấp hơn nhiều so với mức phí của công ty kiểm toán trước đó",
+      "b. Cho mượn danh kiểm toán viên để hành nghề.",
+      "c. Liêm chính, khách quan, độc lập và cẩn thận.",
+      "d. Điều chỉnh số liệu trong bảng cân đối kế toán."
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  }
+]

@@ -1,0 +1,75 @@
+[
+    {
+      "id": 8,
+      "type": "multiple",
+      "question": "Hệ thống mạng giả lập có kiến trúc và các địa chỉ IP như hình vẽ, được cấu hình để toàn bộ các trạm trong mạng ảo có thể kết nối Internet thông qua router R1. Hãy triển khai trên môi trường thực hành và chọn những nhận định đúng sau đây:",
+      "image": "data/static_routing_map.png",
+      "options": [
+        "máy A chạy \"tracepath\" đến Google (8.8.8.8) thì dòng kết quả đầu tiên là default gateway của máy A",
+        "máy X chạy \"tracepath\" đến Google (8.8.8.8) thì dòng kết quả đầu tiên là router R1",
+        "máy A chạy \"tracepath\" đến máy X thì dòng kết quả đầu tiên là router R1",
+        "máy A chạy \"tracepath\" đến máy X thì dòng kết quả đầu tiên là router R2"
+      ],
+      "correctAnswerIndices": [0, 2],
+      "correctAnswerText": "A, C"
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "question": "Hệ thống mạng giả lập có kiến trúc và các địa chỉ IP như hình vẽ. Để các trạm A và B kết nối được Internet thì bắt buộc cần cấu hình R1 là default gateway của mạng 192.168.1.0/24. Nhận định là đúng hay sai?",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctAnswerIndex": 1,
+      "correctAnswerText": "B"
+    },
+    {
+      "id": 10,
+      "type": "multiple",
+      "question": "Hệ thống mạng giả lập có kiến trúc và các địa chỉ IP như hình vẽ, được cấu hình để toàn bộ các trạm trong mạng ảo có thể kết nối Internet thông qua router R1. Thiết lập default gateway cho các trạm và các router trong hệ thống như thế nào?",
+      "image": "data/static_routing_map.png",
+      "options": [
+        "máy A, B có default gateway là R1",
+        "router R2 có default gateway là R1",
+        "router R3 có default gateway là R1",
+        "máy X có default gateway là R1"
+      ],
+      "correctAnswerIndices": [0, 1],
+      "correctAnswerText": "A, B"
+    },
+    {
+      "id": 11,
+      "type": "multiple",
+      "question": "Hệ thống mạng giả lập có kiến trúc và các địa chỉ IP như hình vẽ. Các trạm A và B được cấu hình default gateway là R1 để có thể kết nối Internet thông qua router R1. Để ping được từ A đến X, mức độ tối thiểu cần thêm vào các bảng routing trên từng router như thế nào?",
+      "image": "data/static_routing_map.png",
+      "options": [
+        "thêm vào bảng routing của R1 đường đi đến mạng 192.168.1.0",
+        "thêm vào bảng routing của R1 đường đi đến mạng 192.168.2.0",
+        "thêm vào bảng routing của R1 đường đi đến mạng 192.168.3.0",
+        "thêm vào bảng routing của R2 đường đi đến mạng 192.168.1.0",
+        "thêm vào bảng routing của R2 đường đi đến mạng 192.168.2.0",
+        "thêm vào bảng routing của R2 đường đi đến mạng 192.168.3.0",
+        "thêm vào bảng routing của R3 đường đi đến mạng 192.168.1.0",
+        "thêm vào bảng routing của R3 đường đi đến mạng 192.168.2.0",
+        "thêm vào bảng routing của R3 đường đi đến mạng 192.168.3.0"
+      ],
+      "correctAnswerIndices": [2, 5, 6],
+      "correctAnswerText": "C, F, G"
+    },
+    {
+      "id": 12,
+      "type": "multiple",
+      "question": "Hệ thống mạng giả lập có kiến trúc và các địa chỉ IP như hình vẽ, được cấu hình để toàn bộ các trạm trong mạng ảo có thể kết nối Internet thông qua router R1. Hãy cho biết những nhận định nào sau đây là đúng?",
+      "image": "data/static_routing_map.png",
+      "options": [
+        "bảng routing của R1 có prefix LAN1 (192.168.1.0/24) với next hop chính là R1",
+        "bảng routing của R1 có prefix mạng NAT (10.0.2.0/24) với next hop chính là máy host",
+        "bảng routing của R1 có prefix LAN2 (192.168.2.0/24) với next hop chính là R2",
+        "bảng routing của R1 có prefix LAN3 (192.168.3.0/24) với next hop chính là R3",
+        "bảng routing của R1 có prefix LAN3 (192.168.3.0/24) với next hop chính là R2"
+      ],
+      "correctAnswerIndices": [2, 4],
+      "correctAnswerText": "C, E"
+    }
+  ]

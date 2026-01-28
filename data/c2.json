@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "question": "Phát biểu nào sau đây đúng nhất?",
+    "options": [
+      "a. Phân tích môi trường bên ngoài để biết được điểm mạnh điểm yếu của tổ chức",
+      "b. Nhà quản trị chỉ cần phân tích môi trường nội bộ là đủ để đưa ra các chiến lược của công ty",
+      "c. Đáp án B và C đều đúng",
+      "d. Phân tích môi trường bên ngoài để biết được cơ hội và thách thức đối với doanh nghiệp"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 2,
+    "question": "\"Thúc đẩy sự ra đời của phương tiện giao thông có năng lượng bền vững bằng cách đưa xe điện ra thị trường nhanh nhất có thể\" là tuyên bố sứ mệnh của công ty nào sau đây?",
+    "options": [
+      "a. VinGroup",
+      "b. Volkswagen",
+      "c. Tesla",
+      "d. BYD"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 3,
+    "question": "Đâu không phải là các yếu tố cơ bản khi xây dựng sứ mệnh:",
+    "options": [
+      "a. Lịch sử",
+      "b. Những năng lực đặc biệt",
+      "c. Môi trường của doanh nghiệp (tổ chức)",
+      "d. Hệ thống các giá trị"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 4,
+    "question": "Phát biểu nào sau đây không đúng về triết lý kinh doanh của doanh nghiệp?",
+    "options": [
+      "a. Triết lý kinh doanh là cốt lõi của văn hoá doanh nghiệp, tạo ra phương thức phát triển bền vững của doanh nghiệp",
+      "b. Triết lý kinh doanh là yếu tố dễ bị thay đổi khi yếu tố môi trường kinh doanh thay đổi.",
+      "c. Triết lý doanh nghiệp là cái ổn định, rất khó thay đổi, nó phản ánh cái tinh thần - ý thức của doanh nghiệp",
+      "d. Triết lý kinh doanh là công cụ định hướng và cơ sở để quản lý chiến lược của doanh nghiệp"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 5,
+    "question": ". Doanh nghiệp nào tuyên bố sứ mệnh \"\"Vì một cuộc sống tốt đẹp hơn cho người Việt\" và Slogan \"Mãi mãi một tinh thần khởi nghiệp\"?",
+    "options": [
+      "a. Vinamilk",
+      "b. Viettel",
+      "c. Vingroup",
+      "d. TH True milk"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 6,
+    "question": "Môi trường nội bộ của doanh nghiệp",
+    "options": [
+      "a. Cơ sở vật chất, mục tiêu, triết lý kinh doanh, chiến lược, nhân sự",
+      "b. Cơ sở vật chất, triết lý kinh doanh, nhân sự, nhà cung cấp, mục tiêu",
+      "c. Triết lý kinh doanh, nhân sự, nhà cung cấp, khách hàng, mục tiêu",
+      "d. Cơ sở vật chất, triết lý kinh doanh, khách hàng, nhân sự, mục tiêu"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 7,
+    "question": "Triết lý kinh doanh 3P: People - Profit - Product có ý nghĩa là:",
+    "options": [
+      "a. Bán sản phẩm mà khách hàng cần",
+      "b. Bán sản phẩm mà doanh nghiệp có để thu lợi nhuận",
+      "c. Sản phẩm là trung tâm",
+      "d. Làm chủ công nghệ, sản xuất sản phẩm dẫn dụ và định hướng khách hàng"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 8,
+    "question": "Triết lý kinh doanh 3P: Profit - Product - People có ý nghĩa là:",
+    "options": [
+      "a. Bán sản phẩm mà doanh nghiệp có để thu lợi nhuận",
+      "b. Khách hàng là trung tâm",
+      "c. Bán sản phẩm mà khách hàng cần",
+      "d. Làm chủ công nghệ, sản xuất sản phẩm dẫn dụ và định hướng khách hàng"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 9,
+    "question": "\"Ngân hàng số 1 tại Việt Nam, phấn đấu trở thành một trong 100 Ngân hàng lớn nhất trong khu vực Châu Á, một trong 300 tập đoàn ngân hàng tài chính lớn nhất thế giới & được quản trị theo các thông lệ quốc tế tốt nhất\" là......tầm nhìn của ngân hàng nào?",
+    "options": [
+      "a. MB",
+      "b. BIDV",
+      "c. Techcombank",
+      "d. Vietcombank"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 10,
+    "question": "Điều kiện cơ bản cho sự ra đời của triết lý kinh doanh:",
+    "options": [
+      "a. Cơ chế pháp luật, thời gian hoạt động của doanh nghiệp, ủng hộ của khách hàng, năng lực lãnh đạo",
+      "b. Điều kiện kinh tế, chính trị, pháp luật, thời gian hoạt động của doanh nghiệp, năng lực lãnh đạo của doanh nhân, ủng hộ của khách hàng, sự tự giác của nhân viên",
+      "c. Cơ chế luật pháp, thời gian hoạt động của doanh nghiệp, năng lực lãnh đạo của doanh nhân, sự tự giác của nhân viên",
+      "d. Điều kiện văn hoá, kinh tế chính trị, xã hội, thời gian hoạt động của doanh nghiệp, năng lực lãnh đạo của doanh nhân, sự ủng hộ của khách hàng, sự tự giác của nhân viên"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 11,
+    "question": "Hệ thống các giá trị xác định ....... của doanh nghiệp với những người sở hữu, nhà quản trị, người lao động, khách hàng và các đối tượng hữu quan khác",
+    "options": [
+      "a. Nguyên tắc",
+      "b. Thái độ",
+      "c. Hành vi",
+      "d. Ứng xử"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 12,
+    "question": "\"......... là chương trình hành động tổng quát giúp đạt được các mục tiêu\"",
+    "options": [
+      "a. Kế hoạch tác nghiệp",
+      "b. Kế hoạch đơn dụng",
+      "c. Kế hoạch đa dụng",
+      "d. Chiến lược"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 13,
+    "question": "Quản lý theo mục tiêu (MBO) có nhiều đặc trưng ngoại trừ trường hợp nào sau đây?",
+    "options": [
+      "a. Phần thưởng được đưa ra dựa trên cơ sở những tiến bộ đó.",
+      "b. Những tiến bộ của quá trình đạt được mục tiêu được xem xét định kỳ.",
+      "c. Các mục tiêu về kết quả cụ thể do nhân viên và những người quản lý cùng xác định.",
+      "d. Các mục tiêu thường chung chung, mơ hồ."
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 14,
+    "question": "\"Vingroup coi trọng khách hàng và luôn lấy khách hàng làm trung tâm, đặt lợi ích và mong muốn của khách hàng lên hàng đầu; nỗ lực mang đến cho khách hàng những sản phẩm - dịch vụ hoàn hảo nhất; coi sự hài lòng của khách hàng là thước đo thành công\" là nội dung của giá trị cốt lõi nào của Vingroup?",
+    "options": [
+      "a. Tín",
+      "b. Tâm",
+      "c. Tốc",
+      "d. Tinh"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 15,
+    "question": "Ai là doanh nhân khởi xướng phong trào người Việt dùng hàng Việt từ 100 năm trước?",
+    "options": [
+      "a. Lương Văn Can",
+      "b. Lê Phát Đạt",
+      "c. Đỗ Hữu Phương",
+      "d. Bạch Thái Bưởi"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 16,
+    "question": "Đặc điểm của một bản tuyên bố sứ mệnh là:",
+    "options": [
+      "a. Tập trung vào thị trường chứ không phải sản phẩm cụ thể",
+      "b. Khả thi",
+      "c. Tất cả các đáp án còn lại",
+      "d. Cụ thể"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 17,
+    "question": "Hệ thống các giá trị của doanh nghiệp có thể được xây dựng dựa trên:",
+    "options": [
+      "a. Ý muốn của người lãnh đạo đương nhiệm để khẳng định dấu ấn cá nhân",
+      "b. Giữ nguyên các giá trị của doanh nghiệp đã được xây dựng trong quá khứ trong mọi hoàn cảnh",
+      "c. Các đáp án trên đều sai",
+      "d. Kế thừa những giá trị đã hình thành, phát triển các giá trị mới mà thế hệ lãnh đạo đương nhiệm mong muốn xây dựng để doanh nghiệp ứng phó với tình hình mới"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 18,
+    "question": "Triết lý kinh doanh 3P: Product - People - Profit có ý nghĩa là:",
+    "options": [
+      "a. Bán sản phẩm mà khách hàng cần",
+      "b. Lợi nhuận là trung tâm",
+      "c. Bán sản phẩm mà doanh nghiệp có để thu lợi nhuận",
+      "d. Làm chủ công nghệ, sản xuất sản phẩm dẫn dụ và định hướng khách hàng"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 19,
+    "question": "Doanh nghiệp thường lựa chọn chiến lược tăng trưởng khi",
+    "options": [
+      "a. Khi doanh nghiệp có nhiều điểm mạnh trong môi trường có nhiều cơ hội",
+      "b. Tốc độ tăng trưởng năm trước cao",
+      "c. Môi trường có nhiều cơ hội",
+      "d. Doanh nghiệp có nhiều điểm mạnh"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 20,
+    "question": "Các doanh nghiệp nhỏ mới thành lập thường sử dụng chiến lược, ngoại trừ:",
+    "options": [
+      "a. Chiến lược hớt váng",
+      "b. Chiến lược thị trường ngách",
+      "c. Chiến lược mạng lưới",
+      "d. Chiến lược sản xuất quy mô lớn"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 21,
+    "question": ". Những thành tựu của yếu tố nào dưới đây làm thay đổi phương pháp làm việc của con người, sự bùng nổ của cuộc cách mạng về thông tin và truyền thông đã tác động đến tất cả các lĩnh vực hoạt động của tổ chức như sản xuất, lưu thông, phân phối hay cách thức giao tiếp, phối hợp trong nội bộ tổ chức?",
+    "options": [
+      "a. Các yếu tố công nghệ.",
+      "b. Các yếu tố chính trị luật pháp.",
+      "c. Các yếu tố văn hóa xã hội.",
+      "d. Các yếu tố kinh tế"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 22,
+    "question": "Nội dung nào sau đây không phải là nội dung của hệ thống các giá trị trong doanh nghiêp:",
+    "options": [
+      "a. Phong cách ứng xử, giao tiếp",
+      "b. Lòng trung thành và sự cam kết",
+      "c. Nguyên tắc của doanh nghiệp",
+      "d. Những năng lực đặc biệt"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 23,
+    "question": "Nội dung của Triết lý kinh doanh bao gồm:",
+    "options": [
+      "a. Tất cả các đáp án còn lại",
+      "b. Sứ mệnh",
+      "c. Hệ thống các giá trị",
+      "d. Mục tiêu"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 24,
+    "question": "\"Với tinh thần gần gũi với thiên nhiên, luôn nỗ lực hết mình để nuôi dưỡng thể chất và tâm hồn Việt bằng cách cung cấp những sản phẩm thực phẩm có nguồn gốc từ thiên nhiên - sạch, an toàn, tươi ngon và bổ dưỡng\" là tuyên bố sứ mệnh của doanh nghiệp nào?",
+    "options": [
+      "a. Vinamilk",
+      "b. TH true milk",
+      "c. Ba Vì Milk",
+      "d. Nuti food"
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 25,
+    "question": ".........là phương châm hành động, là hệ giá trị và mục tiêu của Doanh nghiệp chỉ dẫn cho hoạt động kinh doanh",
+    "options": [
+      "a. Triết lý kinh doanh",
+      "b. Tầm nhìn",
+      "c. Sứ mệnh",
+      "d. Văn hoá"
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 26,
+    "question": "Ba yếu tố trong mô hình 3 P là:",
+    "options": [
+      "a. Sản phẩm, Lợi nhuận, Phân phối",
+      "b. Lợi nhuận, Phân phối, Con người",
+      "c. Sản phẩm, Lợi nhuận, Con người",
+      "d. Lợi nhuận, Phân phối, Giá"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  }
+]

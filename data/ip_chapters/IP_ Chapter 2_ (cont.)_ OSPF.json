@@ -1,0 +1,333 @@
+[
+  {
+    "id": 62,
+    "original_id": "rip_setting_tim_0",
+    "chapter": "Chapter 2. (cont.): OSPF",
+    "type": "fill_in_blank",
+    "question": "RFF router mặc định gửi cập nhật các RTE đến router láng giềng theo định kỳ 3 phút. Hãy chọn và điền\nvào các lệnh cấu hình bên dưới để đổi giá trị mặc đinh này thành 10 giây\n~$ sudo vtysh",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "RIP setting timer",
+    "correctAnswer": "vtysh"
+  },
+  {
+    "id": 63,
+    "original_id": "rip_setting_tim_1",
+    "chapter": "Chapter 2. (cont.): OSPF",
+    "type": "fill_in_blank",
+    "question": "Hello, this is FRRouting (version 7.2.1).\nCopyright 1996-2005 Kunihiro Ishiguro, et al.\n# show ip rip status",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "RIP setting timer",
+    "correctAnswer": "rip status"
+  },
+  {
+    "id": 64,
+    "original_id": "rip_setting_tim_2",
+    "chapter": "Chapter 2. (cont.): OSPF",
+    "type": "fill_in_blank",
+    "question": "Routing Protocol is \"rip\"\nSending updates every 180 seconds with +/-50%, next due in 1 seconds...\n# configure",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "RIP setting timer",
+    "correctAnswer": "configure"
+  },
+  {
+    "id": 65,
+    "original_id": "rip_setting_tim_3",
+    "chapter": "Chapter 2. (cont.): OSPF",
+    "type": "fill_in_blank",
+    "question": "(config)# router rip",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "RIP setting timer",
+    "correctAnswer": "rip"
+  },
+  {
+    "id": 66,
+    "original_id": "rip_setting_tim_4",
+    "chapter": "Chapter 2. (cont.): OSPF",
+    "type": "fill_in_blank",
+    "question": "(config-router)# timers basic 10",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "RIP setting timer",
+    "correctAnswer": "basic 10 180 120"
+  },
+  {
+    "id": 67,
+    "original_id": "rip_setting_tim_5",
+    "chapter": "Chapter 2. (cont.): OSPF",
+    "type": "fill_in_blank",
+    "question": "(config-router)# end\n# write\nNote: this version of vtysh never writes vtysh.conf\nBuilding Configuration...\n# show ip rip status\nRouting Protocol is \"rip\"\nSending updates every 10 seconds with +/-50%, next due in 1 seconds...\nCơ bản",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "RIP setting timer"
+  },
+  {
+    "id": 68,
+    "original_id": "question_#8705d_0",
+    "chapter": "Chapter 2. (cont.): OSPF",
+    "type": "single",
+    "question": "Nhận định sau đúng hay sai?\nMô hình OSPF single area giải quyết được nhược điểm cơ bản của mô hình RIP là các việc xác định\nđường đi tối ưu cho gói tin sẽ được cập nhật theo trạng thái đường truyền. Các gói tin không bị dồn\ntheo một đường đi cố định dẫn đến nghẽn kết nối trong khi đường đi khác đang \"thông thoáng\".",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Question #8705d6"
+  },
+  {
+    "id": 69,
+    "original_id": "question_#e824a_0",
+    "chapter": "Chapter 2. (cont.): OSPF",
+    "type": "single",
+    "question": "Nhận định sau đúng hay sai?\nRIP sử dụng phương pháp định tuyến dựa trên khoảng cách (distance vector) trong khi OSPF sử dụng\nphương pháp định tuyến dựa trên trạng thái đường truyền (link state). Cả hai giao thức định tuyến này\ncùng hướng đến mục tiêu tự động xây dựng bảng routing dựa trên cơ chế router tự động xác định láng\ngiềng bằng ICMP và lan tỏa các thông điệp RIP hoặc OSPF.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 1,
+    "section_title": "Question #e824aa"
+  },
+  {
+    "id": 70,
+    "original_id": "question_#e71d0_0",
+    "chapter": "Chapter 2. (cont.): OSPF",
+    "type": "single",
+    "question": "Địa chỉ IP nào được các router OSPF sử dụng để trao đổi LSA:",
+    "options": [
+      "224.0.0.5",
+      "224.0.1.5",
+      "224.0.0.2",
+      "224.0.0.1"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Question #e71d0e"
+  },
+  {
+    "id": 71,
+    "original_id": "question_#61d42_0",
+    "chapter": "Chapter 2. (cont.): OSPF",
+    "type": "single",
+    "question": "Hãy chọn nhận định đúng",
+    "options": [
+      "OSPF sử dụng TCP để truyền dữ liệu.",
+      "OSPF sử dụng UDP để truyền dữ liệu.",
+      "OSPF sử dụng mã 98 để vận hành trực tiếp trên tầng IP.",
+      "Không có câu nào đúng trong các câu kể trên."
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 3,
+    "section_title": "Question #61d42f"
+  },
+  {
+    "id": 72,
+    "original_id": "question_#15189_0",
+    "chapter": "Chapter 2. (cont.): OSPF",
+    "type": "multiple",
+    "question": "Giá trị nào (hoặc những giá trị nào) quyết định đến kết quả quá trình lựa chọn Designated Router trong\ngiao thức OSPF Hello?",
+    "options": [
+      "IP Address",
+      "Router ID",
+      "Priority",
+      "Code version"
+    ],
+    "correctAnswerIndices": [
+      1,
+      2
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #151891"
+  },
+  {
+    "id": 73,
+    "original_id": "question_#58d3c_0",
+    "chapter": "Chapter 2. (cont.): OSPF",
+    "type": "single",
+    "question": "Nhận định sau đúng hay sai?\nGiá trị cost của Link State tăng lên tỷ lệ theo tốc độ đường truyền của kết nối mạng tăng lên.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 1,
+    "section_title": "Question #58d3c8"
+  },
+  {
+    "id": 74,
+    "original_id": "question_#55a33_0",
+    "chapter": "Chapter 2. (cont.): OSPF",
+    "type": "multiple",
+    "question": "Để thiết lập cost của kết nối mạng trong cấu hình OSPF, trong môi trường thực hành, khai báo nào\ntrong cấu hình interface của router cho phép thiết lập cost=1563?",
+    "options": [
+      "bandwidth 64",
+      "ospf cost 1563",
+      "bandwidth 56",
+      "bandwidth 64k",
+      "bandwidth 56k"
+    ],
+    "correctAnswerIndices": [
+      0,
+      1
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #55a33d"
+  },
+  {
+    "id": 75,
+    "original_id": "question_#cca61_0",
+    "chapter": "Chapter 2. (cont.): OSPF",
+    "type": "multiple",
+    "question": "Hệ thống kết nối liên mạng có sơ đồ kết nối như sau:\n192.169.1.0/24     192.169.2.0/24\n\\               /\nR1 --------- R2\n|            |\nR4 --------- R3\n/              \\\n192.169.4.0/24       192.169.3.0/24\n(4 router nối vòng với nhau, và mỗi router nối với 1 bussiness network).\nCác LSA lan tỏa trong area này bao gồm?",
+    "options": [
+      "4 router-LSA",
+      "8 router-LSA",
+      "12 router-LSA",
+      "1 network-LSA",
+      "4 network-LSA",
+      "8 network-LSA"
+    ],
+    "correctAnswerIndices": [
+      0,
+      4
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #cca618"
+  },
+  {
+    "id": 76,
+    "original_id": "question_#b8d2e_0",
+    "chapter": "Chapter 2. (cont.): OSPF",
+    "type": "single",
+    "question": "Hệ thống kết nối liên mạng có sơ đồ kết nối như sau (nên sử dụng môi trường thực hành để giả lập hệ\nthống):\n192.169.1.0/24     192.169.2.0/24\n\\               /\nR1 --------- R2\n|            |\nR4 --------- R3\n/              \\\n192.169.4.0/24       192.169.3.0/24\n(4 router nối vòng với nhau, và mỗi router nối với 1 bussiness network).\nKhi đường kết nối R3 - R4 bị giảm tốc độ còn 50%, các LSA nào được lan truyền trong hệ thống?",
+    "options": [
+      "1 router-LSA",
+      "2 router-LSA",
+      "1 network-LSA",
+      "2 network-LSA"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Question #b8d2e8"
+  },
+  {
+    "id": 77,
+    "original_id": "question_#b4150_0",
+    "chapter": "Chapter 2. (cont.): OSPF",
+    "type": "single",
+    "question": "Hệ thống kết nối liên mạng có sơ đồ kết nối như sau (nên sử dụng môi trường thực hành để giả lập hệ\nthống):\n192.169.1.0/24     192.169.2.0/24\n\\               /\nR1 --------- R2\n|            |\nR4 --------- R3\n/              \\\n192.169.4.0/24       192.169.3.0/24\n(4 router nối vòng với nhau, và mỗi router nối với 1 bussiness network).\nR4 gặp sự cố nên đường kết nối chiều từ R4 đến R3, R1 đồng thời bị giảm tốc độ còn 50% (chiều ngược\nlại từ R1,R3 đến R4 không bị ảnh hưởng). Các LSA nào được lan truyền trong hệ thống?",
+    "options": [
+      "1 router-LSA",
+      "2 router-LSA",
+      "1 network-LSA",
+      "2 network-LSA"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Question #b4150d"
+  },
+  {
+    "id": 78,
+    "original_id": "question_#957ae_0",
+    "chapter": "Chapter 2. (cont.): OSPF",
+    "type": "multiple",
+    "question": "Hệ thống kết nối liên mạng có sơ đồ kết nối như sau (nên sử dụng môi trường thực hành để giả lập hệ\nthống):\n192.169.1.0/24               192.169.3.0/24\n\\                         /\nR1                      R3\n|                       |\n==============================================\n|                         |\nR2                        R4\n/                           \\\n192.169.2.0/24                     192.169.4.0/24\n- Mạng trục backbone và nối 4 router R1, R2, R3, R4 để nối với các mạng nghiệp vụ. \n- Các router khai báo quảng bá thông tin OSPF cho tất cả các mạng mà nó kết nối trực tiếp.\nCác LSA được quảng bá trong hệ thống là:",
+    "options": [
+      "1 router-LSA",
+      "4 router-LSA",
+      "1 network-LSA",
+      "4 network-LSA"
+    ],
+    "correctAnswerIndices": [
+      1,
+      2
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #957ae5"
+  },
+  {
+    "id": 79,
+    "original_id": "question_#25fb5_0",
+    "chapter": "Chapter 2. (cont.): OSPF",
+    "type": "multiple",
+    "question": "Trong giao thức OSPF, router sử dụng thành phần nào trong gói tin OSPF để lan tỏa thông tin liên quan\nđến trạng thái mạng? Hãy chọn 2 câu trả lời đúng.\nThực hành\nOSPF Hello",
+    "options": [
+      "OSPF header",
+      "OSPF advertisement",
+      "Router Link State Advertisement (Router-LSA)",
+      "Network Link State Advertisement (Network-LSA)",
+      "Single Area Advertisement"
+    ],
+    "correctAnswerIndices": [
+      2,
+      3
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #25fb50"
+  },
+  {
+    "id": 80,
+    "original_id": "section_0",
+    "chapter": "Chapter 2. (cont.): OSPF",
+    "type": "fill_in_blank",
+    "question": "Khi một router OSPF tham gia vào hệ thống, nó sử dụng giao thức OSPF Hello để kết nối láng giềng như\nsau:\n03:45:15.419629 IP (tos 0xc0, ttl 1, id 27223, offset 0, flags [none], proto OSPF (89), length 68)\n192.168.1.2 > 224.0.0.5: OSPFv2, Hello, length 48\nRouter-ID 2.2.2.2, Area 0.0.0.1, Authentication Type: none (0)\nOptions [External]\nHello Timer 10s, Dead Timer 40s, Mask 255.255.255.0, Priority 1\nDesignated Router 192.168.1.1, Backup Designated Router 192.168.1.2\nNeighbor List:\n1.1.1.1\n03:45:18.057860 IP (tos 0xc0, ttl 1, id 27834, offset 0, flags [none], proto OSPF (89), length 68)\n192.168.1.1 > 224.0.0.5: OSPFv2, Hello, length 48\nRouter-ID 1.1.1.1, Area 0.0.0.1, Authentication Type: none (0)\nOptions [External]\nHello Timer 10s, Dead Timer 40s, Mask 255.255.255.0, Priority 1\nDesignated Router 192.168.1.1, Backup Designated Router 192.168.1.2\nNeighbor List:\n2.2.2.2\nDựa vào các thông tin trao đổi bên trên, hãy trả lời các câu hỏi sau:\n1. Router láng giềng của router 192.168.1.1 có địa chỉ là:",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "Section",
+    "correctAnswer": "192.168.1.2"
+  },
+  {
+    "id": 81,
+    "original_id": "section_1",
+    "chapter": "Chapter 2. (cont.): OSPF",
+    "type": "fill_in_blank",
+    "question": "2. Router láng giềng của router 192.168.1.1 có Router-ID là:",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "Section",
+    "correctAnswer": "2.2.2.2"
+  },
+  {
+    "id": 82,
+    "original_id": "section_2",
+    "chapter": "Chapter 2. (cont.): OSPF",
+    "type": "fill_in_blank",
+    "question": "3. Các router láng giềng trao đổi với nhau bằng phương pháp multicast theo địa chỉ:",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "Section",
+    "correctAnswer": "224.0.0.5"
+  },
+  {
+    "id": 83,
+    "original_id": "section_3",
+    "chapter": "Chapter 2. (cont.): OSPF",
+    "type": "multiple",
+    "question": "4. Để giám sát trạng thái kết nối giữa 2 router này, hệ thống sẽ có những LSA nào?\nOSPF Database",
+    "options": [
+      "1 router LSA",
+      "2 router LSA",
+      "1 network LSA",
+      "2 network LSA"
+    ],
+    "correctAnswerIndices": [
+      1,
+      2
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Section"
+  }
+]

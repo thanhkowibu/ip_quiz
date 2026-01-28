@@ -1,0 +1,89 @@
+[
+    {
+      "id": 1,
+      "type": "single",
+      "question": "Địa chỉ IP 152.16.168.196/28 và 162.16.168.30 có nằm trong cùng một mạng?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correctAnswerIndex": 1,
+      "correctAnswerText": "B"
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "question": "Unicast là một phương pháp truyền tin. Đúng hay sai?",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswerIndex": 0,
+      "correctAnswerText": "A"
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "question": "Cú pháp /28 trong địa chỉ IP nói lên điều gì?",
+      "options": [
+        "Số lượng máy trạm trong mạng",
+        "Số lượng bit trong phần nét id",
+        "Số lượng bit trong phần host id",
+        "Các câu trả lời trên không có câu nào đúng"
+      ],
+      "correctAnswerIndex": 1,
+      "correctAnswerText": "B"
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "question": "Địa chỉ mạng (net ID) của một máy tính có địa chỉ IP 192.168.242.5/20 là:",
+      "options": [
+        "192.168.242.2",
+        "192.168.241.1",
+        "192.168.240.5",
+        "192.168.240.0"
+      ],
+      "correctAnswerIndex": 3,
+      "correctAnswerText": "D"
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "question": "Giá trị mặt nạ mạng (network mask) là 255.255.240.0 thì mạng đó chứa bao nhiêu máy trạm?",
+      "options": [
+        "100",
+        "4094",
+        "256",
+        "192.168.250.252"
+      ],
+      "correctAnswerIndex": 1,
+      "correctAnswerText": "B"
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "question": "Tên đầy đủ của địa chỉ IP là:",
+      "options": [
+        "Internet Provider address",
+        "Internet Processing address",
+        "Internet Protocol address",
+        "None of the above"
+      ],
+      "correctAnswerIndex": 2,
+      "correctAnswerText": "C"
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "question": "Địa chỉ quảng bá (broadcast) của một network có máy trạm 192.168.242.5/20 là:",
+      "options": [
+        "192.168.251.251",
+        "192.168.250.250",
+        "192.168.250.251",
+        "192.168.255.255"
+      ],
+      "correctAnswerIndex": 3,
+      "correctAnswerText": "D"
+    }
+  ]

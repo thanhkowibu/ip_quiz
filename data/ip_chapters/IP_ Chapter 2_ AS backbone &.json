@@ -1,0 +1,352 @@
+[
+  {
+    "id": 38,
+    "original_id": "question_#6f46a_0",
+    "chapter": "Chapter 2. AS backbone &",
+    "type": "fill_in_blank",
+    "question": "Sau khi hoàn thành cấu hình một router, người quản trị thực hiện kiểm tra kết nối mạng trên router này bằng các command line và xem kết quả. Hãy lựa chọn mục thích hợp trong List và điền vào những chỗ còn trống dưới đây:\n$ sudo sysctl net.ipv4.ip_forward\nnet.ipv4.ip_forward = 0\n$ sudo sysctl -w net.ipv4.ip_forward=1\nnet.ipv4.ip_forward = 1\n$ ping 192.168.3.1\nPING 192.168.3.1 (192.168.3.1) 56(84) bytes of data.\nFrom 192.168.1.1 icmp_seq=1 Redirect Host(New nexthop: 2.1.168.192)\n64 bytes from 192.168.3.1: icmp_seq=1 ttl=63 time=4.08 ms\n64 bytes from 192.168.3.1: icmp_seq=2 ttl=63 time=4.36 ms\n:~$ tracepath -n\n8.8.8.8\n1?: [LOCALHOST]                      pmtu 1500\n1:  192.168.3.1                                           1.984ms\n1:  192.168.3.1                                           2.236ms\n2:  192.168.2.1                                           4.209ms\n3:  192.168.1.1                                           6.276ms\n4:  10.0.2.2                                              7.115ms\n:~$ sudo tcpdump -i enp0s3 -nv\ntcpdump: listening on enp0s3, link-type EN10MB (Ethernet), capture size 262144 bytes\n03:44:13.017873 IP (tos 0x0, ttl 1, id 0, offset 0, flags [DF], proto UDP (17), length 1500)",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #6f46a4"
+  },
+  {
+    "id": 39,
+    "original_id": "section_0",
+    "chapter": "Chapter 2. AS backbone &",
+    "type": "multiple",
+    "question": "Trong giao thức RIPv1, quá trình router xác định các router láng giềng thì gói tin nào được sử dụng?",
+    "options": [
+      "RIP Hello",
+      "ICMP Hello",
+      "ICMP Solicitation",
+      "ICMP Advertisement"
+    ],
+    "correctAnswerIndices": [
+      2,
+      3
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Section"
+  },
+  {
+    "id": 40,
+    "original_id": "question_#ad0b9_0",
+    "chapter": "Chapter 2. AS backbone &",
+    "type": "multiple",
+    "question": "Sử dụng môi trường thực hành, thây dựng hệ thống kết nối liên mạng có sơ đồ kết nối như sau (các router R1, R2, R3, Rx và các host H1, H2):\n/----- H1: 192.168.1.10/24\nRx -- ... -- R1 ---- R2 ---- R3\n\\----- H2: 192.168.2.20/24\nXem thông tin router Rx thấy có 2 RTE (bỏ qua thông tin 'next hop'):\nprefix #1, metric: 4\nprefix #2, metric: 5\n(prefix #1 và prefix #2 là các địa chỉ mạng chứa H1 và H2)\nNhững nhận định nào đúng sau đây, khi các router trao đổi RTE từ router láng giềng:",
+    "options": [
+      "Rx nhận từ R1: (prefix #1, metric: 3)",
+      "R1 nhận từ R2: (prefix #1, metric: 0)",
+      "R1 nhận từ R3: (prefix #2, metric: 0)",
+      "R1 nhận từ R2: (prefix #2, metric: 1)",
+      "Rx nhận (prefix #1, metric: 3)",
+      "Rx nhận (prefix #2, metric: 4)"
+    ],
+    "correctAnswerIndices": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #ad0b99"
+  },
+  {
+    "id": 41,
+    "original_id": "question_#52e41_0",
+    "chapter": "Chapter 2. AS backbone &",
+    "type": "fill_in_blank",
+    "question": "Sử dụng môi trường thực hành, xây dựng hệ thống kết nối liên mạng có sơ đồ kết nối như sau (các router R và các host H1, H2):\n/----- H1: 192.168.1.10/24\nR1 -- R ----- .... ----- R2 ---- R3\n\\                        /  \\----- H2: 192.168.2.20/24\nR4 ------------------ R5\n(kết nối R1 <--> R2 được xây dựng bằng một trục các router R kết nối đôi một trực tiếp với nhau: R1--\nR-...-R--R--R2)\nMột số RIP message trên hệ thống như sau:\nR3 gửi: (192.168.2.0/24, metric: 0)\nR2 gửi: (192.168.1.0/24, metric: 0)\nR1 nhận: (192.168.2.0/24, metric: 3)\n(192.168.2.0/24, metric: ???)\n(192.168.1.0/24, metric: 4)\n(192.168.1.0/24, metric: 2)\nHãy cho biết giá trị '???' nằm trong message RIP số 2 mà R1 nhận được?",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #52e41f",
+    "correctAnswer": "3"
+  },
+  {
+    "id": 42,
+    "original_id": "question_#69069_0",
+    "chapter": "Chapter 2. AS backbone &",
+    "type": "single",
+    "question": "So với các router \"không thông minh\" (chỉ hỗ trợ định tuyến tĩnh - thủ công) chỉ có tầng Data Plane chứa bảng routing để phục vụ xử lý di chuyển các gói tin IP, các router \"thông minh\" hỗ trợ phương pháp định tuyến động (ví dụ RIP) cần có thêm tầng Control Plane để liên lạc với nhau và tự động tính toán đường đi tối ưu.\nTrong giao thức RIP, router xác định một RTE từ Control Plane và đưa vào Data Plane vào thời điểm nào?",
+    "options": [
+      "Mỗi khi router nhận được gói tin RIP",
+      "Mỗi khi router nhận được gói tin IP và xác định được bước nhảy kế tiếp (next hop)",
+      "Khi các giá trị Metric được cập nhật trong Control Plane",
+      "Khi các giá trị Metric được cập nhật trong Data Plane"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 2,
+    "section_title": "Question #690692"
+  },
+  {
+    "id": 43,
+    "original_id": "question_#4b66b_0",
+    "chapter": "Chapter 2. AS backbone &",
+    "type": "single",
+    "question": "Mục tiêu của giao thức RIP là giúp các router tự động liên lạc với nhau để xác định tất cả các đường đi có thể từ một router đến các mạng đích. Ngoài ra còn cho phép tính toán \"khoảng cách\" từ mỗi router đến mạng đích (được đo bằng số router trung gian). Nhận định này đúng hay sai?",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Question #4b66b2"
+  },
+  {
+    "id": 44,
+    "original_id": "question_#c1b89_0",
+    "chapter": "Chapter 2. AS backbone &",
+    "type": "single",
+    "question": "So sánh routing protocol và routed protocol , phát biểu sau đây đúng hay sai: routing protocol được các router sử dụng để xây dựng dữ liệu trong Control Plane, routed protocol là giao thức chuyển tiếp gói tin IP dựa trên bảng routing nằm ở Data Plane.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Question #c1b89c"
+  },
+  {
+    "id": 45,
+    "original_id": "question_#aa15b_0",
+    "chapter": "Chapter 2. AS backbone &",
+    "type": "single",
+    "question": "Giao thức RIP được gọi là giao thức distance vector bởi vì các router tính toán đường đi tối ưu bằng giải thuật Dijkstra. Kết quả của giải thuật Dijktra là đường đi tối ưu từ router đến mạng đích dựa trên số (nhỏ nhất) các router trung gian.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 1,
+    "section_title": "Question #aa15b5"
+  },
+  {
+    "id": 46,
+    "original_id": "question_#e75a3_0",
+    "chapter": "Chapter 2. AS backbone &",
+    "type": "multiple",
+    "question": "Sử dụng môi trường giả lập mạng, bắt gói tin giữa các router RIP sử dụng giao thức RIPv2. Hãy cho biết những nhận định nào sau đây là đúng?",
+    "options": [
+      "ICMP được gửi unicast giữa các router khi trả lời trực tiếp đến một router",
+      "ICMP được gửi đến địa chỉ 224.0.0.9 khi router muốn tìm kiếm router láng giềng",
+      "RIP được gửi broadcast giữa các router khi router muốn quảng bá sự có mặt của mình",
+      "RIP được gửi multicast giữa các router khi router muốn lan tỏa các RTE trong bảng routing của mình"
+    ],
+    "correctAnswerIndices": [
+      3
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #e75a3e"
+  },
+  {
+    "id": 47,
+    "original_id": "question_#1d67f_0",
+    "chapter": "Chapter 2. AS backbone &",
+    "type": "fill_in_blank",
+    "question": "Một hệ thống kết nối liên mạng có sơ đồ kết nối như sau (các router R và các host H1, H2):\n/----- H1: 192.168.1.10/24\nR1 -- R ----- .... ----- R2 ---- R3\n\\                        /  \\----- H2: 192.168.2.20/24\nR4 ------------------ R5\n(kết nối R1 <--> R2 được xây dựng bằng một trục các router R kết nối đôi một trực tiếp với nhau: R1--\nR--R--...--R--R--R2)\nXem thông tin data-plane trong các router thấy như sau (bỏ qua thông tin 'next hop'):\nR3: (192.168.2.0/24, metric: 0)\nR2: (192.168.1.0/24, metric: 0)\nR1: (192.168.2.0/24, metric: 4)\n(192.168.1.0/24, metric: 4)\nHãy cho biết số lượng router R nằm giữa R1 và R2 là bao nhiêu?",
+    "options": [
+      "",
+      "3"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #1d67f3",
+    "correctAnswer": "3"
+  },
+  {
+    "id": 48,
+    "original_id": "question_#b7d02_0",
+    "chapter": "Chapter 2. AS backbone &",
+    "type": "fill_in_blank",
+    "question": "Sử dụng môi trường thực hành, xây dựng hệ thống kết nối liên mạng có sơ đồ kết nối như sau (các router kết nối backbone dạng trục R1-R-...-R2-R3, và từ đó kết nối đến các mạng nghiệp vụ a,b,c,d):\n/----(a)            /-----(b)\nR1 -- R -- ... -- R ---- R2 ---- R3\n\\---(c)         \\-----(d)\nXem thông tin mạng đích và metric trong các router thấy như sau (bỏ qua thông tin 'next hop'):\nR3: (192.168.2.0/24, metric: 0)\nR2: (192.168.1.0/24, metric: 0)\n(192.168.2.0/24, metric: 1)\nR1: (192.168.2.0/24, metric: 10)\n(192.168.1.0/24, metric: 9)\nHãy cho biết số lượng router R nằm giữa R1 và R2 là bao nhiêu?",
+    "options": [
+      "",
+      "8"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #b7d02f",
+    "correctAnswer": "8"
+  },
+  {
+    "id": 49,
+    "original_id": "question_#52aa4_0",
+    "chapter": "Chapter 2. AS backbone &",
+    "type": "multiple",
+    "question": "Khi một kết nối mạng giữa 2 router RIP bị đứt, các router sẽ loan báo và cập nhật lại bảng routing như thế nào?",
+    "options": [
+      "Router tự động phát hiện kết nối mạng bị đứt và cập nhật bảng routing tức thời để xác định các đường đi mới không qua kết nối mạng lỗi",
+      "Quản trị mạng cấu hình lại router RIP để thông báo kết nối mạng không còn sử dụng được nữa",
+      "Router tự động (sau một khoảng thời gian định kỳ) lan truyền cập nhật bảng routing và qua đó cập nhật luôn tình trạng kết nối mạng lỗi",
+      "Tự động lan truyền bảng routing định kỳ, kể cả trường hợp không có kết nối mạng bị đứt"
+    ],
+    "correctAnswerIndices": [
+      2,
+      3
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #52aa4e"
+  },
+  {
+    "id": 50,
+    "original_id": "question_#66da1_0",
+    "chapter": "Chapter 2. AS backbone &",
+    "type": "multiple",
+    "question": "Trong giao thức RIPv1, khi nhận được yêu cầu tìm kiếm router láng giềng, router RIP trả lời về sự có mặt của mình bằng gói tin nào sau đây?",
+    "options": [
+      "RIP Reply",
+      "ICMP Reply",
+      "ICMP Advertisement",
+      "ICMP Solicitation"
+    ],
+    "correctAnswerIndices": [2],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #66da1d"
+  },
+  {
+    "id": 51,
+    "original_id": "question_#93375_0",
+    "chapter": "Chapter 2. AS backbone &",
+    "type": "multiple",
+    "question": "Sử dụng môi trường thực hành, kiểm tra khai báo network trong cấu hình RIP cho một router có những tác dụng gì?",
+    "options": [
+      "thông báo cho các router khác về một network trong hệ thống",
+      "kết nối router vào network này",
+      "kích hoạt (enable) kết nối mạng này của router để quảng bá các router khác bằng giao thức RIP",
+      "tìm kiếm router láng giềng trên local link ứng với kết nối mạng network"
+    ],
+    "correctAnswerIndices": [2, 3],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #933756"
+  },
+  {
+    "id": 52,
+    "original_id": "section_0",
+    "chapter": "Chapter 2. AS backbone &",
+    "type": "fill_in_blank",
+    "question": "Trên một đường truyền vật lý kết nối các router có các traffic RIP sau:\nDựa vào thông tin trên, hãy trả lời các câu hỏi sau đây:\n1. Có bao nhiêu router RIP kết nối với đường truyền vật lý này?",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "Section",
+    "correctAnswer": "3",
+    "image": "data/images/pdf_7_q.png"
+  },
+  {
+    "id": 53,
+    "original_id": "section_1",
+    "chapter": "Chapter 2. AS backbone &",
+    "type": "fill_in_blank",
+    "question": "2. Các router RIP kết nối với đường truyền vật lý này được cấu hình các địa chỉ IP theo dải mạng bao nhiêu (yêu cầu nhập vào cú pháp a.b.c.d/n)?",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "Section",
+    "correctAnswer": "192.168.56.0/24"
+  },
+  {
+    "id": 54,
+    "original_id": "section_2",
+    "chapter": "Chapter 2. AS backbone &",
+    "type": "fill_in_blank",
+    "question": "3. Router RIP yêu cầu nhận thông tin RIP bằng cách gửi RIP request đến địa chỉ IP nào?",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "Section",
+    "correctAnswer": "224.0.0.9"
+  },
+  {
+    "id": 55,
+    "original_id": "section_3",
+    "chapter": "Chapter 2. AS backbone &",
+    "type": "fill_in_blank",
+    "question": "4. Các router RIP trả lời bằng bản tin RIP response gửi trực tiếp (unicast) đến địa chỉ IP của router đã gửi request. IP đó là bao nhiêu?",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "Section",
+    "correctAnswer": "192.168.56.12"
+  },
+  {
+    "id": 56,
+    "original_id": "section_4",
+    "chapter": "Chapter 2. AS backbone &",
+    "type": "fill_in_blank",
+    "question": "5. Ngoài việc gửi unicast trực tiếp đến router RIP đã gửi request, các router RIP còn gửi trả lời đến tất cả các router RIP khác trên kết nối vật lý này bằng một IP đặc biệt. IP đó là bao nhiêu?",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "Section",
+    "correctAnswer": "224.0.0.9"
+  },
+  {
+    "id": 57,
+    "original_id": "rip_(route_pois_0",
+    "chapter": "Chapter 2. AS backbone &",
+    "type": "fill_in_blank",
+    "question": "Trên một đường truyền vật lý kết nối các router có các traffic RIP. Mỗi bản tin được gắn với một timestamps. Ví dụ bản tin đầu tiên có timestamps 04:58:20.104263 và bản tin cuối cùng có timestamps 05:27:47.653487 sau:\nDựa vào thông tin trên, hãy trả lời các câu hỏi sau đây:\n1. Hệ thống xuất hiện sự cố đường truyền và cơ chế route poinsoning được kích hoạt. Thời điểm đầu tiên lan tỏa thông tin route poinsoning có timestamps bao nhiêu?",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "RIP (route poisoning)",
+    "correctAnswer": "05:27:25.642964",
+    "image": "data/images/pdf_6_q.png"
+  },
+  {
+    "id": 58,
+    "original_id": "rip_(route_pois_1",
+    "chapter": "Chapter 2. AS backbone &",
+    "type": "fill_in_blank",
+    "question": "2. Router có kết nối mạng gặp sự cố có địa chỉ IP bằng bao nhiêu?",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "RIP (route poisoning)",
+    "correctAnswer": "192.168.56.11"
+  },
+  {
+    "id": 59,
+    "original_id": "rip_(route_pois_2",
+    "chapter": "Chapter 2. AS backbone &",
+    "type": "fill_in_blank",
+    "question": "3. Prefix liên quan đến sự cố mạng là gì (nhập vào theo cú pháp a.b.c.d/n)?",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "RIP (route poisoning)",
+    "correctAnswer": "192.168.1.0/24"
+  },
+  {
+    "id": 60,
+    "original_id": "rip_(route_pois_3",
+    "chapter": "Chapter 2. AS backbone &",
+    "type": "single",
+    "question": "4. Traffic ở timestamps cuối cùng có liên quan đến cơ chế route poinsoning. Nó liên quan thế nào đến sự cố nói đến ở câu hỏi số 1?",
+    "options": [
+      "Có liên quan",
+      "Chính là sự cố nói đến ở câu hỏi số 1",
+      "Không liên quan",
+      "không đủ thông tin để xác định"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 2,
+    "section_title": "RIP (route poisoning)"
+  },
+  {
+    "id": 61,
+    "original_id": "rip_(route_pois_4",
+    "chapter": "Chapter 2. AS backbone &",
+    "type": "single",
+    "question": "5. Traffic ở timestamps đầu tiên (04:58:20.104263) có phải là một thông báo route poinsoning không?",
+    "options": [
+      "Đúng, đó là một thông báo route poinsoning",
+      "Không phải"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 1,
+    "section_title": "RIP (route poisoning)"
+  }
+]

@@ -1,0 +1,259 @@
+[
+  {
+    "id": 122,
+    "original_id": "section_0",
+    "chapter": "Chapter 3. Inter-AS",
+    "type": "fill_in_blank",
+    "question": "Câu hỏi BGP",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "Section"
+  },
+  {
+    "id": 123,
+    "original_id": "question_#dce42_0",
+    "chapter": "Chapter 3. Inter-AS",
+    "type": "single",
+    "question": "Quá trình phát hiện và kết nối láng giềng của các router BGP được thực hiện như thế nào?",
+    "options": [
+      "Admin phải khai báo địa chỉ IP của từng router láng giềng",
+      "Bằng giao thức ICMP",
+      "Bằng giao thức BGP",
+      "Không có phương án nào kể trên là đúng"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Question #dce42a"
+  },
+  {
+    "id": 124,
+    "original_id": "question_#0def6_0",
+    "chapter": "Chapter 3. Inter-AS",
+    "type": "single",
+    "question": "Dữ liệu control plane của một router BGP như sau:\nBGP table version is 20, local router ID is 192.168.156.11, vrf id 0\nDefault local pref 100, local AS 65100\nNetwork         Next Hop       Weight     Path\n*> 10.0.0.0/8      0.0.0.0        32768      i\n*> 11.0.0.0/8      192.168.1.2    10         65200 65300 65400 ?\n*. 172.16.0.0/16   192.168.4.2    0          65500 i\n*>                 192.168.1.2    10         65200 65300 65400 i\nnext hop cho prefix 172.16.0.0/16  trong routing tabel là:",
+    "options": [
+      "192.168.1.2",
+      "10.0.0.0",
+      "192.168.4.2",
+      "11.0.0.0",
+      "không xác định được"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Question #0def66"
+  },
+  {
+    "id": 125,
+    "original_id": "f65603_0",
+    "chapter": "Chapter 3. Inter-AS",
+    "type": "fill_in_blank",
+    "question": "4.0/4.0 points (ungraded)\n----------------------------------------\nInternet Backbone\n----------------------------------------\n|                |\n[ ISP #1 ]       [ ISP #2 ]\n\\     /\n\\   /                       |--------------\n----------- R -------- (peer) ------- |   other net\nOSPF net   |                         |--------------\n-------------\nMột hệ thống kết nối như mô tả trong hình trên. Internet backbone kết nối BGP với tổng prefix là 77000.\nRouter R là gateway duy nhất (default gateway) của network OSPF để kết nối ra ngoài. Do yêu cầu\nđảm bảo kết nối, R sử dụng 2 đường kết nối Internet thông qua 2 ISP (ISP #1 và ISP #2). Router R cũng\nkết nối peering với một network khác có 8000 prefix. Biết rằng số prefix trong mạng OSPF là 3000.\nHãy tính số đường đi (route) được xây dựng trong control plan của router R.\nDữ liệu các đường đi từ control plan trong router R được lựa chọn và quyết định đưa xuống data plan.\nHãy tính số đường đi trong data plan (routing table) của R.",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "f65603",
+    "correctAnswer": "165000"
+  },
+  {
+    "id": 126,
+    "original_id": "question_#b9dc1_0",
+    "chapter": "Chapter 3. Inter-AS",
+    "type": "multiple",
+    "question": "Dữ liệu control plane của một router BGP như sau:\nKernel IP routing table\nB>* 10.0.0.0/8 [20/0] via 192.168.3.1, enp0s9, 03:12:10\nS>* 11.0.0.0/8 [1/0] via 192.168.41.2, enp0s10, 00:00:06\nC>* 192.168.3.0/24 is directly connected, enp0s9, 03:12:12\nC>* 192.168.41.0/24 is directly connected, enp0s10, 03:12:12\nO>* 192.168.42.0/24 [110/200] via 192.168.41.2, enp0s10, 03:06:34\nKhai báo BGP như sau:\nexport 172.16.0.0/24\nredistribute OSPF\nCác router BGP sẽ loan báo thông tin 2 prefix nào?",
+    "options": [
+      "10.0.0.0/8",
+      "11.0.0.0/8",
+      "172.16.0.0/24",
+      "192.168.3.0/24",
+      "192.168.41.0/24",
+      "192.168.42.0/24"
+    ],
+    "correctAnswerIndices": [
+      2,
+      5
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #b9dc14"
+  },
+  {
+    "id": 127,
+    "original_id": "question_#33799_0",
+    "chapter": "Chapter 3. Inter-AS",
+    "type": "single",
+    "question": "Thông tin nào để một router BGP quyết định loan báo thông điệp BGP đến router BGP láng giềng bằng\niBGP hay eBGP?",
+    "options": [
+      "dựa vào địa chỉ IP láng giềng",
+      "dựa vào số hiệu cổng kết nối",
+      "dựa vào AS number khi khai báo router BGP láng giềng",
+      "dựa vào kết nối IGP giữa các router"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 2,
+    "section_title": "Question #337995"
+  },
+  {
+    "id": 128,
+    "original_id": "question_#b2fed_0",
+    "chapter": "Chapter 3. Inter-AS",
+    "type": "multiple",
+    "question": "Bảng routing của một router BGP có thể được tính toán lại và cập nhật trong 2 trường hợp nào?",
+    "options": [
+      "router nhận được bản ghi iBGP",
+      "router nhận được bản ghi eBGP",
+      "router nhận được bản ghi IGP"
+    ],
+    "correctAnswerIndices": [
+      1,
+      2
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #b2fed0"
+  },
+  {
+    "id": 129,
+    "original_id": "question_#986d7_0",
+    "chapter": "Chapter 3. Inter-AS",
+    "type": "multiple",
+    "question": "Dữ liệu control plane của một router BGP như sau:\nKernel IP routing table\nB>* 10.0.0.0/8 [20/0] via 192.168.3.1, enp0s9, 03:12:10\nS>* 11.0.0.0/8 [1/0] via 192.168.41.2, enp0s10, 00:00:06\nC>* 192.168.3.0/24 is directly connected, enp0s9, 03:12:12\nC>* 192.168.41.0/24 is directly connected, enp0s10, 03:12:12\nO>* 192.168.42.0/24 [110/200] via 192.168.41.2, enp0s10, 03:06:34\nKhai báo BGP như sau:\nexport 172.16.0.0/24\nredistribute connected\nCác router BGP sẽ loan báo thông tin prefix nào?",
+    "options": [
+      "10.0.0.0/8",
+      "11.0.0.0/8",
+      "172.16.0.0/24",
+      "192.168.3.0/24",
+      "192.168.41.0/24",
+      "192.168.42.0/24"
+    ],
+    "correctAnswerIndices": [
+      2,
+      3,
+      4
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #986d7d"
+  },
+  {
+    "id": 130,
+    "original_id": "question_#30c68_0",
+    "chapter": "Chapter 3. Inter-AS",
+    "type": "single",
+    "question": "Tương tự như RIP, quá trình loan báo thông tin một prefix bằng các thông điệp BGP cho phép xác định\nđường định tuyến đến network này qua các AS bằng cách đi ngược lại đường loan báo thông điệp BGP.\nNhư vậy có thể khẳng định đường routing từ một router đến một prefix chính là bằng đường đi qua các\nrouter BGP ngược theo thứ tự thông điệp BGP đã đi qua?",
+    "options": [
+      "đúng",
+      "sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 1,
+    "section_title": "Question #30c682"
+  },
+  {
+    "id": 131,
+    "original_id": "question_#e3ea3_0",
+    "chapter": "Chapter 3. Inter-AS",
+    "type": "single",
+    "question": "Khi lựa chọn đường đi theo qui tắc policy, ưu tiên nào được các router BGP áp dụng theo mặc định?",
+    "options": [
+      "Local preference, AS path, multi-exit discriminator",
+      "AS path, local preference, multi-exit discriminator",
+      "AS path, multi-exit discriminator, local preference",
+      "Multi-exit discriminator, AS path, local preference",
+      "Tất cả đều sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Question #e3ea37"
+  },
+  {
+    "id": 132,
+    "original_id": "question_#91d81_0",
+    "chapter": "Chapter 3. Inter-AS",
+    "type": "multiple",
+    "question": "Khi nhận được bản ghi eBGP, router sẽ thực hiện 3 công việc nào sau đây?",
+    "options": [
+      "cập nhật AS Path",
+      "chuyển tiếp thông tin cho router BGP láng giềng",
+      "lan truyền thông tin prefix từ BGP vào nội bộ AS với giao thức IGP",
+      "tính toán đường đi tối ưu theo thuật toán distance vector hoặc Dijsktra"
+    ],
+    "correctAnswerIndices": [
+      0,
+      1,
+      2
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #91d811"
+  },
+  {
+    "id": 133,
+    "original_id": "question_#a4ad3_0",
+    "chapter": "Chapter 3. Inter-AS",
+    "type": "multiple",
+    "question": "--------------------------\nInternet Backbone\n--------------------------\n|\n[ ISP ]\n|\n------------------\nMy backbone\n------------------\nTrong kết nối các backbone Internet với BGP, giả sử APNIC cung cấp block địa chỉ 221.30.48.0 -\n221.30.63.255 cho ISP. ISP lại cung cấp block địa chỉ 221.30.48.0 - 221.30.50.255 cho My backbone.\nNhững prefix nào được quảng bá lên hệ thống BGP?",
+    "options": [
+      "3 block /24",
+      "một block /23 và một block /24",
+      "một block /22",
+      "một block /20",
+      "một block /19",
+      "không có câu trả lời bên trên nào đúng"
+    ],
+    "correctAnswerIndices": [
+      1,
+      3
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #a4ad32"
+  },
+  {
+    "id": 134,
+    "original_id": "question_#74b58_0",
+    "chapter": "Chapter 3. Inter-AS",
+    "type": "single",
+    "question": "Nhận định sau đúng hay sai? Trong kiến trúc kết nối BGP, các router láng giềng eBGP kết nối trực tiếp.\nCòn các router iBGP có thể kết nối không trực tiếp.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Question #74b584"
+  },
+  {
+    "id": 135,
+    "original_id": "question_#71f1b_0",
+    "chapter": "Chapter 3. Inter-AS",
+    "type": "multiple",
+    "question": "Dữ liệu control plane của một router BGP như sau:\nKernel IP routing table\nB>* 10.0.0.0/8 [20/0] via 192.168.3.1, enp0s9, 03:12:10\nS>* 11.0.0.0/8 [1/0] via 192.168.41.2, enp0s10, 00:00:06\nC>* 192.168.3.0/24 is directly connected, enp0s9, 03:12:12\nC>* 192.168.41.0/24 is directly connected, enp0s10, 03:12:12\nO>* 192.168.42.0/24 [110/200] via 192.168.41.2, enp0s10, 03:06:34\nKhai báo BGP như sau:\nexport 172.16.0.0/24\nredistribute static\nCác router BGP sẽ loan báo thông tin prefix nào?",
+    "options": [
+      "10.0.0.0/8",
+      "11.0.0.0/8",
+      "172.16.0.0/24",
+      "192.168.3.0/24",
+      "192.168.41.0/24",
+      "192.168.42.0/24"
+    ],
+    "correctAnswerIndices": [
+      1,
+      2
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #71f1b3"
+  },
+  {
+    "id": 136,
+    "original_id": "question_#e8768_0",
+    "chapter": "Chapter 3. Inter-AS",
+    "type": "single",
+    "question": "Dữ liệu control plane của một router BGP như sau:\nBGP table version is 20, local router ID is 192.168.156.11, vrf id 0\nDefault local pref 100, local AS 65100\nNetwork        Next Hop         Weight     Path\n*> 10.0.0.0/8     0.0.0.0          32768      i\n*> 11.0.0.0/8     192.168.1.2      10         65200 65300 65400 ?\n*. 172.16.0.0/16  192.168.4.2      10         65500 i\n*>                192.168.1.2      10         65200 65300 65400 i\nnext hop của prefix 172.16.0.0/16  trong routing tabel là:",
+    "options": [
+      "10.0.0.0",
+      "192.168.1.2",
+      "192.168.4.2",
+      "11.0.0.0",
+      "không xác định được"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 2,
+    "section_title": "Question #e87685"
+  }
+]

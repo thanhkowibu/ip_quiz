@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Hành trình khởi nghiêp có thể hiểu là",
+    "options": [
+      "a. Quá trình xây dựng phương án kinh doanh",
+      "b. Quá trình gọi vốn đầu tư",
+      "c. Con đường từ ý tưởng đến sản phẩm hoàn thiện",
+      "d. Con đường từ phòng thí nghiệm ra thị trường"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 2,
+    "question": "Người khởi nghiệp có vai trò quyết định trong việc phát hiện và tận dụng các cơ hội, ...và mang lại những giá trị/ sáng tạo mới",
+    "options": [
+      "a. hỏi ý kiến các chuyên gia",
+      "b. tạo lập hoạt động kinh doanh",
+      "c. xin phép các cơ quan có thẩm quyền",
+      "d. tìm kiếm nguồn đầu tư."
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 3,
+    "question": "Tinh thần khởi nghiệp (entrepreneurship) là sự theo đuổi các...trong điều kiện nguồn lực bị giới hạn",
+    "options": [
+      "a. kế hoạch",
+      "b. phương án",
+      "c. cơ hội",
+      "d. đam mê"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 4,
+    "question": "Việc thương mại hóa ban đầu trong hành trình khởi nghiệp cần phải đề cập đến các yếu tố",
+    "options": [
+      "a. Thời điểm đưa sản phẩm ra thị trường",
+      "b. Ai là khách hàng và thị trường mục tiêu",
+      "c. Tất cả các phương án",
+      "d. Chiến lược đưa sản phẩm ra thị trường"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 5,
+    "question": "Startup có thể hiểu là",
+    "options": [
+      "a. Một công ty nhỏ, có tuổi đời vài ba năm.",
+      "b. Tất cả các phương án",
+      "c. Một hình thức khởi nghiệp gắn với công nghệ, đổi mới, sáng tạo",
+      "d. Một tổ chức được thiết kế nhằm cung cấp sản phẩm và dịch vụ trong những điều kiện chưa chắc chắn."
+    ],
+    "correctAnswerIndex": 1,
+    "correctAnswerText": "B"
+  },
+  {
+    "id": 6,
+    "question": "Nguồn lực cần thiết cho hoạt động khởi nghiệp là:",
+    "options": [
+      "a. Nhân lực, tài chính, các nguồn lực vật chất và cơ chế chính sách hỗ trợ của Nhà nước.",
+      "b. Tiền và các khoản đầu tư tài chính",
+      "c. Nhân lực, tài chính",
+      "d. Nhân lực, tài chính và các nguồn lực vật chất."
+    ],
+    "correctAnswerIndex": 0,
+    "correctAnswerText": "A"
+  },
+  {
+    "id": 7,
+    "question": "Tính sáng tạo của một dự án khởi nghiệp thường gắn với đặc điểm:",
+    "options": [
+      "a. Mới",
+      "b. Hữu ích",
+      "c. Tất cả các phương án TRÊN",
+      "d. Phù hợp"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  },
+  {
+    "id": 8,
+    "question": "Tinh thần khởi nghiệp (entrepreneurship) là sự theo đuổi các cơ hội trong điều kiện nguồn lực ...",
+    "options": [
+      "a. không bị giới hạn",
+      "b. được các nhà đâu tư bỏ ra",
+      "c. được Nhà nước đầu tư",
+      "d. bị giới hạn"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 9,
+    "question": "Ý tưởng kinh doanh thường đến từ:",
+    "options": [
+      "a. Đáp ứng nhu cầu của cá nhân người khỏi nghiệp hoặc người khác",
+      "b. Những thử thách, khó khăn mà người khởi nghiệp cần phải vượt qua",
+      "c. Những sở thích, kinh nghiệm của người khởi nghiệp",
+      "d. Tất cả các phương án"
+    ],
+    "correctAnswerIndex": 3,
+    "correctAnswerText": "D"
+  },
+  {
+    "id": 10,
+    "question": "Các cơ hội khởi nghiệp có thể đến từ",
+    "options": [
+      "a. Các ý tưởng ngẫu hứng của người khởi nghiệp",
+      "b. Nhu cầu của thị trường",
+      "c. Nhu cầu của thị trường và sự phát triển công nghệ",
+      "d. Sự phát triển công nghệ"
+    ],
+    "correctAnswerIndex": 2,
+    "correctAnswerText": "C"
+  }
+]

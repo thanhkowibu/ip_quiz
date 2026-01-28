@@ -1,0 +1,431 @@
+[
+  {
+    "id": 2,
+    "original_id": "question_#200e1_0",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "single",
+    "question": "Địa chỉ IP 152.16.168.196/28 và 162.16.168.30 có nằm trong cùng một mạng?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 1,
+    "section_title": "Question #200e18"
+  },
+  {
+    "id": 3,
+    "original_id": "question_#0ee58_0",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "single",
+    "question": "Unicast là một phương pháp truyền tin. Đúng hay sai?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Question #0ee586"
+  },
+  {
+    "id": 4,
+    "original_id": "question_#d2103_0",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "single",
+    "question": "Cú pháp /28 trong địa chỉ IP nói lên điều gì?",
+    "options": [
+      "Số lượng máy trạm trong mạng",
+      "Số lượng bit trong phần nét id",
+      "Số lượng bit trong phần host id",
+      "Các câu trả lời trên không có câu nào đúng"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 1,
+    "section_title": "Question #d21034"
+  },
+  {
+    "id": 5,
+    "original_id": "question_#ee2d2_0",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "single",
+    "question": "Địa chỉ quảng bá (broadcast) của một network có máy trạm 192.168.242.5/20 là:",
+    "options": [
+      "192.168.251.251",
+      "192.168.250.250",
+      "192.168.250.251",
+      "192.168.255.255"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 3,
+    "section_title": "Question #ee2d23"
+  },
+  {
+    "id": 6,
+    "original_id": "question_#01d27_0",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "single",
+    "question": "Địa chỉ mạng (net ID) của một máy tính có địa chỉ IP 192.168.242.5/20 là:",
+    "options": [
+      "192.168.242.2",
+      "192.168.241.1",
+      "192.168.240.5",
+      "192.168.240.0"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 3,
+    "section_title": "Question #01d275"
+  },
+  {
+    "id": 7,
+    "original_id": "question_#ef919_0",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "single",
+    "question": "Giá trị mặt nạ mạng (network mask) là 255.255.240.0 thì mạng đó chứa bao nhiêu máy trạm?",
+    "options": [
+      "100",
+      "4094",
+      "256",
+      "192.168.250.252"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 1,
+    "section_title": "Question #ef9191"
+  },
+  {
+    "id": 8,
+    "original_id": "question_#dacaf_0",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "single",
+    "question": "Tên đầy đủ của địa chỉ IP là:",
+    "options": [
+      "Internet Provider address",
+      "Internet Processing address",
+      "Internet Protocol address",
+      "None of the above"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 2,
+    "section_title": "Question #dacaf0"
+  },
+  {
+    "id": 9,
+    "original_id": "section_0",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "multiple",
+    "question": "Hệ thống mạng giả lập có kiến trúc và các địa chỉ IP như hình vẽ, được cấu hình để toàn bộ các trạm trong mạng ảo có thể kết nối Internet thông qua router R1.\nHãy triển khai trên môi trường thực hành và chọn những nhận định đúng sau đây:",
+    "options": [
+      "máy A chạy \"tracepath\" đến Google (8.8.8.8) thì dòng kết quả đầu tiên là default gateway của\nmáy A",
+      "máy X chạy \"tracepath\" đến Google (8.8.8.8) thì dòng kết quả đầu tiên là router R1",
+      "máy A chạy \"tracepath\" đến máy X thì dòng kết quả đầu tiên là router R1",
+      "máy A chạy \"tracepath\" đến máy X thì dòng kết quả đầu tiên là router R2"
+    ],
+    "correctAnswerIndices": [
+      0,
+      2
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Section",
+    "image": "data/images/pdf_9_q.png"
+  },
+  {
+    "id": 10,
+    "original_id": "question_#51297_0",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "single",
+    "question": "Hệ thống mạng giả lập có kiến trúc và các địa chỉ IP như hình vẽ.\nĐể các trạm A và B kết nối được Internet thì bắt buộc cần cấu hình R1 là default gateway của mạng\n192.168.1.0/24. Nhận định là đúng hay sai?",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 1,
+    "section_title": "Question #51297b",
+    "image": "data/images/pdf_9_q.png"
+  },
+  {
+    "id": 11,
+    "original_id": "question_#c449c_0",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "multiple",
+    "question": "Hệ thống mạng giả lập có kiến trúc và các địa chỉ IP như hình vẽ, được cấu hình để toàn bộ các trạm trong mạng ảo có thể kết nối Internet thông qua router R1.\nThiết lập default gateway cho các trạm và các router trong hệ thống như thế nào?",
+    "options": [
+      "máy A, B có default gateway là R1",
+      "router R2 có default gateway là R1",
+      "router R3 có default gateway là R1",
+      "máy X có default gateway là R1"
+    ],
+    "correctAnswerIndices": [
+      0,
+      1
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #c449c4",
+    "image": "data/images/pdf_11_q.png"
+  },
+  {
+    "id": 12,
+    "original_id": "question_#31bb5_0",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "multiple",
+    "question": "Hệ thống mạng giả lập có kiến trúc và các địa chỉ IP như hình vẽ. Các trạm A và B được cấu hình default gateway là R1 để có thể kết nối Internet thông qua router R1.\nĐể ping được từ A đến X, mức độ tối thiểu cần thêm vào các bảng routing trên từng router như thế nào?",
+    "options": [
+      "thêm vào bảng routing của R1 đường đi đến mạng 192.168.1.0",
+      "thêm vào bảng routing của R1 đường đi đến mạng 192.168.2.0",
+      "thêm vào bảng routing của R1 đường đi đến mạng 192.168.3.0",
+      "thêm vào bảng routing của R2 đường đi đến mạng 192.168.1.0",
+      "thêm vào bảng routing của R2 đường đi đến mạng 192.168.2.0",
+      "thêm vào bảng routing của R2 đường đi đến mạng 192.168.3.0",
+      "thêm vào bảng routing của R3 đường đi đến mạng 192.168.1.0",
+      "thêm vào bảng routing của R3 đường đi đến mạng 192.168.2.0",
+      "thêm vào bảng routing của R3 đường đi đến mạng 192.168.3.0"
+    ],
+    "correctAnswerIndices": [
+      2,
+      5,
+      6
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #31bb5f",
+    "image": "data/images/pdf_12_q.png"
+  },
+  {
+    "id": 13,
+    "original_id": "question_#e6c29_0",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "multiple",
+    "image": "data/images/pdf_12_q.png",
+    "question": "Hệ thống mạng giả lập có kiến trúc và các địa chỉ IP như hình vẽ, được cấu hình để toàn bộ các trạm trong mạng ảo có thể kết nối Internet thông qua router R1.\nHãy cho biết những nhận định nào sau đây là đúng?",
+    "options": [
+      "bảng routing của R1 có prefix LAN1 (192.168.1.0/24) với next hop chính là R1",
+      "bảng routing của R1 có prefix mạng NAT (10.0.2.0/24) với next hop là máy host",
+      "bảng routing của R1 có prefix LAN2 (192.168.2.0/24) với next hop chính là R2",
+      "bảng routing của R1 có prefix LAN3 (192.168.3.0/24) với next hop là R3",
+      "bảng routing của R1 có prefix LAN3 (192.168.3.0/24) với next hop là R2"
+    ],
+    "correctAnswerIndices": [
+      2,
+      4
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #e6c290"
+  },
+  {
+    "id": 14,
+    "original_id": "section_0",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "single",
+    "question": "Thiết lập hệ thống kết nối liên mạng như sau: đường kết nối từ H1 đến H2 và H3 đi qua 2 router trung\ngian R1 và R2. H2 và H3 là 2 host kết với switch S1, và nối với router R2. Sơ đồ mạng được mô tả như bên\ndưới:\n/---- H2 (192.168.1.10/25)\nH1 (192.169.1.100/24) ---- R1 ---- R2 --- [S1]\n\\---- H3 (192.168.1.20/25)\nChạy ping  từ H1 đến H2, bắt các gói tin IP trên kênh truyền từ R1 đến R2, những nhận định sau cái nào\nđúng?",
+    "options": [
+      "gói tin IP có địa chỉ nguồn là 192.169.1.100 và đích là 192.168.1.10",
+      "gói tin IP có địa chỉ mạng nguồn là 192.169.1.0/24 và mạng đích là 192.168.1.0/24",
+      "gói tin IP có địa chỉ mạng nguồn là 192.169.1.0/24 và mạng đích là 192.168.1.0/25",
+      "gói tin IP chứa thông tin netmask là \"/25\" để báo cho các router biết cách lấy địa chỉ mạng từ địa\nchỉ đích"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Section"
+  },
+  {
+    "id": 15,
+    "original_id": "question_#11b12_0",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "multiple",
+    "question": "Thiết lập hệ thống kết nối liên mạng như sau: đường kết nối từ H1 đến H2 và H3 đi qua 3 router trung gian R1, R2 và R3. H2 và H3 là 2 host kết với R3. Sơ đồ mạng được mô tả như bên dưới:\n\n      /---- H2 (192.168.128.100/25)\nH1 (192.168.1.100/24) ---- R1 ---- R2 --- [R3]\n      \\---- H3 (192.168.128.200/25)\n\nCấu hình static routing trên R1 như sau (network >> next hop):\n1. 192.168.0.0/16 >> R2\n2. 192.168.128.0/24 >> R2\n3. 192.168.128.100/25 >> R2\n4. 192.168.128.200/25 >> R2\n5. 192.168.128.64/26 >> R2\n\nThực hiện ping từ H1 đến H2, R1 kiểm tra thấy có thể sử dụng những luật nào trong routing table để chuyển tiếp gói tin?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswerIndices": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #11b12c"
+  },
+  {
+    "id": 15,
+    "original_id": "question_#11b12_0",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "multiple",
+    "question": "Thiết lập hệ thống kết nối liên mạng như sau: đường kết nối từ H1 đến H2 và H3 đi qua 3 router trung gian R1, R2 và R3. H2 và H3 là 2 host kết với R3. Sơ đồ mạng được mô tả như bên dưới:\n      /---- H2 (192.168.128.100/25)\nH1 (192.168.1.100/24) ---- R1 ---- R2 --- [R3]\n      \\---- H3 (192.168.128.200/25)\n\nCấu hình static routing trên R1 như sau (network >> next hop):\n1. 192.168.0.0/16 >> R2\n2. 192.168.128.0/24 >> R2\n3. 192.168.128.100/25 >> R2\n4. 192.168.128.200/25 >> R2\n5. 192.168.128.64/26 >> R2\n\nThực hiện ping từ H1 đến H2, R1 sử dụng luật nào trong routing table để chuyển tiếp gói tin?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswerIndices": [
+      4
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #11b12c"
+  },
+  {
+    "id": 25,
+    "original_id": "question_#fb280_0",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "multiple",
+    "question": "Thiết lập hệ thống kết nối liên mạng như sau: đường kết nối từ H1 đến H2 và H3 đi qua 3 router trung  gian R1, R2 và R3. H2 và H3 là 2 host kết với R3. Sơ đồ mạng được mô tả như bên dưới:\n/---- H2 (192.168.128.100/25)\nH1 (192.168.1.100/24) ---- R1 ---- R2 --- [R3]\n\\---- H3 (192.168.128.200/25)\nĐể chuyển tiếp được gói tin từ H1 đến H2 và H3, bảng routing R2 được cấu hình với 2 luật\n(cú pháp luật: prefix >> next hop):\n192.168.128.0/25 >> R3\n192.168.128.128/25 >> R3\nĐể tối ưu bảng routing tại R2, 2 luật trên có thể được gộp bằng 1 luật \"gộp\". Những luật nào sau đây có thể sử dụng làm luật \"gộp\"?",
+    "options": [
+      "192.168.0.0/16 >> R3",
+      "192.168.128.0/24 >> R3",
+      "192.168.128.100/25 >> R3",
+      "192.168.128.200/25 >> R3"
+    ],
+    "correctAnswerIndices": [
+      0,
+      1
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #fb2805"
+  },
+  {
+    "id": 26,
+    "original_id": "question_#f6ea4_0",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "single",
+    "question": "Thiết lập hệ thống kết nối liên mạng như sau: đường kết nối từ H1 đến H2 và H3 đi qua 2 router trung\ngian R1 và R2. H2 và H3 là 2 host kết với switch S1, và nối với router R2. Sơ đồ mạng được mô tả như bên\ndưới:\n/---- H2 (192.168.1.10/25)\nH1 (192.168.1.100/24) ---- R1 ---- R2 --- [S1]\n\\---- H3 (192.168.1.20/25)\nNhững nhận định nào sau đây là đúng?\nICMP",
+    "options": [
+      "R1 và R2 cùng vận hành routing với cơ chế classfull",
+      "R1 và R2 cùng vận hành routing với cơ chế classless",
+      "R1 chạy classfull routing, R2 chạy classless routing",
+      "R1 chạy classless routing, R2 chạy classfull routing"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 1,
+    "section_title": "Question #f6ea4f"
+  },
+  {
+    "id": 27,
+    "original_id": "section_0",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "fill_in_blank",
+    "question": "Cho sơ đồ kết nối mạng như sau:\nCác hoạt động đánh số từ 1 đến 4 trên hình vẽ là kết quả của lệnh ping sau đây:\n$ ping 203.162.0.11\nPING 203.162.0.11 56(84) bytes of data.\nFrom 10.0.0.1: icmp_seq=1 Redirect Host (New nexthop: a.b.c.d)\n64 bytes from 203.162.0.11: icmp_seq=1 ttl=62 time=4.24 ms\nFrom 10.0.0.1: icmp_seq=1 Redirect Host (New nexthop: a.b.c.d)\n64 bytes from 203.162.0.11: icmp_seq=2 ttl=62 time=5.05 ms\nHãy lựa chọn Đúng/Sai cho các nhận định sau đây:",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "Section",
+    "image": "data/images/pdf_27_q.png"
+  },
+  {
+    "id": 28,
+    "original_id": "section_1",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "single",
+    "question": "Câu hỏi (a):\nGiá trị của a.b.c.d là 10.0.0.1",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 1,
+    "section_title": "Section"
+  },
+  {
+    "id": 29,
+    "original_id": "section_2",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "single",
+    "question": "Gói tin số 1 trong hình vẽ là ICMP Echo Request có địa chỉ nguồn là 10.0.0.100 và đích là 203.162.0.11",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Section",
+    "correctAnswer": "Câu hỏi (b):"
+  },
+  {
+    "id": 30,
+    "original_id": "section_3",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "single",
+    "question": "Các địa chỉ IP và dữ liệu trong gói tin số 4 và gói tin số 1 là giống nhau",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Section",
+    "correctAnswer": "Câu hỏi (c):"
+  },
+  {
+    "id": 31,
+    "original_id": "section_4",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "single",
+    "question": "Câu hỏi (d):\nGói tin ICMP Echo Reply không được thể hiện trên hình vẽ",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Section"
+  },
+  {
+    "id": 32,
+    "original_id": "section_5",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "single",
+    "question": "Câu hỏi (e):\nICMP Redirect thông báo đang có hiện tượng routing đi vòng. Để loại bỏ tình huống này, cần thêm một\ngateway nữa vào routing table của máy Host",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": 0,
+    "section_title": "Section"
+  },
+  {
+    "id": 33,
+    "image": "data/images/pdf_27_q.png",
+    "original_id": "question_#5845d_merged",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "multiple",
+    "question": "Cho sơ đồ kết nối mạng và tình huống như sau:\n1. Gateway G1 (10.0.0.1) nhận gói tin IP từ máy Host (10.0.0.100) để gửi đến Network X.\n2. G1 kiểm tra bảng định tuyến và xác định next hop là G2 (10.0.0.2).\n3. Vì G2 nằm cùng mạng với Host (10.0.0.0/24), tình trạng routing vòng (ICMP Redirect) xảy ra. G1 gửi thông báo ICMP Redirect để Host có thể gửi trực tiếp cho G2, nhưng G1 vẫn tiếp tục chuyển tiếp gói tin hiện tại đến G2 theo quy tắc.\n\nTừ tình huống trên, hãy chọn các nhận định đúng:",
+    "options": [
+      "Quá trình routing vòng vẫn tiếp diễn nhưng gói tin vẫn gửi đến đích",
+      "Gói tin trả lời từ Network X về máy Host, đi qua G2 và vòng qua G1 rồi mới đến máy Host",
+      "Máy Host gửi gói tin đến Network X phải chuyển tiếp qua G1 vì tại máy Host khai báo G1 là default gateway",
+      "G1 xác định next hop cho gói tin gửi đến Network X là G2 vì nó được khai báo trong bảng routing của G1"
+    ],
+    "correctAnswerIndices": [
+      0,
+      2,
+      3
+    ],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #5845d5"
+  },
+  {
+    "id": 36,
+    "original_id": "section_0",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "fill_in_blank",
+    "question": "Hãy hoàn thành đoạn cấu hình mạng bằng netplan  cho một router dưới đây:\n~$ sudo nano /etc/netplan/ config.yaml\n# file cấu hình netplan\nnetwork:\nethernets:\nenp0s3:\ndhcp4: false\naddresses: [192.168.1.2/24]\nroutes:\n- to: default gateway\nvia: 192.168.1.1\nenp0s8:\ndhcp4: false\naddresses: [192.168.2.1/24]\nroutes:\n- to: 192.168.3.0/24\nvia: 192.168.2.2\n~$ sudo netplan apply\n~$ ifconfig enp0s3\nenp0s3: flags=4163...\ninet 192.168.1.2 netmask 255.255.255.0 broadcast 192.168.1.255\n~$ route -n\nDestination   Gateway       Genmask         Iface\n0.0.0.0       192.168.1.1   0.0.0.0         enp0s3\n192.168.3.0   192.168.2.2   255.255.255.0   enp0s8",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "Section"
+  },
+  {
+    "id": 37,
+    "original_id": "question_#fa1c4_0",
+    "chapter": "Chapter 1. Internet backbone",
+    "type": "fill_in_blank",
+    "question": "Hãy hoàn thành đoạn cấu hình mạng bằng netplan  cho một máy trạm dưới đây:\n$ sudo nano /etc/netplan/ config.yaml\n# file cấu hình netplan cho trạm làm việc\nnetwork:\nethernets:\nenp0s8:\ndhcp4: false\naddresses:\n- 192.168.1.20/24\nroutes:\n- to: default\nvia: 192.168.1.1\n$ sudo netplan apply\n$ route -n\nDestination     Gateway         Genmask         Flags Metric Ref    Use Iface\n0.0.0.0         192.168.1.1     0.0.0.0         UG    0      0        0 enp0s8\n192.168.1.0     0.0.0.0         255.255.255.0   U     0      0        0 enp0s8",
+    "options": [],
+    "correctAnswerIndices": [],
+    "correctAnswerIndex": -1,
+    "section_title": "Question #fa1c4a"
+  }
+]
