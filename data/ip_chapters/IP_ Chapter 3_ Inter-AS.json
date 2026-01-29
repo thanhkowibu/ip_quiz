@@ -70,10 +70,7 @@
       "192.168.41.0/24",
       "192.168.42.0/24"
     ],
-    "correctAnswerIndices": [
-      2,
-      5
-    ],
+    "correctAnswerIndices": [2, 5],
     "correctAnswerIndex": -1,
     "section_title": "Question #b9dc14"
   },
@@ -104,10 +101,7 @@
       "router nhận được bản ghi eBGP",
       "router nhận được bản ghi IGP"
     ],
-    "correctAnswerIndices": [
-      1,
-      2
-    ],
+    "correctAnswerIndices": [1, 2],
     "correctAnswerIndex": -1,
     "section_title": "Question #b2fed0"
   },
@@ -125,11 +119,7 @@
       "192.168.41.0/24",
       "192.168.42.0/24"
     ],
-    "correctAnswerIndices": [
-      2,
-      3,
-      4
-    ],
+    "correctAnswerIndices": [2, 3, 4],
     "correctAnswerIndex": -1,
     "section_title": "Question #986d7d"
   },
@@ -139,10 +129,7 @@
     "chapter": "Chapter 3. Inter-AS",
     "type": "single",
     "question": "Tương tự như RIP, quá trình loan báo thông tin một prefix bằng các thông điệp BGP cho phép xác định đường định tuyến đến network này qua các AS bằng cách đi ngược lại đường loan báo thông điệp BGP.\nNhư vậy có thể khẳng định đường routing từ một router đến một prefix chính là bằng đường đi qua các router BGP ngược theo thứ tự thông điệp BGP đã đi qua?",
-    "options": [
-      "đúng",
-      "sai"
-    ],
+    "options": ["đúng", "sai"],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 1,
     "section_title": "Question #30c682"
@@ -176,11 +163,7 @@
       "lan truyền thông tin prefix từ BGP vào nội bộ AS với giao thức IGP",
       "tính toán đường đi tối ưu theo thuật toán distance vector hoặc Dijsktra"
     ],
-    "correctAnswerIndices": [
-      0,
-      1,
-      2
-    ],
+    "correctAnswerIndices": [0, 1, 2],
     "correctAnswerIndex": -1,
     "section_title": "Question #91d811"
   },
@@ -198,10 +181,7 @@
       "một block /19",
       "không có câu trả lời bên trên nào đúng"
     ],
-    "correctAnswerIndices": [
-      1,
-      3
-    ],
+    "correctAnswerIndices": [1, 3],
     "correctAnswerIndex": -1,
     "section_title": "Question #a4ad32"
   },
@@ -211,10 +191,7 @@
     "chapter": "Chapter 3. Inter-AS",
     "type": "single",
     "question": "Nhận định sau đúng hay sai? Trong kiến trúc kết nối BGP, các router láng giềng eBGP kết nối trực tiếp. Còn các router iBGP có thể kết nối không trực tiếp.",
-    "options": [
-      "Đúng",
-      "Sai"
-    ],
+    "options": ["Đúng", "Sai"],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 0,
     "section_title": "Question #74b584"
@@ -233,10 +210,7 @@
       "192.168.41.0/24",
       "192.168.42.0/24"
     ],
-    "correctAnswerIndices": [
-      1,
-      2
-    ],
+    "correctAnswerIndices": [1, 2],
     "correctAnswerIndex": -1,
     "section_title": "Question #71f1b3"
   },
@@ -262,7 +236,7 @@
     "original_id": "question_#a2adf_0",
     "chapter": "Chapter 4. Private Network &",
     "type": "single",
-    "question": "Khi nhận được một thông điệp iBGP chứa thông tin một prefix, router BGP thực hiện hoạt động nào sau\nđây?\nCâu hỏi đơn\nHomework due Dec 5, 2025 23:59 +07\nCompleted",
+    "question": "Khi nhận được một thông điệp iBGP chứa thông tin một prefix, router BGP thực hiện hoạt động nào sau đây?",
     "options": [
       "Ghi nhận nội dung và quảng bá prefix này đến router láng giềng tiếp theo",
       "Cập nhật AS path cho prefix vừa nhận",

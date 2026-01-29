@@ -22,10 +22,7 @@
       "ICMP Solicitation",
       "ICMP Advertisement"
     ],
-    "correctAnswerIndices": [
-      2,
-      3
-    ],
+    "correctAnswerIndices": [2, 3],
     "correctAnswerIndex": -1,
     "section_title": "Section"
   },
@@ -43,12 +40,7 @@
       "Rx nhận (prefix #1, metric: 3)",
       "Rx nhận (prefix #2, metric: 4)"
     ],
-    "correctAnswerIndices": [
-      1,
-      3,
-      4,
-      5
-    ],
+    "correctAnswerIndices": [1, 3, 4, 5],
     "correctAnswerIndex": -1,
     "section_title": "Question #ad0b99"
   },
@@ -86,10 +78,7 @@
     "chapter": "Chapter 2. AS backbone &",
     "type": "single",
     "question": "Mục tiêu của giao thức RIP là giúp các router tự động liên lạc với nhau để xác định tất cả các đường đi có thể từ một router đến các mạng đích. Ngoài ra còn cho phép tính toán \"khoảng cách\" từ mỗi router đến mạng đích (được đo bằng số router trung gian). Nhận định này đúng hay sai?",
-    "options": [
-      "Đúng",
-      "Sai"
-    ],
+    "options": ["Đúng", "Sai"],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 0,
     "section_title": "Question #4b66b2"
@@ -100,10 +89,7 @@
     "chapter": "Chapter 2. AS backbone &",
     "type": "single",
     "question": "So sánh routing protocol và routed protocol , phát biểu sau đây đúng hay sai: routing protocol được các router sử dụng để xây dựng dữ liệu trong Control Plane, routed protocol là giao thức chuyển tiếp gói tin IP dựa trên bảng routing nằm ở Data Plane.",
-    "options": [
-      "Đúng",
-      "Sai"
-    ],
+    "options": ["Đúng", "Sai"],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 0,
     "section_title": "Question #c1b89c"
@@ -114,10 +100,7 @@
     "chapter": "Chapter 2. AS backbone &",
     "type": "single",
     "question": "Giao thức RIP được gọi là giao thức distance vector bởi vì các router tính toán đường đi tối ưu bằng giải thuật Dijkstra. Kết quả của giải thuật Dijktra là đường đi tối ưu từ router đến mạng đích dựa trên số (nhỏ nhất) các router trung gian.",
-    "options": [
-      "Đúng",
-      "Sai"
-    ],
+    "options": ["Đúng", "Sai"],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 1,
     "section_title": "Question #aa15b5"
@@ -134,9 +117,7 @@
       "RIP được gửi broadcast giữa các router khi router muốn quảng bá sự có mặt của mình",
       "RIP được gửi multicast giữa các router khi router muốn lan tỏa các RTE trong bảng routing của mình"
     ],
-    "correctAnswerIndices": [
-      3
-    ],
+    "correctAnswerIndices": [3],
     "correctAnswerIndex": -1,
     "section_title": "Question #e75a3e"
   },
@@ -146,10 +127,7 @@
     "chapter": "Chapter 2. AS backbone &",
     "type": "fill_in_blank",
     "question": "Một hệ thống kết nối liên mạng có sơ đồ kết nối như sau (các router R và các host H1, H2):\n/----- H1: 192.168.1.10/24\nR1 -- R ----- .... ----- R2 ---- R3\n\\                        /  \\----- H2: 192.168.2.20/24\nR4 ------------------ R5\n(kết nối R1 <--> R2 được xây dựng bằng một trục các router R kết nối đôi một trực tiếp với nhau: R1--\nR--R--...--R--R--R2)\nXem thông tin data-plane trong các router thấy như sau (bỏ qua thông tin 'next hop'):\nR3: (192.168.2.0/24, metric: 0)\nR2: (192.168.1.0/24, metric: 0)\nR1: (192.168.2.0/24, metric: 4)\n(192.168.1.0/24, metric: 4)\nHãy cho biết số lượng router R nằm giữa R1 và R2 là bao nhiêu?",
-    "options": [
-      "",
-      "3"
-    ],
+    "options": ["", "3"],
     "correctAnswerIndices": [],
     "correctAnswerIndex": -1,
     "section_title": "Question #1d67f3",
@@ -161,10 +139,7 @@
     "chapter": "Chapter 2. AS backbone &",
     "type": "fill_in_blank",
     "question": "Sử dụng môi trường thực hành, xây dựng hệ thống kết nối liên mạng có sơ đồ kết nối như sau (các router kết nối backbone dạng trục R1-R-...-R2-R3, và từ đó kết nối đến các mạng nghiệp vụ a,b,c,d):\n/----(a)            /-----(b)\nR1 -- R -- ... -- R ---- R2 ---- R3\n\\---(c)         \\-----(d)\nXem thông tin mạng đích và metric trong các router thấy như sau (bỏ qua thông tin 'next hop'):\nR3: (192.168.2.0/24, metric: 0)\nR2: (192.168.1.0/24, metric: 0)\n(192.168.2.0/24, metric: 1)\nR1: (192.168.2.0/24, metric: 10)\n(192.168.1.0/24, metric: 9)\nHãy cho biết số lượng router R nằm giữa R1 và R2 là bao nhiêu?",
-    "options": [
-      "",
-      "8"
-    ],
+    "options": ["", "8"],
     "correctAnswerIndices": [],
     "correctAnswerIndex": -1,
     "section_title": "Question #b7d02f",
@@ -182,10 +157,7 @@
       "Router tự động (sau một khoảng thời gian định kỳ) lan truyền cập nhật bảng routing và qua đó cập nhật luôn tình trạng kết nối mạng lỗi",
       "Tự động lan truyền bảng routing định kỳ, kể cả trường hợp không có kết nối mạng bị đứt"
     ],
-    "correctAnswerIndices": [
-      2,
-      3
-    ],
+    "correctAnswerIndices": [2, 3],
     "correctAnswerIndex": -1,
     "section_title": "Question #52aa4e"
   },
@@ -244,7 +216,8 @@
     "correctAnswerIndices": [],
     "correctAnswerIndex": -1,
     "section_title": "Section",
-    "correctAnswer": "192.168.56.0/24"
+    "correctAnswer": "192.168.56.0/24",
+    "image": "data/images/pdf_7_q.png"
   },
   {
     "id": 54,
@@ -256,7 +229,8 @@
     "correctAnswerIndices": [],
     "correctAnswerIndex": -1,
     "section_title": "Section",
-    "correctAnswer": "224.0.0.9"
+    "correctAnswer": "224.0.0.9",
+    "image": "data/images/pdf_7_q.png"
   },
   {
     "id": 55,
@@ -268,7 +242,8 @@
     "correctAnswerIndices": [],
     "correctAnswerIndex": -1,
     "section_title": "Section",
-    "correctAnswer": "192.168.56.12"
+    "correctAnswer": "192.168.56.12",
+    "image": "data/images/pdf_7_q.png"
   },
   {
     "id": 56,
@@ -280,7 +255,8 @@
     "correctAnswerIndices": [],
     "correctAnswerIndex": -1,
     "section_title": "Section",
-    "correctAnswer": "224.0.0.9"
+    "correctAnswer": "224.0.0.9",
+    "image": "data/images/pdf_7_q.png"
   },
   {
     "id": 57,
@@ -305,7 +281,8 @@
     "correctAnswerIndices": [],
     "correctAnswerIndex": -1,
     "section_title": "RIP (route poisoning)",
-    "correctAnswer": "192.168.56.11"
+    "correctAnswer": "192.168.56.11",
+    "image": "data/images/pdf_6_q.png"
   },
   {
     "id": 59,
@@ -317,7 +294,8 @@
     "correctAnswerIndices": [],
     "correctAnswerIndex": -1,
     "section_title": "RIP (route poisoning)",
-    "correctAnswer": "192.168.1.0/24"
+    "correctAnswer": "192.168.1.0/24",
+    "image": "data/images/pdf_6_q.png"
   },
   {
     "id": 60,
@@ -333,7 +311,8 @@
     ],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 2,
-    "section_title": "RIP (route poisoning)"
+    "section_title": "RIP (route poisoning)",
+    "image": "data/images/pdf_6_q.png"
   },
   {
     "id": 61,
@@ -341,12 +320,10 @@
     "chapter": "Chapter 2. AS backbone &",
     "type": "single",
     "question": "5. Traffic ở timestamps đầu tiên (04:58:20.104263) có phải là một thông báo route poinsoning không?",
-    "options": [
-      "Đúng, đó là một thông báo route poinsoning",
-      "Không phải"
-    ],
+    "options": ["Đúng, đó là một thông báo route poinsoning", "Không phải"],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 1,
-    "section_title": "RIP (route poisoning)"
+    "section_title": "RIP (route poisoning)",
+    "image": "data/images/pdf_6_q.png"
   }
 ]
