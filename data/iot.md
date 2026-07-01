@@ -1024,11 +1024,11 @@ c. \_context.Entry(sensorData).State = EntityState.Modified;
 
 1.  Đoạn code nào sau đây được sử dụng để kiểm tra xem một đối tượng SensorData có tồn tại trong cơ sở dữ liệu hay không?
 
-**a. SensorDataExists(id) // làm gì có method exists**
+a. SensorDataExists(id) // làm gì có method exists
 
 b. SensorData.Find(id) // đúng
 
-c. SensorData.Any(e => e.Id == id) // đúng
+**c. SensorData.Any(e => e.Id == id) // đúng**
 
 d. SensorData.Contains(id) // Contains(TEntity) chứ không đưa được id vào
 

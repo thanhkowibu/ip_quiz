@@ -45,7 +45,7 @@
     "options": [
       "await \\_context.SensorData.ToListAsync();",
       "await \\_context.SensorData.FindAsync(id);",
-      "\\_context.Entry(sensorData).State = EntityState.Modified;\n// Entry().State để đánh dấu trạng thại của entity, kể cả mình không cập nhật dữ liệu nhưng để EntityState.Modified thì nó vẫn coi là có sự thay đổi",
+      "\\_context.Entry(sensorData).State = EntityState.Modified;",
       "\\_context.SensorData.Remove(sensorData);"
     ],
     "correctAnswerText": "C",
@@ -59,7 +59,7 @@
       "return Ok();",
       "return BadRequest();",
       "return NotFound();",
-      "return CreatedAtAction(\"GetSensorData\", new { id = sensorData.Id }, sensorData);\n// phần \"GetSensorData\" là tên method mà bên BE đã sử dụng để cho Client biết, mình có thể viết sai hoặc hàm khác vào nó cũng ko lỗi (nó chỉ là note: string - tên hàm mà thôi)"
+      "return CreatedAtAction(\"GetSensorData\", new { id = sensorData.Id }, sensorData);"
     ],
     "correctAnswerText": "D",
     "correctAnswerIndex": 3
@@ -121,13 +121,13 @@
     "type": "single",
     "question": "Đoạn code nào sau đây được sử dụng để kiểm tra xem một đối tượng SensorData có tồn tại trong cơ sở dữ liệu hay không?",
     "options": [
-      "SensorDataExists(id) // làm gì có method exists",
-      "SensorData.Find(id) // đúng",
-      "SensorData.Any(e => e.Id == id) // đúng",
-      "SensorData.Contains(id) // Contains(TEntity) chứ không đưa được id vào"
+      "SensorDataExists(id)",
+      "SensorData.Find(id)",
+      "SensorData.Any(e => e.Id == id)",
+      "SensorData.Contains(id)"
     ],
-    "correctAnswerText": "A",
-    "correctAnswerIndex": 0
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
   },
   {
     "id": 105,
@@ -289,12 +289,7 @@
     "id": 117,
     "type": "single",
     "question": "Để lấy dữ liệu từ cơ sở dữ liệu bằng EF trong một action HTTP GET, bạn cần sử dụng phương thức nào sau đây?",
-    "options": [
-      "ToListAsync()",
-      "FindAsync() // EF core có findAsync(id)",
-      "AddAsync()",
-      "RemoveAsync()"
-    ],
+    "options": ["ToListAsync()", "FindAsync()", "AddAsync()", "RemoveAsync()"],
     "correctAnswerText": "A",
     "correctAnswerIndex": 0
   },
@@ -302,12 +297,7 @@
     "id": 118,
     "type": "single",
     "question": "Để thêm dữ liệu vào cơ sở dữ liệu bằng EF trong một action HTTP POST, bạn cần sử dụng phương thức nào sau đây?",
-    "options": [
-      "ToListAsync()",
-      "FindAsync()",
-      "AddAsync()",
-      "RemoveAsync()"
-    ],
+    "options": ["ToListAsync()", "FindAsync()", "AddAsync()", "RemoveAsync()"],
     "correctAnswerText": "C",
     "correctAnswerIndex": 2
   },
@@ -328,12 +318,7 @@
     "id": 120,
     "type": "single",
     "question": "Để xóa dữ liệu khỏi cơ sở dữ liệu bằng EF trong một action HTTP DELETE, bạn cần sử dụng phương thức nào sau đây?",
-    "options": [
-      "ToListAsync()",
-      "FindAsync()",
-      "AddAsync()",
-      "RemoveAsync()"
-    ],
+    "options": ["ToListAsync()", "FindAsync()", "AddAsync()", "RemoveAsync()"],
     "correctAnswerText": "D",
     "correctAnswerIndex": 3
   },
@@ -341,12 +326,7 @@
     "id": 121,
     "type": "single",
     "question": "Để trả về một kết quả thành công (200) khi thực hiện một action HTTP GET, bạn cần sử dụng phương thức nào sau đây?",
-    "options": [
-      "Ok()",
-      "Created()",
-      "NoContent()",
-      "BadRequest()"
-    ],
+    "options": ["Ok()", "Created()", "NoContent()", "BadRequest()"],
     "correctAnswerText": "A",
     "correctAnswerIndex": 0
   },
@@ -354,12 +334,7 @@
     "id": 122,
     "type": "single",
     "question": "Để trả về một kết quả tạo mới (201) khi thực hiện một action HTTP POST, bạn cần sử dụng phương thức nào sau đây?",
-    "options": [
-      "Ok()",
-      "Created()",
-      "NoContent()",
-      "BadRequest()"
-    ],
+    "options": ["Ok()", "Created()", "NoContent()", "BadRequest()"],
     "correctAnswerText": "B",
     "correctAnswerIndex": 1
   },
@@ -367,12 +342,7 @@
     "id": 123,
     "type": "single",
     "question": "Để trả về một kết quả không có nội dung (204) khi thực hiện một action HTTP PUT, bạn cần sử dụng phương thức nào sau đây?",
-    "options": [
-      "Ok()",
-      "Created()",
-      "NoContent()",
-      "BadRequest()"
-    ],
+    "options": ["Ok()", "Created()", "NoContent()", "BadRequest()"],
     "correctAnswerText": "C",
     "correctAnswerIndex": 2
   },
@@ -380,12 +350,7 @@
     "id": 124,
     "type": "single",
     "question": "Để trả về một kết quả không hợp lệ (400) khi thực hiện một action HTTP DELETE, bạn cần sử dụng phương thức nào sau đây?",
-    "options": [
-      "Ok()",
-      "Created()",
-      "NoContent()",
-      "BadRequest()"
-    ],
+    "options": ["Ok()", "Created()", "NoContent()", "BadRequest()"],
     "correctAnswerText": "D",
     "correctAnswerIndex": 3
   },
@@ -393,26 +358,16 @@
     "id": 125,
     "type": "single",
     "question": "Để trả về một kết quả không tìm thấy (404) khi thực hiện một action HTTP GET, bạn cần sử dụng phương thức nào sau đây?",
-    "options": [
-      "NotFound()",
-      "Problem()",
-      "StatusCode()",
-      "Cả a, b và c"
-    ],
-    "correctAnswerText": "D",
-    "correctAnswerIndex": 3
+    "options": ["NotFound()", "Problem()", "StatusCode()", "Cả a, b và c"],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
   },
   {
     "id": 126,
     "type": "single",
     "question": "Để trả về một kết quả có nội dung tùy chỉnh khi thực hiện một action HTTP POST, bạn cần sử dụng phương thức nào sau đây?",
-    "options": [
-      "Content()",
-      "Json()",
-      "Xml()",
-      "Cả a, b và c"
-    ],
-    "correctAnswerText": "D",
-    "correctAnswerIndex": 3
+    "options": ["Content()", "Json()", "Xml()", "Cả a, b và c"],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
   }
 ]
