@@ -1,0 +1,324 @@
+[
+  {
+    "id": 1,
+    "type": "single",
+    "question": "Cảm biến IoT là gì?",
+    "options": [
+      "Các thiết bị cảm biến thông minh được kết nối vào mạng Internet để thu thập thông tin và dữ liệu từ môi trường xung quanh",
+      "Các thiết bị cảm biến thông thường được kết nối vào mạng Internet để thu thập thông tin và dữ liệu từ môi trường xung quanh",
+      "Các thiết bị cảm biến thông minh được kết nối vào mạng LAN để thu thập thông tin và dữ liệu từ môi trường xung quanh",
+      "Các thiết bị cảm biến thông thường được kết nối vào mạng LAN để thu thập thông tin và dữ liệu từ môi trường xung quanh"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 2,
+    "type": "multiple",
+    "question": "Cảm biến nhiệt độ là loại cảm biến nào theo phân loại theo loại tín hiệu?",
+    "options": [
+      "Cảm biến tương tự",
+      "Cảm biến số",
+      "Cảm biến kỹ thuật số",
+      "Cảm biến tương quan"
+    ],
+    "correctAnswerText": "A, B",
+    "correctAnswerIndices": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 3,
+    "type": "single",
+    "question": "Cảm biến áp suất là loại cảm biến nào theo phân loại theo yêu cầu về nguồn cấp?",
+    "options": [
+      "Cảm biến chủ động",
+      "Cảm biến bị động",
+      "Cảm biến tự cấp",
+      "Cảm biến hỗn hợp"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 4,
+    "type": "single",
+    "question": "Cảm biến độ ẩm là loại cảm biến nào theo phân loại theo loại thiết bị đo?",
+    "options": [
+      "Cảm biến điện trở",
+      "Cảm biến điện dung",
+      "Cảm biến nhiệt điện",
+      "Cảm biến quang điện"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 5,
+    "type": "single",
+    "question": "Tính chất nào sau đây không phải là một trong những yếu tố cần xem xét khi lựa chọn cảm biến IoT?",
+    "options": [
+      "Độ bền",
+      "Độ chính xác",
+      "Độ linh hoạt",
+      "Độ nhạy"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 6,
+    "type": "single",
+    "question": "Trong các tính chất sau, tính chất nào quan trọng nhất khi lựa chọn cảm biến IoT cho môi trường đặc biệt như nhiệt độ cao, độ ẩm cao, áp suất cao, hoặc có chất ăn mòn?",
+    "options": [
+      "Độ bền",
+      "Độ chính xác",
+      "Độ linh hoạt",
+      "Độ tiêu thụ điện năng"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 7,
+    "type": "single",
+    "question": "Cảm biến IoT có thể được kết nối với nhau qua hệ thống nào sau đây?",
+    "options": [
+      "Hệ thống không dây RF",
+      "Hệ thống dây cáp quang",
+      "Hệ thống dây đồng trục",
+      "Hệ thống dây điện thoại"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 8,
+    "type": "single",
+    "question": "Cảm biến IoT có thể được sử dụng trong các lĩnh vực nào sau đây?",
+    "options": [
+      "Sản xuất công nghiệp",
+      "Quản lý môi trường",
+      "Y tế",
+      "Tất cả các đáp án trên"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 9,
+    "type": "single",
+    "question": "Thiết bị IoT có thể truyền dữ liệu đến các máy chủ hoặc thiết bị khác qua giao thức nào sau đây?",
+    "options": [
+      "HTTP",
+      "MQTT",
+      "CoAP",
+      "Tất cả các đáp án trên"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 10,
+    "type": "single",
+    "question": "Cảm biến IoT có thể được giám sát và kiểm soát từ xa qua thiết bị nào sau đây?",
+    "options": [
+      "Máy tính",
+      "Điện thoại thông min",
+      "Máy tính bảng",
+      "Tất cả các đáp án trên"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 11,
+    "type": "single",
+    "question": "HTTP là viết tắt của từ nào?",
+    "options": [
+      "HyperText Transfer Protocol",
+      "HyperText Transmission Protocol",
+      "HyperText Transport Protocol",
+      "HyperText Transmitter Protocol"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 12,
+    "type": "single",
+    "question": "HTTP là giao thức truyền tải dữ liệu dùng trong hệ thống nào?",
+    "options": [
+      "World Wide Web",
+      "Local Area Network",
+      "Wireless Fidelity",
+      "Internet Protocol"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 13,
+    "type": "single",
+    "question": "HTTP sử dụng cổng (port) nào là chủ yếu?",
+    "options": [
+      "80",
+      "21",
+      "25",
+      "443 (HTTPS)"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 14,
+    "type": "single",
+    "question": "HTTP là giao thức có trạng thái (stateful) hay không có trạng thái (stateless)?",
+    "options": [
+      "Có trạng thái",
+      "Không có trạng thái",
+      "Có thể có hoặc không có trạng thái",
+      "Không xác định được"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 15,
+    "type": "single",
+    "question": "HTTP sử dụng các phương thức (methods) nào để thực hiện các hoạt động CRUD (tạo, truy xuất, cập nhật, xóa. trên các tài nguyên (resources)?",
+    "options": [
+      "GET, POST, PUT, DELETE",
+      "GET, POST, PATCH, DELETE",
+      "GET, PUT, PATCH, DELETE",
+      "Cả A, B và C"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 16,
+    "type": "single",
+    "question": "Phương thức HTTP nào dùng để truy xuất tài nguyên mà không làm thay đổi thông tin của nó?",
+    "options": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 17,
+    "type": "single",
+    "question": "Phương thức HTTP nào dùng để tạo một tài nguyên mới trong cơ sở dữ liệu?",
+    "options": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 18,
+    "type": "single",
+    "question": "Phương thức HTTP nào dùng để cập nhật toàn bộ thông tin của một tài nguyên đã có sẵn?",
+    "options": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 19,
+    "type": "single",
+    "question": "Phương thức HTTP nào dùng để cập nhật một phần thông tin của một tài nguyên đã có sẵn?",
+    "options": [
+      "GE",
+      "POST",
+      "PUT",
+      "PATCH"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 20,
+    "type": "single",
+    "question": "Phương thức HTTP nào dùng để xóa một tài nguyên khỏi cơ sở dữ liệu?",
+    "options": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 21,
+    "type": "single",
+    "question": "REST là viết tắt của từ nào?",
+    "options": [
+      "Representational State Transfer",
+      "Representational State Transmission",
+      "Representational State Transport",
+      "Representational State Transmitter"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 22,
+    "type": "single",
+    "question": "REST là gì?",
+    "options": [
+      "Một giao thức truyền tải dữ liệu",
+      "Một phong cách kiến trúc thiết kế API cho các ứng dụng web",
+      "Một công nghệ xử lý dữ liệu",
+      "Một ứng dụng truyền tải dữ liệu"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 23,
+    "type": "single",
+    "question": "REST API có thể sử dụng bất kỳ ngôn ngữ lập trình nào để thiết kế và phát triển?",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 24,
+    "type": "single",
+    "question": "REST API có thể sử dụng bất kỳ định dạng dữ liệu nào để truyền tải và trả về?",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 25,
+    "type": "single",
+    "question": "REST API có thể sử dụng bất kỳ phương thức HTTP nào để thực hiện các hoạt động CRUD trên các tài nguyên? GET, POST, PUT, DELETE",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  }
+]

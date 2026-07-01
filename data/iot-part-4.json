@@ -1,0 +1,314 @@
+[
+  {
+    "id": 71,
+    "type": "single",
+    "question": "Để gửi một yêu cầu HTTP GET đến một máy chủ web có địa chỉ là \"http://example.com\", bạn cần sử dụng hàm nào để gửi yêu cầu HTTP trong arduino IDE?\n**http.begin(\"http://example.com\");**\n**http.GET();**",
+    "options": [
+      "http.get(\"http://example.com\")",
+      "http.request(\"GET\", \"http://example.com\")",
+      "http.send(\"GET\", \"http://example.com\")",
+      "http.GET()"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 72,
+    "type": "single",
+    "question": "Để gửi một yêu cầu HTTP POST đến một máy chủ web có địa chỉ là \"http://example.com\", bạn cần gửi một dữ liệu JSON có dạng {\"name\": \"ESP32\", \"value\": 100} với kiểu nội dung là \"application/json\". Bạn cần sử dụng hàm nào để thiết lập kiểu nội dung trong arduino IDE?",
+    "options": [
+      "http.addHeader(\"Content-Type\", \"application/json\")",
+      "http.setHeader(\"Content-Type\", \"application/json\")",
+      "http.setPayloadType(\"application/json\")",
+      "http.setJSON()"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 73,
+    "type": "single",
+    "question": "Để gửi một yêu cầu HTTP POST đến một máy chủ web có địa chỉ là \"http://example.com\", bạn cần sử dụng phương thức nào của đối tượng http trong arduino IDE?",
+    "options": [
+      "http.POST(payload)",
+      "http.post()",
+      "http.POST",
+      "http.post"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 74,
+    "type": "single",
+    "question": "Để nhận một phản hồi HTTP từ một máy chủ web sau khi gửi một yêu cầu HTTP GET hoặc POST, bạn cần sử dụng phương thức nào của đối tượng http trong arduino IDE?\n**http.GET() hoặc là HTTP.POST() return response code.**",
+    "options": [
+      "http.getResponse()",
+      "http.response()",
+      "http.getString() // lấy payload từ thằng HTTP server phản hồi về",
+      "http.string()"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 75,
+    "type": "single",
+    "question": "Để đóng kết nối HTTP với một máy chủ web sau khi gửi và nhận dữ liệu xong, bạn cần sử dụng phương thức nào của đối tượng http trong arduino IDE?",
+    "options": [
+      "http.end()",
+      "http.close()",
+      "http.disconnect()",
+      "http.terminate()"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 76,
+    "type": "single",
+    "question": "Để gửi một yêu cầu HTTP GET đến một máy chủ web có địa chỉ là \"http://example.com\", bạn cần sử dụng phương thức nào của đối tượng http trong arduino IDE?",
+    "options": [
+      "http.get(\"http://example.com\")",
+      "http.request(\"GET\", \"http://example.com\")",
+      "http.send(\"GET\", \"http://example.com\")",
+      "http.GET()"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 77,
+    "type": "single",
+    "question": "Để kết nối ESP32 với một máy chủ MQTT có địa chỉ là \"test.mosquitto.org\" và cổng là 1883, bạn cần sử dụng hàm nào để kết nối MQTT trong arduino IDE?",
+    "options": [
+      "mqtt.begin(\"test.mosquitto.org\", 1883)",
+      "mqtt.connect(\"test.mosquitto.org\", 1883)",
+      "mqtt.setup(\"test.mosquitto.org\", 1883)",
+      "mqtt.init(\"test.mosquitto.org\", 1883)"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 78,
+    "type": "single",
+    "question": "Để đăng ký một chủ đề là \"esp32/test\" và gửi một tin nhắn là \"Hello MQTT\" đến chủ đề đó, bạn cần sử dụng hàm nào để đăng ký và gửi tin nhắn trong arduino IDE?",
+    "options": [
+      "mqtt.subscribe(\"esp32/test\") và mqtt.publish(\"esp32/test\", \"Hello MQTT\")",
+      "mqtt.register(\"esp32/test\") và mqtt.send(\"esp32/test\", \"Hello MQTT\")",
+      "mqtt.join(\"esp32/test\") và mqtt.message(\"esp32/test\", \"Hello MQTT\")",
+      "mqtt.listen(\"esp32/test\") và mqtt.write(\"esp32/test\", \"Hello MQTT\")"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 79,
+    "type": "single",
+    "question": "Để tạo một đối tượng mqtt để kết nối với một máy chủ MQTT, bạn cần sử dụng hàm nào của thư viện PubSubClient.h trong arduino IDE?",
+    "options": [
+      "PubSubClient mqtt()",
+      "PubSubClient mqtt(WiFiClient)",
+      "PubSubClient mqtt(server, port, WiFiClient)",
+      "PubSubClient mqtt(server, port, callback, WiFiClient)"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 80,
+    "type": "single",
+    "question": "Để thiết lập hàm callback để xử lý các tin nhắn MQTT được nhận từ máy chủ, bạn cần sử dụng hàm nào của đối tượng mqtt trong arduino IDE?",
+    "options": [
+      "mqtt.setCallback(callback)",
+      "mqtt.callback(callback)",
+      "mqtt.onMessage(callback)",
+      "mqtt.message(callback)"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 81,
+    "type": "single",
+    "question": "Để kiểm tra xem ESP32 có kết nối với máy chủ MQTT hay không, bạn cần sử dụng hàm nào của đối tượng mqtt trong arduino IDE?",
+    "options": [
+      "mqtt.connected()",
+      "mqtt.connect()",
+      "mqtt.status()",
+      "mqtt.state()"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 82,
+    "type": "single",
+    "question": "Để duy trì kết nối với máy chủ MQTT và xử lý các tin nhắn MQTT, bạn cần sử dụng hàm nào của đối tượng mqtt trong arduino IDE?",
+    "options": [
+      "mqtt.loop()",
+      "mqtt.run()",
+      "mqtt.process()",
+      "mqtt.handle()"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 83,
+    "type": "single",
+    "question": "Để tạo một nhiệm vụ (task) sử dụng FreeRTOS trên ESP32, bạn cần sử dụng hàm nào để tạo nhiệm vụ trong arduino IDE?",
+    "options": [
+      "xTaskCreate",
+      "xTaskSetup",
+      "xTaskInit",
+      "xTaskStart"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 84,
+    "type": "single",
+    "question": "Để đợi một khoảng thời gian trong một nhiệm vụ (task) sử dụng FreeRTOS trên ESP32, bạn cần sử dụng hàm nào để đợi trong arduino IDE?",
+    "options": [
+      "delay",
+      "vTaskDelay",
+      "xTaskWait",
+      "xTaskSleep"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 85,
+    "type": "single",
+    "question": "Để tạo một máy chủ web trên ESP32, bạn cần tạo một đối tượng thuộc lớp nào trong arduino IDE?",
+    "options": [
+      "WiFi",
+      "WebServer: (WebServer server(80))",
+      "HTTPClient",
+      "PubSubClient"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 86,
+    "type": "single",
+    "question": "Để lắng nghe các yêu cầu HTTP trên cổng 80, bạn cần sử dụng hàm nào của đối tượng server trong arduino IDE?",
+    "options": [
+      "server.begin(80)",
+      "server.listen(80)",
+      "server.start(80)",
+      "server.open(80)"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 87,
+    "type": "single",
+    "question": "Để xử lý các yêu cầu HTTP trên một đường dẫn nhất định, ví dụ \"/led\", bạn cần sử dụng hàm nào của đối tượng server trong arduino IDE?",
+    "options": [
+      "server.on(\"/led\", handler)",
+      "server.handle(\"/led\", handler)",
+      "server.route(\"/led\", handler)",
+      "server.request(\"/led\", handler)"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 88,
+    "type": "single",
+    "question": "Để trả về một trang web HTML có nội dung là \"Hello from ESP32\" khi có yêu cầu HTTP đến đường dẫn \"/\", bạn cần sử dụng hàm nào của đối tượng server trong arduino IDE?",
+    "options": [
+      "server.send(200, \"text/html\", \"Hello from ESP32\")",
+      "server.response(200, \"text/html\", \"Hello from ESP32\")",
+      "server.write(200, \"text/html\", \"Hello from ESP32\")",
+      "server.html(200, \"Hello from ESP32\")"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 89,
+    "type": "single",
+    "question": "Để lấy giá trị của một tham số được truyền trong yêu cầu HTTP, ví dụ \"/led?state=1\", bạn cần sử dụng hàm nào của đối tượng server trong arduino IDE?",
+    "options": [
+      "server.arg(\"state\")",
+      "server.param(\"state\")",
+      "server.get(\"state\")",
+      "server.value(\"state\")"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 90,
+    "type": "single",
+    "question": "Để kiểm tra phương thức của một yêu cầu HTTP, ví dụ GET hoặc POST, bạn cần sử dụng hàm nào của đối tượng server trong arduino IDE?",
+    "options": [
+      "server.method()",
+      "server.requestMethod()",
+      "server.httpMethod()",
+      "server.type()"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 91,
+    "type": "single",
+    "question": "Để đọc nội dung của một yêu cầu HTTP POST, bạn cần sử dụng hàm nào của đối tượng server trong arduino IDE?",
+    "options": [
+      "server.read()",
+      "server.body()",
+      "server.content()",
+      "server.data()"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 92,
+    "type": "single",
+    "question": "Để chuyển hướng một yêu cầu HTTP đến một đường dẫn khác, ví dụ từ \"/led\" đến \"/\", bạn cần sử dụng hàm nào của đối tượng server trong arduino IDE?",
+    "options": [
+      "server.redirect(\"/\")",
+      "server.sendHeader(\"Location\", \"/\")",
+      "server.moveTo(\"/\")",
+      "Cả A và B"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 93,
+    "type": "single",
+    "question": "Để gửi một tệp tin HTML được lưu trữ trong bộ nhớ flash của ESP32, bạn cần sử dụng hàm nào của đối tượng server trong arduino IDE?",
+    "options": [
+      "server.send(200, \"text/html\", SPIFFS.open(\"/index.html\", \"r\"))",
+      "server.sendFile(200, \"text/html\", \"/index.html\")",
+      "server.serveStatic(\"/index.html\", SPIFFS, \"/index.html\")",
+      "server.streamFile(SPIFFS.open(\"/index.html\", \"r\"), \"text/html\")"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 94,
+    "type": "single",
+    "question": "Để duy trì kết nối với máy chủ web và xử lý các yêu cầu HTTP, bạn cần sử dụng hàm nào của đối tượng server trong arduino IDE?",
+    "options": [
+      "server.loop()",
+      "server.run()",
+      "server.process()",
+      "server.handleClient()"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  }
+]

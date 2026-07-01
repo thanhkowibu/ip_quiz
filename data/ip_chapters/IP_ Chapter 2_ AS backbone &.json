@@ -138,7 +138,7 @@
     "original_id": "question_#b7d02_0",
     "chapter": "Chapter 2. AS backbone &",
     "type": "fill_in_blank",
-    "question": "Sử dụng môi trường thực hành, xây dựng hệ thống kết nối liên mạng có sơ đồ kết nối như sau (các router kết nối backbone dạng trục R1-R-...-R2-R3, và từ đó kết nối đến các mạng nghiệp vụ a,b,c,d):\n/----(a)            /-----(b)\nR1 -- R -- ... -- R ---- R2 ---- R3\n\\---(c)         \\-----(d)\nXem thông tin mạng đích và metric trong các router thấy như sau (bỏ qua thông tin 'next hop'):\nR3: (192.168.2.0/24, metric: 0)\nR2: (192.168.1.0/24, metric: 0)\n(192.168.2.0/24, metric: 1)\nR1: (192.168.2.0/24, metric: 10)\n(192.168.1.0/24, metric: 9)\nHãy cho biết số lượng router R nằm giữa R1 và R2 là bao nhiêu?",
+    "question": "Sử dụng môi trường thực hành, xây dựng hệ thống kết nối liên mạng có sơ đồ kết nối như sau (các router kết nối backbone dạng trục R1-R-...-R2-R3, và từ đó kết nối đến các mạng nghiệp vụ a,b,c,d):\n/----(a.            /-----(b)\nR1 -- R -- ... -- R ---- R2 ---- R3\n\\---(c)         \\-----(d)\nXem thông tin mạng đích và metric trong các router thấy như sau (bỏ qua thông tin 'next hop'):\nR3: (192.168.2.0/24, metric: 0)\nR2: (192.168.1.0/24, metric: 0)\n(192.168.2.0/24, metric: 1)\nR1: (192.168.2.0/24, metric: 10)\n(192.168.1.0/24, metric: 9)\nHãy cho biết số lượng router R nằm giữa R1 và R2 là bao nhiêu?",
     "options": ["", "8"],
     "correctAnswerIndices": [],
     "correctAnswerIndex": -1,

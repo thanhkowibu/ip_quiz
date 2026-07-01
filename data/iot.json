@@ -1,0 +1,1638 @@
+[
+  {
+    "id": 1,
+    "type": "single",
+    "question": "Cảm biến IoT là gì?",
+    "options": [
+      "Các thiết bị cảm biến thông minh được kết nối vào mạng Internet để thu thập thông tin và dữ liệu từ môi trường xung quanh",
+      "Các thiết bị cảm biến thông thường được kết nối vào mạng Internet để thu thập thông tin và dữ liệu từ môi trường xung quanh",
+      "Các thiết bị cảm biến thông minh được kết nối vào mạng LAN để thu thập thông tin và dữ liệu từ môi trường xung quanh",
+      "Các thiết bị cảm biến thông thường được kết nối vào mạng LAN để thu thập thông tin và dữ liệu từ môi trường xung quanh"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 2,
+    "type": "multiple",
+    "question": "Cảm biến nhiệt độ là loại cảm biến nào theo phân loại theo loại tín hiệu?",
+    "options": [
+      "Cảm biến tương tự",
+      "Cảm biến số",
+      "Cảm biến kỹ thuật số",
+      "Cảm biến tương quan"
+    ],
+    "correctAnswerText": "A, B",
+    "correctAnswerIndices": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 3,
+    "type": "single",
+    "question": "Cảm biến áp suất là loại cảm biến nào theo phân loại theo yêu cầu về nguồn cấp?",
+    "options": [
+      "Cảm biến chủ động",
+      "Cảm biến bị động",
+      "Cảm biến tự cấp",
+      "Cảm biến hỗn hợp"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 4,
+    "type": "single",
+    "question": "Cảm biến độ ẩm là loại cảm biến nào theo phân loại theo loại thiết bị đo?",
+    "options": [
+      "Cảm biến điện trở",
+      "Cảm biến điện dung",
+      "Cảm biến nhiệt điện",
+      "Cảm biến quang điện"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 5,
+    "type": "single",
+    "question": "Tính chất nào sau đây không phải là một trong những yếu tố cần xem xét khi lựa chọn cảm biến IoT?",
+    "options": [
+      "Độ bền",
+      "Độ chính xác",
+      "Độ linh hoạt",
+      "Độ nhạy"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 6,
+    "type": "single",
+    "question": "Trong các tính chất sau, tính chất nào quan trọng nhất khi lựa chọn cảm biến IoT cho môi trường đặc biệt như nhiệt độ cao, độ ẩm cao, áp suất cao, hoặc có chất ăn mòn?",
+    "options": [
+      "Độ bền",
+      "Độ chính xác",
+      "Độ linh hoạt",
+      "Độ tiêu thụ điện năng"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 7,
+    "type": "single",
+    "question": "Cảm biến IoT có thể được kết nối với nhau qua hệ thống nào sau đây?",
+    "options": [
+      "Hệ thống không dây RF",
+      "Hệ thống dây cáp quang",
+      "Hệ thống dây đồng trục",
+      "Hệ thống dây điện thoại"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 8,
+    "type": "single",
+    "question": "Cảm biến IoT có thể được sử dụng trong các lĩnh vực nào sau đây?",
+    "options": [
+      "Sản xuất công nghiệp",
+      "Quản lý môi trường",
+      "Y tế",
+      "Tất cả các đáp án trên"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 9,
+    "type": "single",
+    "question": "Thiết bị IoT có thể truyền dữ liệu đến các máy chủ hoặc thiết bị khác qua giao thức nào sau đây?",
+    "options": [
+      "HTTP",
+      "MQTT",
+      "CoAP",
+      "Tất cả các đáp án trên"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 10,
+    "type": "single",
+    "question": "Cảm biến IoT có thể được giám sát và kiểm soát từ xa qua thiết bị nào sau đây?",
+    "options": [
+      "Máy tính",
+      "Điện thoại thông min",
+      "Máy tính bảng",
+      "Tất cả các đáp án trên"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 11,
+    "type": "single",
+    "question": "HTTP là viết tắt của từ nào?",
+    "options": [
+      "HyperText Transfer Protocol",
+      "HyperText Transmission Protocol",
+      "HyperText Transport Protocol",
+      "HyperText Transmitter Protocol"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 12,
+    "type": "single",
+    "question": "HTTP là giao thức truyền tải dữ liệu dùng trong hệ thống nào?",
+    "options": [
+      "World Wide Web",
+      "Local Area Network",
+      "Wireless Fidelity",
+      "Internet Protocol"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 13,
+    "type": "single",
+    "question": "HTTP sử dụng cổng (port) nào là chủ yếu?",
+    "options": [
+      "80",
+      "21",
+      "25",
+      "443 (HTTPS)"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 14,
+    "type": "single",
+    "question": "HTTP là giao thức có trạng thái (stateful) hay không có trạng thái (stateless)?",
+    "options": [
+      "Có trạng thái",
+      "Không có trạng thái",
+      "Có thể có hoặc không có trạng thái",
+      "Không xác định được"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 15,
+    "type": "single",
+    "question": "HTTP sử dụng các phương thức (methods) nào để thực hiện các hoạt động CRUD (tạo, truy xuất, cập nhật, xóa. trên các tài nguyên (resources)?",
+    "options": [
+      "GET, POST, PUT, DELETE",
+      "GET, POST, PATCH, DELETE",
+      "GET, PUT, PATCH, DELETE",
+      "Cả A, B và C"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 16,
+    "type": "single",
+    "question": "Phương thức HTTP nào dùng để truy xuất tài nguyên mà không làm thay đổi thông tin của nó?",
+    "options": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 17,
+    "type": "single",
+    "question": "Phương thức HTTP nào dùng để tạo một tài nguyên mới trong cơ sở dữ liệu?",
+    "options": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 18,
+    "type": "single",
+    "question": "Phương thức HTTP nào dùng để cập nhật toàn bộ thông tin của một tài nguyên đã có sẵn?",
+    "options": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 19,
+    "type": "single",
+    "question": "Phương thức HTTP nào dùng để cập nhật một phần thông tin của một tài nguyên đã có sẵn?",
+    "options": [
+      "GE",
+      "POST",
+      "PUT",
+      "PATCH"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 20,
+    "type": "single",
+    "question": "Phương thức HTTP nào dùng để xóa một tài nguyên khỏi cơ sở dữ liệu?",
+    "options": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 21,
+    "type": "single",
+    "question": "REST là viết tắt của từ nào?",
+    "options": [
+      "Representational State Transfer",
+      "Representational State Transmission",
+      "Representational State Transport",
+      "Representational State Transmitter"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 22,
+    "type": "single",
+    "question": "REST là gì?",
+    "options": [
+      "Một giao thức truyền tải dữ liệu",
+      "Một phong cách kiến trúc thiết kế API cho các ứng dụng web",
+      "Một công nghệ xử lý dữ liệu",
+      "Một ứng dụng truyền tải dữ liệu"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 23,
+    "type": "single",
+    "question": "REST API có thể sử dụng bất kỳ ngôn ngữ lập trình nào để thiết kế và phát triển?",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 24,
+    "type": "single",
+    "question": "REST API có thể sử dụng bất kỳ định dạng dữ liệu nào để truyền tải và trả về?",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 25,
+    "type": "single",
+    "question": "REST API có thể sử dụng bất kỳ phương thức HTTP nào để thực hiện các hoạt động CRUD trên các tài nguyên? GET, POST, PUT, DELETE",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 26,
+    "type": "single",
+    "question": "MQTT là viết tắt của từ nào?",
+    "options": [
+      "Message Queuing Telemetry Transport",
+      "Message Queueing Telemetry Transmission",
+      "Message Queueing Telemetry Transmitter",
+      "Message Queueing Telemetry Transporter"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 27,
+    "type": "single",
+    "question": "MQTT là giao thức truyền tải dữ liệu dùng trong hệ thống nào?",
+    "options": [
+      "Internet of Things",
+      "World Wide Web",
+      "Local Area Network",
+      "Wireless Fidelity"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 28,
+    "type": "single",
+    "question": "MQTT sử dụng cổng (port) nào là chủ yếu?",
+    "options": [
+      "80",
+      "1883",
+      "443",
+      "8080"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 29,
+    "type": "single",
+    "question": "MQTT là giao thức có trạng thái (stateful) hay không có trạng thái (stateless)?",
+    "options": [
+      "Có trạng thái",
+      "Không có trạng thái",
+      "Có thể có hoặc không có trạng thái",
+      "Không xác định được"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 30,
+    "type": "single",
+    "question": "MQTT sử dụng kiến trúc nào để truyền tải và nhận dữ liệu giữa các thiết bị?",
+    "options": [
+      "Client-server",
+      "Peer-to-peer",
+      "Publish-subscribe",
+      "Request-response"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 31,
+    "type": "single",
+    "question": "MQTT sử dụng các phương thức (methods) nào để thực hiện các hoạt động truyền tải và nhận dữ liệu?",
+    "options": [
+      "CONNECT, DISCONNECT, PUBLISH, SUBSCRIBE, UNSUBSCRIBE",
+      "CONNECT, DISCONNECT, PUBLISH, RECEIVE, ACKNOWLEDGE",
+      "CONNECT, DISCONNECT, SEND, RECEIVE, CONFIRM",
+      "CONNECT, DISCONNECT, POST, GET, DELETE"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 32,
+    "type": "single",
+    "question": "Phương thức MQTT nào dùng để thiết lập kết nối giữa client và broker?",
+    "options": [
+      "CONNECT",
+      "DISCONNECT",
+      "PUBLISH",
+      "SUBSCRIBE"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 33,
+    "type": "single",
+    "question": "Phương thức MQTT nào dùng để ngắt kết nối giữa client và broker?",
+    "options": [
+      "CONNECT",
+      "DISCONNECT",
+      "PUBLISH",
+      "SUBSCRIBE"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 34,
+    "type": "single",
+    "question": "Phương thức MQTT nào dùng để gửi dữ liệu từ client đến broker hoặc ngược lại?",
+    "options": [
+      "CONNECT",
+      "DISCONNECT",
+      "PUBLISH",
+      "SUBSCRIBE"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 35,
+    "type": "single",
+    "question": "Phương thức MQTT nào dùng để đăng ký nhận dữ liệu từ một hoặc nhiều chủ đề (topics) từ broker?",
+    "options": [
+      "CONNECT",
+      "DISCONNECT",
+      "PUBLISH",
+      "SUBSCRIBE"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 36,
+    "type": "single",
+    "question": "Phương thức MQTT nào dùng để hủy đăng ký nhận dữ liệu từ một hoặc nhiều chủ đề (topics) từ broker?",
+    "options": [
+      "CONNECT",
+      "DISCONNECT",
+      "PUBLISH",
+      "UNSUBSCRIBE"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 37,
+    "type": "single",
+    "question": "MQTT sử dụng các mức độ bảo đảm (quality of service) nào để đảm bảo việc truyền tải và nhận dữ liệu?",
+    "options": [
+      "0 - at most once, 1 - at least once, 2 - exactly once",
+      "0 - at least once, 1 - at most once, 2 - exactly once",
+      "0 - exactly once, 1 - at most once, 2 - at least once",
+      "0 - at most once, 1 - exactly once, 2 - at least once"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 38,
+    "type": "single",
+    "question": "Mức độ bảo đảm nào của MQTT không đảm bảo việc truyền tải và nhận dữ liệu một cách tin cậy?",
+    "options": [
+      "0 - at most once",
+      "1 - at least once",
+      "2 - exactly once",
+      "Tất cả các đáp án trên"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 39,
+    "type": "single",
+    "question": "Mức độ bảo đảm nào của MQTT có thể gây ra trường hợp nhận dữ liệu trùng lặp?",
+    "options": [
+      "0 - at most once",
+      "1 - at least once",
+      "2 - exactly once",
+      "Tất cả các đáp án trên"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 40,
+    "type": "single",
+    "question": "Mức độ bảo đảm nào của MQTT có thể gây ra trường hợp truyền tải và nhận dữ liệu chậm nhất?",
+    "options": [
+      "0 - at most once",
+      "1 - at least once",
+      "2 - exactly once",
+      "Tất cả các đáp án trên"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 41,
+    "type": "single",
+    "question": "RabbitMQ là một ứng dụng gì?",
+    "options": [
+      "Một message broker dùng giao thức AMQP",
+      "Một message queue dùng giao thức HTTP",
+      "Một message sender dùng giao thức SMTP",
+      "Một message receiver dùng giao thức FTP"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 42,
+    "type": "single",
+    "question": "RabbitMQ được lập trình bằng ngôn ngữ nào?",
+    "options": [
+      "Python",
+      "Java",
+      "Erlang",
+      "PHP"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 43,
+    "type": "single",
+    "question": "RabbitMQ sử dụng thành phần nào để quản lý các queue và message?",
+    "options": [
+      "Client",
+      "Server",
+      "Broker",
+      "Worker"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 44,
+    "type": "single",
+    "question": "RabbitMQ sử dụng thành phần nào để gửi message đến broker?",
+    "options": [
+      "Client",
+      "Producer",
+      "Consumer",
+      "Publisher"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 45,
+    "type": "single",
+    "question": "RabbitMQ sử dụng thành phần nào để nhận message từ broker?",
+    "options": [
+      "Client",
+      "Producer",
+      "Consumer",
+      "Publisher"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 46,
+    "type": "single",
+    "question": "RabbitMQ sử dụng thành phần nào để định tuyến message đến các queue phù hợp?",
+    "options": [
+      "Exchange",
+      "Binding",
+      "Routing key",
+      "Topic"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 47,
+    "type": "single",
+    "question": "RabbitMQ sử dụng thành phần nào để liên kết giữa exchange và queue?",
+    "options": [
+      "Exchange",
+      "Binding",
+      "Routing key",
+      "Topic"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 48,
+    "type": "single",
+    "question": "RabbitMQ sử dụng thành phần nào để xác định queue nào sẽ nhận message từ exchange?",
+    "options": [
+      "Exchange",
+      "Binding",
+      "Routing key",
+      "Topic"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 49,
+    "type": "single",
+    "question": "RabbitMQ sử dụng thành phần nào để xác định exchange nào sẽ gửi message đến queue?",
+    "options": [
+      "Exchange",
+      "Binding",
+      "Routing key",
+      "Topic"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 50,
+    "type": "single",
+    "question": "RabbitMQ sử dụng loại exchange nào để gửi message đến tất cả các queue liên kết với nó? (broadcast)",
+    "options": [
+      "Direct",
+      "Fanout",
+      "Topic",
+      "Header"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 51,
+    "type": "single",
+    "question": "RabbitMQ sử dụng loại exchange nào để gửi message đến các queue có **routing key** khớp với topic của nó?",
+    "options": [
+      "Direct",
+      "Fanout",
+      "Topic",
+      "Header"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 52,
+    "type": "single",
+    "question": "RabbitMQ sử dụng loại exchange nào để gửi message đến các queue có routing key giống với routing key của nó?",
+    "options": [
+      "Direct",
+      "Fanout",
+      "Topic",
+      "Header"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 53,
+    "type": "single",
+    "question": "RabbitMQ sử dụng loại exchange nào để gửi message đến các queue có header khớp với header của nó?",
+    "options": [
+      "Direct",
+      "Fanout",
+      "Topic",
+      "Header"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 54,
+    "type": "single",
+    "question": "RabbitMQ sử dụng cơ chế nào để đảm bảo việc truyền tải và nhận dữ liệu một cách tin cậy?",
+    "options": [
+      "Acknowledgement",
+      "Confirmation",
+      "Persistence",
+      "Tất cả các đáp án trên"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 55,
+    "type": "single",
+    "question": "RabbitMQ sử dụng plugin nào để quản lý và giám sát broker qua giao diện web?",
+    "options": [
+      "RabbitMQ Management",
+      "RabbitMQ Web STOMP",
+      "RabbitMQ Web MQTT",
+      "RabbitMQ Web AMQP"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 56,
+    "type": "single",
+    "question": "IoT cloud platforms là gì?",
+    "options": [
+      "Là các nền tảng điện toán đám mây cung cấp các dịch vụ và công cụ để xây dựng và quản lý các ứng dụng IoT",
+      "Là các nền tảng điện toán đám mây cung cấp các dịch vụ và công cụ để xây dựng và quản lý các ứng dụng web",
+      "Là các nền tảng điện toán đám mây cung cấp các dịch vụ và công cụ để xây dựng và quản lý các ứng dụng di động",
+      "Là các nền tảng điện toán đám mây cung cấp các dịch vụ và công cụ để xây dựng và quản lý các ứng dụng trí tuệ nhân tạo"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 57,
+    "type": "single",
+    "question": "Cloud IoT Edge là gì?",
+    "options": [
+      "Là phần mềm mở rộng khả năng xử lý dữ liệu và học máy của Google Cloud đến các cổng, camera và thiết bị đầu cuối, làm cho các ứng dụng IoT thông minh, an toàn và đáng tin cậy hơn",
+      "Là phần mềm mở rộng khả năng xử lý dữ liệu và học máy của Google Cloud đến các máy chủ, máy tính và điện thoại thông minh, làm cho các ứng dụng IoT thông minh, an toàn và đáng tin cậy hơn",
+      "Là phần mềm mở rộng khả năng xử lý dữ liệu và học máy của Google Cloud đến các đám mây, mạng và trình duyệt, làm cho các ứng dụng IoT thông minh, an toàn và đáng tin cậy hơn",
+      "Là phần mềm mở rộng khả năng xử lý dữ liệu và học máy của Google Cloud đến các thiết bị di động, máy tính bảng và đồng hồ thông minh, làm cho các ứng dụng IoT thông minh, an toàn và đáng tin cậy hơn"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 58,
+    "type": "single",
+    "question": "Cloud IoT Edge có thể chạy trên các thiết bị sử dụng hệ điều hành nào sau đây?",
+    "options": [
+      "Android Things",
+      "Linux OS",
+      "Cả A và B",
+      "Không có đáp án nào đúng"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 59,
+    "type": "single",
+    "question": "Cloud IoT Edge bao gồm các thành phần nào sau đây?",
+    "options": [
+      "Một runtime cho các thiết bị cổng, với ít nhất một CPU, để lưu trữ, dịch, xử lý và rút trích thông tin từ dữ liệu tại cạnh mạng, trong khi liên kết mượt mà với phần còn lại của nền tảng Cloud IoT",
+      "Runtime Edge IoT Core, giúp kết nối các thiết bị cạnh mạng với đám mây một cách an toàn hơn, cho phép cập nhật phần mềm và firmware và quản lý việc trao đổi dữ liệu với Cloud IoT Core",
+      "Cả A và B",
+      "Không có đáp án nào đúng"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 60,
+    "type": "single",
+    "question": "IoT cloud platforms cung cấp các dịch vụ và công cụ nào sau đây để xây dựng và quản lý các ứng dụng IoT?",
+    "options": [
+      "Kết nối dữ liệu cơ bản MQTT và HTTPS",
+      "Cấp phát thiết bị, xác thực và quản lý",
+      "Lưu trữ và trực quan hóa dữ liệu, xử lý dữ liệu và cảnh báo",
+      "Tất cả các đáp án trên"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 61,
+    "type": "single",
+    "question": "IoT cloud platforms cung cấp một giao diện thống nhất để quản lý một tập hợp các thiết bị IoT khác nhau. Đây là sự khác biệt chính giữa IoT cloud platforms và MQTT broker độc lập. Đây là câu nói đúng hay sai?",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 62,
+    "type": "single",
+    "question": "Để cài đặt board ESP32 vào arduino IDE, bạn cần nhập đường dẫn nào vào trường \"Additional Board Manager URLs\" trong File > Preferences?",
+    "options": [
+      "https://dl.espressif.com/dl/package_esp32_index.jsonhttps://dl.espressif.com/dl/package_esp32_index.json",
+      "\\[https://github.com/espressif/arduino-esp32\\]",
+      "https://www.arduino.cc/en/Main/Softwarehttps://www.arduino.cc/en/Main/Software",
+      "https://www.esp32.com/viewtopic.php?t=2031https://www.esp32.com/viewtopic.php?t=2031"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 63,
+    "type": "single",
+    "question": "Để nháy LED trên board ESP32, bạn cần kết nối LED với chân GPIO nào của ESP32?",
+    "options": [
+      "GPIO 0",
+      "GPIO 1",
+      "GPIO 2",
+      "GPIO 3"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 64,
+    "type": "single",
+    "question": "Để đọc giá trị điện áp analog từ một cảm biến nhiệt độ **LM35** kết nối với chân GPIO 34 của ESP32, bạn cần sử dụng hàm nào trong arduino IDE?",
+    "options": [
+      "analogRead",
+      "analogWrite",
+      "digitalRead",
+      "digitalWrite"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 65,
+    "type": "single",
+    "question": "Để điều khiển độ sáng của một LED bằng cách sử dụng PWM, bạn cần sử dụng hàm nào trong arduino IDE?",
+    "options": [
+      "analogRead",
+      "analogWrite",
+      "digitalRead",
+      "digitalWrite"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 66,
+    "type": "single",
+    "question": "Để giao tiếp với một module **LCD 16x2** sử dụng giao thức I2C, bạn cần sử dụng thư viện nào trong arduino IDE?",
+    "options": [
+      "WiFi.h",
+      "Wire.h",
+      "SPI.h",
+      "Serial.h"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 67,
+    "type": "single",
+    "question": "Để giao tiếp với một module **RTC DS1307** sử dụng giao thức **I2C,** bạn cần kết nối module RTC với ESP32 qua hai chân GPIO nào?",
+    "options": [
+      "GPIO 0 và GPIO 1",
+      "GPIO 16 và GPIO 17",
+      "GPIO 21 và GPIO 22",
+      "GPIO 25 và GPIO 26"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 68,
+    "type": "multiple",
+    "question": "Để giao tiếp với một module **Bluetooth HC-05** sử dụng giao thức UART, bạn cần sử dụng hàm nào để giao tiếp với module Bluetooth trong arduino IDE?",
+    "options": [
+      "Serial",
+      "Serial1",
+      "Serial2",
+      "Serial3 x"
+    ],
+    "correctAnswerText": "B, C",
+    "correctAnswerIndices": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 69,
+    "type": "single",
+    "question": "Để kết nối ESP32 với một mạng WiFi có tên là \"MyWiFi\" và mật khẩu là \"12345678\", bạn cần sử dụng hàm nào để kết nối WiFi trong arduino IDE?",
+    "options": [
+      "WiFi.begin(\"MyWiFi\", \"12345678\");",
+      "WiFi.connect(\"MyWiFi\", \"12345678\")",
+      "WiFi.setup(\"MyWiFi\", \"12345678\")",
+      "WiFi.init(\"MyWiFi\", \"12345678\")"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 70,
+    "type": "single",
+    "question": "Để tạo một máy chủ web đơn giản trên ESP32, bạn cần sử dụng thư viện nào trong arduino IDE?",
+    "options": [
+      "WiFi.h",
+      "WebServer.h",
+      "HTTPClient.h",
+      "Cả A và B"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 71,
+    "type": "single",
+    "question": "Để gửi một yêu cầu HTTP GET đến một máy chủ web có địa chỉ là \"http://example.com\", bạn cần sử dụng hàm nào để gửi yêu cầu HTTP trong arduino IDE?\n**http.begin(\"http://example.com\");**\n**http.GET();**",
+    "options": [
+      "http.get(\"http://example.com\")",
+      "http.request(\"GET\", \"http://example.com\")",
+      "http.send(\"GET\", \"http://example.com\")",
+      "http.GET()"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 72,
+    "type": "single",
+    "question": "Để gửi một yêu cầu HTTP POST đến một máy chủ web có địa chỉ là \"http://example.com\", bạn cần gửi một dữ liệu JSON có dạng {\"name\": \"ESP32\", \"value\": 100} với kiểu nội dung là \"application/json\". Bạn cần sử dụng hàm nào để thiết lập kiểu nội dung trong arduino IDE?",
+    "options": [
+      "http.addHeader(\"Content-Type\", \"application/json\")",
+      "http.setHeader(\"Content-Type\", \"application/json\")",
+      "http.setPayloadType(\"application/json\")",
+      "http.setJSON()"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 73,
+    "type": "single",
+    "question": "Để gửi một yêu cầu HTTP POST đến một máy chủ web có địa chỉ là \"http://example.com\", bạn cần sử dụng phương thức nào của đối tượng http trong arduino IDE?",
+    "options": [
+      "http.POST(payload)",
+      "http.post()",
+      "http.POST",
+      "http.post"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 74,
+    "type": "single",
+    "question": "Để nhận một phản hồi HTTP từ một máy chủ web sau khi gửi một yêu cầu HTTP GET hoặc POST, bạn cần sử dụng phương thức nào của đối tượng http trong arduino IDE?\n**http.GET() hoặc là HTTP.POST() return response code.**",
+    "options": [
+      "http.getResponse()",
+      "http.response()",
+      "http.getString() // lấy payload từ thằng HTTP server phản hồi về",
+      "http.string()"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 75,
+    "type": "single",
+    "question": "Để đóng kết nối HTTP với một máy chủ web sau khi gửi và nhận dữ liệu xong, bạn cần sử dụng phương thức nào của đối tượng http trong arduino IDE?",
+    "options": [
+      "http.end()",
+      "http.close()",
+      "http.disconnect()",
+      "http.terminate()"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 76,
+    "type": "single",
+    "question": "Để gửi một yêu cầu HTTP GET đến một máy chủ web có địa chỉ là \"http://example.com\", bạn cần sử dụng phương thức nào của đối tượng http trong arduino IDE?",
+    "options": [
+      "http.get(\"http://example.com\")",
+      "http.request(\"GET\", \"http://example.com\")",
+      "http.send(\"GET\", \"http://example.com\")",
+      "http.GET()"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 77,
+    "type": "single",
+    "question": "Để kết nối ESP32 với một máy chủ MQTT có địa chỉ là \"test.mosquitto.org\" và cổng là 1883, bạn cần sử dụng hàm nào để kết nối MQTT trong arduino IDE?",
+    "options": [
+      "mqtt.begin(\"test.mosquitto.org\", 1883)",
+      "mqtt.connect(\"test.mosquitto.org\", 1883)",
+      "mqtt.setup(\"test.mosquitto.org\", 1883)",
+      "mqtt.init(\"test.mosquitto.org\", 1883)"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 78,
+    "type": "single",
+    "question": "Để đăng ký một chủ đề là \"esp32/test\" và gửi một tin nhắn là \"Hello MQTT\" đến chủ đề đó, bạn cần sử dụng hàm nào để đăng ký và gửi tin nhắn trong arduino IDE?",
+    "options": [
+      "mqtt.subscribe(\"esp32/test\") và mqtt.publish(\"esp32/test\", \"Hello MQTT\")",
+      "mqtt.register(\"esp32/test\") và mqtt.send(\"esp32/test\", \"Hello MQTT\")",
+      "mqtt.join(\"esp32/test\") và mqtt.message(\"esp32/test\", \"Hello MQTT\")",
+      "mqtt.listen(\"esp32/test\") và mqtt.write(\"esp32/test\", \"Hello MQTT\")"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 79,
+    "type": "single",
+    "question": "Để tạo một đối tượng mqtt để kết nối với một máy chủ MQTT, bạn cần sử dụng hàm nào của thư viện PubSubClient.h trong arduino IDE?",
+    "options": [
+      "PubSubClient mqtt()",
+      "PubSubClient mqtt(WiFiClient)",
+      "PubSubClient mqtt(server, port, WiFiClient)",
+      "PubSubClient mqtt(server, port, callback, WiFiClient)"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 80,
+    "type": "single",
+    "question": "Để thiết lập hàm callback để xử lý các tin nhắn MQTT được nhận từ máy chủ, bạn cần sử dụng hàm nào của đối tượng mqtt trong arduino IDE?",
+    "options": [
+      "mqtt.setCallback(callback)",
+      "mqtt.callback(callback)",
+      "mqtt.onMessage(callback)",
+      "mqtt.message(callback)"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 81,
+    "type": "single",
+    "question": "Để kiểm tra xem ESP32 có kết nối với máy chủ MQTT hay không, bạn cần sử dụng hàm nào của đối tượng mqtt trong arduino IDE?",
+    "options": [
+      "mqtt.connected()",
+      "mqtt.connect()",
+      "mqtt.status()",
+      "mqtt.state()"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 82,
+    "type": "single",
+    "question": "Để duy trì kết nối với máy chủ MQTT và xử lý các tin nhắn MQTT, bạn cần sử dụng hàm nào của đối tượng mqtt trong arduino IDE?",
+    "options": [
+      "mqtt.loop()",
+      "mqtt.run()",
+      "mqtt.process()",
+      "mqtt.handle()"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 83,
+    "type": "single",
+    "question": "Để tạo một nhiệm vụ (task) sử dụng FreeRTOS trên ESP32, bạn cần sử dụng hàm nào để tạo nhiệm vụ trong arduino IDE?",
+    "options": [
+      "xTaskCreate",
+      "xTaskSetup",
+      "xTaskInit",
+      "xTaskStart"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 84,
+    "type": "single",
+    "question": "Để đợi một khoảng thời gian trong một nhiệm vụ (task) sử dụng FreeRTOS trên ESP32, bạn cần sử dụng hàm nào để đợi trong arduino IDE?",
+    "options": [
+      "delay",
+      "vTaskDelay",
+      "xTaskWait",
+      "xTaskSleep"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 85,
+    "type": "single",
+    "question": "Để tạo một máy chủ web trên ESP32, bạn cần tạo một đối tượng thuộc lớp nào trong arduino IDE?",
+    "options": [
+      "WiFi",
+      "WebServer: (WebServer server(80))",
+      "HTTPClient",
+      "PubSubClient"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 86,
+    "type": "single",
+    "question": "Để lắng nghe các yêu cầu HTTP trên cổng 80, bạn cần sử dụng hàm nào của đối tượng server trong arduino IDE?",
+    "options": [
+      "server.begin(80)",
+      "server.listen(80)",
+      "server.start(80)",
+      "server.open(80)"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 87,
+    "type": "single",
+    "question": "Để xử lý các yêu cầu HTTP trên một đường dẫn nhất định, ví dụ \"/led\", bạn cần sử dụng hàm nào của đối tượng server trong arduino IDE?",
+    "options": [
+      "server.on(\"/led\", handler)",
+      "server.handle(\"/led\", handler)",
+      "server.route(\"/led\", handler)",
+      "server.request(\"/led\", handler)"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 88,
+    "type": "single",
+    "question": "Để trả về một trang web HTML có nội dung là \"Hello from ESP32\" khi có yêu cầu HTTP đến đường dẫn \"/\", bạn cần sử dụng hàm nào của đối tượng server trong arduino IDE?",
+    "options": [
+      "server.send(200, \"text/html\", \"Hello from ESP32\")",
+      "server.response(200, \"text/html\", \"Hello from ESP32\")",
+      "server.write(200, \"text/html\", \"Hello from ESP32\")",
+      "server.html(200, \"Hello from ESP32\")"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 89,
+    "type": "single",
+    "question": "Để lấy giá trị của một tham số được truyền trong yêu cầu HTTP, ví dụ \"/led?state=1\", bạn cần sử dụng hàm nào của đối tượng server trong arduino IDE?",
+    "options": [
+      "server.arg(\"state\")",
+      "server.param(\"state\")",
+      "server.get(\"state\")",
+      "server.value(\"state\")"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 90,
+    "type": "single",
+    "question": "Để kiểm tra phương thức của một yêu cầu HTTP, ví dụ GET hoặc POST, bạn cần sử dụng hàm nào của đối tượng server trong arduino IDE?",
+    "options": [
+      "server.method()",
+      "server.requestMethod()",
+      "server.httpMethod()",
+      "server.type()"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 91,
+    "type": "single",
+    "question": "Để đọc nội dung của một yêu cầu HTTP POST, bạn cần sử dụng hàm nào của đối tượng server trong arduino IDE?",
+    "options": [
+      "server.read()",
+      "server.body()",
+      "server.content()",
+      "server.data()"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 92,
+    "type": "single",
+    "question": "Để chuyển hướng một yêu cầu HTTP đến một đường dẫn khác, ví dụ từ \"/led\" đến \"/\", bạn cần sử dụng hàm nào của đối tượng server trong arduino IDE?",
+    "options": [
+      "server.redirect(\"/\")",
+      "server.sendHeader(\"Location\", \"/\")",
+      "server.moveTo(\"/\")",
+      "Cả A và B"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 93,
+    "type": "single",
+    "question": "Để gửi một tệp tin HTML được lưu trữ trong bộ nhớ flash của ESP32, bạn cần sử dụng hàm nào của đối tượng server trong arduino IDE?",
+    "options": [
+      "server.send(200, \"text/html\", SPIFFS.open(\"/index.html\", \"r\"))",
+      "server.sendFile(200, \"text/html\", \"/index.html\")",
+      "server.serveStatic(\"/index.html\", SPIFFS, \"/index.html\")",
+      "server.streamFile(SPIFFS.open(\"/index.html\", \"r\"), \"text/html\")"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 94,
+    "type": "single",
+    "question": "Để duy trì kết nối với máy chủ web và xử lý các yêu cầu HTTP, bạn cần sử dụng hàm nào của đối tượng server trong arduino IDE?",
+    "options": [
+      "server.loop()",
+      "server.run()",
+      "server.process()",
+      "server.handleClient()"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 95,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để khai báo một thuộc tính bắt buộc cho một lớp model?",
+    "options": [
+      "\\[Required\\]",
+      "\\[StringLength(60, MinimumLength =3)\\]",
+      "\\[DataType(DataType.Date)\\]",
+      "\\[ApiController\\]"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 96,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để khai báo một phương thức HTTP GET cho một action trong controller?",
+    "options": [
+      "\\[HttpGet\\]",
+      "\\[HttpPost\\]",
+      "\\[HttpPut\\]",
+      "\\[HttpDelete\\]"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 97,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để lấy một đối tượng SensorData theo Id từ cơ sở dữ liệu?",
+    "options": [
+      "await \\_context.SensorData.ToListAsync();",
+      "await \\_context.SensorData.FindAsync(id);",
+      "\\_context.SensorData.Add(sensorData);",
+      "\\_context.SensorData.Remove(sensorData);"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 98,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để cập nhật một đối tượng SensorData trong cơ sở dữ liệu?",
+    "options": [
+      "await \\_context.SensorData.ToListAsync();",
+      "await \\_context.SensorData.FindAsync(id);",
+      "\\_context.Entry(sensorData).State = EntityState.Modified;\n// Entry().State để đánh dấu trạng thại của entity, kể cả mình không cập nhật dữ liệu nhưng để EntityState.Modified thì nó vẫn coi là có sự thay đổi",
+      "\\_context.SensorData.Remove(sensorData);"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 99,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để trả về một kết quả tạo mới (201) khi thêm một đối tượng SensorData vào cơ sở dữ liệu?",
+    "options": [
+      "return Ok();",
+      "return BadRequest();",
+      "return NotFound();",
+      "return CreatedAtAction(\"GetSensorData\", new { id = sensorData.Id }, sensorData);\n// phần \"GetSensorData\" là tên method mà bên BE đã sử dụng để cho Client biết, mình có thể viết sai hoặc hàm khác vào nó cũng ko lỗi (nó chỉ là note: string - tên hàm mà thôi)"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 100,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để khai báo một thuộc tính có độ dài chuỗi tối đa là 60 ký tự và tối thiểu là 3 ký tự cho một lớp model?",
+    "options": [
+      "\\[Required\\]",
+      "\\[StringLength(60, MinimumLength =3)\\]",
+      "\\[DataType(DataType.Date)\\]",
+      "\\[ApiController\\]"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 101,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để khai báo một phương thức HTTP POST cho một action trong controller?",
+    "options": [
+      "\\[HttpGet\\]",
+      "\\[HttpPost\\]",
+      "\\[HttpPut\\]",
+      "\\[HttpDelete\\]"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 102,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để thêm một đối tượng SensorData vào cơ sở dữ liệu?",
+    "options": [
+      "await \\_context.SensorData.ToListAsync();",
+      "await \\_context.SensorData.FindAsync(id);",
+      "\\_context.SensorData.Add(sensorData);",
+      "\\_context.SensorData.Remove(sensorData);"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 103,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để xóa một đối tượng SensorData khỏi cơ sở dữ liệu?",
+    "options": [
+      "await \\_context.SensorData.ToListAsync();",
+      "await \\_context.SensorData.FindAsync(id);",
+      "\\_context.Entry(sensorData).State = EntityState.Modified;",
+      "\\_context.SensorData.Remove(sensorData);"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 104,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để kiểm tra xem một đối tượng SensorData có tồn tại trong cơ sở dữ liệu hay không?",
+    "options": [
+      "SensorDataExists(id) // làm gì có method exists",
+      "SensorData.Find(id) // đúng",
+      "SensorData.Any(e => e.Id == id) // đúng",
+      "SensorData.Contains(id) // Contains(TEntity) chứ không đưa được id vào"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 105,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để khai báo một thuộc tính có kiểu dữ liệu là ngày tháng cho một lớp model?",
+    "options": [
+      "\\[Required\\]",
+      "\\[StringLength(60, MinimumLength =3)\\]",
+      "\\[DataType(DataType.Date)\\]",
+      "\\[ApiController\\]"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 106,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để khai báo một phương thức HTTP PUT cho một action trong controller?",
+    "options": [
+      "\\[HttpGet\\]",
+      "\\[HttpPost\\]",
+      "\\[HttpPut\\]",
+      "\\[HttpDelete\\]"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 107,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để lấy tất cả các đối tượng SensorData từ cơ sở dữ liệu?",
+    "options": [
+      "await \\_context.SensorData.ToListAsync();",
+      "await \\_context.SensorData.FindAsync(id);",
+      "\\_context.SensorData.Add(sensorData);",
+      "\\_context.SensorData.Remove(sensorData);"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 108,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để khai báo một lớp controller có thể xử lý các yêu cầu web API?",
+    "options": [
+      "\\[Route(\"api/\\[controller\\]\")\\]",
+      "\\[ApiController\\]",
+      "public class SensorDatasController : ControllerBase",
+      "Cả a, b và c"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 109,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để khai báo một lớp model có tên là SensorData?",
+    "options": [
+      "public class SensorData",
+      "public int Id { get; set; }",
+      "public string Name { get; set; }",
+      "Cả a, b và c"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 110,
+    "type": "single",
+    "question": "Model là gì trong kiến trúc MVC?",
+    "options": [
+      "Là một lớp chứa các thuộc tính và phương thức để thao tác với dữ liệu",
+      "Là một lớp chứa các phương thức để xử lý các yêu cầu từ người dùng",
+      "Là một lớp chứa các phương thức để hiển thị dữ liệu cho người dùng",
+      "Là một lớp chứa các thuộc tính và phương thức để kết nối với cơ sở dữ liệu"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 111,
+    "type": "single",
+    "question": "Controller là gì trong kiến trúc MVC?",
+    "options": [
+      "Là một lớp chứa các thuộc tính và phương thức để thao tác với dữ liệu",
+      "Là một lớp chứa các phương thức để xử lý các yêu cầu từ người dùng",
+      "Là một lớp chứa các phương thức để hiển thị dữ liệu cho người dùng",
+      "Là một lớp chứa các thuộc tính và phương thức để kết nối với cơ sở dữ liệu"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 112,
+    "type": "single",
+    "question": "EF core database context là gì?",
+    "options": [
+      "Là một lớp chứa các thuộc tính và phương thức để thao tác với dữ liệu",
+      "Là một lớp chứa các phương thức để xử lý các yêu cầu từ người dùng",
+      "Là một lớp chứa các phương thức để hiển thị dữ liệu cho người dùng",
+      "Là một lớp chứa các thuộc tính và phương thức để kết nối với cơ sở dữ liệu"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 113,
+    "type": "single",
+    "question": "Migrations là gì trong EF core?",
+    "options": [
+      "Là một tính năng cho phép cập nhật cấu trúc cơ sở dữ liệu theo sự thay đổi của model",
+      "Là một tính năng cho phép cập nhật model theo sự thay đổi của cơ sở dữ liệu",
+      "Là một tính năng cho phép cập nhật dữ liệu trong cơ sở dữ liệu theo sự thay đổi của model",
+      "Là một tính năng cho phép cập nhật dữ liệu trong model theo sự thay đổi của cơ sở dữ liệu"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 114,
+    "type": "single",
+    "question": "Để tạo một migration mới trong EF core, bạn cần sử dụng công cụ nào?",
+    "options": [
+      ".NET Core CLI",
+      "Package Manager Console",
+      "Visual Studio Code",
+      "Cả a và b"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 115,
+    "type": "single",
+    "question": "Để tạo ra một controller, bạn cần khai báo một lớp nào sau đây?",
+    "options": [
+      "Lớp kế thừa từ ControllerBase",
+      "Lớp kế thừa từ Controller",
+      "Lớp kế thừa từ ControllerBase hoặc Controller",
+      "Lớp kế thừa từ ControllerContext"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 116,
+    "type": "single",
+    "question": "Để tạo ra một EF core database context, bạn cần khai báo một lớp nào sau đây?",
+    "options": [
+      "Lớp kế thừa từ DbContext",
+      "Lớp kế thừa từ Database",
+      "Lớp kế thừa từ DbConnection",
+      "Lớp kế thừa từ DbSet"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 117,
+    "type": "single",
+    "question": "Để lấy dữ liệu từ cơ sở dữ liệu bằng EF trong một action HTTP GET, bạn cần sử dụng phương thức nào sau đây?",
+    "options": [
+      "ToListAsync()",
+      "FindAsync() // EF core có findAsync(id)",
+      "AddAsync()",
+      "RemoveAsync()"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 118,
+    "type": "single",
+    "question": "Để thêm dữ liệu vào cơ sở dữ liệu bằng EF trong một action HTTP POST, bạn cần sử dụng phương thức nào sau đây?",
+    "options": [
+      "ToListAsync()",
+      "FindAsync()",
+      "AddAsync()",
+      "RemoveAsync()"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 119,
+    "type": "single",
+    "question": "Để cập nhật dữ liệu trong cơ sở dữ liệu bằng EF trong một action HTTP PUT, bạn cần sử dụng phương thức nào sau đây?",
+    "options": [
+      "Entry().State = EntityState.Modified",
+      "Entry().State = EntityState.Added",
+      "Entry().State = EntityState.Deleted",
+      "Entry().State = EntityState.Unchanged"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 120,
+    "type": "single",
+    "question": "Để xóa dữ liệu khỏi cơ sở dữ liệu bằng EF trong một action HTTP DELETE, bạn cần sử dụng phương thức nào sau đây?",
+    "options": [
+      "ToListAsync()",
+      "FindAsync()",
+      "AddAsync()",
+      "RemoveAsync()"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 121,
+    "type": "single",
+    "question": "Để trả về một kết quả thành công (200) khi thực hiện một action HTTP GET, bạn cần sử dụng phương thức nào sau đây?",
+    "options": [
+      "Ok()",
+      "Created()",
+      "NoContent()",
+      "BadRequest()"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 122,
+    "type": "single",
+    "question": "Để trả về một kết quả tạo mới (201) khi thực hiện một action HTTP POST, bạn cần sử dụng phương thức nào sau đây?",
+    "options": [
+      "Ok()",
+      "Created()",
+      "NoContent()",
+      "BadRequest()"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 123,
+    "type": "single",
+    "question": "Để trả về một kết quả không có nội dung (204) khi thực hiện một action HTTP PUT, bạn cần sử dụng phương thức nào sau đây?",
+    "options": [
+      "Ok()",
+      "Created()",
+      "NoContent()",
+      "BadRequest()"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 124,
+    "type": "single",
+    "question": "Để trả về một kết quả không hợp lệ (400) khi thực hiện một action HTTP DELETE, bạn cần sử dụng phương thức nào sau đây?",
+    "options": [
+      "Ok()",
+      "Created()",
+      "NoContent()",
+      "BadRequest()"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 125,
+    "type": "single",
+    "question": "Để trả về một kết quả không tìm thấy (404) khi thực hiện một action HTTP GET, bạn cần sử dụng phương thức nào sau đây?",
+    "options": [
+      "NotFound()",
+      "Problem()",
+      "StatusCode()",
+      "Cả a, b và c"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 126,
+    "type": "single",
+    "question": "Để trả về một kết quả có nội dung tùy chỉnh khi thực hiện một action HTTP POST, bạn cần sử dụng phương thức nào sau đây?",
+    "options": [
+      "Content()",
+      "Json()",
+      "Xml()",
+      "Cả a, b và c"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  }
+]

@@ -45,12 +45,7 @@
     "chapter": "Chapter 2. (cont.): Advanced",
     "type": "multiple",
     "question": "Trong các LSA sau đây, LSA nào chứa thông tin cho phép xây dựng đồ thị mô phỏng kết nối liên mạng (không quan tâm đến cost các cạnh)?",
-    "options": [
-      "router-LSA",
-      "network-LSA",
-      "summary-LSA",
-      "external-LSA"
-    ],
+    "options": ["router-LSA", "network-LSA", "summary-LSA", "external-LSA"],
     "correctAnswerIndices": [1],
     "correctAnswerIndex": -1,
     "section_title": "Section"
@@ -92,10 +87,7 @@
       "R5 nhận được summary-LSA từ R2",
       "R1 và R4 nhận được cùng một summary-LSA gửi từ R2"
     ],
-    "correctAnswerIndices": [
-      0,
-      3
-    ],
+    "correctAnswerIndices": [0, 3],
     "correctAnswerIndex": -1,
     "section_title": "Question #2d1d2b"
   },
@@ -105,12 +97,7 @@
     "chapter": "Chapter 2. (cont.): Advanced",
     "type": "multiple",
     "question": "Trong mô hình OSPF multi area, đồ thị được xây dựng tại các router nhằm mô phỏng sơ đồ kết nối mạng. LSA nào được lan truyền để cập nhật giá (cost) của đường đi từ một đỉnh đến nút lá của đồ thị?",
-    "options": [
-      "router-LSA",
-      "network-LSA",
-      "summary-LSA",
-      "external-LSA"
-    ],
+    "options": ["router-LSA", "network-LSA", "summary-LSA", "external-LSA"],
     "correctAnswerIndices": [2],
     "correctAnswerIndex": -1,
     "section_title": "Question #af6035"
@@ -121,17 +108,8 @@
     "chapter": "Chapter 2. (cont.): Advanced",
     "type": "multiple",
     "question": "Trong giao thức OSPF, LSA nào có thể chứa thông tin trạng thái kết nối mạng",
-    "options": [
-      "router-LSA",
-      "network-LSA",
-      "summary-LSA",
-      "external-LSA"
-    ],
-    "correctAnswerIndices": [
-      0,
-      2,
-      3
-    ],
+    "options": ["router-LSA", "network-LSA", "summary-LSA", "external-LSA"],
+    "correctAnswerIndices": [0, 2, 3],
     "correctAnswerIndex": -1,
     "section_title": "Question #d3027f"
   },
@@ -141,10 +119,7 @@
     "chapter": "Chapter 2. (cont.): Advanced",
     "type": "single",
     "question": "Khi một router nhận được một Summary-LSA và cập nhật vào LS Database, nó có thực hiện chạy thuật toán tìm đường đi ngắn nhất (thuật toán SPF) các cho mạng \"ở xa\" hay không?\nGhi chú: \"ở xa\" ý nói các prefix nằm trong các area khác.",
-    "options": [
-      "Có thực hiện",
-      "Không thực hiện"
-    ],
+    "options": ["Có thực hiện", "Không thực hiện"],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 1,
     "section_title": "Question #03f7b6"
@@ -155,10 +130,7 @@
     "chapter": "Chapter 2. (cont.): Advanced",
     "type": "single",
     "question": "Nhận định sau đấy đúng hay sai? Trong hệ thống OSPF multi area, các router luôn cập nhật đầy đủ hình trạng mạng và trạng thái các kết nối mạng vào LS Database để mỗi router có thể xây dựng bản đồ đầy đủ của hệ thống.",
-    "options": [
-      "Đúng",
-      "Sai"
-    ],
+    "options": ["Đúng", "Sai"],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 1,
     "section_title": "Question #0f2762"
@@ -205,14 +177,7 @@
       "R1 kết nối thành công ra Internet (check bằng lệnh ping 8.8.8.8 ) thì R2 cũng kết nối thành công\nra Internet",
       "R1 kết nối thành công ra Internet (check bằng lệnh ping 8.8.8.8 ) nhưng R2 không kết nối thành\ncông ra Internet"
     ],
-    "correctAnswerIndices": [
-      1,
-      2,
-      3,
-      4,
-      6,
-      9
-    ],
+    "correctAnswerIndices": [1, 2, 3, 4, 6, 9],
     "correctAnswerIndex": -1,
     "section_title": "Section",
     "correctAnswer": "10.0.2.0"
@@ -223,10 +188,7 @@
     "chapter": "Chapter 2. (cont.): Advanced",
     "type": "single",
     "question": "===== OSPF =====>       <===== External ==============\n---- R1                            Net1\n\\                          /\nR2 ------ R(ASBR) ----- Rx(external)\n/               /          \\\n---- R3 ------- [switch]           Net2\nKhi kết nối OSPF với một hệ thống bên ngoài, router R đóng vai trò là ASBR kết nối trực tiếp với router bên ngoài là Rx. Rx quảng bá 2 prefix Net1 và Net2 đến ASBR và ASBR kích hoạt external-LSA để lan truyền thông tin các prefix này vào trong hệ thống OSPF. Xem bảng routing của các router R1, R2, R3 bên trong hệ thống OSPF, đối với prefix Net1 và Net2, next hope luôn luôn là router ASBR. Nhận định này đúng hay sai?",
-    "options": [
-      "Đúng",
-      "Sai"
-    ],
+    "options": ["Đúng", "Sai"],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 1,
     "section_title": "Question #4716a6"
@@ -246,10 +208,7 @@
       "lan truyền 2 external-LSA 192.168.x.0/24",
       "lan truyền 3 external-LSA 192.168.x.0/24"
     ],
-    "correctAnswerIndices": [
-      0,
-      6
-    ],
+    "correctAnswerIndices": [0, 6],
     "correctAnswerIndex": -1,
     "section_title": "Question #bd18c0"
   },
@@ -266,10 +225,7 @@
       "thiết lập đường đi đến prefix 192.168.56.0 trong bảng routing của R2: next hop là R1",
       "thiết lập đường đi đến prefix 172.21.0.0/16 trong bảng routing của R2: next hop là R1"
     ],
-    "correctAnswerIndices": [
-      1,
-      4
-    ],
+    "correctAnswerIndices": [1, 4],
     "correctAnswerIndex": -1,
     "section_title": "Question #f8ae84"
   },
@@ -278,13 +234,8 @@
     "original_id": "section_0",
     "chapter": "Chapter 2. (cont.): Advanced",
     "type": "single",
-    "question": "Từ khóa nào dùng để khai báo một vùng (area) là totally stub ?",
-    "options": [
-      "totally stub",
-      "stub totally",
-      "no-summary",
-      "summarize"
-    ],
+    "question": "Từ khóa nào dùng để khai báo một vùng (area. là totally stub ?",
+    "options": ["totally stub", "stub totally", "no-summary", "summarize"],
     "correctAnswerIndices": [],
     "correctAnswerIndex": 2,
     "section_title": "Section"
@@ -295,18 +246,8 @@
     "chapter": "Chapter 2. (cont.): Advanced",
     "type": "multiple",
     "question": "LSA nào được lan truyền trong OSPF Stub Area? Chọn 3 tùy chọn",
-    "options": [
-      "Type 1",
-      "Type 2",
-      "Type 3",
-      "Type 4",
-      "Type 7"
-    ],
-    "correctAnswerIndices": [
-      0,
-      1,
-      2
-    ],
+    "options": ["Type 1", "Type 2", "Type 3", "Type 4", "Type 7"],
+    "correctAnswerIndices": [0, 1, 2],
     "correctAnswerIndex": -1,
     "section_title": "Question #1ededa"
   },

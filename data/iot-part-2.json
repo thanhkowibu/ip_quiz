@@ -1,0 +1,392 @@
+[
+  {
+    "id": 26,
+    "type": "single",
+    "question": "MQTT là viết tắt của từ nào?",
+    "options": [
+      "Message Queuing Telemetry Transport",
+      "Message Queueing Telemetry Transmission",
+      "Message Queueing Telemetry Transmitter",
+      "Message Queueing Telemetry Transporter"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 27,
+    "type": "single",
+    "question": "MQTT là giao thức truyền tải dữ liệu dùng trong hệ thống nào?",
+    "options": [
+      "Internet of Things",
+      "World Wide Web",
+      "Local Area Network",
+      "Wireless Fidelity"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 28,
+    "type": "single",
+    "question": "MQTT sử dụng cổng (port) nào là chủ yếu?",
+    "options": [
+      "80",
+      "1883",
+      "443",
+      "8080"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 29,
+    "type": "single",
+    "question": "MQTT là giao thức có trạng thái (stateful) hay không có trạng thái (stateless)?",
+    "options": [
+      "Có trạng thái",
+      "Không có trạng thái",
+      "Có thể có hoặc không có trạng thái",
+      "Không xác định được"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 30,
+    "type": "single",
+    "question": "MQTT sử dụng kiến trúc nào để truyền tải và nhận dữ liệu giữa các thiết bị?",
+    "options": [
+      "Client-server",
+      "Peer-to-peer",
+      "Publish-subscribe",
+      "Request-response"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 31,
+    "type": "single",
+    "question": "MQTT sử dụng các phương thức (methods) nào để thực hiện các hoạt động truyền tải và nhận dữ liệu?",
+    "options": [
+      "CONNECT, DISCONNECT, PUBLISH, SUBSCRIBE, UNSUBSCRIBE",
+      "CONNECT, DISCONNECT, PUBLISH, RECEIVE, ACKNOWLEDGE",
+      "CONNECT, DISCONNECT, SEND, RECEIVE, CONFIRM",
+      "CONNECT, DISCONNECT, POST, GET, DELETE"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 32,
+    "type": "single",
+    "question": "Phương thức MQTT nào dùng để thiết lập kết nối giữa client và broker?",
+    "options": [
+      "CONNECT",
+      "DISCONNECT",
+      "PUBLISH",
+      "SUBSCRIBE"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 33,
+    "type": "single",
+    "question": "Phương thức MQTT nào dùng để ngắt kết nối giữa client và broker?",
+    "options": [
+      "CONNECT",
+      "DISCONNECT",
+      "PUBLISH",
+      "SUBSCRIBE"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 34,
+    "type": "single",
+    "question": "Phương thức MQTT nào dùng để gửi dữ liệu từ client đến broker hoặc ngược lại?",
+    "options": [
+      "CONNECT",
+      "DISCONNECT",
+      "PUBLISH",
+      "SUBSCRIBE"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 35,
+    "type": "single",
+    "question": "Phương thức MQTT nào dùng để đăng ký nhận dữ liệu từ một hoặc nhiều chủ đề (topics) từ broker?",
+    "options": [
+      "CONNECT",
+      "DISCONNECT",
+      "PUBLISH",
+      "SUBSCRIBE"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 36,
+    "type": "single",
+    "question": "Phương thức MQTT nào dùng để hủy đăng ký nhận dữ liệu từ một hoặc nhiều chủ đề (topics) từ broker?",
+    "options": [
+      "CONNECT",
+      "DISCONNECT",
+      "PUBLISH",
+      "UNSUBSCRIBE"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 37,
+    "type": "single",
+    "question": "MQTT sử dụng các mức độ bảo đảm (quality of service) nào để đảm bảo việc truyền tải và nhận dữ liệu?",
+    "options": [
+      "0 - at most once, 1 - at least once, 2 - exactly once",
+      "0 - at least once, 1 - at most once, 2 - exactly once",
+      "0 - exactly once, 1 - at most once, 2 - at least once",
+      "0 - at most once, 1 - exactly once, 2 - at least once"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 38,
+    "type": "single",
+    "question": "Mức độ bảo đảm nào của MQTT không đảm bảo việc truyền tải và nhận dữ liệu một cách tin cậy?",
+    "options": [
+      "0 - at most once",
+      "1 - at least once",
+      "2 - exactly once",
+      "Tất cả các đáp án trên"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 39,
+    "type": "single",
+    "question": "Mức độ bảo đảm nào của MQTT có thể gây ra trường hợp nhận dữ liệu trùng lặp?",
+    "options": [
+      "0 - at most once",
+      "1 - at least once",
+      "2 - exactly once",
+      "Tất cả các đáp án trên"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 40,
+    "type": "single",
+    "question": "Mức độ bảo đảm nào của MQTT có thể gây ra trường hợp truyền tải và nhận dữ liệu chậm nhất?",
+    "options": [
+      "0 - at most once",
+      "1 - at least once",
+      "2 - exactly once",
+      "Tất cả các đáp án trên"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 41,
+    "type": "single",
+    "question": "RabbitMQ là một ứng dụng gì?",
+    "options": [
+      "Một message broker dùng giao thức AMQP",
+      "Một message queue dùng giao thức HTTP",
+      "Một message sender dùng giao thức SMTP",
+      "Một message receiver dùng giao thức FTP"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 42,
+    "type": "single",
+    "question": "RabbitMQ được lập trình bằng ngôn ngữ nào?",
+    "options": [
+      "Python",
+      "Java",
+      "Erlang",
+      "PHP"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 43,
+    "type": "single",
+    "question": "RabbitMQ sử dụng thành phần nào để quản lý các queue và message?",
+    "options": [
+      "Client",
+      "Server",
+      "Broker",
+      "Worker"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 44,
+    "type": "single",
+    "question": "RabbitMQ sử dụng thành phần nào để gửi message đến broker?",
+    "options": [
+      "Client",
+      "Producer",
+      "Consumer",
+      "Publisher"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 45,
+    "type": "single",
+    "question": "RabbitMQ sử dụng thành phần nào để nhận message từ broker?",
+    "options": [
+      "Client",
+      "Producer",
+      "Consumer",
+      "Publisher"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 46,
+    "type": "single",
+    "question": "RabbitMQ sử dụng thành phần nào để định tuyến message đến các queue phù hợp?",
+    "options": [
+      "Exchange",
+      "Binding",
+      "Routing key",
+      "Topic"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 47,
+    "type": "single",
+    "question": "RabbitMQ sử dụng thành phần nào để liên kết giữa exchange và queue?",
+    "options": [
+      "Exchange",
+      "Binding",
+      "Routing key",
+      "Topic"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 48,
+    "type": "single",
+    "question": "RabbitMQ sử dụng thành phần nào để xác định queue nào sẽ nhận message từ exchange?",
+    "options": [
+      "Exchange",
+      "Binding",
+      "Routing key",
+      "Topic"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 49,
+    "type": "single",
+    "question": "RabbitMQ sử dụng thành phần nào để xác định exchange nào sẽ gửi message đến queue?",
+    "options": [
+      "Exchange",
+      "Binding",
+      "Routing key",
+      "Topic"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 50,
+    "type": "single",
+    "question": "RabbitMQ sử dụng loại exchange nào để gửi message đến tất cả các queue liên kết với nó? (broadcast)",
+    "options": [
+      "Direct",
+      "Fanout",
+      "Topic",
+      "Header"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 51,
+    "type": "single",
+    "question": "RabbitMQ sử dụng loại exchange nào để gửi message đến các queue có **routing key** khớp với topic của nó?",
+    "options": [
+      "Direct",
+      "Fanout",
+      "Topic",
+      "Header"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 52,
+    "type": "single",
+    "question": "RabbitMQ sử dụng loại exchange nào để gửi message đến các queue có routing key giống với routing key của nó?",
+    "options": [
+      "Direct",
+      "Fanout",
+      "Topic",
+      "Header"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 53,
+    "type": "single",
+    "question": "RabbitMQ sử dụng loại exchange nào để gửi message đến các queue có header khớp với header của nó?",
+    "options": [
+      "Direct",
+      "Fanout",
+      "Topic",
+      "Header"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 54,
+    "type": "single",
+    "question": "RabbitMQ sử dụng cơ chế nào để đảm bảo việc truyền tải và nhận dữ liệu một cách tin cậy?",
+    "options": [
+      "Acknowledgement",
+      "Confirmation",
+      "Persistence",
+      "Tất cả các đáp án trên"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 55,
+    "type": "single",
+    "question": "RabbitMQ sử dụng plugin nào để quản lý và giám sát broker qua giao diện web?",
+    "options": [
+      "RabbitMQ Management",
+      "RabbitMQ Web STOMP",
+      "RabbitMQ Web MQTT",
+      "RabbitMQ Web AMQP"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  }
+]

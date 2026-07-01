@@ -1,0 +1,418 @@
+[
+  {
+    "id": 95,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để khai báo một thuộc tính bắt buộc cho một lớp model?",
+    "options": [
+      "\\[Required\\]",
+      "\\[StringLength(60, MinimumLength =3)\\]",
+      "\\[DataType(DataType.Date)\\]",
+      "\\[ApiController\\]"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 96,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để khai báo một phương thức HTTP GET cho một action trong controller?",
+    "options": [
+      "\\[HttpGet\\]",
+      "\\[HttpPost\\]",
+      "\\[HttpPut\\]",
+      "\\[HttpDelete\\]"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 97,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để lấy một đối tượng SensorData theo Id từ cơ sở dữ liệu?",
+    "options": [
+      "await \\_context.SensorData.ToListAsync();",
+      "await \\_context.SensorData.FindAsync(id);",
+      "\\_context.SensorData.Add(sensorData);",
+      "\\_context.SensorData.Remove(sensorData);"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 98,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để cập nhật một đối tượng SensorData trong cơ sở dữ liệu?",
+    "options": [
+      "await \\_context.SensorData.ToListAsync();",
+      "await \\_context.SensorData.FindAsync(id);",
+      "\\_context.Entry(sensorData).State = EntityState.Modified;\n// Entry().State để đánh dấu trạng thại của entity, kể cả mình không cập nhật dữ liệu nhưng để EntityState.Modified thì nó vẫn coi là có sự thay đổi",
+      "\\_context.SensorData.Remove(sensorData);"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 99,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để trả về một kết quả tạo mới (201) khi thêm một đối tượng SensorData vào cơ sở dữ liệu?",
+    "options": [
+      "return Ok();",
+      "return BadRequest();",
+      "return NotFound();",
+      "return CreatedAtAction(\"GetSensorData\", new { id = sensorData.Id }, sensorData);\n// phần \"GetSensorData\" là tên method mà bên BE đã sử dụng để cho Client biết, mình có thể viết sai hoặc hàm khác vào nó cũng ko lỗi (nó chỉ là note: string - tên hàm mà thôi)"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 100,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để khai báo một thuộc tính có độ dài chuỗi tối đa là 60 ký tự và tối thiểu là 3 ký tự cho một lớp model?",
+    "options": [
+      "\\[Required\\]",
+      "\\[StringLength(60, MinimumLength =3)\\]",
+      "\\[DataType(DataType.Date)\\]",
+      "\\[ApiController\\]"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 101,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để khai báo một phương thức HTTP POST cho một action trong controller?",
+    "options": [
+      "\\[HttpGet\\]",
+      "\\[HttpPost\\]",
+      "\\[HttpPut\\]",
+      "\\[HttpDelete\\]"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 102,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để thêm một đối tượng SensorData vào cơ sở dữ liệu?",
+    "options": [
+      "await \\_context.SensorData.ToListAsync();",
+      "await \\_context.SensorData.FindAsync(id);",
+      "\\_context.SensorData.Add(sensorData);",
+      "\\_context.SensorData.Remove(sensorData);"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 103,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để xóa một đối tượng SensorData khỏi cơ sở dữ liệu?",
+    "options": [
+      "await \\_context.SensorData.ToListAsync();",
+      "await \\_context.SensorData.FindAsync(id);",
+      "\\_context.Entry(sensorData).State = EntityState.Modified;",
+      "\\_context.SensorData.Remove(sensorData);"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 104,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để kiểm tra xem một đối tượng SensorData có tồn tại trong cơ sở dữ liệu hay không?",
+    "options": [
+      "SensorDataExists(id) // làm gì có method exists",
+      "SensorData.Find(id) // đúng",
+      "SensorData.Any(e => e.Id == id) // đúng",
+      "SensorData.Contains(id) // Contains(TEntity) chứ không đưa được id vào"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 105,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để khai báo một thuộc tính có kiểu dữ liệu là ngày tháng cho một lớp model?",
+    "options": [
+      "\\[Required\\]",
+      "\\[StringLength(60, MinimumLength =3)\\]",
+      "\\[DataType(DataType.Date)\\]",
+      "\\[ApiController\\]"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 106,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để khai báo một phương thức HTTP PUT cho một action trong controller?",
+    "options": [
+      "\\[HttpGet\\]",
+      "\\[HttpPost\\]",
+      "\\[HttpPut\\]",
+      "\\[HttpDelete\\]"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 107,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để lấy tất cả các đối tượng SensorData từ cơ sở dữ liệu?",
+    "options": [
+      "await \\_context.SensorData.ToListAsync();",
+      "await \\_context.SensorData.FindAsync(id);",
+      "\\_context.SensorData.Add(sensorData);",
+      "\\_context.SensorData.Remove(sensorData);"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 108,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để khai báo một lớp controller có thể xử lý các yêu cầu web API?",
+    "options": [
+      "\\[Route(\"api/\\[controller\\]\")\\]",
+      "\\[ApiController\\]",
+      "public class SensorDatasController : ControllerBase",
+      "Cả a, b và c"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 109,
+    "type": "single",
+    "question": "Đoạn code nào sau đây được sử dụng để khai báo một lớp model có tên là SensorData?",
+    "options": [
+      "public class SensorData",
+      "public int Id { get; set; }",
+      "public string Name { get; set; }",
+      "Cả a, b và c"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 110,
+    "type": "single",
+    "question": "Model là gì trong kiến trúc MVC?",
+    "options": [
+      "Là một lớp chứa các thuộc tính và phương thức để thao tác với dữ liệu",
+      "Là một lớp chứa các phương thức để xử lý các yêu cầu từ người dùng",
+      "Là một lớp chứa các phương thức để hiển thị dữ liệu cho người dùng",
+      "Là một lớp chứa các thuộc tính và phương thức để kết nối với cơ sở dữ liệu"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 111,
+    "type": "single",
+    "question": "Controller là gì trong kiến trúc MVC?",
+    "options": [
+      "Là một lớp chứa các thuộc tính và phương thức để thao tác với dữ liệu",
+      "Là một lớp chứa các phương thức để xử lý các yêu cầu từ người dùng",
+      "Là một lớp chứa các phương thức để hiển thị dữ liệu cho người dùng",
+      "Là một lớp chứa các thuộc tính và phương thức để kết nối với cơ sở dữ liệu"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 112,
+    "type": "single",
+    "question": "EF core database context là gì?",
+    "options": [
+      "Là một lớp chứa các thuộc tính và phương thức để thao tác với dữ liệu",
+      "Là một lớp chứa các phương thức để xử lý các yêu cầu từ người dùng",
+      "Là một lớp chứa các phương thức để hiển thị dữ liệu cho người dùng",
+      "Là một lớp chứa các thuộc tính và phương thức để kết nối với cơ sở dữ liệu"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 113,
+    "type": "single",
+    "question": "Migrations là gì trong EF core?",
+    "options": [
+      "Là một tính năng cho phép cập nhật cấu trúc cơ sở dữ liệu theo sự thay đổi của model",
+      "Là một tính năng cho phép cập nhật model theo sự thay đổi của cơ sở dữ liệu",
+      "Là một tính năng cho phép cập nhật dữ liệu trong cơ sở dữ liệu theo sự thay đổi của model",
+      "Là một tính năng cho phép cập nhật dữ liệu trong model theo sự thay đổi của cơ sở dữ liệu"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 114,
+    "type": "single",
+    "question": "Để tạo một migration mới trong EF core, bạn cần sử dụng công cụ nào?",
+    "options": [
+      ".NET Core CLI",
+      "Package Manager Console",
+      "Visual Studio Code",
+      "Cả a và b"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 115,
+    "type": "single",
+    "question": "Để tạo ra một controller, bạn cần khai báo một lớp nào sau đây?",
+    "options": [
+      "Lớp kế thừa từ ControllerBase",
+      "Lớp kế thừa từ Controller",
+      "Lớp kế thừa từ ControllerBase hoặc Controller",
+      "Lớp kế thừa từ ControllerContext"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 116,
+    "type": "single",
+    "question": "Để tạo ra một EF core database context, bạn cần khai báo một lớp nào sau đây?",
+    "options": [
+      "Lớp kế thừa từ DbContext",
+      "Lớp kế thừa từ Database",
+      "Lớp kế thừa từ DbConnection",
+      "Lớp kế thừa từ DbSet"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 117,
+    "type": "single",
+    "question": "Để lấy dữ liệu từ cơ sở dữ liệu bằng EF trong một action HTTP GET, bạn cần sử dụng phương thức nào sau đây?",
+    "options": [
+      "ToListAsync()",
+      "FindAsync() // EF core có findAsync(id)",
+      "AddAsync()",
+      "RemoveAsync()"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 118,
+    "type": "single",
+    "question": "Để thêm dữ liệu vào cơ sở dữ liệu bằng EF trong một action HTTP POST, bạn cần sử dụng phương thức nào sau đây?",
+    "options": [
+      "ToListAsync()",
+      "FindAsync()",
+      "AddAsync()",
+      "RemoveAsync()"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 119,
+    "type": "single",
+    "question": "Để cập nhật dữ liệu trong cơ sở dữ liệu bằng EF trong một action HTTP PUT, bạn cần sử dụng phương thức nào sau đây?",
+    "options": [
+      "Entry().State = EntityState.Modified",
+      "Entry().State = EntityState.Added",
+      "Entry().State = EntityState.Deleted",
+      "Entry().State = EntityState.Unchanged"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 120,
+    "type": "single",
+    "question": "Để xóa dữ liệu khỏi cơ sở dữ liệu bằng EF trong một action HTTP DELETE, bạn cần sử dụng phương thức nào sau đây?",
+    "options": [
+      "ToListAsync()",
+      "FindAsync()",
+      "AddAsync()",
+      "RemoveAsync()"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 121,
+    "type": "single",
+    "question": "Để trả về một kết quả thành công (200) khi thực hiện một action HTTP GET, bạn cần sử dụng phương thức nào sau đây?",
+    "options": [
+      "Ok()",
+      "Created()",
+      "NoContent()",
+      "BadRequest()"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 122,
+    "type": "single",
+    "question": "Để trả về một kết quả tạo mới (201) khi thực hiện một action HTTP POST, bạn cần sử dụng phương thức nào sau đây?",
+    "options": [
+      "Ok()",
+      "Created()",
+      "NoContent()",
+      "BadRequest()"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 123,
+    "type": "single",
+    "question": "Để trả về một kết quả không có nội dung (204) khi thực hiện một action HTTP PUT, bạn cần sử dụng phương thức nào sau đây?",
+    "options": [
+      "Ok()",
+      "Created()",
+      "NoContent()",
+      "BadRequest()"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 124,
+    "type": "single",
+    "question": "Để trả về một kết quả không hợp lệ (400) khi thực hiện một action HTTP DELETE, bạn cần sử dụng phương thức nào sau đây?",
+    "options": [
+      "Ok()",
+      "Created()",
+      "NoContent()",
+      "BadRequest()"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 125,
+    "type": "single",
+    "question": "Để trả về một kết quả không tìm thấy (404) khi thực hiện một action HTTP GET, bạn cần sử dụng phương thức nào sau đây?",
+    "options": [
+      "NotFound()",
+      "Problem()",
+      "StatusCode()",
+      "Cả a, b và c"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 126,
+    "type": "single",
+    "question": "Để trả về một kết quả có nội dung tùy chỉnh khi thực hiện một action HTTP POST, bạn cần sử dụng phương thức nào sau đây?",
+    "options": [
+      "Content()",
+      "Json()",
+      "Xml()",
+      "Cả a, b và c"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  }
+]

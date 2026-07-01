@@ -1,0 +1,198 @@
+[
+  {
+    "id": 56,
+    "type": "single",
+    "question": "IoT cloud platforms là gì?",
+    "options": [
+      "Là các nền tảng điện toán đám mây cung cấp các dịch vụ và công cụ để xây dựng và quản lý các ứng dụng IoT",
+      "Là các nền tảng điện toán đám mây cung cấp các dịch vụ và công cụ để xây dựng và quản lý các ứng dụng web",
+      "Là các nền tảng điện toán đám mây cung cấp các dịch vụ và công cụ để xây dựng và quản lý các ứng dụng di động",
+      "Là các nền tảng điện toán đám mây cung cấp các dịch vụ và công cụ để xây dựng và quản lý các ứng dụng trí tuệ nhân tạo"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 57,
+    "type": "single",
+    "question": "Cloud IoT Edge là gì?",
+    "options": [
+      "Là phần mềm mở rộng khả năng xử lý dữ liệu và học máy của Google Cloud đến các cổng, camera và thiết bị đầu cuối, làm cho các ứng dụng IoT thông minh, an toàn và đáng tin cậy hơn",
+      "Là phần mềm mở rộng khả năng xử lý dữ liệu và học máy của Google Cloud đến các máy chủ, máy tính và điện thoại thông minh, làm cho các ứng dụng IoT thông minh, an toàn và đáng tin cậy hơn",
+      "Là phần mềm mở rộng khả năng xử lý dữ liệu và học máy của Google Cloud đến các đám mây, mạng và trình duyệt, làm cho các ứng dụng IoT thông minh, an toàn và đáng tin cậy hơn",
+      "Là phần mềm mở rộng khả năng xử lý dữ liệu và học máy của Google Cloud đến các thiết bị di động, máy tính bảng và đồng hồ thông minh, làm cho các ứng dụng IoT thông minh, an toàn và đáng tin cậy hơn"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 58,
+    "type": "single",
+    "question": "Cloud IoT Edge có thể chạy trên các thiết bị sử dụng hệ điều hành nào sau đây?",
+    "options": [
+      "Android Things",
+      "Linux OS",
+      "Cả A và B",
+      "Không có đáp án nào đúng"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 59,
+    "type": "single",
+    "question": "Cloud IoT Edge bao gồm các thành phần nào sau đây?",
+    "options": [
+      "Một runtime cho các thiết bị cổng, với ít nhất một CPU, để lưu trữ, dịch, xử lý và rút trích thông tin từ dữ liệu tại cạnh mạng, trong khi liên kết mượt mà với phần còn lại của nền tảng Cloud IoT",
+      "Runtime Edge IoT Core, giúp kết nối các thiết bị cạnh mạng với đám mây một cách an toàn hơn, cho phép cập nhật phần mềm và firmware và quản lý việc trao đổi dữ liệu với Cloud IoT Core",
+      "Cả A và B",
+      "Không có đáp án nào đúng"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 60,
+    "type": "single",
+    "question": "IoT cloud platforms cung cấp các dịch vụ và công cụ nào sau đây để xây dựng và quản lý các ứng dụng IoT?",
+    "options": [
+      "Kết nối dữ liệu cơ bản MQTT và HTTPS",
+      "Cấp phát thiết bị, xác thực và quản lý",
+      "Lưu trữ và trực quan hóa dữ liệu, xử lý dữ liệu và cảnh báo",
+      "Tất cả các đáp án trên"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 61,
+    "type": "single",
+    "question": "IoT cloud platforms cung cấp một giao diện thống nhất để quản lý một tập hợp các thiết bị IoT khác nhau. Đây là sự khác biệt chính giữa IoT cloud platforms và MQTT broker độc lập. Đây là câu nói đúng hay sai?",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 62,
+    "type": "single",
+    "question": "Để cài đặt board ESP32 vào arduino IDE, bạn cần nhập đường dẫn nào vào trường \"Additional Board Manager URLs\" trong File > Preferences?",
+    "options": [
+      "https://dl.espressif.com/dl/package_esp32_index.jsonhttps://dl.espressif.com/dl/package_esp32_index.json",
+      "\\[https://github.com/espressif/arduino-esp32\\]",
+      "https://www.arduino.cc/en/Main/Softwarehttps://www.arduino.cc/en/Main/Software",
+      "https://www.esp32.com/viewtopic.php?t=2031https://www.esp32.com/viewtopic.php?t=2031"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 63,
+    "type": "single",
+    "question": "Để nháy LED trên board ESP32, bạn cần kết nối LED với chân GPIO nào của ESP32?",
+    "options": [
+      "GPIO 0",
+      "GPIO 1",
+      "GPIO 2",
+      "GPIO 3"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 64,
+    "type": "single",
+    "question": "Để đọc giá trị điện áp analog từ một cảm biến nhiệt độ **LM35** kết nối với chân GPIO 34 của ESP32, bạn cần sử dụng hàm nào trong arduino IDE?",
+    "options": [
+      "analogRead",
+      "analogWrite",
+      "digitalRead",
+      "digitalWrite"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 65,
+    "type": "single",
+    "question": "Để điều khiển độ sáng của một LED bằng cách sử dụng PWM, bạn cần sử dụng hàm nào trong arduino IDE?",
+    "options": [
+      "analogRead",
+      "analogWrite",
+      "digitalRead",
+      "digitalWrite"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 66,
+    "type": "single",
+    "question": "Để giao tiếp với một module **LCD 16x2** sử dụng giao thức I2C, bạn cần sử dụng thư viện nào trong arduino IDE?",
+    "options": [
+      "WiFi.h",
+      "Wire.h",
+      "SPI.h",
+      "Serial.h"
+    ],
+    "correctAnswerText": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 67,
+    "type": "single",
+    "question": "Để giao tiếp với một module **RTC DS1307** sử dụng giao thức **I2C,** bạn cần kết nối module RTC với ESP32 qua hai chân GPIO nào?",
+    "options": [
+      "GPIO 0 và GPIO 1",
+      "GPIO 16 và GPIO 17",
+      "GPIO 21 và GPIO 22",
+      "GPIO 25 và GPIO 26"
+    ],
+    "correctAnswerText": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 68,
+    "type": "multiple",
+    "question": "Để giao tiếp với một module **Bluetooth HC-05** sử dụng giao thức UART, bạn cần sử dụng hàm nào để giao tiếp với module Bluetooth trong arduino IDE?",
+    "options": [
+      "Serial",
+      "Serial1",
+      "Serial2",
+      "Serial3 x"
+    ],
+    "correctAnswerText": "B, C",
+    "correctAnswerIndices": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 69,
+    "type": "single",
+    "question": "Để kết nối ESP32 với một mạng WiFi có tên là \"MyWiFi\" và mật khẩu là \"12345678\", bạn cần sử dụng hàm nào để kết nối WiFi trong arduino IDE?",
+    "options": [
+      "WiFi.begin(\"MyWiFi\", \"12345678\");",
+      "WiFi.connect(\"MyWiFi\", \"12345678\")",
+      "WiFi.setup(\"MyWiFi\", \"12345678\")",
+      "WiFi.init(\"MyWiFi\", \"12345678\")"
+    ],
+    "correctAnswerText": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 70,
+    "type": "single",
+    "question": "Để tạo một máy chủ web đơn giản trên ESP32, bạn cần sử dụng thư viện nào trong arduino IDE?",
+    "options": [
+      "WiFi.h",
+      "WebServer.h",
+      "HTTPClient.h",
+      "Cả A và B"
+    ],
+    "correctAnswerText": "D",
+    "correctAnswerIndex": 3
+  }
+]
