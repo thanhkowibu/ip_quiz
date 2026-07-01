@@ -10,6 +10,7 @@ class QuizApp {
     this.currentDataFile = null; // Store current file
     this.currentFileName = null; // Store file name
     this.autoAdvanceTimeout = null;
+    this.shuffleQuestionsOnStart = false; // Toggle for shuffling question order from menu
     this.shuffleAnswersEnabled = false; // Toggle for shuffling answer options
     this.questionShuffleMaps = {}; // Store shuffle mapping for each question: { questionIndex: { shuffledOptions, originalToShuffled, shuffledToOriginal, shuffledCorrectIndex, shuffledCorrectIndices } }
     this.init();
@@ -31,8 +32,13 @@ class QuizApp {
     dataFile,
     fileName,
     questionsToStudy = null,
-    shouldShuffle = false,
+    shouldShuffle = null,
   ) {
+    const shuffleQuestions =
+      shouldShuffle !== null
+        ? shouldShuffle
+        : !questionsToStudy && this.shuffleQuestionsOnStart;
+
     if (this.autoAdvanceTimeout) {
       clearTimeout(this.autoAdvanceTimeout);
     }
@@ -47,12 +53,12 @@ class QuizApp {
     if (questionsToStudy) {
       // Studying specific questions (e.g., only incorrect ones)
       this.originalQuestions = [...questionsToStudy];
-      this.questions = shouldShuffle
+      this.questions = shuffleQuestions
         ? this.shuffleArray([...questionsToStudy])
         : [...questionsToStudy];
     } else {
       // Loading fresh questions from file
-      await this.loadQuestions(dataFile, shouldShuffle);
+      await this.loadQuestions(dataFile, shuffleQuestions);
     }
 
     this.currentQuestionIndex = 0;
@@ -235,6 +241,15 @@ class QuizApp {
       shuffleToggleBtn.addEventListener("click", () =>
         this.toggleShuffleAnswers(),
       );
+    }
+
+    const startShuffleToggle = document.getElementById(
+      "question-shuffle-start-toggle",
+    );
+    if (startShuffleToggle) {
+      startShuffleToggle.addEventListener("change", (event) => {
+        this.shuffleQuestionsOnStart = event.target.checked;
+      });
     }
   }
 
